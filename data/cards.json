@@ -1,0 +1,104 @@
+[
+  {
+    "id": "001",
+    "number": 1,
+    "slug": "the-clock",
+    "title": "The Clock",
+    "season": "Time & Rooms",
+    "language": "en",
+    "poemText": [
+      "They never stop running",
+      "Arrows showing the passing moment",
+      "They never truly touch",
+      "Like lovers always missing each other",
+      "They draw the circle of time",
+      "Beginning and end joy and sorrow",
+      "They are the masters of our lives",
+      "The silent witnesses of our days",
+      "And every tick-tock that resonates",
+      "Is a small death a small birth",
+      "The rhythm of the universe",
+      "In the small space of the house."
+    ],
+    "shortCaption": "Morning card revealed: The Clock.",
+    "longCaption": "Morning card revealed. The Clock measures time differently: not by hours, but by what remains in us.",
+    "imagePrompt": "A dreamlike vintage club card showing a clock-house split between night and day, theatrical lighting, handmade poetic card aesthetic.",
+    "sunoPrompt": "Poetic chamber pop with cello, delicate clock-like percussion, warm nostalgic voice, intimate mysterious mood.",
+    "image": "assets/images/clock-card.png",
+    "audio": "assets/audio/hands-of-time-en.mp3",
+    "altText": "Dreamlike clock house split between night and day.",
+    "status": "posted",
+    "publishAt": "2026-06-04T07:30:00+03:00",
+    "archiveUrl": "cards/001-the-clock/",
+    "postedUrls": {},
+    "notes": "Imported from the first public website card."
+  },
+  {
+    "id": "002",
+    "number": 2,
+    "slug": "memory-of-a-wall",
+    "title": "The Memory of a Wall",
+    "season": "Time & Rooms",
+    "language": "en",
+    "poemText": [
+      "I am a wall",
+      "I have seen things",
+      "I have felt the backs of hiding lovers",
+      "I have heard secrets whispered low",
+      "I have borne the weight of war posters",
+      "and children's drawings",
+      "They wrote words of love and hate upon me",
+      "they covered me in paint",
+      "they cracked my stone",
+      "but I am still standing",
+      "I am the skin of the city",
+      "the memory of the street",
+      "and if you press your ear against me",
+      "perhaps you will hear",
+      "the echo of all the hearts",
+      "that beat once",
+      "on my side of life."
+    ],
+    "shortCaption": "Morning card prepared: The Memory of a Wall.",
+    "longCaption": "A wall remembers more than a city admits: lovers, war posters, children's drawings, and the old echo of human hearts.",
+    "imagePrompt": "A poetic vintage club card showing an old city wall as the skin of the street, layered with faded love notes, torn war posters, children's chalk drawings, cracks in stone, and warm morning light; theatrical but intimate, handmade card aesthetic, subtle cello-club mood, not photorealistic, not fantasy.",
+    "sunoPrompt": "Intimate chamber chanson with cello, soft upright piano, brushed percussion, warm spoken-sung vocal, urban nostalgia, quiet resilience, slow tempo, poetic and human.",
+    "image": "assets/images/002-memory-of-a-wall.png",
+    "audio": "assets/audio/002-memory-of-a-wall.mp3",
+    "altText": "An old city wall covered with faded posters, chalk drawings, cracks, and traces of remembered lives.",
+    "status": "posted",
+    "publishAt": "2026-06-07T04:30:00.000Z",
+    "archiveUrl": "cards/002-memory-of-a-wall/",
+    "postedUrls": {},
+    "source": {
+      "file": "data/inbox/2026-06-05-prevert-1-50.odt",
+      "textExport": "data/inbox/2026-06-05-prevert-1-50.txt",
+      "number": 6,
+      "frenchTitle": "La Mémoire d'un Mur",
+      "czechTitle": "Paměť zdi",
+      "englishTitle": "The Memory of a Wall"
+    },
+    "notes": "Selected by user as card 002 source. English is the main card language.",
+    "imageAttachment": {
+      "attachedAt": "2026-06-04T23:26:26.243Z",
+      "sourceFile": "C:\\Users\\Vladimir\\Downloads\\ChatGPT Image 5. 6. 2026 02_24_52.png",
+      "engineImage": "assets/generated-images/002-memory-of-a-wall.png",
+      "publicImage": "assets/images/002-memory-of-a-wall.png"
+    },
+    "musicNotes": {
+      "attachedAt": "2026-06-04T23:26:47.983Z",
+      "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Wall Ear Echo.mp3",
+      "engineAudio": "assets/audio/002-memory-of-a-wall.mp3",
+      "publicAudio": "assets/audio/002-memory-of-a-wall.mp3"
+    },
+    "approvedAt": "2026-06-04T23:31:46.764Z",
+    "releaseLog": [
+      {
+        "releasedAt": "2026-06-04T23:38:48.963Z",
+        "scheduledFor": "2026-06-07T04:30:00.000Z",
+        "timeZone": "Asia/Jerusalem",
+        "mode": "local-confirm"
+      }
+    ]
+  }
+]

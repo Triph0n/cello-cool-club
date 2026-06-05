@@ -1,0 +1,25 @@
+{
+  "name": "cello-cool-club-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "admin": "node scripts/admin-server.mjs",
+    "new-card": "node scripts/new-card.mjs",
+    "next-release": "node scripts/next-release.mjs",
+    "generate-image": "node scripts/generate-image.mjs",
+    "export-suno": "node scripts/export-suno-prompt.mjs",
+    "attach-image": "node scripts/attach-image.mjs",
+    "attach-audio": "node scripts/attach-audio.mjs",
+    "approve-card": "node scripts/approve-card.mjs",
+    "publish-bluesky": "node scripts/publish-bluesky.mjs",
+    "prepare-social": "node scripts/prepare-social-post.mjs",
+    "preview-card": "node scripts/preview-card.mjs",
+    "run-release": "node scripts/run-release.mjs",
+    "check-site": "node scripts/check-public-site.mjs",
+    "review-packet": "node scripts/review-packet.mjs",
+    "validate": "node scripts/validate-cards.mjs",
+    "export": "node scripts/export-public-site.mjs",
+    "build": "npm run validate && npm run export"
+  }
+}

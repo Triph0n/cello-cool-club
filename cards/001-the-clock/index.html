@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Clock | Cello Cool Club</title>
+    <meta name="description" content="Morning card revealed: The Clock.">
+    <meta property="og:title" content="The Clock | Cello Cool Club">
+    <meta property="og:description" content="Morning card revealed: The Clock.">
+    <meta property="og:image" content="../../assets/images/clock-card.png">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .card-nav {
+        position: fixed;
+        right: 16px;
+        bottom: 14px;
+        z-index: 20;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 8px 10px;
+        border: 1px solid rgba(197, 160, 89, 0.55);
+        border-radius: 8px;
+        background: rgba(18, 9, 4, 0.78);
+        color: var(--paper);
+        font-size: 13px;
+      }
+
+      .card-nav a {
+        color: var(--gold-bright);
+        text-decoration: none;
+      }
+
+      .card-nav span {
+        opacity: 0.64;
+      }
+
+      .card-meta {
+        margin: 0 0 4px;
+        color: var(--gold-dark);
+        font-size: 10px;
+        font-weight: 900;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .preview-badge {
+        position: fixed;
+        left: 16px;
+        bottom: 14px;
+        z-index: 20;
+        padding: 8px 10px;
+        border: 1px solid rgba(255, 217, 120, 0.64);
+        border-radius: 8px;
+        color: var(--gold-bright);
+        background: rgba(18, 9, 4, 0.78);
+        font-size: 13px;
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <main class="card-stage" aria-label="The Clock poem card">
+      <div class="card-plinth">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="../../assets/images/clock-card.png" alt="Dreamlike clock house split between night and day.">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play The Clock" data-action="play" data-target="audio-001">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="../../assets/images/gramo.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-001" preload="metadata" src="../../assets/audio/hands-of-time-en.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">001 / Time &amp; Rooms</p>
+          <h1 id="poem-title">The Clock</h1>
+          <div class="poem-lines">
+            <p>They never stop running</p>
+            <p>Arrows showing the passing moment</p>
+            <p>They never truly touch</p>
+            <p>Like lovers always missing each other</p>
+            <p>They draw the circle of time</p>
+            <p>Beginning and end joy and sorrow</p>
+            <p>They are the masters of our lives</p>
+            <p>The silent witnesses of our days</p>
+            <p>And every tick-tock that resonates</p>
+            <p>Is a small death a small birth</p>
+            <p>The rhythm of the universe</p>
+            <p>In the small space of the house.</p>
+          </div>
+        </section>
+      </article>
+      </div>
+    </main>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="../">Archive</a>
+      <span>Previous</span>
+      <a href="../002-memory-of-a-wall/">Next</a>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="../../assets/images/clock-card.png" alt="Enlarged Dreamlike clock house split between night and day.">
+    </dialog>
+
+    <script src="../../script.js"></script>
+  </body>
+</html>

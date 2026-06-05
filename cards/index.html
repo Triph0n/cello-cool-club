@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cards | Cello Cool Club</title>
+    <meta name="description" content="The Cello Cool Club card archive.">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+      html,
+      body {
+        min-height: 100%;
+        height: auto;
+        overflow: auto;
+      }
+
+      .archive-page {
+        width: min(1040px, calc(100% - 32px));
+        min-height: 100dvh;
+        margin: 0 auto;
+        padding: 28px 0 44px;
+      }
+
+      .archive-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 24px;
+      }
+
+      .archive-top a {
+        color: var(--paper-light);
+        text-decoration: none;
+      }
+
+      .archive-title {
+        margin: 0;
+        color: var(--paper-light);
+        font-family: var(--font-header);
+        font-size: clamp(34px, 7vw, 74px);
+        line-height: 0.95;
+      }
+
+      .archive-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 18px;
+      }
+
+      .archive-card {
+        display: grid;
+        gap: 8px;
+        padding: 12px;
+        border: 1px solid rgba(197, 160, 89, 0.62);
+        border-radius: 8px;
+        color: var(--paper-light);
+        background: rgba(18, 9, 4, 0.62);
+        text-decoration: none;
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+      }
+
+      .archive-card img {
+        width: 100%;
+        aspect-ratio: 4 / 5;
+        display: block;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      .archive-card strong {
+        color: var(--gold-bright);
+        font-family: var(--font-header);
+        font-size: 24px;
+      }
+
+      .archive-number {
+        color: var(--gold);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="archive-page">
+      <header class="archive-top">
+        <h1 class="archive-title">Cards</h1>
+        <a href="../">Cello Cool Club</a>
+      </header>
+      <section class="archive-grid" aria-label="Card archive">
+        <a class="archive-card" href="001-the-clock/">
+          <img src="../assets/images/clock-card.png" alt="Dreamlike clock house split between night and day.">
+          <span class="archive-number">001</span>
+          <strong>The Clock</strong>
+          <span>Time &amp; Rooms</span>
+        </a>
+        <a class="archive-card" href="002-memory-of-a-wall/">
+          <img src="../assets/images/002-memory-of-a-wall.png" alt="An old city wall covered with faded posters, chalk drawings, cracks, and traces of remembered lives.">
+          <span class="archive-number">002</span>
+          <strong>The Memory of a Wall</strong>
+          <span>Time &amp; Rooms</span>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+
+:root {
+  --mahogany: #281409;
+  --mahogany-deep: #120904;
+  --blue-black: #071a2e;
+  --paper: #f5e8cc;
+  --paper-light: #fff9ea;
+  --gold: #c5a059;
+  --gold-bright: #ffd978;
+  --gold-soft: #d8bd7a;
+  --gold-dark: #806126;
+  --gold-deep: #5a3f12;
+  --ink: #241b12;
+  --muted: #6d5a3d;
+  --font-header: Georgia, "Times New Roman", serif;
+  --font-body: "Segoe UI", system-ui, sans-serif;
+  --font-script: 'Pinyon Script', cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 50% 38%, rgba(31, 77, 120, 0.52), transparent 28rem),
+    radial-gradient(circle at 18% 18%, rgba(197, 160, 89, 0.13), transparent 18rem),
+    radial-gradient(circle at 80% 76%, rgba(4, 10, 22, 0.78), transparent 24rem),
+    linear-gradient(135deg, #102a46 0%, #071a2e 54%, #030813 100%);
+  font-family: var(--font-body);
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  content: "";
+  box-shadow: inset 0 0 130px rgba(0, 0, 0, 0.62);
+  pointer-events: none;
+}
+
+button {
+  font: inherit;
+}
+
+.card-stage {
+  width: 100%;
+  height: 100dvh;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  padding: clamp(10px, 2.1vw, 22px);
+}
+
+.card-plinth {
+  position: relative;
+  max-width: calc(100vw - 16px);
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  padding: clamp(12px, 2.1vw, 24px);
+  border: 2px solid rgba(197, 160, 89, 0.42);
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, rgba(255, 217, 120, 0.1), transparent 24%, rgba(18, 9, 4, 0.22)),
+    rgba(18, 9, 4, 0.38);
+  box-shadow:
+    0 34px 90px rgba(0, 0, 0, 0.58),
+    0 0 0 1px rgba(255, 249, 234, 0.08),
+    inset 0 1px 0 rgba(255, 249, 234, 0.14),
+    inset 0 0 42px rgba(0, 0, 0, 0.22);
+}
+
+.club-sign {
+  position: relative;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 10px;
+  border: 0;
+  color: var(--gold-bright);
+  background: transparent;
+  box-shadow: none;
+  font-family: var(--font-script);
+  font-size: clamp(38px, 6vw, 62px);
+  font-weight: 400;
+  line-height: 0.82;
+  letter-spacing: 0;
+  text-transform: none;
+  text-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.68),
+    0 0 18px rgba(255, 217, 120, 0.2);
+}
+
+.sign-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 10px rgba(255, 217, 120, 0.42);
+}
+
+.playing-card {
+  position: relative;
+  width: min(430px, calc(100vw - 72px));
+  height: min(628px, calc(100dvh - 174px));
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) 0 auto;
+  overflow: hidden;
+  border: 3px double var(--gold-soft);
+  border-radius: 14px;
+  background:
+    linear-gradient(180deg, rgba(255, 217, 120, 0.2), transparent 16%, transparent 82%, rgba(128, 97, 38, 0.2)),
+    linear-gradient(180deg, rgba(255, 249, 234, 0.98), rgba(245, 232, 204, 0.96)),
+    var(--paper);
+  box-shadow:
+    0 34px 82px rgba(0, 0, 0, 0.72),
+    0 0 0 1px rgba(255, 217, 120, 0.18),
+    0 0 32px rgba(197, 160, 89, 0.14),
+    inset 0 2px 2px rgba(255, 255, 255, 0.48),
+    inset 0 0 0 8px rgba(128, 97, 38, 0.13),
+    inset 0 0 44px rgba(90, 63, 18, 0.14);
+}
+
+.playing-card::before {
+  position: absolute;
+  inset: 9px;
+  z-index: 4;
+  content: "";
+  border: 3px double rgba(128, 97, 38, 0.58);
+  border-radius: 9px;
+  box-shadow:
+    inset 0 0 18px rgba(90, 63, 18, 0.16),
+    0 0 0 1px rgba(255, 249, 234, 0.5);
+  pointer-events: none;
+}
+
+.art-button {
+  position: relative;
+  min-height: 0;
+  margin: 16px 16px 0;
+  display: block;
+  overflow: hidden;
+  border: 2px solid rgba(128, 97, 38, 0.72);
+  border-radius: 9px;
+  background: var(--blue-black);
+  box-shadow:
+    0 14px 28px rgba(18, 9, 4, 0.24),
+    inset 0 0 0 1px rgba(255, 217, 120, 0.2),
+    inset 0 0 22px rgba(0, 0, 0, 0.26);
+  cursor: zoom-in;
+}
+
+.art-button::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background:
+    linear-gradient(180deg, transparent 72%, rgba(18, 9, 4, 0.32)),
+    radial-gradient(circle at 50% 35%, transparent 42%, rgba(7, 26, 46, 0.18));
+  pointer-events: none;
+}
+
+.art-button img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 50% 46%;
+  filter: saturate(1.03) contrast(1.04);
+}
+
+.play-medallion {
+  position: relative;
+  z-index: 6;
+  justify-self: center;
+  margin-top: -27px;
+  margin-bottom: -27px;
+}
+
+.gramophone-button {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  padding: 7px;
+  border: 2px solid #5a3f12;
+  border-radius: 50%;
+  color: #1e1302;
+  background:
+    radial-gradient(circle at 34% 28%, #fff7c9 0 16%, #e2bd69 38%, #a47d3c 68%, #5a3f12 100%);
+  box-shadow:
+    0 10px 18px rgba(0, 0, 0, 0.34),
+    0 0 0 5px rgba(245, 232, 204, 0.92),
+    inset 0 1px 1px rgba(255, 255, 255, 0.42);
+  cursor: pointer;
+}
+
+.gramophone-button:hover,
+.gramophone-button:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 4px;
+}
+
+.gramophone-button.is-playing {
+  background: radial-gradient(circle at 38% 32%, #fff7c9 0 16%, #ffd700 48%, #2a1508 100%);
+  box-shadow:
+    0 0 18px rgba(255, 215, 0, 0.48),
+    0 0 0 5px rgba(245, 232, 204, 0.92);
+}
+
+.gramophone-button.is-playing .gramophone-icon img {
+  animation: gramophone-spin 4s linear infinite;
+}
+
+@keyframes gramophone-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gramophone-button:disabled {
+  cursor: wait;
+  opacity: 0.75;
+}
+
+.gramophone-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  background: var(--paper-light);
+}
+
+.gramophone-icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  mix-blend-mode: multiply;
+}
+
+.poem-card-body {
+  position: relative;
+  z-index: 5;
+  padding: 38px 28px 22px;
+  border-top: 3px double rgba(128, 97, 38, 0.46);
+  background:
+    linear-gradient(90deg, rgba(128, 97, 38, 0.08), transparent 16%, transparent 84%, rgba(128, 97, 38, 0.08)),
+    linear-gradient(180deg, rgba(245, 232, 204, 0), rgba(245, 232, 204, 0.98) 16%),
+    var(--paper);
+  box-shadow:
+    inset 0 16px 26px rgba(128, 97, 38, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.68);
+}
+
+.kicker {
+  margin: 0 0 4px;
+  color: var(--gold-dark);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 7px;
+  color: var(--blue-black);
+  font-family: var(--font-header);
+  font-size: clamp(25px, 4vh, 36px);
+  line-height: 0.95;
+}
+
+.poem-lines {
+  display: grid;
+  gap: 2px;
+  color: var(--ink);
+  font-family: var(--font-header);
+  font-size: clamp(11px, 1.8vh, 14px);
+  line-height: 1.06;
+}
+
+.poem-lines p {
+  margin: 0;
+}
+
+.image-dialog {
+  width: min(92vw, 920px);
+  height: min(92vh, 920px);
+  padding: 12px;
+  border: 3px double var(--gold);
+  border-radius: 10px;
+  background: var(--mahogany-deep);
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.68);
+}
+
+.image-dialog::backdrop {
+  background: rgba(7, 26, 46, 0.84);
+}
+
+.image-dialog img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.close-dialog {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+  color: var(--mahogany);
+  background: var(--paper-light);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  font-size: 26px;
+  line-height: 1;
+}
+
+@media (max-height: 640px) {
+  .club-sign {
+    min-height: 38px;
+    padding: 0 8px;
+    font-size: 36px;
+  }
+
+  .playing-card {
+    width: min(360px, calc(100vw - 24px));
+    height: calc(100dvh - 118px);
+    grid-template-rows: minmax(0, 1fr) 0 auto;
+  }
+
+  .art-button {
+    margin: 6px 14px 0;
+  }
+
+  .gramophone-button {
+    width: 46px;
+    height: 46px;
+    padding: 6px;
+  }
+
+  .poem-card-body {
+    padding: 32px 24px 16px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .poem-lines {
+    font-size: 10.5px;
+    line-height: 1.02;
+  }
+}
+
+@media (max-width: 560px) {
+  .card-plinth {
+    width: min(390px, calc(100vw - 16px));
+  }
+
+  .playing-card {
+    width: min(360px, calc(100vw - 46px));
+  }
+}
+
+@media (max-width: 420px) {
+  .card-stage {
+    padding: 8px;
+  }
+
+  .card-plinth {
+    width: 100%;
+    gap: 8px;
+    padding: 10px 9px;
+  }
+
+  .club-sign {
+    width: calc(100vw - 38px);
+    justify-content: center;
+    padding-inline: 8px;
+    font-size: 34px;
+  }
+
+  .playing-card {
+    width: calc(100vw - 46px);
+  }
+
+  .poem-card-body {
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+}

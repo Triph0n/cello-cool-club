@@ -23,3 +23,27 @@ export function buildGenericSocialPost(card) {
     text
   };
 }
+
+const urlPattern = /https?:\/\/[^\s<>"')\]]+/g;
+
+export function buildLinkFacets(text) {
+  const encoder = new TextEncoder();
+  const facets = [];
+
+  for (const match of text.matchAll(urlPattern)) {
+    const byteStart = encoder.encode(text.slice(0, match.index)).byteLength;
+    const byteEnd = byteStart + encoder.encode(match[0]).byteLength;
+
+    facets.push({
+      index: { byteStart, byteEnd },
+      features: [
+        {
+          "$type": "app.bsky.richtext.facet#link",
+          uri: match[0]
+        }
+      ]
+    });
+  }
+
+  return facets;
+}

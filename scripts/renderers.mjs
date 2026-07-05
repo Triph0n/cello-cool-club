@@ -1,4 +1,4 @@
-import { escapeHtml } from "./card-utils.mjs";
+import { escapeHtml, getArchivePath, getPublicSiteUrl, toAbsoluteUrl } from "./card-utils.mjs";
 
 export function assetPathFromDepth(asset, depth) {
   return `${"../".repeat(depth)}${asset}`;
@@ -28,6 +28,11 @@ export function renderCardPage(card, cards, options = {}) {
   const safeImage = card.image || "assets/images/clock-card.png";
   const safeAudio = card.audio || "";
   const safeAlt = card.altText || `${card.title} artwork preview.`;
+  const hasPublicUrl = Boolean(getPublicSiteUrl());
+  const ogImage = hasPublicUrl ? toAbsoluteUrl(safeImage) : assetPath(safeImage);
+  const ogUrlTag = hasPublicUrl
+    ? `\n    <meta property="og:url" content="${escapeHtml(toAbsoluteUrl(getArchivePath(card)))}">`
+    : "";
 
   return `<!doctype html>
 <html lang="${escapeHtml(card.language || "en")}">
@@ -38,7 +43,9 @@ export function renderCardPage(card, cards, options = {}) {
     <meta name="description" content="${escapeHtml(card.shortCaption || card.title)}">
     <meta property="og:title" content="${escapeHtml(card.title)} | Cello Cool Club">
     <meta property="og:description" content="${escapeHtml(card.shortCaption || card.title)}">
-    <meta property="og:image" content="${escapeHtml(assetPath(safeImage))}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="${escapeHtml(ogImage)}">${ogUrlTag}
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="${assetPath("styles.css")}">
     <style>
       .card-nav {

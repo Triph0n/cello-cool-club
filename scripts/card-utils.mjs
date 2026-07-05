@@ -33,7 +33,17 @@ export async function readCards() {
 }
 
 export async function writeCards(cards) {
-  await fs.writeFile(cardsPath, `${JSON.stringify(sortCards(cards), null, 2)}\n`, "utf8");
+  const payload = `${JSON.stringify(sortCards(cards), null, 2)}\n`;
+  const tempPath = `${cardsPath}.tmp`;
+
+  try {
+    await fs.copyFile(cardsPath, `${cardsPath}.bak`);
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+
+  await fs.writeFile(tempPath, payload, "utf8");
+  await fs.rename(tempPath, cardsPath);
 }
 
 export async function loadLocalEnv() {
@@ -72,12 +82,15 @@ export function getArchivePath(card) {
 }
 
 export function getArchiveUrl(card) {
-  const archivePath = getArchivePath(card);
+  return toAbsoluteUrl(getArchivePath(card));
+}
+
+export function toAbsoluteUrl(relativePath) {
   const publicSiteUrl = getPublicSiteUrl();
 
-  if (!publicSiteUrl) return archivePath;
+  if (!publicSiteUrl) return relativePath;
 
-  return new URL(archivePath, publicSiteUrl.endsWith("/") ? publicSiteUrl : `${publicSiteUrl}/`).toString();
+  return new URL(relativePath, publicSiteUrl.endsWith("/") ? publicSiteUrl : `${publicSiteUrl}/`).toString();
 }
 
 export function escapeHtml(value) {
@@ -155,10 +168,14 @@ export function validateCards(cards) {
       }
     });
 
-    if (ids.has(card.id)) errors.push(`${label}: duplicate id "${card.id}".`);
-    if (slugs.has(card.slug)) errors.push(`${label}: duplicate slug "${card.slug}".`);
-    ids.add(card.id);
-    slugs.add(card.slug);
+    if (card.id) {
+      if (ids.has(card.id)) errors.push(`${label}: duplicate id "${card.id}".`);
+      ids.add(card.id);
+    }
+    if (card.slug) {
+      if (slugs.has(card.slug)) errors.push(`${label}: duplicate slug "${card.slug}".`);
+      slugs.add(card.slug);
+    }
 
     if (!Number.isInteger(card.number) || card.number < 1) {
       errors.push(`${label}: number must be a positive integer.`);

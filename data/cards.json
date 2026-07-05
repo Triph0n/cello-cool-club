@@ -285,8 +285,8 @@
     "image": "assets/images/007-the-revolt-of-the-garden-statues.jpg",
     "audio": "assets/audio/007-the-revolt-of-the-garden-statues.mp3",
     "altText": "Poetic card artwork for The Revolt of the Garden Statues.",
-    "status": "approved",
-    "publishAt": "",
+    "status": "posted",
+    "publishAt": "2026-06-24T23:10:21.827Z",
     "archiveUrl": "cards/007-the-revolt-of-the-garden-statues/",
     "postedUrls": {},
     "source": {
@@ -310,7 +310,15 @@
       "engineAsset": "assets/audio/007-the-revolt-of-the-garden-statues.mp3",
       "publicAsset": "assets/audio/007-the-revolt-of-the-garden-statues.mp3"
     },
-    "approvedAt": "2026-06-24T22:53:01.373Z"
+    "approvedAt": "2026-06-24T22:53:01.373Z",
+    "releaseLog": [
+      {
+        "releasedAt": "2026-06-24T23:10:21.827Z",
+        "scheduledFor": "2026-06-24T23:10:21.827Z",
+        "timeZone": "Asia/Jerusalem",
+        "mode": "manual-backfill"
+      }
+    ]
   },
   {
     "id": "008",

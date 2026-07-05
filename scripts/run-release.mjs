@@ -61,6 +61,9 @@ if (!options.confirm) {
   process.exit(0);
 }
 
+const previousStatus = approvedCard.status;
+const previousPublishAt = approvedCard.publishAt;
+
 approvedCard.status = "posted";
 approvedCard.publishAt = window.releaseAt.toISOString();
 approvedCard.releaseLog = approvedCard.releaseLog || [];
@@ -73,7 +76,19 @@ approvedCard.releaseLog.push({
 
 await writeCards(sortCards(cards));
 await writeSocialDraft(approvedCard, socialPost);
-await runNodeScript("export-public-site.mjs");
+
+try {
+  await runNodeScript("export-public-site.mjs");
+} catch (error) {
+  approvedCard.status = previousStatus;
+  approvedCard.publishAt = previousPublishAt;
+  approvedCard.releaseLog.pop();
+  await writeCards(sortCards(cards));
+
+  console.error(`Public website export failed: ${error.message}`);
+  console.error(`Card ${approvedCard.id} was rolled back to status "${previousStatus}". Nothing was released.`);
+  process.exit(1);
+}
 
 console.log(`Released ${approvedCard.id} - ${approvedCard.title}`);
 console.log("Public website export completed.");

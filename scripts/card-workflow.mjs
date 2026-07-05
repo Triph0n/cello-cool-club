@@ -41,11 +41,17 @@ export async function createCardFromSource({ sourceFile, sourceNumber, language 
   const sourceStem = sourceName.replace(/\.(txt|md|odt)$/i, "");
   const existing = cards.find((card) => {
     if (card.source?.number !== poem.number) return false;
-    return [card.source?.textExport, card.source?.file].filter(Boolean).some((sourcePath) => {
+
+    const sameSourceFile = [card.source?.textExport, card.source?.file].filter(Boolean).some((sourcePath) => {
       const candidateName = path.basename(String(sourcePath).replaceAll("\\", "/"));
       const candidateStem = candidateName.replace(/\.(txt|md|odt)$/i, "");
       return candidateName === sourceName || candidateStem === sourceStem;
     });
+    if (sameSourceFile) return true;
+
+    const sameFrenchTitle = card.source?.frenchTitle && poem.titles.fr
+      && slugify(card.source.frenchTitle) === slugify(poem.titles.fr);
+    return Boolean(sameFrenchTitle);
   });
   if (existing) return { card: existing, created: false };
 
@@ -114,7 +120,7 @@ export async function attachAudioToCard(idOrSlug, sourcePath) {
     publicFolder: path.join(getSitePath(), "assets", "audio"),
     publicPrefix: "assets/audio",
     field: "audio",
-    metaField: "musicNotes"
+    metaField: "audioAttachment"
   });
 }
 

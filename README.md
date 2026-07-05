@@ -56,6 +56,16 @@ CelloCoolClubEngine/
   scripts/
 ```
 
+## Setup
+
+Install dependencies once (sharp is used to resize images for Bluesky):
+
+```text
+npm install
+```
+
+A detailed step-by-step guide (in Czech) lives in `docs/NAVOD.md`.
+
 ## Commands
 
 Start the local editorial admin panel:
@@ -176,6 +186,12 @@ Validate card data:
 
 ```text
 npm run validate
+```
+
+Run unit tests only:
+
+```text
+npm run test:unit
 ```
 
 Export public archive files to the website project:

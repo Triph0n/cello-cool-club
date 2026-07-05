@@ -2,14 +2,19 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import {
   escapeHtml,
+  getPublicSiteUrl,
   getSitePath,
+  loadLocalEnv,
   publicStatuses,
   readCards,
   sortCards,
+  toAbsoluteUrl,
   toPublicCard,
   validateCards
 } from "./card-utils.mjs";
 import { formatCardNumber, renderCardPage, renderPoemLines } from "./renderers.mjs";
+
+await loadLocalEnv();
 
 const sitePath = getSitePath();
 const cards = sortCards(await readCards());
@@ -38,6 +43,11 @@ await fs.writeFile(
 
 await fs.writeFile(path.join(sitePath, "index.html"), renderHomepage(publicCards.at(-1), publicCards), "utf8");
 await fs.writeFile(path.join(sitePath, "cards", "index.html"), renderArchive(publicCards), "utf8");
+await fs.writeFile(path.join(sitePath, "feed.xml"), renderRssFeed(publicCards), "utf8");
+
+if (!getPublicSiteUrl()) {
+  console.warn("PUBLIC_SITE_URL is not set: og:image and RSS links stay relative and will not work in social previews and feed readers.");
+}
 
 for (const card of publicCards) {
   const cardDir = path.join(sitePath, "cards", `${card.id}-${card.slug}`);
@@ -66,7 +76,11 @@ function renderHomepage(card, cards) {
     <meta name="description" content="${escapeHtml(card.shortCaption)}">
     <meta property="og:title" content="Cello Cool Club | ${escapeHtml(card.title)}">
     <meta property="og:description" content="${escapeHtml(card.shortCaption)}">
-    <meta property="og:image" content="${escapeHtml(card.image)}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="${escapeHtml(toAbsoluteUrl(card.image))}">
+    ${getPublicSiteUrl() ? `<meta property="og:url" content="${escapeHtml(toAbsoluteUrl(""))}">` : ""}
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/rss+xml" title="Cello Cool Club" href="feed.xml">
     <link rel="stylesheet" href="styles.css">
     <style>
       .home-links {
@@ -145,6 +159,40 @@ ${renderPoemLines(card)}
     <script src="script.js"></script>
   </body>
 </html>
+`;
+}
+
+function renderRssFeed(cards) {
+  const siteUrl = toAbsoluteUrl("");
+  const items = [...cards]
+    .reverse()
+    .map((card) => {
+      const link = toAbsoluteUrl(card.archiveUrl);
+      const publishDate = card.publishAt ? new Date(card.publishAt) : null;
+      const pubDate = publishDate && !Number.isNaN(publishDate.getTime())
+        ? `\n      <pubDate>${publishDate.toUTCString()}</pubDate>`
+        : "";
+      const description = [card.shortCaption, "", ...(card.poemText || [])].join("\n").trim();
+
+      return `    <item>
+      <title>${escapeHtml(`${formatCardNumber(card)} - ${card.title}`)}</title>
+      <link>${escapeHtml(link)}</link>
+      <guid isPermaLink="false">cello-cool-club-${escapeHtml(card.id)}</guid>${pubDate}
+      <description>${escapeHtml(description)}</description>
+    </item>`;
+    })
+    .join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Cello Cool Club</title>
+    <link>${escapeHtml(siteUrl)}</link>
+    <description>A small image, a short poem, a piece of music. A new card every few days.</description>
+    <language>en</language>
+${items}
+  </channel>
+</rss>
 `;
 }
 

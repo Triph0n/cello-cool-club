@@ -19,6 +19,11 @@ const adminPath = path.join(engineRoot, "admin");
 
 const server = http.createServer(async (req, res) => {
   try {
+    if (!isTrustedRequest(req)) {
+      sendJson(res, 403, { error: "Forbidden: request must come from the local admin panel." });
+      return;
+    }
+
     const url = new URL(req.url, `http://${req.headers.host}`);
 
     if (url.pathname.startsWith("/api/")) {
@@ -35,6 +40,18 @@ const server = http.createServer(async (req, res) => {
 server.listen(port, "127.0.0.1", () => {
   console.log(`Cello Cool Club Engine admin: http://127.0.0.1:${port}/`);
 });
+
+const trustedHosts = new Set([`127.0.0.1:${port}`, `localhost:${port}`]);
+const trustedOrigins = new Set([`http://127.0.0.1:${port}`, `http://localhost:${port}`]);
+
+function isTrustedRequest(req) {
+  if (!trustedHosts.has(req.headers.host || "")) return false;
+
+  const origin = req.headers.origin;
+  if (origin && !trustedOrigins.has(origin)) return false;
+
+  return true;
+}
 
 async function handleApi(req, res, url) {
   if (req.method === "GET" && url.pathname === "/api/status") {
@@ -68,10 +85,11 @@ async function handleApi(req, res, url) {
 
   if (req.method === "POST" && url.pathname === "/api/open-file-dialog") {
     try {
-      const { execSync } = await import("node:child_process");
+      const { execFile } = await import("node:child_process");
+      const { promisify } = await import("node:util");
       const psh = `Add-Type -AssemblyName System.Windows.Forms; $f = New-Object System.Windows.Forms.OpenFileDialog; $f.Filter = 'All Files (*.*)|*.*'; $f.ShowHelp = $true; $f.ShowDialog() > $null; $f.FileName`;
-      const result = execSync(`powershell -NoProfile -Command "${psh}"`, { encoding: 'utf8' }).trim();
-      sendJson(res, 200, { path: result });
+      const { stdout } = await promisify(execFile)("powershell", ["-NoProfile", "-STA", "-Command", psh], { encoding: "utf8" });
+      sendJson(res, 200, { path: stdout.trim() });
     } catch (err) {
       sendJson(res, 500, { error: err.message });
     }
@@ -175,8 +193,9 @@ async function serveStatic(req, res, url) {
   const pathname = url.pathname === "/" ? "/index.html" : url.pathname;
   const relativePath = decodeURIComponent(pathname.replace(/^\/+/, ""));
   const fullPath = path.resolve(adminPath, relativePath);
+  const relativeToAdmin = path.relative(adminPath, fullPath);
 
-  if (!fullPath.startsWith(adminPath)) {
+  if (relativeToAdmin.startsWith("..") || path.isAbsolute(relativeToAdmin)) {
     sendText(res, 403, "Forbidden");
     return;
   }

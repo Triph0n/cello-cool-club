@@ -9,7 +9,9 @@ import {
   writeCards
 } from "./card-utils.mjs";
 import { findCard, parseArgs, releaseReadinessProblems, selectNextRelease } from "./release-utils.mjs";
-import { buildGenericSocialPost } from "./social-utils.mjs";
+import { buildGenericSocialPost, buildLinkFacets } from "./social-utils.mjs";
+
+const MAX_BLOB_BYTES = 950_000;
 
 const options = parseArgs(process.argv.slice(2));
 await loadLocalEnv();
@@ -41,6 +43,7 @@ if (problems.length > 0) {
 const socialPost = buildGenericSocialPost(card);
 const pds = (process.env.BLUESKY_PDS || "https://bsky.social").replace(/\/$/, "");
 const imagePath = path.join(getSitePath(), card.image);
+const facets = buildLinkFacets(socialPost.text);
 const postRecord = {
   "$type": "app.bsky.feed.post",
   text: socialPost.text,
@@ -48,15 +51,26 @@ const postRecord = {
   createdAt: new Date().toISOString()
 };
 
+if (facets.length > 0) postRecord.facets = facets;
+
 if (!options.confirm) {
   console.log(`Bluesky dry run for ${card.id} - ${card.title}`);
   console.log(`PDS: ${pds}`);
-  console.log(`Image: ${imagePath}`);
+  console.log(`Image: ${imagePath} (resized automatically if over ~1 MB)`);
+  if (card.postedUrls?.bluesky) {
+    console.log(`Already posted: ${card.postedUrls.bluesky} (use --force to post again)`);
+  }
   console.log("");
   console.log(socialPost.text);
   console.log("");
   console.log("Run again with --confirm to create a real Bluesky post.");
   process.exit(0);
+}
+
+if (card.postedUrls?.bluesky && !options.force) {
+  console.error(`Card ${card.id} was already posted to Bluesky: ${card.postedUrls.bluesky}`);
+  console.error("Use --confirm --force to post it again on purpose.");
+  process.exit(1);
 }
 
 const identifier = process.env.BLUESKY_IDENTIFIER;
@@ -68,19 +82,23 @@ if (!identifier || !password) {
 }
 
 const session = await createSession({ pds, identifier, password });
-const blob = await uploadImage({ pds, accessJwt: session.accessJwt, imagePath });
+const preparedImage = await prepareBlueskyImage(imagePath);
+const blob = await uploadImage({ pds, accessJwt: session.accessJwt, preparedImage });
+const embedImage = {
+  alt: card.altText,
+  image: blob
+};
+
+if (preparedImage.width && preparedImage.height) {
+  embedImage.aspectRatio = {
+    width: preparedImage.width,
+    height: preparedImage.height
+  };
+}
+
 postRecord.embed = {
   "$type": "app.bsky.embed.images",
-  images: [
-    {
-      alt: card.altText,
-      image: blob,
-      aspectRatio: {
-        width: 4,
-        height: 5
-      }
-    }
-  ]
+  images: [embedImage]
 };
 
 const result = await createRecord({
@@ -123,21 +141,79 @@ async function createSession({ pds, identifier, password }) {
   return readJsonResponse(response, "createSession");
 }
 
-async function uploadImage({ pds, accessJwt, imagePath }) {
-  const image = await fs.readFile(imagePath);
-  const mimeType = getImageMimeType(imagePath);
-
+async function uploadImage({ pds, accessJwt, preparedImage }) {
   const response = await fetch(`${pds}/xrpc/com.atproto.repo.uploadBlob`, {
     method: "POST",
     headers: {
       "Authorization": `Bearer ${accessJwt}`,
-      "Content-Type": mimeType
+      "Content-Type": preparedImage.mimeType
     },
-    body: image
+    body: preparedImage.buffer
   });
 
   const payload = await readJsonResponse(response, "uploadBlob");
   return payload.blob;
+}
+
+async function prepareBlueskyImage(imagePath) {
+  const original = await fs.readFile(imagePath);
+  let sharp = null;
+
+  try {
+    sharp = (await import("sharp")).default;
+  } catch {
+    sharp = null;
+  }
+
+  if (!sharp) {
+    if (original.byteLength > MAX_BLOB_BYTES) {
+      throw new Error(
+        `Image is ${Math.round(original.byteLength / 1024)} KB, over the Bluesky blob limit. Run "npm install" so sharp can resize it automatically.`
+      );
+    }
+    return { buffer: original, mimeType: getImageMimeType(imagePath), width: null, height: null };
+  }
+
+  if (original.byteLength <= MAX_BLOB_BYTES) {
+    const metadata = await sharp(original).metadata();
+    return {
+      buffer: original,
+      mimeType: getImageMimeType(imagePath),
+      width: metadata.width || null,
+      height: metadata.height || null
+    };
+  }
+
+  const attempts = [
+    { size: 2000, quality: 85 },
+    { size: 2000, quality: 75 },
+    { size: 1600, quality: 75 },
+    { size: 1600, quality: 65 },
+    { size: 1200, quality: 65 },
+    { size: 1000, quality: 60 }
+  ];
+
+  for (const attempt of attempts) {
+    const candidate = await sharp(original)
+      .rotate()
+      .resize({ width: attempt.size, height: attempt.size, fit: "inside", withoutEnlargement: true })
+      .jpeg({ quality: attempt.quality, mozjpeg: true })
+      .toBuffer({ resolveWithObject: true });
+
+    if (candidate.data.byteLength <= MAX_BLOB_BYTES) {
+      console.log(
+        `Image resized for Bluesky: ${candidate.info.width}x${candidate.info.height}, ${Math.round(candidate.data.byteLength / 1024)} KB.`
+      );
+      return {
+        buffer: candidate.data,
+        mimeType: "image/jpeg",
+        width: candidate.info.width,
+        height: candidate.info.height
+      };
+    }
+  }
+
+  throw new Error("Could not compress the image under the Bluesky blob limit. Use a smaller source image.");
 }
 
 async function createRecord({ pds, accessJwt, repo, record }) {

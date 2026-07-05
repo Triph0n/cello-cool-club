@@ -14,8 +14,13 @@ const privateFields = new Set([
   "notes",
   "source",
   "imageGeneration",
+  "imageAttachment",
+  "audioAttachment",
   "releaseLog",
-  "blueskyPost"
+  "blueskyPost",
+  "postedUrls",
+  "approvedAt",
+  "longCaption"
 ]);
 
 await assertFile("index.html");

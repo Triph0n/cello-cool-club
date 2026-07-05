@@ -7,3 +7,5 @@ tmp/
 dist/
 export/
 exports/
+data/cards.json.bak
+data/cards.json.tmp

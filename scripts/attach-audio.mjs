@@ -70,7 +70,7 @@ await fs.copyFile(resolvedSource, engineAudioPath);
 await fs.copyFile(resolvedSource, publicAudioPath);
 
 card.audio = publicAudioRelativePath;
-card.musicNotes = {
+card.audioAttachment = {
   attachedAt: new Date().toISOString(),
   sourceFile: resolvedSource,
   engineAudio: path.relative(engineRoot, engineAudioPath).replaceAll("\\", "/"),

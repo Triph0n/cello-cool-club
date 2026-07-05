@@ -93,3 +93,53 @@ document.addEventListener("keydown", (event) => {
     imageDialog.close();
   }
 });
+
+const postButton = document.querySelector("[data-post-card]");
+const postStatus = document.querySelector("[data-post-status]");
+
+const setPostStatus = (message, state = "") => {
+  if (!postStatus) return;
+  postStatus.textContent = message;
+  postStatus.dataset.state = state;
+};
+
+const postEndpoints = () => {
+  const localEndpoint = `${window.location.origin}/api/post-card`;
+  const fallbackEndpoint = "http://127.0.0.1:5173/api/post-card";
+  return localEndpoint === fallbackEndpoint ? [localEndpoint] : [localEndpoint, fallbackEndpoint];
+};
+
+postButton?.addEventListener("click", async () => {
+  const slug = postButton.dataset.postCard;
+  if (!slug) return;
+
+  postButton.disabled = true;
+  setPostStatus("Posting locally...", "working");
+
+  let lastError = "Local post server is not reachable.";
+  for (const endpoint of postEndpoints()) {
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug }),
+      });
+      const result = await response.json();
+      if (!response.ok || !result.ok) {
+        throw new Error(result.error || "Post failed.");
+      }
+
+      postButton.textContent = "Posted";
+      setPostStatus("Added to local cards.", "success");
+      window.setTimeout(() => {
+        window.location.href = result.archiveUrl || "../../cards/";
+      }, 500);
+      return;
+    } catch (error) {
+      lastError = error.message;
+    }
+  }
+
+  postButton.disabled = false;
+  setPostStatus(lastError, "error");
+});

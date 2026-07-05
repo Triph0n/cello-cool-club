@@ -337,6 +337,57 @@ h1 {
   line-height: 1;
 }
 
+.post-panel {
+  position: fixed;
+  left: 16px;
+  top: 14px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-button {
+  min-width: 64px;
+  min-height: 38px;
+  padding: 0 16px;
+  border: 1px solid rgba(255, 217, 120, 0.74);
+  border-radius: 8px;
+  color: var(--mahogany-deep);
+  background: var(--gold-bright);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.post-button:hover,
+.post-button:focus-visible {
+  outline: 2px solid var(--paper-light);
+  outline-offset: 3px;
+}
+
+.post-button:disabled {
+  cursor: wait;
+  opacity: 0.78;
+}
+
+.post-status {
+  max-width: min(300px, calc(100vw - 116px));
+  color: var(--paper-light);
+  font-size: 13px;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+}
+
+.post-status[data-state="success"] {
+  color: #b9f6c9;
+}
+
+.post-status[data-state="error"] {
+  color: #ffd0c7;
+}
+
 @media (max-height: 640px) {
   .club-sign {
     min-height: 38px;

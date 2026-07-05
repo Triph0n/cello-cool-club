@@ -59,5 +59,38 @@
     "altText": "An old city wall covered with faded posters, chalk drawings, cracks, and traces of remembered lives.",
     "publishAt": "2026-06-07T04:30:00.000Z",
     "archiveUrl": "cards/002-memory-of-a-wall/"
+  },
+  {
+    "id": "007",
+    "number": 7,
+    "slug": "the-revolt-of-the-garden-statues",
+    "title": "The Revolt of the Garden Statues",
+    "season": "Time & Rooms",
+    "language": "en",
+    "poemText": [
+      "The garden gnome said",
+      "I am tired of smiling like an idiot with my wheelbarrow",
+      "the plaster Venus said",
+      "I am cold and I would like a coat",
+      "the pink plastic flamingo said",
+      "I would like to see the ocean for real",
+      "So they left the garden",
+      "The gnome went to work in a coal mine",
+      "Venus signed up with a modeling agency",
+      "the pink flamingo bought a plane ticket to the tropics",
+      "The owner of the garden was very angry",
+      "he said",
+      "Where is the respect for property",
+      "He replaced the statues",
+      "with security cameras",
+      "and his garden became very safe",
+      "and very sad."
+    ],
+    "shortCaption": "Morning card prepared: The Revolt of the Garden Statues.",
+    "image": "assets/images/007-the-revolt-of-the-garden-statues.jpg",
+    "audio": "assets/audio/007-the-revolt-of-the-garden-statues.mp3",
+    "altText": "The Revolt of the Garden Statues.",
+    "publishAt": "2026-06-24T23:10:21.827Z",
+    "archiveUrl": "cards/007-the-revolt-of-the-garden-statues/"
   }
 ]

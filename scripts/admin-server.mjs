@@ -7,9 +7,12 @@ import {
   attachAudioToCard,
   attachImageToCard,
   createCardFromSource,
+  deleteDraftCard,
   previewCard
 } from "./card-workflow.mjs";
+import { findCard } from "./release-utils.mjs";
 import { listSourceFiles, parseSourceFile } from "./source-parser.mjs";
+import { exportSunoBatch, exportSunoPacket } from "./suno-packet.mjs";
 
 const port = Number(process.env.ADMIN_PORT || 5174);
 const adminPath = path.join(engineRoot, "admin");
@@ -63,7 +66,87 @@ async function handleApi(req, res, url) {
     return;
   }
 
-  const cardActionMatch = url.pathname.match(/^\/api\/cards\/([^/]+)\/(attach-image|attach-audio|preview|approve)$/);
+  if (req.method === "POST" && url.pathname === "/api/open-file-dialog") {
+    try {
+      const { execSync } = await import("node:child_process");
+      const psh = `Add-Type -AssemblyName System.Windows.Forms; $f = New-Object System.Windows.Forms.OpenFileDialog; $f.Filter = 'All Files (*.*)|*.*'; $f.ShowHelp = $true; $f.ShowDialog() > $null; $f.FileName`;
+      const result = execSync(`powershell -NoProfile -Command "${psh}"`, { encoding: 'utf8' }).trim();
+      sendJson(res, 200, { path: result });
+    } catch (err) {
+      sendJson(res, 500, { error: err.message });
+    }
+    return;
+  }
+
+  if (req.method === "POST" && url.pathname === "/api/suno/batch-create") {
+    const body = await readJsonBody(req);
+    const numbers = parseNumberRange(body.range);
+    const sourceFile = String(body.sourceFile || "").trim();
+    const language = body.language || "en";
+
+    if (!sourceFile) {
+      sendJson(res, 400, { error: "Choose a source file first." });
+      return;
+    }
+
+    if (numbers.length === 0) {
+      sendJson(res, 400, { error: "Enter at least one poem number." });
+      return;
+    }
+
+    if (numbers.length > 25) {
+      sendJson(res, 400, { error: "Batch limit is 25 poems at once." });
+      return;
+    }
+
+    const packets = [];
+    const errors = [];
+
+    for (const number of numbers) {
+      try {
+        const result = await createCardFromSource({
+          sourceFile,
+          sourceNumber: number,
+          language
+        });
+        const packet = await exportSunoPacket(result.card);
+        packets.push({
+          ...packet,
+          sourceNumber: number,
+          createdCard: result.created
+        });
+      } catch (error) {
+        errors.push({ sourceNumber: number, error: error.message });
+      }
+    }
+
+    const batch = await exportSunoBatch({
+      sourceFile,
+      range: body.range,
+      language,
+      packets,
+      errors
+    });
+    sendJson(res, 200, { batch });
+    return;
+  }
+
+  const sunoExportMatch = url.pathname.match(/^\/api\/cards\/([^/]+)\/export-suno$/);
+  if (req.method === "POST" && sunoExportMatch) {
+    const [, idOrSlug] = sunoExportMatch;
+    const card = findCard(await readCards(), idOrSlug);
+
+    if (!card) {
+      sendJson(res, 404, { error: `Card not found: ${idOrSlug}` });
+      return;
+    }
+
+    const packet = await exportSunoPacket(card);
+    sendJson(res, 200, { card, packet });
+    return;
+  }
+
+  const cardActionMatch = url.pathname.match(/^\/api\/cards\/([^/]+)\/(attach-image|attach-audio|preview|approve|delete)$/);
   if (req.method === "POST" && cardActionMatch) {
     const [, idOrSlug, action] = cardActionMatch;
     const body = await readJsonBody(req);
@@ -77,6 +160,8 @@ async function handleApi(req, res, url) {
       result = await previewCard(idOrSlug);
     } else if (action === "approve") {
       result = await approveCard(idOrSlug);
+    } else if (action === "delete") {
+      result = await deleteDraftCard(idOrSlug);
     }
 
     sendJson(res, 200, result);
@@ -139,4 +224,38 @@ function getContentType(filePath) {
   if (extension === ".js") return "text/javascript; charset=utf-8";
   if (extension === ".svg") return "image/svg+xml";
   return "application/octet-stream";
+}
+
+function parseNumberRange(value) {
+  const numbers = new Set();
+  const text = String(value || "").trim();
+  if (!text) return [];
+
+  for (const part of text.split(",")) {
+    const trimmed = part.trim();
+    if (!trimmed) continue;
+
+    const rangeMatch = trimmed.match(/^(\d+)\s*-\s*(\d+)$/);
+    if (rangeMatch) {
+      const start = Number(rangeMatch[1]);
+      const end = Number(rangeMatch[2]);
+      if (!Number.isInteger(start) || !Number.isInteger(end) || start < 1 || end < 1) {
+        throw new Error(`Invalid range: ${trimmed}`);
+      }
+
+      const step = start <= end ? 1 : -1;
+      for (let current = start; current !== end + step; current += step) {
+        numbers.add(current);
+      }
+      continue;
+    }
+
+    const number = Number(trimmed);
+    if (!Number.isInteger(number) || number < 1) {
+      throw new Error(`Invalid poem number: ${trimmed}`);
+    }
+    numbers.add(number);
+  }
+
+  return [...numbers];
 }

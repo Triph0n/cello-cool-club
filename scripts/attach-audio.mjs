@@ -10,7 +10,7 @@ import {
 } from "./card-utils.mjs";
 import { findCard, parseArgs } from "./release-utils.mjs";
 
-const allowedAudioExtensions = new Set([".mp3", ".wav", ".m4a", ".ogg"]);
+const allowedAudioExtensions = new Set([".mp3", ".wav", ".m4a", ".ogg", ".aac", ".flac", ".mp4"]);
 const options = parseArgs(process.argv.slice(2));
 const [idOrSlug, sourcePath] = options._ || [];
 
@@ -35,11 +35,11 @@ if (!card) {
   process.exit(1);
 }
 
-const resolvedSource = path.resolve(sourcePath);
+const resolvedSource = path.resolve(normalizeSourcePath(sourcePath));
 const extension = path.extname(resolvedSource).toLowerCase();
 
 if (!allowedAudioExtensions.has(extension)) {
-  console.error(`Unsupported audio extension "${extension}". Use mp3, wav, m4a, or ogg.`);
+  console.error(`Unsupported audio extension "${extension}". Use mp3, wav, m4a, ogg, aac, flac, or mp4.`);
   process.exit(1);
 }
 
@@ -89,3 +89,9 @@ console.log(`Attached audio for ${card.id} - ${card.title}`);
 console.log(engineAudioPath);
 console.log(publicAudioPath);
 console.log(`Status: ${card.status}`);
+
+function normalizeSourcePath(sourcePath) {
+  return String(sourcePath || "")
+    .trim()
+    .replace(/^["']|["']$/g, "");
+}

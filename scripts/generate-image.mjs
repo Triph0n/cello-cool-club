@@ -130,11 +130,10 @@ function buildPrompt(card) {
   return [
     card.imagePrompt,
     "",
-    "Cello Cool Club card requirements:",
-    "- portrait playing-card composition",
+    "Image requirements:",
     "- no readable text or typography inside the artwork",
     "- leave visual breathing room for a cropped social post",
-    "- atmospheric, tactile, poetic, and collectible",
+    "- atmospheric, tactile, poetic, and detailed",
     "- avoid generic fantasy gloss"
   ].join("\n");
 }

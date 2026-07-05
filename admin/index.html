@@ -21,6 +21,21 @@
           <h2>Source Poems</h2>
           <button id="refresh" type="button">Refresh</button>
         </div>
+        <div class="batch-panel">
+          <label>Batch create
+            <select id="batch-source"></select>
+          </label>
+          <div class="batch-row">
+            <input id="batch-range" placeholder="1-5 or 1,3,7-9">
+            <select id="batch-language" aria-label="Batch language">
+              <option value="en">English</option>
+              <option value="cs">Czech</option>
+              <option value="fr">French</option>
+            </select>
+          </div>
+          <button id="batch-create-suno" type="button" class="secondary">Batch Create Songs</button>
+          <div id="batch-message" class="message"></div>
+        </div>
         <div id="sources" class="sources"></div>
       </section>
 
@@ -33,7 +48,10 @@
       </section>
 
       <section class="panel detail-panel">
-        <h2>Workspace</h2>
+        <div class="panel-head">
+          <h2>Workspace</h2>
+          <div id="workspace-actions" class="actions"></div>
+        </div>
         <div id="workspace" class="workspace empty">
           Select a poem or card.
         </div>

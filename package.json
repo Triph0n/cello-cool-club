@@ -18,6 +18,8 @@
     "run-release": "node scripts/run-release.mjs",
     "check-site": "node scripts/check-public-site.mjs",
     "review-packet": "node scripts/review-packet.mjs",
+    "test:suno": "node scripts/test-suno-batches.mjs",
+    "test": "npm run validate && npm run test:suno && npm run check-site",
     "validate": "node scripts/validate-cards.mjs",
     "export": "node scripts/export-public-site.mjs",
     "build": "npm run validate && npm run export"

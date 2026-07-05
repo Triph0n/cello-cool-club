@@ -35,7 +35,7 @@ if (!card) {
   process.exit(1);
 }
 
-const resolvedSource = path.resolve(sourcePath);
+const resolvedSource = path.resolve(normalizeSourcePath(sourcePath));
 const extension = path.extname(resolvedSource).toLowerCase();
 
 if (!allowedImageExtensions.has(extension)) {
@@ -90,3 +90,9 @@ console.log(`Attached image for ${card.id} - ${card.title}`);
 console.log(engineImagePath);
 console.log(publicImagePath);
 console.log(`Status: ${card.status}`);
+
+function normalizeSourcePath(sourcePath) {
+  return String(sourcePath || "")
+    .trim()
+    .replace(/^["']|["']$/g, "");
+}

@@ -115,23 +115,62 @@ function parseCleanMarkdownBlock(block, sourceFile) {
 
   const number = Number(headerMatch[1]);
   const title = headerMatch[2].trim();
-  const text = block.slice(1).map((line) => line.trim()).filter(Boolean);
+  const titleMatch = title.match(/^(.+?)\s+\((.+)\)$/);
+  const originalTitle = titleMatch?.[1]?.trim() || title;
+  const sections = extractMarkdownSections(block.slice(1));
+  const text = sections.English?.length
+    ? sections.English
+    : block.slice(1)
+      .map(cleanMarkdownLine)
+      .filter((line) => line && !line.startsWith("### ") && !line.startsWith("---"));
 
   return {
     sourceFile,
     number,
-    slug: slugify(title),
+    slug: slugify(originalTitle),
     titles: {
-      fr: "",
-      cs: "",
-      en: title
+      fr: originalTitle,
+      cs: titleMatch?.[2]?.trim() || "",
+      en: originalTitle
     },
     texts: {
-      fr: [],
-      cs: [],
+      fr: sections.Francais || sections["Français"] || [],
+      cs: sections["Česky"] || [],
       en: text
     }
   };
+}
+
+function extractMarkdownSections(lines) {
+  const labels = new Set(["Français", "Francais", "Česky", "English"]);
+  const sections = {};
+  let current = null;
+
+  for (const line of lines) {
+    const trimmed = cleanMarkdownLine(line);
+    const headingMatch = trimmed.match(/^###\s+(.+)$/);
+
+    if (headingMatch && labels.has(headingMatch[1])) {
+      current = headingMatch[1];
+      sections[current] = [];
+      continue;
+    }
+
+    if (trimmed === "---") {
+      current = null;
+      continue;
+    }
+
+    if (current && trimmed && !trimmed.startsWith("*Zdrojový soubor:")) {
+      sections[current].push(trimmed);
+    }
+  }
+
+  return sections;
+}
+
+function cleanMarkdownLine(line) {
+  return line.trim().replace(/\s{2,}$/g, "");
 }
 
 async function listFiles(root, extension, kind) {

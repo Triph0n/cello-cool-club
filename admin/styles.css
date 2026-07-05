@@ -1,16 +1,17 @@
 :root {
-  --ink: #201913;
-  --muted: #76654d;
-  --paper: #f8f1df;
-  --paper-bright: #fff9ea;
-  --line: rgba(128, 97, 38, 0.28);
-  --gold: #c5a059;
-  --gold-bright: #ffd978;
-  --gold-dark: #806126;
-  --green: #183c34;
-  --red: #6b2428;
-  --blue: #243f5f;
-  --shadow: 0 18px 45px rgba(18, 9, 4, 0.18);
+  --ink: #1d1914;
+  --muted: #6d604f;
+  --paper: #f6edd8;
+  --paper-bright: #fff8e8;
+  --line: rgba(128, 97, 38, 0.26);
+  --gold: #c8a45d;
+  --gold-bright: #ffe08b;
+  --gold-dark: #7f602a;
+  --green: #123a34;
+  --green-deep: #082522;
+  --red: #713036;
+  --blue: #233d58;
+  --shadow: 0 18px 42px rgba(7, 20, 25, 0.24);
   font-family: "Segoe UI", system-ui, sans-serif;
 }
 
@@ -19,14 +20,27 @@
 }
 
 body {
-  min-height: 100vh;
+  min-height: 100dvh;
   margin: 0;
   color: var(--ink);
+  overflow: hidden;
   background:
-    linear-gradient(90deg, rgba(18, 9, 4, 0.07) 1px, transparent 1px),
-    linear-gradient(0deg, rgba(18, 9, 4, 0.05) 1px, transparent 1px),
-    linear-gradient(135deg, #f9f1df 0%, #efe2ca 100%);
-  background-size: 32px 32px, 32px 32px, auto;
+    linear-gradient(90deg, rgba(255, 224, 139, 0.055) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 248, 232, 0.035) 1px, transparent 1px),
+    radial-gradient(circle at 14% 16%, rgba(200, 164, 93, 0.18), transparent 22rem),
+    radial-gradient(circle at 86% 18%, rgba(47, 85, 104, 0.28), transparent 24rem),
+    linear-gradient(135deg, #092522 0%, #123a34 47%, #1d1712 100%);
+  background-size: 30px 30px, 30px 30px, auto, auto, auto;
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  content: "";
+  background:
+    linear-gradient(115deg, transparent 0 54%, rgba(255, 224, 139, 0.06) 54% 54.5%, transparent 54.5%),
+    radial-gradient(circle at 50% 105%, rgba(0, 0, 0, 0.34), transparent 34rem);
+  pointer-events: none;
 }
 
 button,
@@ -36,9 +50,12 @@ select {
 }
 
 .topbar {
+  position: relative;
+  z-index: 1;
   width: min(1480px, calc(100vw - 36px));
-  margin: 0 auto;
-  padding: 24px 0 18px;
+  margin: 16px auto 0;
+  height: 88px;
+  padding: 12px 0 14px;
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -48,7 +65,7 @@ select {
 
 .eyebrow {
   margin: 0 0 4px;
-  color: var(--gold-dark);
+  color: var(--gold-bright);
   font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.18em;
@@ -64,13 +81,14 @@ h3 {
 }
 
 h1 {
-  color: var(--green);
-  font-size: clamp(36px, 5vw, 68px);
+  color: var(--paper-bright);
+  font-size: clamp(34px, 4.2vw, 56px);
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.38);
 }
 
 h2 {
   color: var(--green);
-  font-size: 24px;
+  font-size: 21px;
 }
 
 h3 {
@@ -92,7 +110,8 @@ button {
 
 .public-link,
 button {
-  padding: 8px 12px;
+  padding: 5px 10px;
+  font-size: 13px;
 }
 
 button.secondary {
@@ -111,19 +130,27 @@ button:disabled {
 }
 
 .shell {
+  position: relative;
+  z-index: 1;
   width: min(1480px, calc(100vw - 36px));
-  margin: 22px auto;
+  height: calc(100dvh - 104px);
+  margin: 12px auto 0;
   display: grid;
   grid-template-columns: minmax(270px, 0.85fr) minmax(270px, 0.8fr) minmax(380px, 1.35fr);
   gap: 16px;
+  min-height: 0;
 }
 
 .panel {
-  min-height: calc(100vh - 132px);
-  padding: 16px;
+  min-height: 0;
+  height: 100%;
+  padding: 12px;
   border: 3px double var(--gold);
   border-radius: 8px;
-  background: rgba(255, 249, 234, 0.92);
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.7), transparent 34%),
+    rgba(255, 248, 232, 0.94);
   box-shadow: var(--shadow), inset 0 0 0 1px rgba(255, 255, 255, 0.72);
 }
 
@@ -132,23 +159,45 @@ button:disabled {
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-  margin-bottom: 14px;
+  min-height: 35px;
+  margin-bottom: 10px;
 }
 
 .sources,
 .cards {
   display: grid;
-  gap: 10px;
-  max-height: calc(100vh - 210px);
+  align-content: start;
+  gap: 8px;
+  height: calc(100% - 45px);
   overflow: auto;
   padding-right: 4px;
+}
+
+.sources-panel .sources {
+  height: calc(100% - 212px);
+}
+
+.batch-panel {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid rgba(128, 97, 38, 0.34);
+  border-radius: 7px;
+  background: rgba(255, 253, 246, 0.84);
+}
+
+.batch-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 92px;
+  gap: 8px;
 }
 
 .source-heading {
   position: sticky;
   top: 0;
   z-index: 1;
-  padding: 7px 9px;
+  padding: 6px 8px;
   border: 1px solid rgba(128, 97, 38, 0.32);
   border-radius: 5px;
   color: var(--gold-bright);
@@ -162,13 +211,29 @@ button:disabled {
 .card-select {
   width: 100%;
   display: grid;
-  gap: 5px;
-  padding: 12px;
+  gap: 4px;
+  padding: 10px;
   border: 1px solid var(--line);
   color: var(--ink);
   background: var(--paper-bright);
   text-align: left;
   box-shadow: inset 4px 0 0 rgba(197, 160, 89, 0.28);
+}
+
+.card-item {
+  position: relative;
+}
+
+.card-item:has(.card-delete) .card-select {
+  padding-right: 82px;
+}
+
+.card-delete {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 5px 8px;
+  font-size: 12px;
 }
 
 .poem-select:hover,
@@ -215,7 +280,11 @@ button:disabled {
 
 .workspace {
   display: grid;
-  gap: 16px;
+  align-content: start;
+  gap: 10px;
+  height: calc(100% - 35px);
+  overflow: auto;
+  padding-right: 4px;
 }
 
 .workspace.empty {
@@ -224,7 +293,7 @@ button:disabled {
 
 .form-grid {
   display: grid;
-  gap: 10px;
+  gap: 8px;
 }
 
 label {
@@ -235,6 +304,18 @@ label {
   font-weight: 800;
 }
 
+.asset-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 8px;
+}
+
+.asset-row button {
+  min-width: 126px;
+  white-space: nowrap;
+}
+
 input,
 select,
 textarea {
@@ -243,11 +324,12 @@ textarea {
   border-radius: 5px;
   background: #fffdf6;
   color: var(--ink);
-  padding: 9px 10px;
+  padding: 7px 9px;
 }
 
 textarea {
-  min-height: 180px;
+  min-height: 112px;
+  max-height: 18dvh;
   resize: vertical;
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.35;
@@ -256,7 +338,7 @@ textarea {
 .actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 9px;
+  gap: 8px;
 }
 
 .message {
@@ -270,23 +352,84 @@ textarea {
 }
 
 .poem-text {
-  max-height: 260px;
+  min-height: 80px;
+  max-height: 25dvh;
   overflow: auto;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid var(--line);
   border-radius: 5px;
   background: #fffdf6;
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.4;
   white-space: pre-wrap;
+  color: var(--ink);
+}
+
+.prompt-button {
+  margin-top: 4px;
+}
+
+.prompt-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.prompt-window {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid rgba(128, 97, 38, 0.34);
+  border-radius: 7px;
+  background:
+    linear-gradient(180deg, rgba(255, 224, 139, 0.14), transparent 42%),
+    rgba(255, 253, 246, 0.84);
+}
+
+.prompt-window-header {
+  color: var(--gold-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.prompt-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.prompt-grid textarea {
+  min-height: 150px;
+  max-height: 30dvh;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 12px;
+  line-height: 1.42;
 }
 
 @media (max-width: 1100px) {
+  body {
+    overflow: auto;
+  }
+
   .shell {
+    height: auto;
     grid-template-columns: 1fr;
   }
 
   .panel {
+    height: auto;
     min-height: auto;
+  }
+
+  .sources,
+  .cards,
+  .workspace {
+    height: auto;
+    max-height: none;
+  }
+
+  .asset-row {
+    grid-template-columns: 1fr;
   }
 }

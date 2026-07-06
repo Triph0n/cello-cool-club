@@ -104,6 +104,12 @@ Actually generate and save the image:
 npm run generate-image -- 002 --confirm
 ```
 
+Rebuild the image prompt from the poem (motif-based artistic prompt):
+
+```text
+npm run generate-image -- 002 --rebuild-prompt
+```
+
 Attach an already chosen image file:
 
 ```text

@@ -10,6 +10,7 @@ import {
   writeCards
 } from "./card-utils.mjs";
 import { findCard, parseArgs } from "./release-utils.mjs";
+import { buildImagePrompt } from "./card-workflow.mjs";
 
 const options = parseArgs(process.argv.slice(2));
 await loadLocalEnv();
@@ -30,8 +31,14 @@ if (!card) {
   process.exit(1);
 }
 
+if (options["rebuild-prompt"]) {
+  card.imagePrompt = buildImagePrompt(card.title, card.poemText || []);
+  await writeCards(sortCards(cards));
+  console.log(`Rebuilt imagePrompt for ${card.id} from the poem (motif-based artistic prompt).`);
+}
+
 if (!card.imagePrompt) {
-  console.error(`Card ${card.id} does not have imagePrompt.`);
+  console.error(`Card ${card.id} does not have imagePrompt. Run with --rebuild-prompt to create one from the poem.`);
   process.exit(1);
 }
 

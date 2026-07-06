@@ -88,6 +88,14 @@ npm run new-card -- --title "The Lantern"
 
 ### 3.3 Obrázek
 
+Prompt pro obrázek se skládá automaticky při vytvoření karty. Generátor z básně vybere **2–3 konkrétní obrazové náměty** (např. „key, house, street" nebo „garden, venus, flamingo"), cituje řádky, ze kterých pocházejí, a postaví kolem nich úsporný výtvarný prompt: jeden ohniskový bod, velkorysý negativní prostor, malířský rukopis, paleta podle nálady básně (melancholická / hřejivá / hořkosladká).
+
+U starších karet (nebo když se vám výběr námětů nelíbí a upravili jste báseň) jde prompt přegenerovat:
+
+```
+npm run generate-image -- 008 --rebuild-prompt
+```
+
 **Varianta A — vygenerovat přes OpenAI:**
 
 ```
@@ -222,6 +230,8 @@ Unit testy (složka `tests/`) pokrývají plánování vydání včetně časov�
 
 **Release: „export failed ... rolled back"** — vydání se nepovedlo a bylo bezpečně vráceno; opravte příčinu (výpis chyby výše) a spusťte `run-release -- --confirm` znovu.
 
+**Flag jako `--rebuild-prompt` nebo `--confirm` se „ztratí"** — PowerShell někdy spolkne samostatné `--`. Buď příkaz spusťte v cmd, nebo v PowerShellu napište `npm run generate-image '--' 008 --rebuild-prompt` (uvozovky kolem `--`).
+
 **Web ukazuje jinou sadu karet než engine** — spusťte `npm run build`; web je vždy jen otiskem engine dat. Pokud jste kartu publikovali „ručně" mimo engine, doplňte jí v `data/cards.json` stav `posted` a `publishAt`, jinak ji příští export z webu odebere.
 
 ---
@@ -242,5 +252,6 @@ Opravy chyb:
 
 Novinky:
 - **RSS feed** (`feed.xml`) generovaný při každém exportu.
-- **Unit testy** (`npm run test:unit`, 23 testů) zapojené do `npm test`.
+- **Unit testy** (`npm run test:unit`) zapojené do `npm test`.
 - `check-site` kontroluje únik více privátních polí (`postedUrls`, `imageAttachment`, `audioAttachment`, …).
+- **Nový umělecký generátor image promptů** — místo „hustě zaplněné tapety" vybere z básně 2–3 konkrétní náměty, cituje jejich řádky a určí paletu podle nálady básně; `--rebuild-prompt` ho aplikuje na starší karty (kap. 3.3).

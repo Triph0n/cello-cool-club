@@ -231,16 +231,151 @@ function buildCaption(title, poemText) {
   return `${title} opens with a quiet image: ${firstLine.toLowerCase()}.`;
 }
 
-function buildImagePrompt(title, poemText) {
-  const poem = poemText.join(" ");
-  const visualMood = getImageMoodPrompt(title, poemText);
+export function buildImagePrompt(title, poemText) {
+  const motifs = extractMotifs(title, poemText, 3);
+  const palette = getMoodPalette(`${title || ""} ${poemText.join(" ")}`.toLowerCase());
+
+  const motifNames = motifs.map((motif) => motif.word).join(", ");
+  const motifLines = motifs.map((motif) => `"${motif.line}"`).join(" / ");
+  const motifCount = motifs.length === 1 ? "this single motif" : motifs.length === 2 ? "these two motifs" : "these three motifs";
+  const subject = motifs.length > 0
+    ? `Build the whole scene around ${motifCount} and nothing else: ${motifNames}. They come from the lines ${motifLines}.`
+    : `Build the whole scene around one strong central image suggested by the title.`;
+
   return [
-    "wallpaper, surrealistic, hyperrealistic, high details, full of objects.",
-    `Create an image for the poem "${title}".`,
-    visualMood,
-    `Read the poem and match its mood, symbols, and emotional arc: ${poem}`,
-    "Dense composition, many meaningful objects, cinematic lighting, rich textures, dramatic depth, no text, no typography, no watermark."
+    `Fine-art illustration for the poem "${title}".`,
+    subject,
+    "One clear focal point, generous negative space, quiet symbolism; resist the urge to fill the frame.",
+    palette,
+    "Painterly poetic surrealism with mid-century jazz-poster elegance, visible textured brushwork, soft film grain, cinematic light and deep honest shadow.",
+    "No text, no typography, no watermark."
   ].join(" ");
+}
+
+const motifStopWords = new Set([
+  "the", "and", "but", "for", "nor", "not", "with", "without", "into", "onto", "from", "over", "under",
+  "about", "after", "before", "between", "through", "against", "during", "while", "when", "where",
+  "that", "this", "these", "those", "there", "here", "then", "than", "them", "they", "their", "theirs",
+  "she", "her", "hers", "him", "his", "its", "our", "ours", "your", "yours", "who", "whom", "whose",
+  "what", "which", "why", "how", "all", "any", "each", "every", "some", "none", "one", "two", "three",
+  "was", "were", "been", "being", "are", "is", "am", "be", "has", "have", "had", "having", "does", "did",
+  "will", "would", "shall", "should", "can", "could", "may", "might", "must", "said", "says", "say",
+  "like", "just", "very", "only", "still", "even", "also", "too", "more", "most", "less", "least",
+  "you", "yourself", "himself", "herself", "itself", "themselves", "someone", "something", "nothing",
+  "anything", "everything", "nobody", "everybody", "thing", "things", "way", "ways", "day", "days",
+  "longer", "always", "never", "sometimes", "once", "again", "away", "back", "down", "out", "off",
+  "because", "though", "although", "however", "perhaps", "maybe", "really", "quite", "rather",
+  "goes", "going", "gone", "went", "come", "comes", "came", "coming", "get", "gets", "got", "getting",
+  "make", "makes", "made", "making", "take", "takes", "took", "taken", "know", "knows", "knew", "known",
+  "want", "wants", "wanted", "tired", "little", "small", "big", "large", "great", "good", "bad",
+  "new", "old", "first", "last", "next", "other", "another", "same", "own", "such", "many", "much",
+  "heavier", "lighter", "bigger", "smaller", "older", "younger", "better", "worse", "colder",
+  "warmer", "darker", "brighter", "deeper", "higher", "lower", "shorter", "stronger", "weaker",
+  "nearer", "farther", "further", "earlier", "later", "faster", "slower", "heaviest", "lightest"
+]);
+
+const imageryLexicon = new Set([
+  "clock", "clocks", "wall", "walls", "star", "stars", "key", "keys", "door", "doors", "window", "windows",
+  "statue", "statues", "gnome", "venus", "flamingo", "garden", "gardens", "mirror", "mirrors", "lamp", "lamps",
+  "bus", "train", "station", "terminal", "street", "streets", "sidewalk", "pavement", "city", "town",
+  "rain", "snow", "wind", "storm", "cloud", "clouds", "moon", "sun", "sky", "sea", "ocean", "river",
+  "tree", "trees", "leaf", "leaves", "flower", "flowers", "grass", "bird", "birds", "cat", "dog", "horse",
+  "piano", "violin", "cello", "trumpet", "gramophone", "song", "music", "letter", "letters", "book", "books",
+  "photograph", "photographs", "picture", "candle", "candles", "fire", "smoke", "cigarette", "coffee",
+  "cup", "cups", "table", "chair", "bed", "room", "rooms", "house", "houses", "roof", "stairs", "bridge",
+  "shadow", "shadows", "light", "lights", "night", "morning", "evening", "dusk", "dawn", "winter",
+  "spring", "summer", "autumn", "coat", "hat", "shoes", "umbrella", "suitcase", "ticket", "coin", "coins",
+  "watch", "hands", "hand", "eyes", "eye", "heart", "hearts", "face", "faces", "hair", "voice", "voices",
+  "poster", "posters", "chalk", "paint", "paper", "ink", "pen", "wheelbarrow", "coal", "mine", "plane",
+  "wheel", "wheels", "gears", "pendulum", "bell", "bells", "church", "tower", "clockwork", "dust",
+  "kiosk", "bar", "cafe", "wine", "glass", "bottle", "bread", "apple", "orange", "kitchen", "stove",
+  "telephone", "radio", "newspaper", "clothesline", "laundry", "curtain", "curtains", "carpet", "floor",
+  "ceiling", "attic", "cellar", "chimney", "gate", "fence", "path", "road", "railway", "harbor", "boat",
+  "ship", "lighthouse", "island", "mountain", "valley", "field", "fields", "stone", "stones", "brick",
+  "cracks", "crack", "ruins", "graveyard", "grave", "cross", "angel", "ghost", "puppet", "puppets",
+  "mask", "masks", "circus", "carousel", "balloon", "kite", "toy", "toys", "doll", "chess", "cards",
+  "dancer", "dancers", "waltz", "ballerina", "sailor", "soldier", "traveler", "merchant", "thief",
+  "child", "children", "lovers", "woman", "man", "girl", "boy", "stranger", "strangers", "crowd",
+  "pedestrians", "prayer", "snowflakes", "footsteps", "echo", "silence", "secrets",
+  "pocket", "pockets", "water", "weight", "sand", "salt", "ash", "ashes", "feather", "feathers",
+  "thread", "needle", "scissors", "ladder", "rope", "anchor", "compass", "map", "maps", "globe"
+]);
+
+export function extractMotifs(title, poemText, limit = 3) {
+  const lines = (poemText || []).map((line) => String(line).trim()).filter(Boolean);
+  const titleWords = new Set(tokenizeWords(title || ""));
+  const entries = new Map();
+
+  lines.forEach((line, lineIndex) => {
+    for (const word of tokenizeWords(line)) {
+      if (word.length < 3 || motifStopWords.has(word)) continue;
+
+      const existing = entries.get(word) || { word, line, lineIndex, score: 0 };
+      existing.score += 1;
+      if (titleWords.has(word)) existing.score += 3;
+      if (imageryLexicon.has(word)) existing.score += 2;
+      if (lineIndex <= 1) existing.score += 1;
+      if (lineIndex >= lines.length - 2) existing.score += 1;
+      entries.set(word, existing);
+    }
+  });
+
+  const ranked = [...entries.values()].sort((a, b) => b.score - a.score || a.lineIndex - b.lineIndex);
+  const concrete = ranked.filter((entry) => imageryLexicon.has(entry.word) || titleWords.has(entry.word));
+  const chosen = [];
+
+  // Pass 1: concrete imagery words, spread across different lines.
+  for (const entry of concrete) {
+    if (chosen.length >= limit) break;
+    if (chosen.some((picked) => sharesStem(picked.word, entry.word))) continue;
+    if (chosen.some((picked) => picked.lineIndex === entry.lineIndex)) continue;
+    chosen.push(entry);
+  }
+
+  // Pass 2: concrete words even when they share a line.
+  for (const entry of concrete) {
+    if (chosen.length >= limit) break;
+    if (chosen.includes(entry)) continue;
+    if (chosen.some((picked) => sharesStem(picked.word, entry.word))) continue;
+    chosen.push(entry);
+  }
+
+  // Pass 3: only when the poem offers too few concrete words, fall back to anything ranked.
+  if (chosen.length < Math.min(2, ranked.length)) {
+    for (const entry of ranked) {
+      if (chosen.length >= limit) break;
+      if (chosen.includes(entry)) continue;
+      if (chosen.some((picked) => sharesStem(picked.word, entry.word))) continue;
+      chosen.push(entry);
+    }
+  }
+
+  return chosen.sort((a, b) => a.lineIndex - b.lineIndex);
+}
+
+function tokenizeWords(text) {
+  return String(text)
+    .toLowerCase()
+    .replace(/[''`]/g, "")
+    .split(/[^a-z]+/)
+    .filter(Boolean);
+}
+
+function sharesStem(a, b) {
+  return a.startsWith(b) || b.startsWith(a) || (a.length >= 5 && b.length >= 5 && a.slice(0, 5) === b.slice(0, 5));
+}
+
+function getMoodPalette(text) {
+  const happyScore = scoreWords(text, happyWords);
+  const sadScore = scoreWords(text, sadWords);
+
+  if (happyScore > sadScore + 1) {
+    return "Warm amber, cream, and soft vermilion palette, late-morning light, an undertone of gentle wit.";
+  }
+  if (sadScore > happyScore + 1) {
+    return "Smoky blue-grey, faded gold, and deep umber palette, dusk light through a window, tender melancholy.";
+  }
+  return "Muted gold, slate, and warm sepia palette, lamplight against gathering dark, bittersweet stillness.";
 }
 
 export function buildSunoPrompt(title, poemText) {
@@ -307,16 +442,17 @@ function getSunoMoodPrompt(title, poemText) {
   return match?.prompt || `${base}, ${poemDirection}, intimate small-combo arrangement, clear melodic vocal line, conversational phrasing, restrained saxophone replies, warm piano voicings, no humming at the beginning.`;
 }
 
+const happyWords = [
+  "laugh", "joy", "spring", "dance", "dancing", "play", "playful", "bright", "sun", "flower",
+  "garden", "hope", "smile", "waltz", "revolt", "comic", "funny", "love", "alive", "free", "wild"
+];
+const sadWords = [
+  "absence", "alone", "lonely", "sorrow", "sad", "death", "dead", "grief", "cold", "empty",
+  "night", "dark", "lost", "war", "tears", "memory", "old", "last", "silence", "no longer"
+];
+
 function getPoemMusicDirection(text) {
   const tempoProfile = chooseTempoProfile(text);
-  const happyWords = [
-    "laugh", "joy", "spring", "dance", "dancing", "play", "playful", "bright", "sun", "flower",
-    "garden", "hope", "smile", "waltz", "revolt", "comic", "funny", "love", "alive", "free", "wild"
-  ];
-  const sadWords = [
-    "absence", "alone", "lonely", "sorrow", "sad", "death", "dead", "grief", "cold", "empty",
-    "night", "dark", "lost", "war", "tears", "memory", "old", "last", "silence", "no longer"
-  ];
   const happyScore = scoreWords(text, happyWords);
   const sadScore = scoreWords(text, sadWords);
   const mood = happyScore > sadScore + 1 ? "warm, hopeful, lightly cheerful mood" : sadScore > happyScore + 1 ? "melancholic, tender, emotionally sad mood" : "bittersweet mood, balanced between warmth and sadness";
@@ -388,38 +524,6 @@ function chooseTempoProfile(text) {
 
 function scoreWords(text, words) {
   return words.reduce((score, word) => score + (text.includes(word) ? 1 : 0), 0);
-}
-
-function getImageMoodPrompt(title, poemText) {
-  const text = `${title || ""} ${poemText.join(" ")}`.toLowerCase();
-  const rules = [
-    {
-      words: ["wall", "memory", "war", "secrets", "cracked", "standing", "echo", "hearts"],
-      prompt: "an ancient city wall as a living archive, faded war posters, chalk drawings, love notes, torn paper, old paint layers, cracks glowing with remembered voices, hidden lovers' silhouettes, street dust, fragments of human history, melancholic urban poetry"
-    },
-    {
-      words: ["clock", "time", "tick", "moment", "circle", "death", "birth", "universe"],
-      prompt: "a room filled with clocks, circular time symbols, arrows chasing each other, tiny births and deaths hidden in ornate mechanisms, cosmic dust, household shadows, delicate gears, romantic melancholy, the universe folded into a small domestic space"
-    },
-    {
-      words: ["dance", "wind", "leaves", "waltz", "summer", "spring"],
-      prompt: "fallen leaves dancing in the wind like elegant dancers, autumn streets, traces of summer light, sleeping winter objects, small hints of spring, swirling motion, graceful transformation, poetic optimism"
-    },
-    {
-      words: ["sleep", "night", "dream", "moon", "silence"],
-      prompt: "a nocturnal dream room, moonlit objects, soft shadows, sleeping city details, surreal fragments of dreams, velvet darkness, quiet glowing symbols, intimate mysterious atmosphere"
-    },
-    {
-      words: ["love", "lover", "heart", "romantic", "kiss"],
-      prompt: "romantic objects scattered through a surreal room, letters, flowers, old photographs, warm lamps, velvet textures, secret meetings, tender symbolic details, intimate cinematic atmosphere"
-    },
-    {
-      words: ["child", "why", "play", "laugh", "joy"],
-      prompt: "a playful surreal world full of curious objects, childlike questions turned into visual symbols, bright strange toys, papers, signs, doors, little mysteries, joyful theatrical detail"
-    }
-  ];
-  const match = rules.find((rule) => rule.words.some((word) => text.includes(word)));
-  return match?.prompt || "a poetic visual interpretation of the poem, translating its mood, symbols, setting, and emotional arc into a dense surreal scene";
 }
 
 function buildAltText(title) {

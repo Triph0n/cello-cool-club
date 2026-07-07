@@ -17,6 +17,7 @@ export const allowedStatuses = new Set([
   "posted"
 ]);
 export const publicStatuses = new Set(["posted"]);
+export const allowedDecks = new Set(["club", "kids"]);
 export const baseRequiredFields = [
   "id",
   "number",
@@ -77,8 +78,24 @@ export function getPublicSiteUrl() {
   return process.env.PUBLIC_SITE_URL || "";
 }
 
+export function isNoIndex() {
+  return /^(1|true|yes)$/i.test(process.env.SITE_NOINDEX || "");
+}
+
+export function getDeck(card) {
+  return card.deck || "club";
+}
+
+export function isClubCard(card) {
+  return getDeck(card) === "club";
+}
+
 export function getArchivePath(card) {
   return card.archiveUrl || `cards/${card.id}-${card.slug}/`;
+}
+
+export function getPlayerPath(card) {
+  return `p/${card.id}/`;
 }
 
 export function getArchiveUrl(card) {
@@ -107,6 +124,7 @@ export function toPublicCard(card) {
     id: card.id,
     number: card.number,
     slug: card.slug,
+    deck: getDeck(card),
     title: card.title,
     season: card.season,
     language: card.language,
@@ -187,6 +205,10 @@ export function validateCards(cards) {
 
     if (!allowedStatuses.has(card.status)) {
       errors.push(`${label}: unknown status "${card.status}".`);
+    }
+
+    if (card.deck !== undefined && !allowedDecks.has(card.deck)) {
+      errors.push(`${label}: unknown deck "${card.deck}".`);
     }
 
     if (card.poemText !== undefined && !Array.isArray(card.poemText)) {

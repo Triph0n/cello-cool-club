@@ -1,4 +1,4 @@
-import { reviewStatuses, sortCards } from "./card-utils.mjs";
+import { isClubCard, reviewStatuses, sortCards } from "./card-utils.mjs";
 
 export function parseArgs(values) {
   const parsed = {};
@@ -59,8 +59,11 @@ export function releaseReadinessProblems(card) {
   return problems;
 }
 
+// The 3-day release cadence and social posting cover the club deck only.
+// Kids deck cards go public via export + QR print, never via run-release.
 export function selectNextRelease(cards, now = new Date()) {
   return sortCards(cards).find((card) => {
+    if (!isClubCard(card)) return false;
     if (card.status === "approved" && !card.publishAt) return true;
     if (!["approved", "scheduled"].includes(card.status)) return false;
     if (!card.publishAt) return false;
@@ -87,7 +90,7 @@ export function getReleaseConfig(env = process.env) {
 
 export function getNextReleaseWindow(cards, now = new Date(), config = getReleaseConfig()) {
   const postedCards = sortCards(cards)
-    .filter((card) => card.status === "posted" && card.publishAt)
+    .filter((card) => isClubCard(card) && card.status === "posted" && card.publishAt)
     .map((card) => ({ card, date: new Date(card.publishAt) }))
     .filter((entry) => !Number.isNaN(entry.date.getTime()))
     .sort((a, b) => a.date.getTime() - b.date.getTime());
@@ -137,7 +140,7 @@ export function getNextReleaseWindow(cards, now = new Date(), config = getReleas
 }
 
 export function selectApprovedCardForRelease(cards) {
-  return sortCards(cards).find((card) => card.status === "approved");
+  return sortCards(cards).find((card) => isClubCard(card) && card.status === "approved");
 }
 
 export function formatLocalTimestamp(parts, timeZone) {

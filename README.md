@@ -66,6 +66,8 @@ npm install
 
 A detailed step-by-step guide (in Czech) lives in `docs/NAVOD.md`.
 
+The current product brief lives in `docs/PRD.md`.
+
 ## Commands
 
 Start the local editorial admin panel:

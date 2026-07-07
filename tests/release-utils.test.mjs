@@ -48,6 +48,27 @@ test("selectApprovedCardForRelease picks lowest-numbered approved card", () => {
   assert.equal(selectApprovedCardForRelease(cards).number, 2);
 });
 
+test("release selection ignores kids deck cards", () => {
+  const cards = [
+    { number: 1, deck: "kids", status: "approved" },
+    { number: 2, status: "approved" }
+  ];
+  assert.equal(selectNextRelease(cards).number, 2);
+  assert.equal(selectApprovedCardForRelease(cards).number, 2);
+  assert.equal(selectNextRelease([cards[0]]), undefined);
+});
+
+test("getNextReleaseWindow cadence ignores posted kids cards", () => {
+  const cards = [
+    { number: 1, status: "posted", publishAt: "2026-06-01T04:30:00Z" },
+    { number: 2, deck: "kids", status: "posted", publishAt: "2026-06-03T04:30:00Z" }
+  ];
+  const now = new Date("2026-06-02T00:00:00Z");
+  const window = getNextReleaseWindow(cards, now, config);
+  assert.equal(window.releaseAt.toISOString(), "2026-06-04T04:30:00.000Z");
+  assert.equal(window.lastPosted.number, 1);
+});
+
 test("getNextReleaseWindow schedules cadence days after last posted card", () => {
   const cards = [
     { number: 1, status: "posted", publishAt: "2026-06-01T04:30:00Z" }

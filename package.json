@@ -15,6 +15,9 @@
     "publish-bluesky": "node scripts/publish-bluesky.mjs",
     "prepare-social": "node scripts/prepare-social-post.mjs",
     "preview-card": "node scripts/preview-card.mjs",
+    "teaser": "node scripts/export-teaser.mjs",
+    "print": "node scripts/export-print.mjs",
+    "match-audio": "node scripts/match-suno-downloads.mjs",
     "run-release": "node scripts/run-release.mjs",
     "check-site": "node scripts/check-public-site.mjs",
     "review-packet": "node scripts/review-packet.mjs",
@@ -23,9 +26,11 @@
     "test": "npm run validate && npm run test:unit && npm run test:suno && npm run check-site",
     "validate": "node scripts/validate-cards.mjs",
     "export": "node scripts/export-public-site.mjs",
-    "build": "npm run validate && npm run export"
+    "build": "npm run validate && npm run export",
+    "deploy": "npm run build && node scripts/deploy-pages.mjs"
   },
   "dependencies": {
+    "qrcode": "^1.5.4",
     "sharp": "^0.35.3"
   }
 }

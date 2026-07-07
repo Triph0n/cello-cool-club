@@ -255,3 +255,56 @@ Novinky:
 - **Unit testy** (`npm run test:unit`) zapojené do `npm test`.
 - `check-site` kontroluje únik více privátních polí (`postedUrls`, `imageAttachment`, `audioAttachment`, …).
 - **Nový umělecký generátor image promptů** — místo „hustě zaplněné tapety" vybere z básně 2–3 konkrétní náměty, cituje jejich řádky a určí paletu podle nálady básně; `--rebuild-prompt` ho aplikuje na starší karty (kap. 3.3).
+
+---
+
+## Revize 2026-07-07
+
+### SEO a export webu
+- Export nově generuje `robots.txt` a (s nastavenou `PUBLIC_SITE_URL`) `sitemap.xml`, canonical odkazy a JSON-LD (`Poem` na kartách, `WebSite` na homepage). Bez `PUBLIC_SITE_URL` se absolutní tagy vynechají a případná stará `sitemap.xml` se smaže.
+- Homepage má stabilní titulek a popis („Cello Cool Club — a new poem card every 3 days“) — nepřepisuje se už podle aktuální karty. Karta zůstává v `og:image`.
+- Všechny stránky odkazují favicon (`assets/ccc-icon.ico`).
+- Obrázky mají `width`/`height` (žádné poskakování layoutu, rozměry čte `sharp` při exportu), v archivu `loading="lazy"`.
+- RSS má `atom:link rel="self"`.
+
+### Video teasery (`npm run teaser`)
+- `npm run teaser -- --card 007` vytvoří 20s svislé video (1080×1920) do `exports/teasers/` — pro Instagram Reels, TikTok, YouTube Shorts.
+- Volby: `--duration 20` (5–60 s), `--start 0` (odkud v MP3 začít).
+- Vzhled: artwork karty na rozmazaném pozadí, jemný nájezd kamery, dole číslo + titul karty a nápis Cello Cool Club, hudba s fade in/out.
+- ffmpeg se hledá v tomto pořadí: `FFMPEG_PATH` v `.env` → systémový PATH → winget balíček Gyan.FFmpeg. Instalace: `winget install Gyan.FFmpeg`.
+
+### Plán dalších kroků
+- Aktuální seznam úkolů je v `TASK.md` (bloky A–D: deploy, scheduler, Suno download flow, Threads, nové stránky webu, tisk karet).
+
+### Párování stažených Suno MP3 (`npm run match-audio`)
+- Suno blokuje API i agenty, takže se skladby stahují klikáním v přihlášeném prohlížeči — soubory končí ve složce `Downloads`.
+- `npm run match-audio` (bez parametrů) porovná názvy MP3 s tituly karet bez audia a vypíše návrhy: **HIGH** = jednoznačná shoda, **LOW** = podobné, ale nejisté, **dup** = další verze téže písně (vyhrává nejnovější).
+- `npm run match-audio -- --confirm` přiloží jen HIGH shody (kopíruje do assets a posune stav karty jako `attach-audio`).
+- Ruční pár: `npm run match-audio -- --card 017 --file "The Cloud Factory.mp3"`.
+- Jinou složku stažených souborů nastavíte přes `SUNO_DOWNLOADS_PATH` v `.env`.
+
+### Nasazení webu (`npm run deploy`)
+- Web běží na **https://cello-cool-club.pages.dev** (Cloudflare Pages, projekt `cello-cool-club`).
+- `npm run deploy` = validace + export + nahrání na Cloudflare. Nahrává se jen veřejná část webu (index, styly, karty, assets, feed, sitemap, robots) — PRD, zdrojové složky ani preview na internet nikdy nejdou.
+- Po každém `run-release` je potřeba spustit i `npm run deploy`, jinak nová karta zůstane jen lokálně.
+- Když deploy skončí chybou „set a CLOUDFLARE_API_TOKEN", vypršelo přihlášení: spusťte `npx wrangler login` a v prohlížeči klikněte Allow.
+
+### Testovací režim (`SITE_NOINDEX`)
+- Kdybyste chtěl web před ostrým startem schovat i před vyhledávači: do `.env` přidejte `SITE_NOINDEX=1` a spusťte `npm run deploy` — stránky dostanou `noindex`, robots.txt zakáže crawlery a sitemap se negeneruje. Před oficiálním startem řádek smažte a znovu nasaďte.
+
+## Revize 2026-07-07 večer — dětské karty a tisk s QR
+
+### Dětský balíček (`deck: "kids"`)
+- Každá karta má nově pole `deck`: `"club"` (výchozí, stávající poetické karty) nebo `"kids"` (karty pro Cello Suzuki School). Novou dětskou kartu založíte `npm run new-card -- --deck kids --title "Twinkle"` (výchozí jazyk `cs`, sezóna `Suzuki`) nebo pole `deck` doplníte ručně v `data/cards.json`.
+- Dětské karty procházejí stejným kolotočem jako klubové (obrázek, Suno hudba, schválení), ale **nikdy nejdou do archivu, RSS, sitemap ani na Bluesky** a nenarušují třídenní kadenci klubu. Zveřejní se prostě tím, že dostanou status `posted` + `publishAt` a spustí se `npm run export` (a `npm run deploy`).
+- Do `poemText` u dětské karty patří říkanka nebo krátký úkol („Zahraj 3× celou variaci A…“) — pole je povinné stejně jako u klubových karet.
+
+### Přehrávací stránky pro QR (`p/<id>/`)
+- Export nově pro **každou** posted kartu (klubovou i dětskou) generuje minimalistickou stránku `p/<id>/` — obrázek, název a jedno velké tlačítko Play. Přesně na ni míří QR kód z tištěné karty.
+- Stránka se pokusí hrát hned po načtení; mobily autoplay se zvukem blokují, takže dítě jednou ťukne na velké tlačítko. Stránky mají `noindex` — nejsou v archivu ani ve vyhledávačích, fungují jen přes QR/odkaz.
+
+### Tisk karet s QR (`npm run print`)
+- `npm run print` — A4 arch se všemi posted dětskými kartami (4 karty na stránku, ořez podle čárkované linky).
+- `npm run print club` — celý klubový balíček; `npm run print 001 007` — konkrétní karty (id nebo slug).
+- Výstup je HTML v `exports/print/` — otevřete v prohlížeči a Ctrl+P (A4, měřítko 100 %, zapnout „Background graphics“). Na kartě je obrázek, číslo, název a QR s textem „Naskenuj a poslouchej“.
+- Tisknout jde jen posted karty (QR musí mít kam vést) a QR míří na živý web — **po exportu nezapomeňte `npm run deploy`**, jinak QR skončí na 404.

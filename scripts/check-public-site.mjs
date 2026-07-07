@@ -53,8 +53,12 @@ for (const card of cards) {
     }
   }
 
-  const archiveUrl = card.archiveUrl || `cards/${card.id}-${card.slug}/`;
-  await assertFile(path.join(archiveUrl, "index.html"), `${label}: missing card page`);
+  const isKids = card.deck === "kids";
+  if (!isKids) {
+    const archiveUrl = card.archiveUrl || `cards/${card.id}-${card.slug}/`;
+    await assertFile(path.join(archiveUrl, "index.html"), `${label}: missing card page`);
+  }
+  await assertFile(path.join("p", card.id, "index.html"), `${label}: missing player page`);
   await assertFile(card.image, `${label}: missing image asset`);
   await assertFile(card.audio, `${label}: missing audio asset`);
 

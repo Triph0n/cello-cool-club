@@ -53,6 +53,14 @@ test("validateCards requires review fields for approved cards", () => {
   assert.ok(errors.some((error) => error.includes('approved cards require "image"')));
 });
 
+test("validateCards accepts known decks and flags unknown ones", () => {
+  const base = { id: "001", number: 1, slug: "one", title: "One", status: "draft" };
+  assert.deepEqual(validateCards([{ ...base, deck: "kids" }]), []);
+  assert.deepEqual(validateCards([base]), []);
+  const errors = validateCards([{ ...base, deck: "grownups" }]);
+  assert.ok(errors.some((error) => error.includes('unknown deck "grownups"')));
+});
+
 test("toAbsoluteUrl uses PUBLIC_SITE_URL when set", () => {
   const previous = process.env.PUBLIC_SITE_URL;
   process.env.PUBLIC_SITE_URL = "https://example.com";
@@ -89,4 +97,10 @@ test("toPublicCard keeps only public fields", () => {
   assert.equal(publicCard.sunoPrompt, undefined);
   assert.equal(publicCard.notes, undefined);
   assert.equal(publicCard.title, "One");
+  assert.equal(publicCard.deck, "club");
+});
+
+test("toPublicCard keeps the kids deck", () => {
+  const publicCard = toPublicCard({ id: "010", number: 10, slug: "ten", title: "Ten", deck: "kids" });
+  assert.equal(publicCard.deck, "kids");
 });

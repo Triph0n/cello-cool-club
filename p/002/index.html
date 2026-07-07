@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>The Memory of a Wall | Cello Cool Club</title>
+    <meta name="description" content="Morning card prepared: The Memory of a Wall.">
+    <link rel="icon" href="../../assets/ccc-icon.ico">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { min-height: 100%; }
+      body {
+        display: grid;
+        place-items: center;
+        min-height: 100dvh;
+        padding: 20px 16px 32px;
+        background: radial-gradient(circle at 50% 20%, #2a160a 0%, #120904 68%);
+        color: #f3e4c2;
+        font-family: Georgia, "Times New Roman", serif;
+        text-align: center;
+      }
+      main { display: grid; gap: 18px; justify-items: center; width: min(420px, 100%); }
+      .sign { font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: #c5a059; }
+      img.art {
+        width: min(320px, 78vw);
+        aspect-ratio: 4 / 5;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 1px solid rgba(197, 160, 89, 0.6);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+      }
+      h1 { font-size: clamp(24px, 6vw, 34px); color: #ffd978; font-weight: 600; }
+      .play {
+        display: grid;
+        place-items: center;
+        width: 108px;
+        height: 108px;
+        border-radius: 50%;
+        border: 2px solid #c5a059;
+        background: rgba(18, 9, 4, 0.85);
+        color: #ffd978;
+        cursor: pointer;
+        transition: transform 0.15s ease;
+      }
+      .play:active { transform: scale(0.94); }
+      .play svg { width: 44px; height: 44px; fill: currentColor; }
+      .play .pause-icon { display: none; }
+      .play.playing .pause-icon { display: block; }
+      .play.playing .play-icon { display: none; }
+      .hint { font-size: 14px; opacity: 0.75; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="sign">Cello Cool Club</p>
+      <img class="art" src="../../assets/images/002-memory-of-a-wall.png" alt="An old city wall covered with faded posters, chalk drawings, cracks, and traces of remembered lives." decoding="async">
+      <h1>The Memory of a Wall</h1>
+      <button class="play" type="button" id="play" aria-label="Play The Memory of a Wall">
+        <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+      </button>
+      <audio id="audio" preload="auto" src="../../assets/audio/002-memory-of-a-wall.mp3"></audio>
+      <p class="hint">&#9834;</p>
+    </main>
+    <script>
+      const audio = document.getElementById("audio");
+      const button = document.getElementById("play");
+      const syncState = () => button.classList.toggle("playing", !audio.paused && !audio.ended);
+      button.addEventListener("click", () => { audio.paused ? audio.play() : audio.pause(); });
+      ["play", "pause", "ended"].forEach((name) => audio.addEventListener(name, syncState));
+      audio.play().catch(() => {});
+    </script>
+  </body>
+</html>

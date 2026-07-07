@@ -3,6 +3,7 @@
     "id": "001",
     "number": 1,
     "slug": "the-clock",
+    "deck": "club",
     "title": "The Clock",
     "season": "Time & Rooms",
     "language": "en",
@@ -25,12 +26,15 @@
     "audio": "assets/audio/hands-of-time-en.mp3",
     "altText": "Dreamlike clock house split between night and day.",
     "publishAt": "2026-06-04T07:30:00+03:00",
-    "archiveUrl": "cards/001-the-clock/"
+    "archiveUrl": "cards/001-the-clock/",
+    "imageWidth": 1122,
+    "imageHeight": 1402
   },
   {
     "id": "002",
     "number": 2,
     "slug": "memory-of-a-wall",
+    "deck": "club",
     "title": "The Memory of a Wall",
     "season": "Time & Rooms",
     "language": "en",
@@ -58,12 +62,15 @@
     "audio": "assets/audio/002-memory-of-a-wall.mp3",
     "altText": "An old city wall covered with faded posters, chalk drawings, cracks, and traces of remembered lives.",
     "publishAt": "2026-06-07T04:30:00.000Z",
-    "archiveUrl": "cards/002-memory-of-a-wall/"
+    "archiveUrl": "cards/002-memory-of-a-wall/",
+    "imageWidth": 1055,
+    "imageHeight": 1491
   },
   {
     "id": "007",
     "number": 7,
     "slug": "the-revolt-of-the-garden-statues",
+    "deck": "club",
     "title": "The Revolt of the Garden Statues",
     "season": "Time & Rooms",
     "language": "en",
@@ -91,6 +98,8 @@
     "audio": "assets/audio/007-the-revolt-of-the-garden-statues.mp3",
     "altText": "Poetic card artwork for The Revolt of the Garden Statues.",
     "publishAt": "2026-06-24T23:10:21.827Z",
-    "archiveUrl": "cards/007-the-revolt-of-the-garden-statues/"
+    "archiveUrl": "cards/007-the-revolt-of-the-garden-statues/",
+    "imageWidth": 3072,
+    "imageHeight": 5504
   }
 ]

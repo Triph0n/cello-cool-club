@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cello Cool Club</title>
-    <link></link>
+    <link>https://cello-cool-club.pages.dev/</link>
     <description>A small image, a short poem, a piece of music. A new card every few days.</description>
     <language>en</language>
+    <atom:link href="https://cello-cool-club.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>007 - The Revolt of the Garden Statues</title>
-      <link>cards/007-the-revolt-of-the-garden-statues/</link>
+      <link>https://cello-cool-club.pages.dev/cards/007-the-revolt-of-the-garden-statues/</link>
       <guid isPermaLink="false">cello-cool-club-007</guid>
       <pubDate>Wed, 24 Jun 2026 23:10:21 GMT</pubDate>
       <description>Morning card prepared: The Revolt of the Garden Statues.
@@ -32,7 +33,7 @@ and very sad.</description>
     </item>
     <item>
       <title>002 - The Memory of a Wall</title>
-      <link>cards/002-memory-of-a-wall/</link>
+      <link>https://cello-cool-club.pages.dev/cards/002-memory-of-a-wall/</link>
       <guid isPermaLink="false">cello-cool-club-002</guid>
       <pubDate>Sun, 07 Jun 2026 04:30:00 GMT</pubDate>
       <description>Morning card prepared: The Memory of a Wall.
@@ -57,7 +58,7 @@ on my side of life.</description>
     </item>
     <item>
       <title>001 - The Clock</title>
-      <link>cards/001-the-clock/</link>
+      <link>https://cello-cool-club.pages.dev/cards/001-the-clock/</link>
       <guid isPermaLink="false">cello-cool-club-001</guid>
       <pubDate>Thu, 04 Jun 2026 04:30:00 GMT</pubDate>
       <description>Morning card revealed: The Clock.

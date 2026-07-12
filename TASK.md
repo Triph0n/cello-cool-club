@@ -1,10 +1,15 @@
-# Cello Cool Club — Task list (vylepšení, 2026-07-07)
+# Cello Cool Club — Task list (vylepšení 2026-07-07, klub Claire 2026-07-12)
 
 > Nahrazuje předchozí TASK.md (admin panel — kompletně hotový, viz git historie).
 > Každý úkol je samostatně uchopitelný jiným agentem. Kontext: `README.md`,
 > `docs/ARCHITECTURE.md`, `docs/NAVOD.md`, PRD webu `..\CelloCoolClub\PRD.md`.
-> Konvence: Node ESM, žádný framework, jediná npm závislost `sharp`.
+> Nápady a jejich plné znění: `docs/napady/` (dashboard v README.md, NAP-01…18)
+> + `docs/BRAINSTORM-CLAIRE.md`. Bloky E–F vznikly 2026-07-12 z tohoto brainstormu.
+> Konvence: Node ESM, žádný framework, npm závislosti jen `sharp` a `qrcode`.
 > Veřejný web `..\CelloCoolClub` se NIKDY needituje ručně — vše přes `npm run export`.
+> Zásady klubu (neporušovat): neposílá se odkaz, posílá se objekt · paywall
+> neschovává poslech, jen pohodlí a vlastnictví · žádná umělá vzácnost digitálu ·
+> QR nikdy nalepený v rohu · Claire je přiznaně AI.
 
 ## Blok A — Kritické (web musí být nasaditelný a sdílitelný)
 
@@ -100,6 +105,97 @@
   (`club`/`kids`), kids karty mimo archiv/RSS/Bluesky/kadenci, přehrávací stránky
   `p/<id>/` pro všechny posted karty, `npm run print [kids|club|id…]` = A4 archy
   s QR. Návod v `docs/NAVOD.md`. Zbývá: vytvořit první kids karty + deploy.
+
+## Blok E — Klub Claire, vlna 1 (bez peněz, bez účtů; zdroj docs/napady/)
+
+Pořadí doporučené: E1 → E2 → E3 (jádro zážitku), pak E4–E9 dle chuti.
+
+- [ ] **E1. Vinylový přehrávač** (NAP-03): stránka karty + `p/<id>/` dostanou
+  místo play buttonu vinylovou desku — play → roztočí se, tonearm se položí,
+  po pauze se dotáčí. Středový label = kruhový výřez artworku (sharp, generuje
+  exportér do assets karty) + titul do oblouku + katalogové číslo CCC-`<id>`.
+  Jedna sdílená šablona/CSS v `renderers.mjs`, čisté CSS animace, žádný
+  framework, respektovat `prefers-reduced-motion`. Akceptace: funguje na
+  kartě 007 na webu i na QR stránce, `npm test` + `check-site` zelené.
+- [ ] **E2. Sbírka „Moje sada LP“** (NAP-04, fáze 1 bez účtů): tlačítko
+  „Přidat do sbírky“ na stránce karty (localStorage, klientský JS), pohled
+  `/collection/` — police s vinyly, sezóny jako řady, prázdné sloty ukazují
+  díry v sezóně („chybí ti 3 do kompletní sezóny I“). Deterministicky nad
+  veřejným `data/cards.json`. Bez backendů.
+- [ ] **E3. Ranní káva s Claire** (NAP-06): homepage hero „Dnešní ranní káva“
+  — píseň dne deterministicky podle data (seed = datum, jen posted club
+  karty; v release den nová karta, jinak repríza „Claire dnes vytáhla
+  z police…“). Sdílet logiku s C4 `/draw/` (implementovat spolu). Text
+  „zdarma jen dnes — do sbírky natrvalo jako člen“ zatím jen jako copy,
+  bez paywallu.
+- [ ] **E4. Kanonizace Claire** (NAP-02): `data/site.json` sekce `persona`
+  (jméno, bio, portrét, Suno persona ID), volitelné pole `claireNote` na
+  kartě + render na stránce karty. **Vladimír:** vybrat kanonický hlas
+  z ~240 MP3 v Downloads a založit Suno Personu; vybrat/vygenerovat portrét
+  (styl viz E7). Staré karty = „hosté klubu“ (rozhodnuto neřešit přenahrávání
+  ve vlně 1).
+- [ ] **E5. Věnování v URL** (NAP-16a + NAP-17): `p/<id>/?pro=…&od=…&v=…` →
+  stránka vykreslí sleeve s věnováním („Pro Janu ♥ od Petra“ + vzkaz)
+  kolem vinylu z E1. Klientsky, escapovat + délkový limit (např. 120 znaků),
+  žádný backend. Na stránce karty tlačítko „Věnovat tuhle desku“ (formulář
+  komu/od koho/vzkaz → sestaví URL) + share intenty WhatsApp/Telegram/kopie.
+- [ ] **E6. Redakční hitparáda** (NAP-15, fáze 1): `data/charts.json`
+  (týden, pořadí id, poznámky Claire) + stránka `/hitparada/` — Top 10,
+  šipky ↑↓ proti minulému týdnu, nováček, týdny v žebříčku, katalogová
+  čísla. Sestavuje Vladimír v admin panelu (jednoduchý editor pořadí),
+  kadence neděle. Bez počítadel — přiznaně „Claire má své nálady“.
+- [ ] **E7. Stylový pipeline „Atelier Claire“ — test** (NAP-11): skript
+  s jednotným styl-suffixem image promptů + riso postprocess přes sharp
+  (zrno, redukce na paletu sezóny 2–3 barev, soutiskový posun). Vygenerovat
+  vedle sebe porovnání pro 3 existující karty do `exports/preview/` —
+  rozhodnutí o nasazení na všechny karty udělá Vladimír.
+- [ ] **E8. LRC nástroj + titulkované teasery** (NAP-14): v admin panelu
+  mini nástroj „časovat text“ (pustíš audio, Enter na každém řádku →
+  uloží `.lrc`, pole `lyricsTimed`). Exportér vydá LRC jako veřejný asset.
+  `export-teaser.mjs` doplnit drawtext titulky z LRC (Shorts se koukají
+  bez zvuku). Novela na stránce karty (běžící verše) = navazující krok,
+  může být samostatné pokračování.
+- [ ] **E9. YouTube start** (NAP-07): **Vladimír:** založit kanál. Engine:
+  skript „1 hodina s Claire“ — ffmpeg kompilace 12–20 posted písní do
+  jednoho videa (statická ilustrace + názvy, kapitoly do popisku
+  vygenerovat do .txt). Shorts = B2 teasery, publikovat ručně s každou
+  ranní kávou. 24/7 stream až od >30 posted karet (vlna 4).
+
+## Blok F — Klub Claire, vlna 2+ (fyzično, členství; gating: 12 posted karet)
+
+- [ ] **F1. Rub karty jako vinyl + QR v labelu** (NAP-05 + NAP-12 trik 1):
+  rozšířit `export-print.mjs` o rub — kruhová deska, středový label,
+  QR jako součást labelu: error correction H, mini-ilustrace uvnitř,
+  moduly v barvách sezóny, stylizované terče (custom rendering nad maticí
+  z knihovny `qrcode`). Ověřit skenovatelnost na vytištěném vzorku.
+  Navazuje na D4 (70×120 mm + spadávka).
+- [ ] **F2. Sleeve obálky + „Pohlednice od Claire“** (NAP-17): tisková šablona
+  obálky jako obal 45s singlu (karta se vysouvá) do `export-print.mjs`.
+  **Vladimír:** tiskárna, voskové razítko CCC, poštovné CH/CZ/EU →
+  z toho cena produktu (~8–12 €).
+- [ ] **F3. Lithophane prototyp** (NAP-13): skript artwork → heightmapa
+  (sharp) → STL (přímý export nebo OpenSCAD). Vytisknout prototyp z karty
+  001: čitelnost Claire proti světlu + dvoubarevný QR na rubu. Až po
+  ověření: limitka 50–100 ks/sezóna, číslování v tisku.
+- [ ] **F4. Album sezóny I jako video** (NAP-07b, po 12 posted): ffmpeg —
+  celé album jedno video, kapitoly, obal = mozaika karet (sdílet s D3
+  Bandcamp), mezi skladbami se mění label na točící se desce. Premiéra
+  přes YouTube Premiere. Souběžně D3.
+- [ ] **F5. Členství** (NAP-10 + NAP-08): **Vladimír rozhodne platformu**
+  (Memberful vs. Ghost — obě umí členské RSS a magic-link). Engine:
+  členský podcast feed `/feed/<token>.xml` (RSS s enclosures = MP3),
+  celý archiv; per-member „jen moje sbírka“ až vlna 4 (chce Worker/KV).
+  Před spuštěním **ověřit Suno licenci pro komerční užití**.
+- [ ] **F6. Hitparáda fáze 2 — počítadla** (NAP-15): Cloudflare Worker + KV,
+  endpoint na ping z přehrávače (přehrání) + členské hlasy (1/týden),
+  rolling okno 14 dní; věnování = bod navíc. Redakční vrstva z E6 zůstává
+  (Claire komentuje čísla). Zlatá deska: vítěz sezóny → zlatá varianta labelu na webu.
+- [ ] **F7. Karta na míru — pilot** (NAP-16c): deck `custom` (mimo veřejný
+  export, mimo kadenci), interní workflow báseň → Suno persona → artwork →
+  tisk. **Pilot: 3 kusy pro známé** → ověřit cenu (100–200 €), lhůtu, objem.
+- [ ] **F8. Přání do éteru** (NAP-16b, po F5): fronta věnování v admin panelu
+  (schválení Vladimír), vybraná se čtou v „Nedělní kávě“ (newsletter D1 +
+  YouTube community post). Členská výhoda.
 
 ## Stav karet (2026-07-07)
 244 karet: 3 posted (001, 002, 007), 1 approved, 240 draft.

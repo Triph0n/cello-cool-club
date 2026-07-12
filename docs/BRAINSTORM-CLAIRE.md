@@ -597,6 +597,31 @@ publikum a přesně naši náladu:
 
 ---
 
+## 23. Tři koncepty — jak to celé pojmout (2026-07-12)
+
+Všechno z §1–21 zrealizovat nejde — hrozí rozdrobení. Vznikly **tři soudržné
+koncepty** (plné znění: `docs/napady/KONCEPTY.md`), společný základ všech =
+Claire + vinylový přehrávač + styl Atelier Claire + pozice „skutečný cellista
+hraje s AI zpěvačkou“ (§18):
+
+- **A — Ranní rádio 📻:** Claire jako pořad; produkt = rituál + členský feed;
+  růstový motor = ambientní formáty (§20); škrtá se sbírka a fyzično.
+  Nejlevnější start, nejpomalejší peníze, největší závislost na kadenci.
+- **B — Atelier 🖨️ (doporučení):** miniaturní vydavatelství krásných objektů;
+  produkt = fyzické edice (deck, box, pohlednice, karta na míru, limitky,
+  **adventní kalendář §19 jako produkt roku**); web = katalog, koncert =
+  prodejna (živé cello §18 naplno); škrtá se členství a gamifikace. Peníze
+  od prvního kusu, bez backendu; navazuje na koncerty, print pipeline
+  a plánovaný crowdfunding.
+- **C — Klub sběratelů 🃏:** hra o kompletaci; produkt = digitální sbírka +
+  členství (čísla členů a repertoárová rada §21 jsou jádro); škrtá se
+  fyzično kromě odměn. Potřebuje největší publikum a nejvíc software.
+
+Přirozená sekvence: **B teď → C po sezóně I → A jako korunovace.**
+Rozhodnout: který koncept → co škrtáme z bloků E/F na nejbližší měsíce.
+
+---
+
 *Změny v tomto dokumentu: 2026-07-11 založeno (brainstorm Claire, LP systém,
 YouTube rádio, ranní káva, sbírky, monetizační žebřík, MVP vlny). 2026-07-11
 odpoledne: grafický styl „Atelier Claire" (§11), rafinované QR (§12),
@@ -605,4 +630,5 @@ večer: hitparáda jako pořad (§15), písničky na přání a věnování (§1
 poslat desku — formy doručení (§17). 2026-07-11 pokračování: skutečné cello
 + Claire jako hlavní pozice (§18), kalendář klubu s adventním kalendářem
 (§19), ambientní YouTube formáty (§20), členská čísla a repertoárová rada
-(§21).*
+(§21). 2026-07-12: tři koncepty pojetí A/B/C (§23, plné znění a srovnání
+v docs/napady/KONCEPTY.md, doporučení B Atelier).*

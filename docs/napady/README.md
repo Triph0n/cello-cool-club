@@ -10,6 +10,13 @@
 > F3 lithophane, F4 album, F5 členství, F6 počítadla, F7 karta na míru,
 > F8 přání do éteru).**
 
+## ⚖️ K rozhodnutí: tři koncepty
+
+Všechno zrealizovat nejde. **[KONCEPTY.md](KONCEPTY.md)** — tři soudržná
+pojetí (A Rádio 📻 · B Atelier 🖨️ · C Klub sběratelů 🃏), každé říká, co
+je produkt a co se škrtá. **Doporučení: B Atelier** (navazuje na koncerty,
+print pipeline a crowdfunding; peníze bez backendu), sekvence B → C → A.
+
 ## Velký obrázek
 
 **Claire (AI zpěvačka) vydává písně jako sběratelská LP-čka: ráno jedna
@@ -37,6 +44,10 @@ zdarma, členové sbírají a poslouchají kdekoli.**
 | 15 | [Hitparáda](15-hitparada.md) | obsah | 1→3 | 💡 |
 | 16 | [Věnování a na přání](16-venovani-a-na-prani.md) | produkt+dárky | 1→3 | 💡 |
 | 17 | [Poslat desku](17-poslat-desku.md) | marketing+fyzické | 1→3 | 💡 |
+| 19 | [Skutečné cello + Claire](19-skutecne-cello.md) | strategie+identita | 0 | 💡 kandidát na hlavní pozici |
+| 20 | [Kalendář klubu / advent](20-kalendar-klubu.md) | fyzické+obsah | 2 | ⏰ deadline září! |
+| 21 | [Ambientní formáty](21-ambientni-formaty.md) | marketing | 1–2 | 💡 |
+| 22 | [Komunita — čísla, rada](22-komunita-clenstvi.md) | členství | 3 | 💡 |
 | 18 | [Otevřené otázky](18-otevrene-otazky.md) | vše | — | 🔄 živý seznam |
 
 ## Co stavět v jakém pořadí (MVP vlny)

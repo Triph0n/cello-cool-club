@@ -38,10 +38,12 @@ Pozn.: PowerShell polyká `--` flagy přes npm — kde to jde, používej pozič
 
 ## Suno — realita a automatizace
 
-**Suno nemá použitelné API a blokuje agenty na svém webu z čistého prohlížeče.** Nenavrhuj API integrace. Funkční pipeline je hybridní — hudbu obstarává **Codex CLI v přihlášeném Chromu Vladimira** pomocí skillů:
+**Suno nemá použitelné API a blokuje agenty na svém webu z čistého prohlížeče.** Nenavrhuj API integrace. Funkční pipeline je hybridní — hudbu obstarává **Codex CLI přes PixelRag** (oči pro agenta: viditelné screenshoty → klikání a psaní do frontendu jako člověk, v přihlášeném Chromu Vladimira) pomocí skillů:
 
 - `C:\Users\Vladimir\.codex\skills\suno-assisted-clipboard\` — vkládání promptů/textů do Suno (generování písní)
 - `C:\Users\Vladimir\.codex\skills\suno-download-mp3\` — přejmenování titulů na angličtinu + stažení MP3 do `C:\Users\Vladimir\Downloads`
+
+➡️ **Celý hudební tok end-to-end řídí skill `suno-sync`** (v `.claude/skills/` enginu i `~/.codex/skills/`): zjistí karty bez audia → spáruje Downloads → sestaví frontu `exports/suno/download-queue.md` → browser kroky (Codex/PixelRag) → znovu spáruje → approve/release/deploy. Fronta je sdílený stav mezi Claude a Codex.
 
 ## Plná pipeline: báseň → píseň → karta → web
 

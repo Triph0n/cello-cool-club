@@ -2,7 +2,7 @@
 nazev: Tři koncepty — jak to celé pojmout
 oblast: strategie
 vlna: rozhodnutí před vlnou 1
-stav: k rozhodnutí (doporučení: B Atelier)
+stav: ROZHODNUTO 2026-07-13 — stavět postupně vše, pořadí B → C → A
 zdroj: BRAINSTORM-CLAIRE.md §23, syntéza NAP-01…22
 ---
 
@@ -139,6 +139,15 @@ fyzického decku, členství až má co nabídnout — s čísly členů a radou
 **A jako korunovace** (rádio a pořad, až je archiv dost velký, aby se
 smyčka neoposlouchala; ambient formáty můžou růst už dřív, jsou levné).
 
-Rozhodnout: **který koncept, a tím pádem co ŠKRTÁME z bloku E/F pro
-nejbližší měsíce.** U B by se odložilo: E2, E3 (jen výloha), E6 (jen
-redakčně občas), E8, F5, F6, F8.
+## ✅ Rozhodnutí (Vladimír, 2026-07-13)
+
+**„Do budoucna stavět vše."** Koncepty tedy nejsou škrty, ale **pořadí**:
+
+1. **B Atelier teď** — katalog (E1+E7), věnování (E5), fyzické edice,
+   adventní kalendář (hudba do září!), crowdfunding sezóny I.
+2. **C Klub po sezóně I** — police (E2), ranní káva (E3), hitparáda (E6),
+   členství + feed (F5), čísla členů a rada.
+3. **A Rádio jako korunovace** — nedělní pořad, ambient smyčky (můžou
+   růst už dřív, jsou levné), 24/7 stream při >30 kartách.
+
+Nic z brainstormu se nezahazuje — všechno čeká ve své vrstvě.

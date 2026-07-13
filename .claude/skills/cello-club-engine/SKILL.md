@@ -49,7 +49,10 @@ Pozn.: PowerShell polyká `--` flagy přes npm — kde to jde, používej pozič
 
 1. **Básně**: skill `prevert-fable-poems` → anglický agregát `data/clean-sources/prevert_fable_english.md`.
 2. **Karty**: admin panel → vybrat zdroj `prevert_fable_english.md` → báseň → **Create Draft Card** (engine vygeneruje slug, caption, image prompt i Suno prompt; duplicity hlídá).
-3. **Obrázky**: `generate-image --confirm` (OpenAI) nebo `attach-image`.
+3. **Obrázky**: preferovaně **zdarma přes Gemini frontend** (Vladimirův
+   přihlášený účet + PixelRag, skill `gemini-image-frontend`, fronta
+   `exports/images/image-queue.md`) → `attach-image`; alternativně
+   `generate-image --confirm` (OpenAI API, placené).
 4. **Suno prompty**: dávkový export z panelu (max 25) → `exports\suno\batches\`.
 5. **Generování v Sunu**: řídí Codex (suno-assisted-clipboard) v uživatelově Chromu.
 6. **Stažení MP3**: Codex (suno-download-mp3) → soubory v Downloads.

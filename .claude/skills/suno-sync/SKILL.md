@@ -15,15 +15,25 @@ Pracovní adresář: `C:\Users\Vladimir\Documents\CelloCoolClubEngine`.
 
 ## Jak se ovládá Suno: PixelRag (oči pro agenta)
 
-Suno se obsluhuje **přes PixelRag** — viditelný workflow, kdy agent vidí
-obrazovku (screenshoty) a kliká/píše do frontendových formulářů **jako
-člověk**, v přihlášeném Chromu Vladimira. Žádná skrytá automatizace, žádný
-headless browser, žádné API volání. Tohle je jediný způsob, který na Suno
-funguje (blokují agenty i čisté prohlížeče bez přihlášení). Skilly
-`suno-assisted-clipboard` a `suno-download-mp3` popisují CO klikat;
-PixelRag je JAK (vidět → kliknout → napsat → ověřit na obrazovce).
-Když PixelRag/ovládání obrazovky není k dispozici, nech stránku otevřenou
-a řekni Vladimirovi přesný další klik krátce česky.
+Suno se obsluhuje **přes PixelRag** — agent vidí stránku jako pixely
+a kliká/píše do frontendových formulářů **jako člověk**, v přihlášeném
+Chromu Vladimira. Žádný headless browser, žádné API volání — jediný
+způsob, který na Suno funguje.
+
+Nainstalovaná toolchain (`C:\Users\Vladimir\.local\bin\`):
+- **`pixelshot.exe <URL>`** — vyfotí stránku do dlaždic JPEG
+  (`--backend cdp` = připojí se k běžícímu Chromu s přihlášením;
+  `--wait-network-idle` pro SPA jako Suno; výstup `./tiles`).
+- **`pixelrag.exe`** — chunk/embed/index/serve nad těmi screenshoty
+  (vyhledávání v tom, co agent vidí).
+- Klikání/psaní: řídí Codex přes CDP v témže Chromu.
+
+Skilly `suno-assisted-clipboard` a `suno-download-mp3` popisují CO klikat;
+PixelRag/pixelshot je JAK VIDĚT (screenshot → najít prvek → klik → ověřit
+znovu screenshotem). Claude Code může pixelshot také spustit (podívat se,
+co na stránce je), ale klikání nechává Codexu. Když ovládání obrazovky
+není k dispozici, nech stránku otevřenou a řekni Vladimirovi přesný další
+klik krátce česky.
 
 ## Kdo jsi? (rozcestník prostředí)
 

@@ -40,6 +40,26 @@ Server nic nekopíruje; složky projektu jen připojuje:
 
 **Chceš něco změnit → uprav `dashboard/index.json`** (ručně nebo přes Codex) a obnov stránku.
 
+## Číslování — jedno kanonické číslo
+
+Projekt má tři historická číslování (master 1096, sbírka `poems/` 001–403, id karet).
+Sjednocuje je **`data/crosswalk.json`**:
+
+- **Kanonické číslo = pořadí v `AllEnglishTexts.md`** (0001–1096). Žádné duplicity.
+- **Soubory se NEPŘEJMENOVÁVAJÍ.** Crosswalk jen zapisuje, co k čemu patří — plakáty,
+  MP3 a URL karet zůstávají, jak byly. To je celý smysl.
+- Páruje se **otiskem textu, nikdy názvem**: názvy karet byly promíchané jazykově
+  a 25 dvojic básní sdílí název při různém textu.
+- Crosswalk je **zmrazený** — přestavba existující záznamy nepřepíše, jen doplní nové.
+
+```bash
+node tools/build-crosswalk.mjs --write        # postavit/doplnit převodník
+node tools/apply-english-titles.mjs --write   # anglické názvy karet z masteru
+node tools/build-dashboard-index.mjs --write  # index dashboardu
+```
+
+Nová báseň dostane další volné kanonické číslo; nové soubory se pojmenují `<kanonické>-<slug>`.
+
 ## Pravidla, která platí
 
 - **Média jsou mimo git** (`assets/audio`, `assets/posters`, `assets/posters-hires`,

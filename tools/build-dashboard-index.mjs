@@ -37,13 +37,17 @@ const poems = marks.map((m, i) => {
   return { num: m[1], title: m[2].trim(), text: lines };
 });
 
-// --- 2. karty ---------------------------------------------------------------
+// --- 2. karty + CROSSWALK (jediný zdroj párování) ---------------------------
+// Párování NIKDY podle názvu: názvy karet byly promíchané jazykově a 25 dvojic
+// básní sdílí název. Crosswalk je postavený otiskem textu a zmrazený.
 const cards = JSON.parse(fs.readFileSync(path.join(ROOT, "engine/data/cards.json"), "utf8"));
-const cardByTitle = new Map();
-for (const c of cards) {
-  const k = norm(c.title);
-  if (!cardByTitle.has(k)) cardByTitle.set(k, c);
+const cardById = new Map(cards.map((c) => [c.id, c]));
+const cwPath = path.join(ROOT, "data/crosswalk.json");
+if (!fs.existsSync(cwPath)) {
+  throw new Error("Chybí data/crosswalk.json — postav ho: node tools/build-crosswalk.mjs --write");
 }
+const crosswalk = JSON.parse(fs.readFileSync(cwPath, "utf8")).entries;
+const cwByNum = new Map(Object.values(crosswalk).map((e) => [String(e.masterNum), e]));
 
 // --- 3. plakáty na disku (slug -> soubor) -----------------------------------
 const listSlugs = (dir) => {
@@ -71,27 +75,13 @@ if (fs.existsSync(OUT)) {
 // --- 5. sestavení -----------------------------------------------------------
 const stat = { total: poems.length, card: 0, suno: 0, audio: 0, poster: 0, keptManual: 0, ambiguous: 0 };
 
-// 25 dvojic básní sdílí název, ale jsou to RŮZNÉ texty. Párování podle názvu je u nich
-// nejednoznačné → kartu/plakát dostane jen první výskyt, ostatní se označí k ručnímu přiřazení.
-const titleGroups = new Map();
-poems.forEach((p, i) => {
-  const k = norm(p.title);
-  if (!titleGroups.has(k)) titleGroups.set(k, []);
-  titleGroups.get(k).push(i);
-});
-const claimed = new Set();
-
-const out = poems.map((p, idx) => {
-  const key = norm(p.title);
-  const group = titleGroups.get(key);
-  const isFirst = group[0] === idx;
-  const ambiguous = group.length > 1;
-  if (ambiguous && !isFirst) stat.ambiguous++;
-
-  // nejednoznačný název: napojení dostane jen první výskyt
-  const card = isFirst ? cardByTitle.get(key) : undefined;
-  const prev = prevByTitle.get(key);
-  const slug = slugify(p.title);
+const out = poems.map((p) => {
+  // veškeré napojení bere z crosswalku podle kanonického čísla
+  const cw = cwByNum.get(String(p.num)) || {};
+  const card = cw.cardId ? cardById.get(cw.cardId) : undefined;
+  const prev = prevByTitle.get(norm(p.title));
+  const title = cw.displayTitle || p.title;
+  const slug = slugify(title);
   if (card) stat.card++;
 
   // Suno prompt: ruční má přednost, jinak z karty
@@ -106,33 +96,31 @@ const out = poems.map((p, idx) => {
   }
   if (audio?.variantA?.file || audio?.variantB?.file) stat.audio++;
 
-  // poster: ruční má přednost (nese prompt + reference), jinak dohledat na disku podle slugu
+  // poster: soubor bere z crosswalku (číslo sbírky poems/), ruční prompt/reference se zachovají
   let poster = null;
-  const pf = isFirst && !claimed.has(slug) ? posters.get(slug) : undefined;
-  if (pf) claimed.add(slug);
+  const pf = cw.poster;
   if (prev?.poster && (prev.poster.prompt || prev.poster.references?.length)) {
     poster = { ...prev.poster };
     stat.keptManual++;
-    if (!poster.file && pf) poster.file = `/ccc-posters/${pf}`;
+    if (pf) poster.file = `/ccc-posters/${pf}`;
   } else if (pf) {
     poster = { file: `/ccc-posters/${pf}`, style: "", prompt: "", references: [] };
   }
   if (poster) {
-    const hi = postersHi.get(slug);
-    if (hi && !poster.hiRes) poster.hiRes = `/ccc-posters-hires/${hi}`;
+    const hi = pf ? postersHi.get(pf.replace(/^\d+[-_]/, "").replace(/\.\w+$/, "")) : null;
+    if (hi) poster.hiRes = `/ccc-posters-hires/${hi}`;
     stat.poster++;
   }
 
   return {
+    canon: cw.canon || String(p.num).padStart(4, "0"),
     id: p.num,
     slug,
-    title: p.title,
+    title,
     language: "en",
     source: `AllEnglishTexts.md #${p.num}`,
     cardId: card?.id || "",
-    ...(ambiguous
-      ? { titleAmbiguous: group.filter((g) => g !== idx).map((g) => poems[g].num) }
-      : {}),
+    ...(cw.poemFile ? { poemFile: cw.poemFile } : {}),
     poemText: p.text,
     suno: { prompt: sunoPrompt, status: sunoPrompt ? "done" : "todo" },
     audio,
@@ -185,7 +173,6 @@ console.log(`  spárováno s kartou: ${stat.card}`);
 console.log(`  má Suno prompt:     ${stat.suno}`);
 console.log(`  má audio:           ${stat.audio}`);
 console.log(`  má poster:          ${stat.poster}  (z toho ${stat.keptManual} s ručním promptem/referencemi)`);
-console.log(`  nejednoznačný název (jen označeno, bez napojení): ${stat.ambiguous}`);
 
 if (WRITE) {
   if (fs.existsSync(OUT)) fs.copyFileSync(OUT, OUT + ".bak");

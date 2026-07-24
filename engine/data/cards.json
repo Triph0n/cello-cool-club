@@ -3,7 +3,7 @@
     "id": "001",
     "number": 1,
     "slug": "the-clock",
-    "title": "The Clock",
+    "title": "The Hands of the Clock",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -31,7 +31,8 @@
     "publishAt": "2026-06-04T07:30:00+03:00",
     "archiveUrl": "cards/001-the-clock/",
     "postedUrls": {},
-    "notes": "Imported from the first public website card."
+    "notes": "Imported from the first public website card.",
+    "titleLegacy": "The Clock"
   },
   {
     "id": "002",
@@ -857,7 +858,7 @@
     "id": "018",
     "number": 18,
     "slug": "the-dialogue-of-hand-and-glove",
-    "title": "The Dialogue of Hand and Glove",
+    "title": "The Dialogue of the Hand and the Glove",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -900,7 +901,8 @@
       "czechTitle": "",
       "englishTitle": "The Dialogue of Hand and Glove"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "The Dialogue of Hand and Glove"
   },
   {
     "id": "019",
@@ -1250,7 +1252,7 @@
     "id": "026",
     "number": 26,
     "slug": "the-prostitute-s-last-customer",
-    "title": "The Prostitute's Last Customer",
+    "title": "The Prostitute's Last Client",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -1296,13 +1298,14 @@
       "czechTitle": "",
       "englishTitle": "The Prostitute's Last Customer"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "The Prostitute's Last Customer"
   },
   {
     "id": "027",
     "number": 27,
     "slug": "the-will-of-a-blade-of-grass",
-    "title": "The Will of a Blade of Grass",
+    "title": "The Testament of a Blade of Grass",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -1345,13 +1348,14 @@
       "czechTitle": "",
       "englishTitle": "The Will of a Blade of Grass"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "The Will of a Blade of Grass"
   },
   {
     "id": "028",
     "number": 28,
     "slug": "the-dialogue-of-heart-and-reason",
-    "title": "The Dialogue of Heart and Reason",
+    "title": "The Dialogue of the Heart and Reason",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -1395,7 +1399,8 @@
       "czechTitle": "",
       "englishTitle": "The Dialogue of Heart and Reason"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "The Dialogue of Heart and Reason"
   },
   {
     "id": "029",
@@ -1775,7 +1780,7 @@
     "id": "037",
     "number": 37,
     "slug": "le-dieu-des-choses-oubliees",
-    "title": "Le Dieu des Choses Oubliées",
+    "title": "The God of Forgotten Things",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -1813,13 +1818,14 @@
       "czechTitle": "Bůh Zapomenutých Věcí",
       "englishTitle": "Le Dieu des Choses Oubliées"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dieu des Choses Oubliées"
   },
   {
     "id": "038",
     "number": 38,
     "slug": "le-poids-d-une-cle",
-    "title": "Le Poids d'une Clé",
+    "title": "The Weight of a Key",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -1854,13 +1860,15 @@
       "czechTitle": "Tíha klíče",
       "englishTitle": "Le Poids d'une Clé"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Poids d'une Clé",
+    "duplicateOfCard": "004"
   },
   {
     "id": "039",
     "number": 39,
     "slug": "la-bourse-des-sentiments",
-    "title": "La Bourse des Sentiments",
+    "title": "The Stock Exchange of Hearts",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -1897,13 +1905,14 @@
       "czechTitle": "Burza citů",
       "englishTitle": "La Bourse des Sentiments"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Bourse des Sentiments"
   },
   {
     "id": "040",
     "number": 40,
     "slug": "le-dialogue-du-marteau-et-du-verre",
-    "title": "Le Dialogue du Marteau et du Verre",
+    "title": "The Dialogue of Hammer and Glass",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -1942,13 +1951,14 @@
       "czechTitle": "Dialog kladiva a skla",
       "englishTitle": "Le Dialogue du Marteau et du Verre"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dialogue du Marteau et du Verre"
   },
   {
     "id": "041",
     "number": 41,
     "slug": "la-revolte-des-panneaux-publicitaires",
-    "title": "La Révolte des Panneaux Publicitaires",
+    "title": "The Revolt of the Billboards",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -1990,13 +2000,14 @@
       "czechTitle": "Vzpoura billboardů",
       "englishTitle": "La Révolte des Panneaux Publicitaires"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Panneaux Publicitaires"
   },
   {
     "id": "042",
     "number": 42,
     "slug": "le-poids-d-un-regret",
-    "title": "Le Poids d'un Regret",
+    "title": "The Weight of a Regret",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2035,13 +2046,14 @@
       "czechTitle": "Tíha lítosti",
       "englishTitle": "Le Poids d'un Regret"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Poids d'un Regret"
   },
   {
     "id": "043",
     "number": 43,
     "slug": "la-priere-du-lampadaire",
-    "title": "La Prière du Lampadaire",
+    "title": "The Streetlamp's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2079,13 +2091,14 @@
       "czechTitle": "Modlitba pouliční lampy",
       "englishTitle": "La Prière du Lampadaire"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière du Lampadaire"
   },
   {
     "id": "044",
     "number": 44,
     "slug": "le-gout-de-la-pluie",
-    "title": "Le Goût de la Pluie",
+    "title": "The Taste of Rain",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2121,13 +2134,14 @@
       "czechTitle": "Chuť deště",
       "englishTitle": "Le Goût de la Pluie"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Goût de la Pluie"
   },
   {
     "id": "045",
     "number": 45,
     "slug": "la-revolte-des-noms-communs",
-    "title": "La Révolte des Noms Communs",
+    "title": "The Revolt of the Common Nouns",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2167,13 +2181,14 @@
       "czechTitle": "Vzpoura obecných jmen",
       "englishTitle": "La Révolte des Noms Communs"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Noms Communs"
   },
   {
     "id": "046",
     "number": 46,
     "slug": "le-collectionneur-de-silences",
-    "title": "Le Collectionneur de Silences",
+    "title": "The Collector of Silences",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2215,13 +2230,14 @@
       "czechTitle": "Sběratel ticha",
       "englishTitle": "Le Collectionneur de Silences"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Collectionneur de Silences"
   },
   {
     "id": "047",
     "number": 47,
     "slug": "le-dernier-voyageur",
-    "title": "Le Dernier Voyageur",
+    "title": "The Last Traveler",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2265,13 +2281,15 @@
       "czechTitle": "Poslední cestující",
       "englishTitle": "Le Dernier Voyageur"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Voyageur",
+    "duplicateOfCard": "006"
   },
   {
     "id": "048",
     "number": 48,
     "slug": "la-memoire-d-un-mur",
-    "title": "La Mémoire d'un Mur",
+    "title": "The Memory of a Wall",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2312,13 +2330,15 @@
       "czechTitle": "Paměť zdi",
       "englishTitle": "La Mémoire d'un Mur"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Mémoire d'un Mur",
+    "duplicateOfCard": "002"
   },
   {
     "id": "049",
     "number": 49,
     "slug": "le-poids-des-mots",
-    "title": "Le Poids des Mots",
+    "title": "The Weight of Words",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2356,13 +2376,14 @@
       "czechTitle": "Tíha slov",
       "englishTitle": "Le Poids des Mots"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Poids des Mots"
   },
   {
     "id": "050",
     "number": 50,
     "slug": "la-revolte-des-statues-de-jardin",
-    "title": "La Révolte des Statues de Jardin",
+    "title": "The Revolt of the Garden Statues",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2405,13 +2426,15 @@
       "czechTitle": "Vzpoura zahradních soch",
       "englishTitle": "La Révolte des Statues de Jardin"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Statues de Jardin",
+    "duplicateOfCard": "007"
   },
   {
     "id": "051",
     "number": 51,
     "slug": "le-marchand-de-ciels-gris",
-    "title": "Le Marchand de Ciels Gris",
+    "title": "The Merchant of Gray Skies",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2454,13 +2477,14 @@
       "czechTitle": "Prodavač šedých nebí",
       "englishTitle": "Le Marchand de Ciels Gris"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de Ciels Gris"
   },
   {
     "id": "052",
     "number": 52,
     "slug": "la-priere-de-la-route",
-    "title": "La Prière de la Route",
+    "title": "The Road's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2498,13 +2522,14 @@
       "czechTitle": "Modlitba silnice",
       "englishTitle": "La Prière de la Route"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière de la Route"
   },
   {
     "id": "053",
     "number": 53,
     "slug": "le-ministere-des-choses-compliquees",
-    "title": "Le Ministère des Choses Compliquées",
+    "title": "The Ministry of Complicated Things",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2543,13 +2568,14 @@
       "czechTitle": "Ministerstvo složitých věcí",
       "englishTitle": "Le Ministère des Choses Compliquées"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Ministère des Choses Compliquées"
   },
   {
     "id": "054",
     "number": 54,
     "slug": "la-danse-des-feuilles-mortes",
-    "title": "La Danse des Feuilles Mortes",
+    "title": "The Dance of the Dead Leaves",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2590,13 +2616,14 @@
       "czechTitle": "Tanec spadaného listí",
       "englishTitle": "La Danse des Feuilles Mortes"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Danse des Feuilles Mortes"
   },
   {
     "id": "055",
     "number": 55,
     "slug": "le-voleur-de-sommeil",
-    "title": "Le Voleur de Sommeil",
+    "title": "The Thief of Sleep",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2639,13 +2666,14 @@
       "czechTitle": "Zloděj spánku",
       "englishTitle": "Le Voleur de Sommeil"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Voleur de Sommeil"
   },
   {
     "id": "056",
     "number": 56,
     "slug": "la-chanson-de-la-fissure",
-    "title": "La Chanson de la Fissure",
+    "title": "The Song of the Crack",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2685,13 +2713,14 @@
       "czechTitle": "Píseň praskliny",
       "englishTitle": "La Chanson de la Fissure"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Chanson de la Fissure"
   },
   {
     "id": "057",
     "number": 57,
     "slug": "le-dernier-train",
-    "title": "Le Dernier Train",
+    "title": "The Last Train",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2733,13 +2762,14 @@
       "czechTitle": "Poslední vlak",
       "englishTitle": "Le Dernier Train"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Train"
   },
   {
     "id": "058",
     "number": 58,
     "slug": "le-musee-des-choses-simples",
-    "title": "Le Musée des Choses Simples",
+    "title": "The Museum of Simple Things",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2782,13 +2812,15 @@
       "czechTitle": "Muzeum prostých věcí",
       "englishTitle": "Le Musée des Choses Simples"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Musée des Choses Simples",
+    "duplicateOfCard": "008"
   },
   {
     "id": "059",
     "number": 59,
     "slug": "la-revolte-des-signes-de-ponctuation",
-    "title": "La Révolte des Signes de Ponctuation",
+    "title": "The Revolt of the Punctuation Marks",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2834,13 +2866,15 @@
       "czechTitle": "Vzpoura interpunkčních znamének",
       "englishTitle": "La Révolte des Signes de Ponctuation"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Signes de Ponctuation",
+    "duplicateOfCard": "009"
   },
   {
     "id": "060",
     "number": 60,
     "slug": "le-marchand-de-regrets",
-    "title": "Le Marchand de Regrets",
+    "title": "The Merchant of Regrets",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2883,13 +2917,15 @@
       "czechTitle": "Prodavač lítosti",
       "englishTitle": "Le Marchand de Regrets"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de Regrets",
+    "duplicateOfCard": "010"
   },
   {
     "id": "061",
     "number": 61,
     "slug": "la-priere-du-trottoir",
-    "title": "La Prière du Trottoir",
+    "title": "The Sidewalk's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2927,13 +2963,14 @@
       "czechTitle": "Modlitba chodníku",
       "englishTitle": "La Prière du Trottoir"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière du Trottoir"
   },
   {
     "id": "062",
     "number": 62,
     "slug": "le-ministere-de-la-normalite",
-    "title": "Le Ministère de la Normalité",
+    "title": "The Ministry of Normality",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -2974,13 +3011,15 @@
       "czechTitle": "Ministerstvo normality",
       "englishTitle": "Le Ministère de la Normalité"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Ministère de la Normalité",
+    "duplicateOfCard": "012"
   },
   {
     "id": "063",
     "number": 63,
     "slug": "la-danse-des-ombres-chinoises",
-    "title": "La Danse des Ombres Chinoises",
+    "title": "The Dance of the Shadow Puppets",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3023,13 +3062,15 @@
       "czechTitle": "Tanec čínských stínů",
       "englishTitle": "La Danse des Ombres Chinoises"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Danse des Ombres Chinoises",
+    "duplicateOfCard": "013"
   },
   {
     "id": "064",
     "number": 64,
     "slug": "le-voleur-de-voix",
-    "title": "Le Voleur de Voix",
+    "title": "The Thief of Voices",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3071,13 +3112,15 @@
       "czechTitle": "Zloděj hlasů",
       "englishTitle": "Le Voleur de Voix"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Voleur de Voix",
+    "duplicateOfCard": "014"
   },
   {
     "id": "065",
     "number": 65,
     "slug": "la-chanson-de-la-poussiere",
-    "title": "La Chanson de la Poussière",
+    "title": "The Song of the Dust",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3118,13 +3161,15 @@
       "czechTitle": "Píseň prachu",
       "englishTitle": "La Chanson de la Poussière"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Chanson de la Poussière",
+    "duplicateOfCard": "015"
   },
   {
     "id": "066",
     "number": 66,
     "slug": "le-dernier-kiosque",
-    "title": "Le Dernier Kiosque",
+    "title": "The Last Kiosk",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3166,13 +3211,15 @@
       "czechTitle": "Poslední stánek",
       "englishTitle": "Le Dernier Kiosque"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Kiosque",
+    "duplicateOfCard": "016"
   },
   {
     "id": "067",
     "number": 67,
     "slug": "le-testament-d-un-nuage",
-    "title": "Le Testament d'un Nuage",
+    "title": "The Testament of a Cloud",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3210,13 +3257,15 @@
       "czechTitle": "Závěť mraku",
       "englishTitle": "Le Testament d'un Nuage"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Testament d'un Nuage",
+    "duplicateOfCard": "017"
   },
   {
     "id": "068",
     "number": 68,
     "slug": "le-dialogue-de-la-main-et-du-gant",
-    "title": "Le Dialogue de la Main et du Gant",
+    "title": "The Dialogue of the Hand and the Glove",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3259,13 +3308,15 @@
       "czechTitle": "Dialog ruky a rukavice",
       "englishTitle": "Le Dialogue de la Main et du Gant"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dialogue de la Main et du Gant",
+    "duplicateOfCard": "018"
   },
   {
     "id": "069",
     "number": 69,
     "slug": "la-revolte-des-notes-de-musique",
-    "title": "La Révolte des Notes de Musique",
+    "title": "The Revolt of the Musical Notes",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3313,13 +3364,15 @@
       "czechTitle": "Vzpoura not",
       "englishTitle": "La Révolte des Notes de Musique"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Notes de Musique",
+    "duplicateOfCard": "019"
   },
   {
     "id": "070",
     "number": 70,
     "slug": "le-marchand-de-je-t-aime",
-    "title": "Le Marchand de \"Je t'aime\"",
+    "title": "The Merchant of \"I Love You\"",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3365,13 +3418,15 @@
       "czechTitle": "Prodavač „Miluji tě“",
       "englishTitle": "Le Marchand de \"Je t'aime\""
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de \"Je t'aime\"",
+    "duplicateOfCard": "020"
   },
   {
     "id": "071",
     "number": 71,
     "slug": "la-priere-de-la-cigarette",
-    "title": "La Prière de la Cigarette",
+    "title": "The Cigarette's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3409,13 +3464,15 @@
       "czechTitle": "Modlitba cigarety",
       "englishTitle": "La Prière de la Cigarette"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière de la Cigarette",
+    "duplicateOfCard": "021"
   },
   {
     "id": "072",
     "number": 72,
     "slug": "le-ministere-de-la-peur",
-    "title": "Le Ministère de la Peur",
+    "title": "The Ministry of Fear",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3463,13 +3520,15 @@
       "czechTitle": "Ministerstvo strachu",
       "englishTitle": "Le Ministère de la Peur"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Ministère de la Peur",
+    "duplicateOfCard": "022"
   },
   {
     "id": "073",
     "number": 73,
     "slug": "la-danse-des-flocons-de-neige",
-    "title": "La Danse des Flocons de Neige",
+    "title": "The Dance of the Snowflakes",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3512,13 +3571,15 @@
       "czechTitle": "Tanec sněhových vloček",
       "englishTitle": "La Danse des Flocons de Neige"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Danse des Flocons de Neige",
+    "duplicateOfCard": "023"
   },
   {
     "id": "074",
     "number": 74,
     "slug": "le-voleur-de-fins",
-    "title": "Le Voleur de Fins",
+    "title": "The Thief of Endings",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3561,13 +3622,14 @@
       "czechTitle": "Zloděj konců",
       "englishTitle": "Le Voleur de Fins"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Voleur de Fins"
   },
   {
     "id": "075",
     "number": 75,
     "slug": "la-chanson-du-chewing-gum",
-    "title": "La Chanson du Chewing-Gum",
+    "title": "The Song of the Chewing Gum",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3608,13 +3670,15 @@
       "czechTitle": "Píseň žvýkačky",
       "englishTitle": "La Chanson du Chewing-Gum"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Chanson du Chewing-Gum",
+    "duplicateOfCard": "025"
   },
   {
     "id": "076",
     "number": 76,
     "slug": "le-dernier-client-de-la-prostituee",
-    "title": "Le Dernier Client de la Prostituée",
+    "title": "The Prostitute's Last Client",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3660,13 +3724,15 @@
       "czechTitle": "Poslední zákazník prostitutky",
       "englishTitle": "Le Dernier Client de la Prostituée"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Client de la Prostituée",
+    "duplicateOfCard": "026"
   },
   {
     "id": "077",
     "number": 77,
     "slug": "le-testament-d-un-brin-d-herbe",
-    "title": "Le Testament d'un Brin d'Herbe",
+    "title": "The Testament of a Blade of Grass",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3709,13 +3775,15 @@
       "czechTitle": "Závěť stébla trávy",
       "englishTitle": "Le Testament d'un Brin d'Herbe"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Testament d'un Brin d'Herbe",
+    "duplicateOfCard": "027"
   },
   {
     "id": "078",
     "number": 78,
     "slug": "le-dialogue-du-c-ur-et-de-la-raison",
-    "title": "Le Dialogue du Cœur et de la Raison",
+    "title": "The Dialogue of the Heart and Reason",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3764,13 +3832,15 @@
       "czechTitle": "Dialog srdce a rozumu",
       "englishTitle": "Le Dialogue du Cœur et de la Raison"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dialogue du Cœur et de la Raison",
+    "duplicateOfCard": "028"
   },
   {
     "id": "079",
     "number": 79,
     "slug": "la-revolte-des-contes-de-fees",
-    "title": "La Révolte des Contes de Fées",
+    "title": "The Revolt of the Fairy Tales",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3818,13 +3888,15 @@
       "czechTitle": "Vzpoura pohádek",
       "englishTitle": "La Révolte des Contes de Fées"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Contes de Fées",
+    "duplicateOfCard": "029"
   },
   {
     "id": "080",
     "number": 80,
     "slug": "le-marchand-de-si-seulement",
-    "title": "Le Marchand de \"Si Seulement\"",
+    "title": "The Merchant of \"If Only\"",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3861,13 +3933,14 @@
       "czechTitle": "Prodavač „Kdyby jen“",
       "englishTitle": "Le Marchand de \"Si Seulement\""
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de \"Si Seulement\""
   },
   {
     "id": "081",
     "number": 81,
     "slug": "la-priere-du-livre",
-    "title": "La Prière du Livre",
+    "title": "The Book's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3905,13 +3978,14 @@
       "czechTitle": "Modlitba knihy",
       "englishTitle": "La Prière du Livre"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière du Livre"
   },
   {
     "id": "082",
     "number": 82,
     "slug": "le-ministere-de-l-evidence",
-    "title": "Le Ministère de l'Évidence",
+    "title": "The Ministry of the Obvious",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -3952,13 +4026,15 @@
       "czechTitle": "Ministerstvo samozřejmosti",
       "englishTitle": "Le Ministère de l'Évidence"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Ministère de l'Évidence",
+    "duplicateOfCard": "032"
   },
   {
     "id": "083",
     "number": 83,
     "slug": "la-danse-des-etrangers",
-    "title": "La Danse des Étrangers",
+    "title": "The Dance of the Strangers",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4000,13 +4076,14 @@
       "czechTitle": "Tanec cizinců",
       "englishTitle": "La Danse des Étrangers"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Danse des Étrangers"
   },
   {
     "id": "084",
     "number": 84,
     "slug": "le-voleur-de-temps",
-    "title": "Le Voleur de Temps",
+    "title": "The Thief of Time",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4047,13 +4124,15 @@
       "czechTitle": "Zloděj času",
       "englishTitle": "Le Voleur de Temps"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Voleur de Temps",
+    "duplicateOfCard": "034"
   },
   {
     "id": "085",
     "number": 85,
     "slug": "la-chanson-de-la-tasse-ebrechee",
-    "title": "La Chanson de la Tasse Ébréchée",
+    "title": "The Song of the Chipped Cup",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4095,13 +4174,15 @@
       "czechTitle": "Píseň oťuknutého šálku",
       "englishTitle": "La Chanson de la Tasse Ébréchée"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Chanson de la Tasse Ébréchée",
+    "duplicateOfCard": "035"
   },
   {
     "id": "086",
     "number": 86,
     "slug": "le-dernier-piano-du-bar",
-    "title": "Le Dernier Piano du Bar",
+    "title": "The Last Piano in the Bar",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4143,13 +4224,14 @@
       "czechTitle": "Poslední piano v baru",
       "englishTitle": "Le Dernier Piano du Bar"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Piano du Bar"
   },
   {
     "id": "087",
     "number": 87,
     "slug": "le-testament-d-une-etoile",
-    "title": "Le Testament d'une Étoile",
+    "title": "The Testament of a Star",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4191,13 +4273,15 @@
       "czechTitle": "Závěť hvězdy",
       "englishTitle": "Le Testament d'une Étoile"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Testament d'une Étoile",
+    "duplicateOfCard": "005"
   },
   {
     "id": "088",
     "number": 88,
     "slug": "le-kiosque-a-journaux",
-    "title": "Le Kiosque à Journaux",
+    "title": "The Newsstand",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4238,13 +4322,14 @@
       "czechTitle": "Novinový stánek",
       "englishTitle": "Le Kiosque à Journaux"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Kiosque à Journaux"
   },
   {
     "id": "089",
     "number": 89,
     "slug": "la-priere-du-chomeur",
-    "title": "La Prière du Chômeur",
+    "title": "The Unemployed Man's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4280,13 +4365,14 @@
       "czechTitle": "Modlitba nezaměstnaného",
       "englishTitle": "La Prière du Chômeur"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière du Chômeur"
   },
   {
     "id": "090",
     "number": 90,
     "slug": "les-mots-que-tu-ne-dis-pas",
-    "title": "Les Mots que Tu ne Dis Pas",
+    "title": "The Words You Don't Say",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4328,13 +4414,14 @@
       "czechTitle": "Slova, která neříkáš",
       "englishTitle": "Les Mots que Tu ne Dis Pas"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Les Mots que Tu ne Dis Pas"
   },
   {
     "id": "091",
     "number": 91,
     "slug": "le-dessin-sur-le-mur",
-    "title": "Le Dessin sur le Mur",
+    "title": "The Drawing on the Wall",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4378,13 +4465,14 @@
       "czechTitle": "Kresba na zdi",
       "englishTitle": "Le Dessin sur le Mur"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dessin sur le Mur"
   },
   {
     "id": "092",
     "number": 92,
     "slug": "le-reve-d-un-marteau",
-    "title": "Le Rêve d'un Marteau",
+    "title": "The Dream of a Hammer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4429,13 +4517,14 @@
       "czechTitle": "Sen kladiva",
       "englishTitle": "Le Rêve d'un Marteau"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Rêve d'un Marteau"
   },
   {
     "id": "093",
     "number": 93,
     "slug": "la-grammaire-est-une-prison",
-    "title": "La Grammaire est une Prison",
+    "title": "Grammar Is a Prison",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4474,13 +4563,14 @@
       "czechTitle": "Gramatika je vězení",
       "englishTitle": "La Grammaire est une Prison"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Grammaire est une Prison"
   },
   {
     "id": "094",
     "number": 94,
     "slug": "le-pont-des-soupirs",
-    "title": "Le Pont des Soupirs",
+    "title": "The Bridge of Sighs",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4524,13 +4614,14 @@
       "czechTitle": "Most vzdechů",
       "englishTitle": "Le Pont des Soupirs"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Pont des Soupirs"
   },
   {
     "id": "095",
     "number": 95,
     "slug": "le-costume-de-l-homme-d-etat",
-    "title": "Le Costume de l'Homme d'État",
+    "title": "The Statesman's Suit",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4571,13 +4662,14 @@
       "czechTitle": "Oblek státníka",
       "englishTitle": "Le Costume de l'Homme d'État"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Costume de l'Homme d'État"
   },
   {
     "id": "096",
     "number": 96,
     "slug": "la-cicatrice",
-    "title": "La Cicatrice",
+    "title": "The Scar",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4619,13 +4711,14 @@
       "czechTitle": "Jizva",
       "englishTitle": "La Cicatrice"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Cicatrice"
   },
   {
     "id": "097",
     "number": 97,
     "slug": "le-dialogue-de-la-pluie-et-de-la-fenetre",
-    "title": "Le Dialogue de la Pluie et de la Fenêtre",
+    "title": "The Dialogue of the Rain and the Window",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4669,13 +4762,14 @@
       "czechTitle": "Dialog deště a okna",
       "englishTitle": "Le Dialogue de la Pluie et de la Fenêtre"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dialogue de la Pluie et de la Fenêtre"
   },
   {
     "id": "098",
     "number": 98,
     "slug": "le-metier-de-nuage",
-    "title": "Le Métier de Nuage",
+    "title": "The Cloud's Profession",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4718,13 +4812,14 @@
       "czechTitle": "Povolání mraku",
       "englishTitle": "Le Métier de Nuage"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Métier de Nuage"
   },
   {
     "id": "099",
     "number": 99,
     "slug": "la-bouteille-a-la-mer",
-    "title": "La Bouteille à la Mer",
+    "title": "The Message in a Bottle",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4768,13 +4863,14 @@
       "czechTitle": "Láhev v moři",
       "englishTitle": "La Bouteille à la Mer"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Bouteille à la Mer"
   },
   {
     "id": "100",
     "number": 100,
     "slug": "le-tribunal-des-animaux",
-    "title": "Le Tribunal des Animaux",
+    "title": "The Animal Court",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4820,13 +4916,14 @@
       "czechTitle": "Soud zvířat",
       "englishTitle": "Le Tribunal des Animaux"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Tribunal des Animaux"
   },
   {
     "id": "101",
     "number": 101,
     "slug": "la-couleur-du-silence",
-    "title": "La Couleur du Silence",
+    "title": "The Color of Silence",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4868,13 +4965,14 @@
       "czechTitle": "Barva ticha",
       "englishTitle": "La Couleur du Silence"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Couleur du Silence"
   },
   {
     "id": "102",
     "number": 102,
     "slug": "le-collectionneur-de-premieres-fois",
-    "title": "Le Collectionneur de Premières Fois",
+    "title": "The Collector of First Times",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4920,13 +5018,14 @@
       "czechTitle": "Sběratel prvních okamžiků",
       "englishTitle": "Le Collectionneur de Premières Fois"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Collectionneur de Premières Fois"
   },
   {
     "id": "103",
     "number": 103,
     "slug": "la-revolte-du-point-d-interrogation",
-    "title": "La Révolte du Point d'Interrogation",
+    "title": "The Revolt of the Question Mark",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -4973,13 +5072,14 @@
       "czechTitle": "Vzpoura otazníku",
       "englishTitle": "La Révolte du Point d'Interrogation"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte du Point d'Interrogation"
   },
   {
     "id": "104",
     "number": 104,
     "slug": "le-marchand-de-parapluies",
-    "title": "Le Marchand de Parapluies",
+    "title": "The Umbrella Merchant",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5023,13 +5123,14 @@
       "czechTitle": "Prodavač deštníků",
       "englishTitle": "Le Marchand de Parapluies"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de Parapluies"
   },
   {
     "id": "105",
     "number": 105,
     "slug": "la-vie-secrete-des-noms-propres",
-    "title": "La Vie Secrète des Noms Propres",
+    "title": "The Secret Life of Proper Names",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5073,13 +5174,14 @@
       "czechTitle": "Tajný život vlastních jmen",
       "englishTitle": "La Vie Secrète des Noms Propres"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Vie Secrète des Noms Propres"
   },
   {
     "id": "106",
     "number": 106,
     "slug": "le-blues-du-lampadaire",
-    "title": "Le Blues du Lampadaire",
+    "title": "The Streetlamp Blues",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5126,13 +5228,14 @@
       "czechTitle": "Blues pouliční lampy",
       "englishTitle": "Le Blues du Lampadaire"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Blues du Lampadaire"
   },
   {
     "id": "107",
     "number": 107,
     "slug": "la-revolte-des-points-de-suspension",
-    "title": "La Révolte des Points de Suspension",
+    "title": "The Revolt of the Ellipses",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5176,13 +5279,14 @@
       "czechTitle": "Vzpoura tří teček",
       "englishTitle": "La Révolte des Points de Suspension"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Points de Suspension"
   },
   {
     "id": "108",
     "number": 108,
     "slug": "le-collectionneur-d-adieux",
-    "title": "Le Collectionneur d'Adieux",
+    "title": "The Collector of Farewells",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5225,13 +5329,14 @@
       "czechTitle": "Sběratel rozloučení",
       "englishTitle": "Le Collectionneur d'Adieux"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Collectionneur d'Adieux"
   },
   {
     "id": "109",
     "number": 109,
     "slug": "le-poeme-qui-cherchait-un-lecteur",
-    "title": "Le Poème qui Cherchait un Lecteur",
+    "title": "The Poem That Was Looking for a Reader",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5275,13 +5380,14 @@
       "czechTitle": "Báseň, která hledala čtenáře",
       "englishTitle": "Le Poème qui Cherchait un Lecteur"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Poème qui Cherchait un Lecteur"
   },
   {
     "id": "110",
     "number": 110,
     "slug": "la-revolte-des-natures-mortes",
-    "title": "La Révolte des Natures Mortes",
+    "title": "The Revolt of the Still Lifes",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5332,13 +5438,14 @@
       "czechTitle": "Vzpoura zátiší",
       "englishTitle": "La Révolte des Natures Mortes"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Natures Mortes"
   },
   {
     "id": "111",
     "number": 111,
     "slug": "le-marchand-de-bonnes-excuses",
-    "title": "Le Marchand de Bonnes Excuses",
+    "title": "The Merchant of Good Excuses",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5379,13 +5486,14 @@
       "czechTitle": "Prodavač dobrých výmluv",
       "englishTitle": "Le Marchand de Bonnes Excuses"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de Bonnes Excuses"
   },
   {
     "id": "112",
     "number": 112,
     "slug": "la-priere-de-l-arbre",
-    "title": "La Prière de l'Arbre",
+    "title": "The Tree's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5423,13 +5531,14 @@
       "czechTitle": "Modlitba stromu",
       "englishTitle": "La Prière de l'Arbre"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière de l'Arbre"
   },
   {
     "id": "113",
     "number": 113,
     "slug": "le-ministere-de-l-oubli",
-    "title": "Le Ministère de l'Oubli",
+    "title": "The Ministry of Forgetting",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5473,13 +5582,14 @@
       "czechTitle": "Ministerstvo zapomnění",
       "englishTitle": "Le Ministère de l'Oubli"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Ministère de l'Oubli"
   },
   {
     "id": "114",
     "number": 114,
     "slug": "la-geometrie-de-l-amour",
-    "title": "La Géométrie de l'Amour",
+    "title": "The Geometry of Love",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5519,13 +5629,14 @@
       "czechTitle": "Geometrie lásky",
       "englishTitle": "La Géométrie de l'Amour"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Géométrie de l'Amour"
   },
   {
     "id": "115",
     "number": 115,
     "slug": "le-voleur-de-visages",
-    "title": "Le Voleur de Visages",
+    "title": "The Thief of Faces",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5567,13 +5678,14 @@
       "czechTitle": "Zloděj tváří",
       "englishTitle": "Le Voleur de Visages"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Voleur de Visages"
   },
   {
     "id": "116",
     "number": 116,
     "slug": "la-chanson-des-choses-qui-tombent",
-    "title": "La Chanson des Choses qui Tombent",
+    "title": "The Song of Things That Fall",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5617,13 +5729,14 @@
       "czechTitle": "Píseň padajících věcí",
       "englishTitle": "La Chanson des Choses qui Tombent"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Chanson des Choses qui Tombent"
   },
   {
     "id": "117",
     "number": 117,
     "slug": "le-dernier-reve",
-    "title": "Le Dernier Rêve",
+    "title": "The Last Dream",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5669,13 +5782,14 @@
       "czechTitle": "Poslední sen",
       "englishTitle": "Le Dernier Rêve"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Rêve"
   },
   {
     "id": "118",
     "number": 118,
     "slug": "le-marchand-de-vent",
-    "title": "Le Marchand de Vent",
+    "title": "The Wind Merchant",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5717,13 +5831,14 @@
       "czechTitle": "Prodavač větru",
       "englishTitle": "Le Marchand de Vent"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de Vent"
   },
   {
     "id": "119",
     "number": 119,
     "slug": "la-revolte-des-meubles",
-    "title": "La Révolte des Meubles",
+    "title": "The Revolt of the Furniture",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5768,13 +5883,14 @@
       "czechTitle": "Vzpoura nábytku",
       "englishTitle": "La Révolte des Meubles"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Meubles"
   },
   {
     "id": "120",
     "number": 120,
     "slug": "le-poeme-egare",
-    "title": "Le Poème Égaré",
+    "title": "The Lost Poem",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5818,13 +5934,14 @@
       "czechTitle": "Zatoulaná báseň",
       "englishTitle": "Le Poème Égaré"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Poème Égaré"
   },
   {
     "id": "121",
     "number": 121,
     "slug": "la-conference-des-outils",
-    "title": "La Conférence des Outils",
+    "title": "The Tool Conference",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5871,13 +5988,14 @@
       "czechTitle": "Konference nástrojů",
       "englishTitle": "La Conférence des Outils"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Conférence des Outils"
   },
   {
     "id": "122",
     "number": 122,
     "slug": "la-priere-du-soldat-inconnu",
-    "title": "La Prière du Soldat Inconnu",
+    "title": "The Unknown Soldier's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5920,13 +6038,14 @@
       "czechTitle": "Modlitba neznámého vojína",
       "englishTitle": "La Prière du Soldat Inconnu"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière du Soldat Inconnu"
   },
   {
     "id": "123",
     "number": 123,
     "slug": "le-marchand-de-silences",
-    "title": "Le Marchand de Silences",
+    "title": "The Merchant of Silences",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -5969,13 +6088,14 @@
       "czechTitle": "Prodavač ticha",
       "englishTitle": "Le Marchand de Silences"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de Silences"
   },
   {
     "id": "124",
     "number": 124,
     "slug": "la-revolte-des-adjectifs",
-    "title": "La Révolte des Adjectifs",
+    "title": "The Revolt of the Adjectives",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6015,13 +6135,14 @@
       "czechTitle": "Vzpoura přídavných jmen",
       "englishTitle": "La Révolte des Adjectifs"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Adjectifs"
   },
   {
     "id": "125",
     "number": 125,
     "slug": "le-collectionneur-de-fins-du-monde",
-    "title": "Le Collectionneur de Fins du Monde",
+    "title": "The Collector of Ends of the World",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6067,13 +6188,14 @@
       "czechTitle": "Sběratel konců světa",
       "englishTitle": "Le Collectionneur de Fins du Monde"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Collectionneur de Fins du Monde"
   },
   {
     "id": "126",
     "number": 126,
     "slug": "la-chanson-de-la-serrure",
-    "title": "La Chanson de la Serrure",
+    "title": "The Lock Song",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6115,13 +6237,14 @@
       "czechTitle": "Píseň zámku",
       "englishTitle": "La Chanson de la Serrure"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Chanson de la Serrure"
   },
   {
     "id": "127",
     "number": 127,
     "slug": "le-dernier-voyage",
-    "title": "Le Dernier Voyage",
+    "title": "The Last Journey",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6167,13 +6290,14 @@
       "czechTitle": "Poslední cesta",
       "englishTitle": "Le Dernier Voyage"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Voyage"
   },
   {
     "id": "128",
     "number": 128,
     "slug": "le-poids-des-nuages",
-    "title": "Le Poids des Nuages",
+    "title": "The Weight of Clouds",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6216,13 +6340,14 @@
       "czechTitle": "Tíha mraků",
       "englishTitle": "Le Poids des Nuages"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Poids des Nuages"
   },
   {
     "id": "129",
     "number": 129,
     "slug": "la-revolte-des-chiffres-impairs",
-    "title": "La Révolte des Chiffres Impairs",
+    "title": "The Revolt of the Odd Numbers",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6270,13 +6395,14 @@
       "czechTitle": "Vzpoura lichých čísel",
       "englishTitle": "La Révolte des Chiffres Impairs"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Chiffres Impairs"
   },
   {
     "id": "130",
     "number": 130,
     "slug": "le-marchand-de-premiers-mots",
-    "title": "Le Marchand de Premiers Mots",
+    "title": "The Merchant of First Words",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6317,13 +6443,14 @@
       "czechTitle": "Prodavač prvních slov",
       "englishTitle": "Le Marchand de Premiers Mots"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de Premiers Mots"
   },
   {
     "id": "131",
     "number": 131,
     "slug": "la-greve-des-saints",
-    "title": "La Grève des Saints",
+    "title": "The Saints' Strike",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6369,13 +6496,14 @@
       "czechTitle": "Stávka svatých",
       "englishTitle": "La Grève des Saints"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Grève des Saints"
   },
   {
     "id": "132",
     "number": 132,
     "slug": "le-poeme-tatoue",
-    "title": "Le Poème Tatoué",
+    "title": "The Tattooed Poem",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6417,13 +6545,14 @@
       "czechTitle": "Vytetovaná báseň",
       "englishTitle": "Le Poème Tatoué"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Poème Tatoué"
   },
   {
     "id": "133",
     "number": 133,
     "slug": "la-revolte-des-feux-rouges",
-    "title": "La Révolte des Feux Rouges",
+    "title": "The Revolt of the Red Lights",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6469,13 +6598,14 @@
       "czechTitle": "Vzpoura červených světel",
       "englishTitle": "La Révolte des Feux Rouges"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Feux Rouges"
   },
   {
     "id": "134",
     "number": 134,
     "slug": "le-gout-de-l-absence",
-    "title": "Le Goût de l'Absence",
+    "title": "The Taste of Absence",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6514,13 +6644,14 @@
       "czechTitle": "Chuť nepřítomnosti",
       "englishTitle": "Le Goût de l'Absence"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Goût de l'Absence"
   },
   {
     "id": "135",
     "number": 135,
     "slug": "le-collectionneur-de-soleils-couchants",
-    "title": "Le Collectionneur de Soleils Couchants",
+    "title": "The Sunset Collector",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6565,13 +6696,14 @@
       "czechTitle": "Sběratel západů slunce",
       "englishTitle": "Le Collectionneur de Soleils Couchants"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Collectionneur de Soleils Couchants"
   },
   {
     "id": "136",
     "number": 136,
     "slug": "la-danse-des-mots-de-passe",
-    "title": "La Danse des Mots de Passe",
+    "title": "The Dance of Passwords",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6613,13 +6745,14 @@
       "czechTitle": "Tanec hesel",
       "englishTitle": "La Danse des Mots de Passe"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Danse des Mots de Passe"
   },
   {
     "id": "137",
     "number": 137,
     "slug": "le-dernier-arbre-de-la-ville",
-    "title": "Le Dernier Arbre de la Ville",
+    "title": "The Last Tree in the City",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6664,13 +6797,14 @@
       "czechTitle": "Poslední strom ve městě",
       "englishTitle": "Le Dernier Arbre de la Ville"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Arbre de la Ville"
   },
   {
     "id": "138",
     "number": 138,
     "slug": "le-vendeur-de-souvenirs",
-    "title": "Le Vendeur de Souvenirs",
+    "title": "The Souvenir Seller",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6715,13 +6849,14 @@
       "czechTitle": "Prodavač vzpomínek",
       "englishTitle": "Le Vendeur de Souvenirs"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Vendeur de Souvenirs"
   },
   {
     "id": "139",
     "number": 139,
     "slug": "la-greve-des-horloges",
-    "title": "La Grève des Horloges",
+    "title": "The Clocks' Strike",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6764,13 +6899,14 @@
       "czechTitle": "Stávka hodin",
       "englishTitle": "La Grève des Horloges"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Grève des Horloges"
   },
   {
     "id": "140",
     "number": 140,
     "slug": "le-discours-du-vent",
-    "title": "Le Discours du Vent",
+    "title": "The Wind's Speech",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6813,13 +6949,14 @@
       "czechTitle": "Řeč větru",
       "englishTitle": "Le Discours du Vent"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Discours du Vent"
   },
   {
     "id": "141",
     "number": 141,
     "slug": "la-lecon-de-silence",
-    "title": "La Leçon de Silence",
+    "title": "The Lesson of Silence",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6866,13 +7003,14 @@
       "czechTitle": "Hodina ticha",
       "englishTitle": "La Leçon de Silence"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Leçon de Silence"
   },
   {
     "id": "142",
     "number": 142,
     "slug": "le-c-ur-en-kit",
-    "title": "Le Cœur en Kit",
+    "title": "The Flat-Pack Heart",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6919,13 +7057,14 @@
       "czechTitle": "Srdce ve stavebnici",
       "englishTitle": "Le Cœur en Kit"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Cœur en Kit"
   },
   {
     "id": "143",
     "number": 143,
     "slug": "le-poete-et-le-comptable",
-    "title": "Le Poète et le Comptable",
+    "title": "The Poet and the Accountant",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -6971,13 +7110,14 @@
       "czechTitle": "Básník a účetní",
       "englishTitle": "Le Poète et le Comptable"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Poète et le Comptable"
   },
   {
     "id": "144",
     "number": 144,
     "slug": "la-ville-qui-reve",
-    "title": "La Ville qui Rêve",
+    "title": "The City That Dreams",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7019,13 +7159,14 @@
       "czechTitle": "Město, které sní",
       "englishTitle": "La Ville qui Rêve"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Ville qui Rêve"
   },
   {
     "id": "145",
     "number": 145,
     "slug": "la-priere-de-l-athee",
-    "title": "La Prière de l'Athée",
+    "title": "The Atheist's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7066,13 +7207,14 @@
       "czechTitle": "Modlitba ateisty",
       "englishTitle": "La Prière de l'Athée"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière de l'Athée"
   },
   {
     "id": "146",
     "number": 146,
     "slug": "le-dernier-amoureux",
-    "title": "Le Dernier Amoureux",
+    "title": "The Last Lover",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7117,13 +7259,14 @@
       "czechTitle": "Poslední milenec",
       "englishTitle": "Le Dernier Amoureux"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Amoureux"
   },
   {
     "id": "147",
     "number": 147,
     "slug": "l-usine-a-chagrins",
-    "title": "L'Usine à Chagrins",
+    "title": "The Factory of Sorrows",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7165,13 +7308,14 @@
       "czechTitle": "Továrna na trápení",
       "englishTitle": "L'Usine à Chagrins"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "L'Usine à Chagrins"
   },
   {
     "id": "148",
     "number": 148,
     "slug": "le-fantome-du-metro",
-    "title": "Le Fantôme du Métro",
+    "title": "The Ghost of the Metro",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7218,13 +7362,14 @@
       "czechTitle": "Duch z metra",
       "englishTitle": "Le Fantôme du Métro"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Fantôme du Métro"
   },
   {
     "id": "149",
     "number": 149,
     "slug": "la-revolte-des-statues",
-    "title": "La Révolte des Statues",
+    "title": "The Revolt of the Statues",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7268,13 +7413,14 @@
       "czechTitle": "Vzpoura soch",
       "englishTitle": "La Révolte des Statues"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Statues"
   },
   {
     "id": "150",
     "number": 150,
     "slug": "le-voleur-de-couleurs",
-    "title": "Le Voleur de Couleurs",
+    "title": "The Thief of Colors",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7318,13 +7464,14 @@
       "czechTitle": "Zloděj barev",
       "englishTitle": "Le Voleur de Couleurs"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Voleur de Couleurs"
   },
   {
     "id": "151",
     "number": 151,
     "slug": "la-chanson-de-la-tache-d-encre",
-    "title": "La Chanson de la Tache d'Encre",
+    "title": "The Song of the Ink Stain",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7366,13 +7513,14 @@
       "czechTitle": "Píseň inkoustové skvrny",
       "englishTitle": "La Chanson de la Tache d'Encre"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Chanson de la Tache d'Encre"
   },
   {
     "id": "152",
     "number": 152,
     "slug": "le-menu-du-jour",
-    "title": "Le Menu du Jour",
+    "title": "The Menu of the Day",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7418,13 +7566,14 @@
       "czechTitle": "Denní menu",
       "englishTitle": "Le Menu du Jour"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Menu du Jour"
   },
   {
     "id": "153",
     "number": 153,
     "slug": "le-jardinier-de-l-asphalte",
-    "title": "Le Jardinier de l'Asphalte",
+    "title": "The Asphalt Gardener",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7468,13 +7617,14 @@
       "czechTitle": "Asfaltový zahradník",
       "englishTitle": "Le Jardinier de l'Asphalte"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Jardinier de l'Asphalte"
   },
   {
     "id": "154",
     "number": 154,
     "slug": "la-memoire-de-l-escalier",
-    "title": "La Mémoire de l'Escalier",
+    "title": "The Memory of the Staircase",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7516,13 +7666,14 @@
       "czechTitle": "Paměť schodiště",
       "englishTitle": "La Mémoire de l'Escalier"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Mémoire de l'Escalier"
   },
   {
     "id": "155",
     "number": 155,
     "slug": "le-proces-du-soleil",
-    "title": "Le Procès du Soleil",
+    "title": "The Trial of the Sun",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7569,13 +7720,14 @@
       "czechTitle": "Soud se sluncem",
       "englishTitle": "Le Procès du Soleil"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Procès du Soleil"
   },
   {
     "id": "156",
     "number": 156,
     "slug": "la-lettre-jamais-ecrite",
-    "title": "La Lettre Jamais Écrite",
+    "title": "The Letter Never Written",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7621,13 +7773,14 @@
       "czechTitle": "Dopis, který nebyl nikdy napsán",
       "englishTitle": "La Lettre Jamais Écrite"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Lettre Jamais Écrite"
   },
   {
     "id": "157",
     "number": 157,
     "slug": "le-dernier-mot",
-    "title": "Le Dernier Mot",
+    "title": "The Last Word",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7673,13 +7826,14 @@
       "czechTitle": "Poslední slovo",
       "englishTitle": "Le Dernier Mot"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Mot"
   },
   {
     "id": "158",
     "number": 158,
     "slug": "le-bureau-des-objets-perdus",
-    "title": "Le Bureau des Objets Perdus",
+    "title": "The Office of Lost Things",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7720,13 +7874,14 @@
       "czechTitle": "Ztráty a nálezy",
       "englishTitle": "Le Bureau des Objets Perdus"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Bureau des Objets Perdus"
   },
   {
     "id": "159",
     "number": 159,
     "slug": "la-lecon-de-geographie",
-    "title": "La Leçon de Géographie",
+    "title": "The Geography Lesson",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7777,13 +7932,14 @@
       "czechTitle": "Hodina zeměpisu",
       "englishTitle": "La Leçon de Géographie"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Leçon de Géographie"
   },
   {
     "id": "160",
     "number": 160,
     "slug": "le-dimanche-du-general",
-    "title": "Le Dimanche du Général",
+    "title": "The General's Sunday",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7826,13 +7982,14 @@
       "czechTitle": "Generálova neděle",
       "englishTitle": "Le Dimanche du Général"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dimanche du Général"
   },
   {
     "id": "161",
     "number": 161,
     "slug": "la-couleur-de-ton-absence",
-    "title": "La Couleur de Ton Absence",
+    "title": "The Color of Your Absence",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7871,13 +8028,14 @@
       "czechTitle": "Barva tvé nepřítomnosti",
       "englishTitle": "La Couleur de Ton Absence"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Couleur de Ton Absence"
   },
   {
     "id": "162",
     "number": 162,
     "slug": "le-marche-aux-puces",
-    "title": "Le Marché aux Puces",
+    "title": "The Flea Market",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7917,13 +8075,14 @@
       "czechTitle": "Bleší trh",
       "englishTitle": "Le Marché aux Puces"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marché aux Puces"
   },
   {
     "id": "163",
     "number": 163,
     "slug": "l-homme-statue",
-    "title": "L'Homme-Statue",
+    "title": "The Living Statue",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -7963,13 +8122,14 @@
       "czechTitle": "Muž-Socha",
       "englishTitle": "L'Homme-Statue"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "L'Homme-Statue"
   },
   {
     "id": "164",
     "number": 164,
     "slug": "la-priere-de-l-ouvrier",
-    "title": "La Prière de l'Ouvrier",
+    "title": "The Worker's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8007,13 +8167,14 @@
       "czechTitle": "Dělníkova modlitba",
       "englishTitle": "La Prière de l'Ouvrier"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière de l'Ouvrier"
   },
   {
     "id": "165",
     "number": 165,
     "slug": "les-mots-en-greve",
-    "title": "Les Mots en Grève",
+    "title": "The Words on Strike",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8057,13 +8218,14 @@
       "czechTitle": "Slova ve stávce",
       "englishTitle": "Les Mots en Grève"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Les Mots en Grève"
   },
   {
     "id": "166",
     "number": 166,
     "slug": "le-jardinier-du-cimetiere",
-    "title": "Le Jardinier du Cimetière",
+    "title": "The Gardener Who Watered Names",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8106,13 +8268,14 @@
       "czechTitle": "Hřbitovní zahradník",
       "englishTitle": "Le Jardinier du Cimetière"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Jardinier du Cimetière"
   },
   {
     "id": "167",
     "number": 167,
     "slug": "la-recette-du-bonheur",
-    "title": "La Recette du Bonheur",
+    "title": "The Recipe for Happiness",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8151,13 +8314,14 @@
       "czechTitle": "Recept na štěstí",
       "englishTitle": "La Recette du Bonheur"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Recette du Bonheur"
   },
   {
     "id": "168",
     "number": 168,
     "slug": "la-confession-du-miroir",
-    "title": "La Confession du Miroir",
+    "title": "The Mirror's Confession",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8197,13 +8361,14 @@
       "czechTitle": "Zpověď zrcadla",
       "englishTitle": "La Confession du Miroir"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Confession du Miroir"
   },
   {
     "id": "169",
     "number": 169,
     "slug": "le-dernier-arbre",
-    "title": "Le Dernier Arbre",
+    "title": "The Last Tree",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8243,13 +8408,14 @@
       "czechTitle": "Poslední strom",
       "englishTitle": "Le Dernier Arbre"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Arbre"
   },
   {
     "id": "170",
     "number": 170,
     "slug": "la-fabrique-de-nuages",
-    "title": "La Fabrique de Nuages",
+    "title": "The Cloud Factory",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8291,13 +8457,14 @@
       "czechTitle": "Továrna na mraky",
       "englishTitle": "La Fabrique de Nuages"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Fabrique de Nuages"
   },
   {
     "id": "171",
     "number": 171,
     "slug": "le-menteur",
-    "title": "Le Menteur",
+    "title": "The Liar",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8339,13 +8506,14 @@
       "czechTitle": "Lhář",
       "englishTitle": "Le Menteur"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Menteur"
   },
   {
     "id": "172",
     "number": 172,
     "slug": "la-lessive-des-soucis",
-    "title": "La Lessive des Soucis",
+    "title": "The Laundry of Worries",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8385,13 +8553,14 @@
       "czechTitle": "Praní starostí",
       "englishTitle": "La Lessive des Soucis"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Lessive des Soucis"
   },
   {
     "id": "173",
     "number": 173,
     "slug": "le-collectionneur-de-bruits",
-    "title": "Le Collectionneur de Bruits",
+    "title": "The Collector of Sounds",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8430,13 +8599,14 @@
       "czechTitle": "Sběratel zvuků",
       "englishTitle": "Le Collectionneur de Bruits"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Collectionneur de Bruits"
   },
   {
     "id": "174",
     "number": 174,
     "slug": "le-passeport",
-    "title": "Le Passeport",
+    "title": "The Passport",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8475,13 +8645,14 @@
       "czechTitle": "Cestovní pas",
       "englishTitle": "Le Passeport"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Passeport"
   },
   {
     "id": "175",
     "number": 175,
     "slug": "la-revolte-des-legumes",
-    "title": "La Révolte des Légumes",
+    "title": "The Revolt of the Vegetables",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8522,13 +8693,14 @@
       "czechTitle": "Vzpoura zeleniny",
       "englishTitle": "La Révolte des Légumes"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Légumes"
   },
   {
     "id": "176",
     "number": 176,
     "slug": "la-sirene-du-port",
-    "title": "La Sirène du Port",
+    "title": "The Harbor Siren",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8567,13 +8739,14 @@
       "czechTitle": "Přístavní siréna",
       "englishTitle": "La Sirène du Port"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Sirène du Port"
   },
   {
     "id": "177",
     "number": 177,
     "slug": "le-photographe-aveugle",
-    "title": "Le Photographe Aveugle",
+    "title": "The Blind Photographer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8613,13 +8786,14 @@
       "czechTitle": "Slepý fotograf",
       "englishTitle": "Le Photographe Aveugle"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Photographe Aveugle"
   },
   {
     "id": "178",
     "number": 178,
     "slug": "le-facteur-de-mots",
-    "title": "Le Facteur de Mots",
+    "title": "The Postman of Words",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8658,13 +8832,14 @@
       "czechTitle": "Pošťák slov",
       "englishTitle": "Le Facteur de Mots"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Facteur de Mots"
   },
   {
     "id": "179",
     "number": 179,
     "slug": "la-reunion-des-ombres",
-    "title": "La Réunion des Ombres",
+    "title": "The Meeting of the Shadows",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8706,13 +8881,14 @@
       "czechTitle": "Setkání stínů",
       "englishTitle": "La Réunion des Ombres"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Réunion des Ombres"
   },
   {
     "id": "180",
     "number": 180,
     "slug": "le-ciel-en-solde",
-    "title": "Le Ciel en Solde",
+    "title": "The Sky on Sale",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8755,13 +8931,14 @@
       "czechTitle": "Nebe ve výprodeji",
       "englishTitle": "Le Ciel en Solde"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Ciel en Solde"
   },
   {
     "id": "181",
     "number": 181,
     "slug": "la-greve-des-couleurs",
-    "title": "La Grève des Couleurs",
+    "title": "The Colors' Strike",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8807,13 +8984,14 @@
       "czechTitle": "Stávka barev",
       "englishTitle": "La Grève des Couleurs"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Grève des Couleurs"
   },
   {
     "id": "182",
     "number": 182,
     "slug": "le-mecanicien-du-temps",
-    "title": "Le Mécanicien du Temps",
+    "title": "The Mechanic of Time",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8854,13 +9032,14 @@
       "czechTitle": "Mechanik času",
       "englishTitle": "Le Mécanicien du Temps"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Mécanicien du Temps"
   },
   {
     "id": "183",
     "number": 183,
     "slug": "la-soupe-populaire",
-    "title": "La Soupe Populaire",
+    "title": "The Soup Kitchen",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8902,13 +9081,14 @@
       "czechTitle": "Polévka pro chudé",
       "englishTitle": "La Soupe Populaire"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Soupe Populaire"
   },
   {
     "id": "184",
     "number": 184,
     "slug": "le-confessionnal-d-un-banc-public",
-    "title": "Le Confessionnal d'un Banc Public",
+    "title": "The Confessional of a Park Bench",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8950,13 +9130,14 @@
       "czechTitle": "Zpovědnice lavičky v parku",
       "englishTitle": "Le Confessionnal d'un Banc Public"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Confessionnal d'un Banc Public"
   },
   {
     "id": "185",
     "number": 185,
     "slug": "l-architecte-de-ruines",
-    "title": "L'Architecte de Ruines",
+    "title": "The Architect of Ruins",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -8998,13 +9179,14 @@
       "czechTitle": "Architekt zřícenin",
       "englishTitle": "L'Architecte de Ruines"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "L'Architecte de Ruines"
   },
   {
     "id": "186",
     "number": 186,
     "slug": "la-lecon-de-vol",
-    "title": "La Leçon de Vol",
+    "title": "The Flying Lesson",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9047,13 +9229,14 @@
       "czechTitle": "Hodina létání",
       "englishTitle": "La Leçon de Vol"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Leçon de Vol"
   },
   {
     "id": "187",
     "number": 187,
     "slug": "le-passeur-de-reves",
-    "title": "Le Passeur de Rêves",
+    "title": "The Ferryman of Dreams",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9094,13 +9277,14 @@
       "czechTitle": "Převozník snů",
       "englishTitle": "Le Passeur de Rêves"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Passeur de Rêves"
   },
   {
     "id": "188",
     "number": 188,
     "slug": "la-tristesse-en-conserve",
-    "title": "La Tristesse en Conserve",
+    "title": "Canned Sadness",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9141,13 +9325,14 @@
       "czechTitle": "Smutek v konzervě",
       "englishTitle": "La Tristesse en Conserve"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Tristesse en Conserve"
   },
   {
     "id": "189",
     "number": 189,
     "slug": "le-discours-de-la-pluie",
-    "title": "Le Discours de la Pluie",
+    "title": "The Rain's Speech",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9190,13 +9375,14 @@
       "czechTitle": "Řeč deště",
       "englishTitle": "Le Discours de la Pluie"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Discours de la Pluie"
   },
   {
     "id": "190",
     "number": 190,
     "slug": "le-collectionneur-d-echos",
-    "title": "Le Collectionneur d'Échos",
+    "title": "The Collector of Echoes",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9237,13 +9423,14 @@
       "czechTitle": "Sběratel ozvěn",
       "englishTitle": "Le Collectionneur d'Échos"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Collectionneur d'Échos"
   },
   {
     "id": "191",
     "number": 191,
     "slug": "la-revolte-des-panneaux-de-signalisation",
-    "title": "La Révolte des Panneaux de Signalisation",
+    "title": "The Revolt of the Road Signs",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9294,13 +9481,14 @@
       "czechTitle": "Vzpoura dopravních značek",
       "englishTitle": "La Révolte des Panneaux de Signalisation"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Panneaux de Signalisation"
   },
   {
     "id": "192",
     "number": 192,
     "slug": "le-marchand-de-peut-etre",
-    "title": "Le Marchand de Peut-Être",
+    "title": "The Merchant of Maybe",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9342,13 +9530,14 @@
       "czechTitle": "Prodavač \"Možná\"",
       "englishTitle": "Le Marchand de Peut-Être"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de Peut-Être"
   },
   {
     "id": "193",
     "number": 193,
     "slug": "le-cimetiere-des-mots-oublies",
-    "title": "Le Cimetière des Mots Oubliés",
+    "title": "The Cemetery of Forgotten Words",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9389,13 +9578,14 @@
       "czechTitle": "Hřbitov zapomenutých slov",
       "englishTitle": "Le Cimetière des Mots Oubliés"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Cimetière des Mots Oubliés"
   },
   {
     "id": "194",
     "number": 194,
     "slug": "la-danse-des-papiers-gras",
-    "title": "La Danse des Papiers Gras",
+    "title": "The Dance of the Littered Papers",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9437,13 +9627,14 @@
       "czechTitle": "Tanec pohozených papírů",
       "englishTitle": "La Danse des Papiers Gras"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Danse des Papiers Gras"
   },
   {
     "id": "195",
     "number": 195,
     "slug": "le-tailleur-de-silences",
-    "title": "Le Tailleur de Silences",
+    "title": "The Tailor of Silences",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9485,13 +9676,14 @@
       "czechTitle": "Taylor ticha",
       "englishTitle": "Le Tailleur de Silences"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Tailleur de Silences"
   },
   {
     "id": "196",
     "number": 196,
     "slug": "la-gare-des-adieux",
-    "title": "La Gare des Adieux",
+    "title": "The Station of Farewells",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9531,13 +9723,14 @@
       "czechTitle": "Nádraží rozloučení",
       "englishTitle": "La Gare des Adieux"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Gare des Adieux"
   },
   {
     "id": "197",
     "number": 197,
     "slug": "l-horloge-qui-allait-a-l-envers",
-    "title": "L'Horloge qui Allait à l'Envers",
+    "title": "The Clock That Ran Backwards",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9585,13 +9778,14 @@
       "czechTitle": "Hodiny, které šly pozpátku",
       "englishTitle": "L'Horloge qui Allait à l'Envers"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "L'Horloge qui Allait à l'Envers"
   },
   {
     "id": "198",
     "number": 198,
     "slug": "le-peintre-de-l-invisible",
-    "title": "Le Peintre de l'Invisible",
+    "title": "The Painter of the Invisible",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9634,13 +9828,14 @@
       "czechTitle": "Malíř neviditelného",
       "englishTitle": "Le Peintre de l'Invisible"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Peintre de l'Invisible"
   },
   {
     "id": "199",
     "number": 199,
     "slug": "la-bibliotheque-des-vies-non-vecues",
-    "title": "La Bibliothèque des Vies non Vécues",
+    "title": "The Library of Unlived Lives",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9685,13 +9880,14 @@
       "czechTitle": "Knihovna neprožitých životů",
       "englishTitle": "La Bibliothèque des Vies non Vécues"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Bibliothèque des Vies non Vécues"
   },
   {
     "id": "200",
     "number": 200,
     "slug": "la-reunion-des-noms-de-rue",
-    "title": "La Réunion des Noms de Rue",
+    "title": "The Meeting of the Street Names",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9748,13 +9944,14 @@
       "czechTitle": "Schůze názvů ulic",
       "englishTitle": "La Réunion des Noms de Rue"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Réunion des Noms de Rue"
   },
   {
     "id": "201",
     "number": 201,
     "slug": "le-dompteur-de-cauchemars",
-    "title": "Le Dompteur de Cauchemars",
+    "title": "The Tamer of Nightmares",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9798,13 +9995,14 @@
       "czechTitle": "Krotitel nočních můr",
       "englishTitle": "Le Dompteur de Cauchemars"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dompteur de Cauchemars"
   },
   {
     "id": "202",
     "number": 202,
     "slug": "la-priere-du-chat",
-    "title": "La Prière du Chat",
+    "title": "The Cat's Prayer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9842,13 +10040,14 @@
       "czechTitle": "Modlitba kočky",
       "englishTitle": "La Prière du Chat"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Prière du Chat"
   },
   {
     "id": "203",
     "number": 203,
     "slug": "le-ministere-de-la-grisaille",
-    "title": "Le Ministère de la Grisaille",
+    "title": "The Ministry of Grayness",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9891,13 +10090,14 @@
       "czechTitle": "Ministerstvo šedi",
       "englishTitle": "Le Ministère de la Grisaille"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Ministère de la Grisaille"
   },
   {
     "id": "204",
     "number": 204,
     "slug": "le-gout-des-mots",
-    "title": "Le Goût des Mots",
+    "title": "The Taste of Words",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9938,13 +10138,14 @@
       "czechTitle": "Chuť slov",
       "englishTitle": "Le Goût des Mots"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Goût des Mots"
   },
   {
     "id": "205",
     "number": 205,
     "slug": "le-voleur-d-horizons",
-    "title": "Le Voleur d'Horizons",
+    "title": "The Thief of Horizons",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -9989,13 +10190,14 @@
       "czechTitle": "Zloděj horizontů",
       "englishTitle": "Le Voleur d'Horizons"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Voleur d'Horizons"
   },
   {
     "id": "206",
     "number": 206,
     "slug": "la-chanson-du-linge-qui-seche",
-    "title": "La Chanson du Linge qui Sèche",
+    "title": "The Song of the Drying Laundry",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10035,13 +10237,14 @@
       "czechTitle": "Píseň schnoucího prádla",
       "englishTitle": "La Chanson du Linge qui Sèche"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Chanson du Linge qui Sèche"
   },
   {
     "id": "207",
     "number": 207,
     "slug": "le-dernier-poeme",
-    "title": "Le Dernier Poème",
+    "title": "One Last Poem",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10085,13 +10288,14 @@
       "czechTitle": "Poslední báseň",
       "englishTitle": "Le Dernier Poème"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Dernier Poème"
   },
   {
     "id": "208",
     "number": 208,
     "slug": "le-fabricant-de-larmes",
-    "title": "Le Fabricant de Larmes",
+    "title": "The Maker of Tears",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10134,13 +10338,14 @@
       "czechTitle": "Výrobce slz",
       "englishTitle": "Le Fabricant de Larmes"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Fabricant de Larmes"
   },
   {
     "id": "209",
     "number": 209,
     "slug": "le-mur-qui-parlait",
-    "title": "Le Mur qui Parlait",
+    "title": "The Wall That Spoke",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10184,13 +10389,14 @@
       "czechTitle": "Zeď, která mluvila",
       "englishTitle": "Le Mur qui Parlait"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Mur qui Parlait"
   },
   {
     "id": "210",
     "number": 210,
     "slug": "la-greve-des-virgules",
-    "title": "La Grève des Virgules",
+    "title": "The Commas' Strike",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10233,13 +10439,14 @@
       "czechTitle": "Stávka čárek",
       "englishTitle": "La Grève des Virgules"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Grève des Virgules"
   },
   {
     "id": "211",
     "number": 211,
     "slug": "le-marchand-de-ciels-de-rechange",
-    "title": "Le Marchand de Ciels de Rechange",
+    "title": "The Merchant of Spare Skies",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10278,13 +10485,14 @@
       "czechTitle": "Prodavač náhradních nebí",
       "englishTitle": "Le Marchand de Ciels de Rechange"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Marchand de Ciels de Rechange"
   },
   {
     "id": "212",
     "number": 212,
     "slug": "la-solitude-du-chiffre-un",
-    "title": "La Solitude du Chiffre Un",
+    "title": "The Loneliness of the Number One",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10333,13 +10541,14 @@
       "czechTitle": "Samota čísla jedna",
       "englishTitle": "La Solitude du Chiffre Un"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Solitude du Chiffre Un"
   },
   {
     "id": "213",
     "number": 213,
     "slug": "le-bal-des-poussieres",
-    "title": "Le Bal des Poussières",
+    "title": "The Dust Ball",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10381,13 +10590,14 @@
       "czechTitle": "Ples prachových částic",
       "englishTitle": "Le Bal des Poussières"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Bal des Poussières"
   },
   {
     "id": "214",
     "number": 214,
     "slug": "le-passe-muraille-des-sentiments",
-    "title": "Le Passe-Muraille des Sentiments",
+    "title": "The Walker Through Walls of Feeling",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10430,13 +10640,14 @@
       "czechTitle": "Průchodník zdí pocitů",
       "englishTitle": "Le Passe-Muraille des Sentiments"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Passe-Muraille des Sentiments"
   },
   {
     "id": "215",
     "number": 215,
     "slug": "la-revolte-des-reflets",
-    "title": "La Révolte des Reflets",
+    "title": "The Revolt of Reflections",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10481,13 +10692,14 @@
       "czechTitle": "Vzpoura odrazů",
       "englishTitle": "La Révolte des Reflets"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "La Révolte des Reflets"
   },
   {
     "id": "216",
     "number": 216,
     "slug": "le-pecheur-d-etoiles",
-    "title": "Le Pêcheur d'Étoiles",
+    "title": "The Fisher of Stars",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10529,13 +10741,14 @@
       "czechTitle": "Rybář hvězd",
       "englishTitle": "Le Pêcheur d'Étoiles"
     },
-    "notes": "Created from admin panel. Main language: en."
+    "notes": "Created from admin panel. Main language: en.",
+    "titleLegacy": "Le Pêcheur d'Étoiles"
   },
   {
     "id": "217",
     "number": 217,
     "slug": "la-clinique-des-mots-malades",
-    "title": "La Clinique des Mots Malades",
+    "title": "The Clinic for Sick Words",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10583,13 +10796,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Clinic for Sick Words (1).mp3",
       "engineAsset": "assets/audio/217-la-clinique-des-mots-malades.mp3",
       "publicAsset": "assets/audio/217-la-clinique-des-mots-malades.mp3"
-    }
+    },
+    "titleLegacy": "La Clinique des Mots Malades"
   },
   {
     "id": "218",
     "number": 218,
     "slug": "le-souffle-sur-la-vitre",
-    "title": "Le Souffle sur la Vitre",
+    "title": "Breath on the Windowpane",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10638,13 +10852,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Breath on the Window (1).mp3",
       "engineAsset": "assets/audio/218-le-souffle-sur-la-vitre.mp3",
       "publicAsset": "assets/audio/218-le-souffle-sur-la-vitre.mp3"
-    }
+    },
+    "titleLegacy": "Le Souffle sur la Vitre"
   },
   {
     "id": "219",
     "number": 219,
     "slug": "le-catalogue-des-choses-inutiles",
-    "title": "Le Catalogue des Choses Inutiles",
+    "title": "The Catalog of Useless Things",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10689,13 +10904,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Catalog of Useless Things (1).mp3",
       "engineAsset": "assets/audio/219-le-catalogue-des-choses-inutiles.mp3",
       "publicAsset": "assets/audio/219-le-catalogue-des-choses-inutiles.mp3"
-    }
+    },
+    "titleLegacy": "Le Catalogue des Choses Inutiles"
   },
   {
     "id": "220",
     "number": 220,
     "slug": "la-tristesse-du-mannequin-de-vitrine",
-    "title": "La Tristesse du Mannequin de Vitrine",
+    "title": "The Sadness of the Shop-Window Mannequin",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10746,13 +10962,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Sadness of the Shop-Window Mannequin (1).mp3",
       "engineAsset": "assets/audio/220-la-tristesse-du-mannequin-de-vitrine.mp3",
       "publicAsset": "assets/audio/220-la-tristesse-du-mannequin-de-vitrine.mp3"
-    }
+    },
+    "titleLegacy": "La Tristesse du Mannequin de Vitrine"
   },
   {
     "id": "221",
     "number": 221,
     "slug": "le-discours-de-la-statue-du-commandeur",
-    "title": "Le Discours de la Statue du Commandeur",
+    "title": "The Speech of the Commander's Statue",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10808,13 +11025,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Commander Statue Speaks (1).mp3",
       "engineAsset": "assets/audio/221-le-discours-de-la-statue-du-commandeur.mp3",
       "publicAsset": "assets/audio/221-le-discours-de-la-statue-du-commandeur.mp3"
-    }
+    },
+    "titleLegacy": "Le Discours de la Statue du Commandeur"
   },
   {
     "id": "222",
     "number": 222,
     "slug": "le-gouter-des-fantomes",
-    "title": "Le Goûter des Fantômes",
+    "title": "The Ghosts' Afternoon Tea",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10862,13 +11080,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Ghosts Afternoon Tea (1).mp3",
       "engineAsset": "assets/audio/222-le-gouter-des-fantomes.mp3",
       "publicAsset": "assets/audio/222-le-gouter-des-fantomes.mp3"
-    }
+    },
+    "titleLegacy": "Le Goûter des Fantômes"
   },
   {
     "id": "223",
     "number": 223,
     "slug": "la-colere-d-une-goutte-d-eau",
-    "title": "La Colère d'une Goutte d'Eau",
+    "title": "The Anger of a Drop of Water",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10920,13 +11139,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Anger of a Drop of Water (1).mp3",
       "engineAsset": "assets/audio/223-la-colere-d-une-goutte-d-eau.mp3",
       "publicAsset": "assets/audio/223-la-colere-d-une-goutte-d-eau.mp3"
-    }
+    },
+    "titleLegacy": "La Colère d'une Goutte d'Eau"
   },
   {
     "id": "224",
     "number": 224,
     "slug": "le-marchand-de-sommeil",
-    "title": "Le Marchand de Sommeil",
+    "title": "The Merchant of Sleep",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -10974,13 +11194,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Sleep Merchant (1).mp3",
       "engineAsset": "assets/audio/224-le-marchand-de-sommeil.mp3",
       "publicAsset": "assets/audio/224-le-marchand-de-sommeil.mp3"
-    }
+    },
+    "titleLegacy": "Le Marchand de Sommeil"
   },
   {
     "id": "225",
     "number": 225,
     "slug": "la-danse-des-cles-perdues",
-    "title": "La Danse des Clés Perdues",
+    "title": "The Dance of the Lost Keys",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11028,13 +11249,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Dance of Lost Keys (1).mp3",
       "engineAsset": "assets/audio/225-la-danse-des-cles-perdues.mp3",
       "publicAsset": "assets/audio/225-la-danse-des-cles-perdues.mp3"
-    }
+    },
+    "titleLegacy": "La Danse des Clés Perdues"
   },
   {
     "id": "226",
     "number": 226,
     "slug": "le-dernier-client-du-cafe",
-    "title": "Le Dernier Client du Café",
+    "title": "The Café's Last Customer",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11082,13 +11304,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Last Customer in the Cafe (1).mp3",
       "engineAsset": "assets/audio/226-le-dernier-client-du-cafe.mp3",
       "publicAsset": "assets/audio/226-le-dernier-client-du-cafe.mp3"
-    }
+    },
+    "titleLegacy": "Le Dernier Client du Café"
   },
   {
     "id": "227",
     "number": 227,
     "slug": "le-testament-d-un-poete",
-    "title": "Le Testament d'un Poète",
+    "title": "A Poet's Testament",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11135,13 +11358,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Testament of a Poet (1).mp3",
       "engineAsset": "assets/audio/227-le-testament-d-un-poete.mp3",
       "publicAsset": "assets/audio/227-le-testament-d-un-poete.mp3"
-    }
+    },
+    "titleLegacy": "Le Testament d'un Poète"
   },
   {
     "id": "228",
     "number": 228,
     "slug": "modra-barva-snu",
-    "title": "Modrá, barva snů",
+    "title": "Blue, the Color of Dreams",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11202,13 +11426,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Blue, the Color of Dreams (1).mp3",
       "engineAsset": "assets/audio/228-modra-barva-snu.mp3",
       "publicAsset": "assets/audio/228-modra-barva-snu.mp3"
-    }
+    },
+    "titleLegacy": "Modrá, barva snů"
   },
   {
     "id": "229",
     "number": 229,
     "slug": "oranzova-barva-soumraku",
-    "title": "Oranžová, barva soumraku",
+    "title": "Orange, the Color of Twilight",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11272,13 +11497,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Orange, the Color of Twilight (1).mp3",
       "engineAsset": "assets/audio/229-oranzova-barva-soumraku.mp3",
       "publicAsset": "assets/audio/229-oranzova-barva-soumraku.mp3"
-    }
+    },
+    "titleLegacy": "Oranžová, barva soumraku"
   },
   {
     "id": "230",
     "number": 230,
     "slug": "zelena-barva-nadeje",
-    "title": "Zelená, barva naděje",
+    "title": "Green, the Color of Hope",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11344,13 +11570,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Green, the Color of Hope (1).mp3",
       "engineAsset": "assets/audio/230-zelena-barva-nadeje.mp3",
       "publicAsset": "assets/audio/230-zelena-barva-nadeje.mp3"
-    }
+    },
+    "titleLegacy": "Zelená, barva naděje"
   },
   {
     "id": "231",
     "number": 231,
     "slug": "cervena-barva-srdce",
-    "title": "Červená, barva srdce",
+    "title": "Red, the Color of the Heart",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11415,13 +11642,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Red, the Color of the Heart (1).mp3",
       "engineAsset": "assets/audio/231-cervena-barva-srdce.mp3",
       "publicAsset": "assets/audio/231-cervena-barva-srdce.mp3"
-    }
+    },
+    "titleLegacy": "Červená, barva srdce"
   },
   {
     "id": "232",
     "number": 232,
     "slug": "zluta-barva-smichu",
-    "title": "Žlutá, barva smíchu",
+    "title": "Yellow, the Color of Laughter",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11480,13 +11708,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Yellow, the Color of Laughter (1).mp3",
       "engineAsset": "assets/audio/232-zluta-barva-smichu.mp3",
       "publicAsset": "assets/audio/232-zluta-barva-smichu.mp3"
-    }
+    },
+    "titleLegacy": "Žlutá, barva smíchu"
   },
   {
     "id": "233",
     "number": 233,
     "slug": "fialova-barva-kouzel",
-    "title": "Fialová, barva kouzel",
+    "title": "Purple, the Color of Magic",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11522,13 +11751,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Violet, the Color of Magic (1).mp3",
       "engineAsset": "assets/audio/233-fialova-barva-kouzel.mp3",
       "publicAsset": "assets/audio/233-fialova-barva-kouzel.mp3"
-    }
+    },
+    "titleLegacy": "Fialová, barva kouzel"
   },
   {
     "id": "234",
     "number": 234,
     "slug": "letni-dest",
-    "title": "Letní déšť",
+    "title": "Summer Rain",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11570,13 +11800,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Summer Rain (1).mp3",
       "engineAsset": "assets/audio/234-letni-dest.mp3",
       "publicAsset": "assets/audio/234-letni-dest.mp3"
-    }
+    },
+    "titleLegacy": "Letní déšť"
   },
   {
     "id": "235",
     "number": 235,
     "slug": "pavucina",
-    "title": "Pavučina",
+    "title": "The Spiderweb",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11618,13 +11849,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Spiderweb (1).mp3",
       "engineAsset": "assets/audio/235-pavucina.mp3",
       "publicAsset": "assets/audio/235-pavucina.mp3"
-    }
+    },
+    "titleLegacy": "Pavučina"
   },
   {
     "id": "236",
     "number": 236,
     "slug": "vune-stare-knihy",
-    "title": "Vůně staré knihy",
+    "title": "The Smell of an Old Book",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11666,13 +11898,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Scent of an Old Book (1).mp3",
       "engineAsset": "assets/audio/236-vune-stare-knihy.mp3",
       "publicAsset": "assets/audio/236-vune-stare-knihy.mp3"
-    }
+    },
+    "titleLegacy": "Vůně staré knihy"
   },
   {
     "id": "237",
     "number": 237,
     "slug": "ranni-kava",
-    "title": "Ranní káva",
+    "title": "Morning Coffee",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11714,13 +11947,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Morning Coffee (1).mp3",
       "engineAsset": "assets/audio/237-ranni-kava.mp3",
       "publicAsset": "assets/audio/237-ranni-kava.mp3"
-    }
+    },
+    "titleLegacy": "Ranní káva"
   },
   {
     "id": "238",
     "number": 238,
     "slug": "stare-kreslo",
-    "title": "Staré křeslo",
+    "title": "The Old Armchair",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11762,13 +11996,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Old Armchair (1).mp3",
       "engineAsset": "assets/audio/238-stare-kreslo.mp3",
       "publicAsset": "assets/audio/238-stare-kreslo.mp3"
-    }
+    },
+    "titleLegacy": "Staré křeslo"
   },
   {
     "id": "239",
     "number": 239,
     "slug": "ztraceny-sepot",
-    "title": "Ztracený šepot",
+    "title": "The Lost Whisper",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11810,13 +12045,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Lost Whisper (1).mp3",
       "engineAsset": "assets/audio/239-ztraceny-sepot.mp3",
       "publicAsset": "assets/audio/239-ztraceny-sepot.mp3"
-    }
+    },
+    "titleLegacy": "Ztracený šepot"
   },
   {
     "id": "240",
     "number": 240,
     "slug": "pisen-more",
-    "title": "Píseň moře",
+    "title": "The Song of the Sea",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11858,13 +12094,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Song of the Sea (1).mp3",
       "engineAsset": "assets/audio/240-pisen-more.mp3",
       "publicAsset": "assets/audio/240-pisen-more.mp3"
-    }
+    },
+    "titleLegacy": "Píseň moře"
   },
   {
     "id": "241",
     "number": 241,
     "slug": "mestske-svetla",
-    "title": "Městské světla",
+    "title": "City Lights",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11906,13 +12143,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\City Lights (1).mp3",
       "engineAsset": "assets/audio/241-mestske-svetla.mp3",
       "publicAsset": "assets/audio/241-mestske-svetla.mp3"
-    }
+    },
+    "titleLegacy": "Městské světla"
   },
   {
     "id": "242",
     "number": 242,
     "slug": "ruce-hodin",
-    "title": "Ruce hodin",
+    "title": "The Hands of the Clock",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -11954,13 +12192,15 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\Hands of the Clock.mp3",
       "engineAsset": "assets/audio/242-ruce-hodin.mp3",
       "publicAsset": "assets/audio/242-ruce-hodin.mp3"
-    }
+    },
+    "titleLegacy": "Ruce hodin",
+    "duplicateOfCard": "001"
   },
   {
     "id": "243",
     "number": 243,
     "slug": "ticho-po-slove",
-    "title": "Ticho po slově",
+    "title": "The Silence After the Word",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -12002,13 +12242,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\The Silence After the Word (1).mp3",
       "engineAsset": "assets/audio/243-ticho-po-slove.mp3",
       "publicAsset": "assets/audio/243-ticho-po-slove.mp3"
-    }
+    },
+    "titleLegacy": "Ticho po slově"
   },
   {
     "id": "244",
     "number": 244,
     "slug": "ruze-v-zime",
-    "title": "Růže v zimě",
+    "title": "The Rose in Winter",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -12050,13 +12291,14 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\A Rose in Winter (1).mp3",
       "engineAsset": "assets/audio/244-ruze-v-zime.mp3",
       "publicAsset": "assets/audio/244-ruze-v-zime.mp3"
-    }
+    },
+    "titleLegacy": "Růže v zimě"
   },
   {
     "id": "245",
     "number": 245,
     "slug": "bila-barva-vseho-a-niceho",
-    "title": "Bílá, barva všeho a ničeho",
+    "title": "White, the Color of Everything and Nothing",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -12118,7 +12360,8 @@
       "sourceFile": "C:\\Users\\Vladimir\\Downloads\\White, the Color of Everything and Nothing (2).mp3",
       "engineAsset": "assets/audio/245-bila-barva-vseho-a-niceho.mp3",
       "publicAsset": "assets/audio/245-bila-barva-vseho-a-niceho.mp3"
-    }
+    },
+    "titleLegacy": "Bílá, barva všeho a ničeho"
   },
   {
     "id": "246",
@@ -16545,7 +16788,7 @@
     "id": "306",
     "number": 306,
     "slug": "the-key-without-a-lock",
-    "title": "The Key Without a Lock",
+    "title": "The Key without a Lock",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -17848,7 +18091,7 @@
     "id": "325",
     "number": 325,
     "slug": "the-tree-that-grew-crooked",
-    "title": "The Tree That Grew Crooked",
+    "title": "The Tree that Grew Crooked",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -18064,7 +18307,7 @@
     "id": "328",
     "number": 328,
     "slug": "the-river-that-changed-its-course",
-    "title": "The River That Changed Its Course",
+    "title": "The River that Changed Its Course",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -18136,7 +18379,7 @@
     "id": "329",
     "number": 329,
     "slug": "the-cloud-that-did-not-rain",
-    "title": "The Cloud That Did Not Rain",
+    "title": "The Cloud that Did Not Rain",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -19505,7 +19748,7 @@
     "id": "349",
     "number": 349,
     "slug": "the-clock-that-runs-slow",
-    "title": "The Clock That Runs Slow",
+    "title": "The Clock that Runs Slow",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -19998,7 +20241,7 @@
     "id": "356",
     "number": 356,
     "slug": "the-guide-dog-without-a-master",
-    "title": "The Guide Dog Without a Master",
+    "title": "The Guide Dog without a Master",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -22189,7 +22432,7 @@
     "id": "386",
     "number": 386,
     "slug": "grandfather-s-shoes",
-    "title": "Grandfather'S Shoes",
+    "title": "Grandfather's Shoes",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -22265,7 +22508,7 @@
     "id": "387",
     "number": 387,
     "slug": "the-treasure-map-without-the-cross",
-    "title": "The Treasure Map Without the Cross",
+    "title": "The Treasure Map without the Cross",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -22341,7 +22584,7 @@
     "id": "388",
     "number": 388,
     "slug": "the-candle-that-burned-out",
-    "title": "The Candle That Burned Out",
+    "title": "The Candle that Burned Out",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -22661,7 +22904,7 @@
     "id": "392",
     "number": 392,
     "slug": "the-garden-gate-that-creaks",
-    "title": "The Garden Gate That Creaks",
+    "title": "The Garden Gate that Creaks",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -22813,7 +23056,7 @@
     "id": "394",
     "number": 394,
     "slug": "the-star-that-no-longer-shines",
-    "title": "The Star That No Longer Shines",
+    "title": "The Star that No Longer Shines",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -23187,7 +23430,7 @@
     "id": "399",
     "number": 399,
     "slug": "someone-else-s-flowers",
-    "title": "Someone Else'S Flowers",
+    "title": "Someone Else's Flowers",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -23417,7 +23660,7 @@
     "id": "402",
     "number": 402,
     "slug": "the-walled-up-door",
-    "title": "The Walled-Up Door",
+    "title": "The Walled-up Door",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -23910,7 +24153,7 @@
     "id": "408",
     "number": 408,
     "slug": "the-organist-without-an-organ",
-    "title": "The Organist Without an Organ",
+    "title": "The Organist without an Organ",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -25514,7 +25757,7 @@
     "id": "428",
     "number": 428,
     "slug": "dad-s-reading-glasses",
-    "title": "Dad'S Reading Glasses",
+    "title": "Dad's Reading Glasses",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -25668,7 +25911,7 @@
     "id": "430",
     "number": 430,
     "slug": "great-grandmother-s-sewing-machine",
-    "title": "Great-Grandmother'S Sewing Machine",
+    "title": "Great-Grandmother's Sewing Machine",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -25743,7 +25986,7 @@
     "id": "431",
     "number": 431,
     "slug": "last-year-s-calendar",
-    "title": "Last Year'S Calendar",
+    "title": "Last Year's Calendar",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -26754,7 +26997,7 @@
     "id": "444",
     "number": 444,
     "slug": "the-staircase-without-a-lift",
-    "title": "The Staircase Without a Lift",
+    "title": "The Staircase without a Lift",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -29035,7 +29278,7 @@
     "id": "927",
     "number": 927,
     "slug": "the-firemen-s-band",
-    "title": "The Firemen'S Band",
+    "title": "The Firemen's Band",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -29490,7 +29733,7 @@
     "id": "933",
     "number": 933,
     "slug": "the-road-that-led-nowhere",
-    "title": "The Road That Led Nowhere",
+    "title": "The Road that Led Nowhere",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -29949,7 +30192,7 @@
     "id": "939",
     "number": 939,
     "slug": "the-postcard-that-arrived-years-late",
-    "title": "The Postcard That Arrived Years Late",
+    "title": "The Postcard that Arrived Years Late",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -30115,7 +30358,7 @@
     "id": "941",
     "number": 941,
     "slug": "the-dream-that-kept-returning",
-    "title": "The Dream That Kept Returning",
+    "title": "The Dream that Kept Returning",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -30271,7 +30514,7 @@
     "id": "943",
     "number": 943,
     "slug": "the-alarm-clock-that-didn-t-ring-on-sunday",
-    "title": "The Alarm Clock That Didn'T Ring on Sunday",
+    "title": "The Alarm Clock that Didn't Ring on Sunday",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -31372,7 +31615,7 @@
     "id": "957",
     "number": 957,
     "slug": "grandma-s-first-smiley",
-    "title": "Grandma'S First Smiley",
+    "title": "Grandma's First Smiley",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -31605,7 +31848,7 @@
     "id": "960",
     "number": 960,
     "slug": "the-statue-that-faced-one-way",
-    "title": "The Statue That Faced One Way",
+    "title": "The Statue that Faced One Way",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -32439,7 +32682,7 @@
     "id": "971",
     "number": 971,
     "slug": "three-o-clock-on-a-november-afternoon",
-    "title": "Three O'Clock on a November Afternoon",
+    "title": "Three O'clock on a November Afternoon",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [
@@ -34335,7 +34578,7 @@
     "id": "996",
     "number": 996,
     "slug": "the-bell",
-    "title": "THE BELL",
+    "title": "The Bell",
     "season": "Time & Rooms",
     "language": "en",
     "poemText": [

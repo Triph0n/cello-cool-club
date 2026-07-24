@@ -10,7 +10,7 @@ Pracujete se dvěma složkami:
 
 | Složka | K čemu je |
 |---|---|
-| `CelloCoolClubEngine` | Redakce: databáze karet (`data/cards.json`), zdrojové básně, prompty, skripty, admin panel. Nikdy není veřejná. |
+| `CelloCoolClub/engine` | Redakce: databáze karet (`data/cards.json`), zdrojové básně, prompty, skripty, admin panel. Nikdy není veřejná. |
 | `CelloCoolClub` | Veřejný web: statické HTML, obrázky, audio. Engine ho celý generuje příkazem `npm run export`. Ručně do něj nezasahujte — export ho přepíše. |
 
 Každá karta prochází stavy:

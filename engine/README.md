@@ -41,7 +41,7 @@ The engine can change faster. It can hold scripts, drafts, automation logic, pla
 ## Folder structure
 
 ```text
-CelloCoolClubEngine/
+CelloCoolClub/engine/
   assets/
     audio/
     generated-images/

@@ -1,8 +1,8 @@
-// Exact-title variant of Desktop/suno-generator/scripts/download-one.mjs.
+// Exact-title variant of the suno-generator skill script download-one.mjs.
 // It uses the skill's CDP driver but targets aria-label="Search clips" and
 // derives the result-row Y coordinate from the requested visible title.
 import fs from "node:fs";
-import { CDP } from "file:///C:/Users/Vladimir/Desktop/suno-generator/scripts/cdp.mjs";
+import { CDP } from "./cdp.mjs";
 
 const title = process.argv[2];
 const rowIndex = Number(process.argv[3] || 0);

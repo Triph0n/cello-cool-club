@@ -6,7 +6,7 @@ description: Operate the Cello Cool Club Engine — create poem cards, generate 
 # Cello Cool Club Engine — ovládání
 
 Editorial engine pro karty (báseň + AI obrázek + Suno píseň). Všechny příkazy se pouští v:
-`C:\Users\Vladimir\Documents\CelloCoolClubEngine` (Node ESM, žádný framework).
+`C:\Users\Vladimir\Documents\CelloCoolClub\engine` (Node ESM, žádný framework).
 
 Veřejný web `C:\Users\Vladimir\Documents\CelloCoolClub` se **nikdy needituje ručně** — celý ho regeneruje `npm run export`. Živě: https://cello-cool-club.pages.dev
 

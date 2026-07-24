@@ -28,9 +28,9 @@ Havlíček→Halliday, Čermák→Chambers, Franta→Frank). Soupis: `CelloCoolC
 
 ## Kde co je
 
-- **Sbírka (jednotlivé básně):** `C:\Users\Vladimir\Desktop\Projects\Prevert\NNN-slug.md` — číslovaná řada od 001 (aktuálně do 403, 337 básní). Před psaním VŽDY zjisti nejvyšší existující číslo (`ls` složky) a navazuj.
-- **Anglický agregát (Desktop):** `C:\Users\Vladimir\Desktop\Projects\Prevert\PrevertFableEnglish.md`
-- **Anglický agregát pro engine:** `C:\Users\Vladimir\Documents\CelloCoolClubEngine\data\clean-sources\prevert_fable_english.md` — z něj admin panel enginu vytváří karty. Formát: `## NNN. TITLE IN CAPS` + text básně.
+- **Sbírka (jednotlivé básně):** `C:\Users\Vladimir\Documents\CelloCoolClub\poems\NNN-slug.md` — číslovaná řada od 001 (aktuálně do 403, 337 básní). Před psaním VŽDY zjisti nejvyšší existující číslo (`ls` složky) a navazuj.
+- **Anglický agregát (Desktop):** `C:\Users\Vladimir\Documents\CelloCoolClub\poems\PrevertFableEnglish.md`
+- **Anglický agregát pro engine:** `C:\Users\Vladimir\Documents\CelloCoolClub\engine\data\clean-sources\prevert_fable_english.md` — z něj admin panel enginu vytváří karty. Formát: `## NNN. TITLE IN CAPS` + text básně.
 - **JEDEN celkový anglický soubor (všech 1096 textů):** `C:\Users\Vladimir\Documents\CelloCoolClub\assets\text\AllEnglishTexts.md` — master všech anglických textů klubu.
 - **JEDEN sloučený trojjazyčný soubor (337 básní):** `...\CelloCoolClub\assets\text\AllPoems.md` — všechny básně CZ/FR/EN v jednom souboru (nadpisy `## NNN. Název`, sekce `### Česky/Français/English`).
 - **Starší sbírka (259 básní FR/CZ/EN):** `...\data\clean-sources\prevert_komplet.md` — jiný, starší formát; needituj, jen zdroj inspirace formátu překladů.

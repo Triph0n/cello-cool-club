@@ -3,9 +3,9 @@ import { copyFile, readFile, writeFile } from "node:fs/promises";
 const reportFile =
   "C:/Users/Vladimir/Documents/CelloCoolClub/assets/text/zmenena-ceska-jmena.md";
 const cardsFile =
-  "C:/Users/Vladimir/Documents/CelloCoolClubEngine/data/cards.json";
+  "C:/Users/Vladimir/Documents/CelloCoolClub/engine/data/cards.json";
 const backupFile =
-  "C:/Users/Vladimir/Documents/CelloCoolClubEngine/data/cards.json.bak-single-voice-2026-07-24";
+  "C:/Users/Vladimir/Documents/CelloCoolClub/engine/data/cards.json.bak-single-voice-2026-07-24";
 const requiredRule = "single lead voice, no choir, no backing vocals";
 
 const report = await readFile(reportFile, "utf8");

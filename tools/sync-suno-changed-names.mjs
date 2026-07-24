@@ -5,11 +5,11 @@ const publicSource =
 const reportFile =
   "C:/Users/Vladimir/Documents/CelloCoolClub/assets/text/zmenena-ceska-jmena.md";
 const desktopSource =
-  "C:/Users/Vladimir/Desktop/Projects/Prevert/PrevertFableEnglish.md";
+  "C:/Users/Vladimir/Documents/CelloCoolClub/poems/PrevertFableEnglish.md";
 const engineSource =
-  "C:/Users/Vladimir/Documents/CelloCoolClubEngine/data/clean-sources/prevert_fable_english.md";
+  "C:/Users/Vladimir/Documents/CelloCoolClub/engine/data/clean-sources/prevert_fable_english.md";
 const cardsFile =
-  "C:/Users/Vladimir/Documents/CelloCoolClubEngine/data/cards.json";
+  "C:/Users/Vladimir/Documents/CelloCoolClub/engine/data/cards.json";
 const backupSuffix = ".bak-changed-names-2026-07-24";
 
 function normalizedTitle(value) {

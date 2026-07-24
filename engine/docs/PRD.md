@@ -78,7 +78,7 @@ Po vytvoření skladby v Suno musí Engine doplnit navazující krok stažení a
 - Doporučená staging složka:
 
 ```text
-C:\Users\Vladimir\Documents\CelloCoolClubEngine\downloads\suno\
+C:\Users\Vladimir\Documents\CelloCoolClub\engine\downloads\suno\
 ```
 
 - Stažený soubor se pojmenuje podle karty:
@@ -91,7 +91,7 @@ C:\Users\Vladimir\Documents\CelloCoolClubEngine\downloads\suno\
 - Po připojení audia se soubor zkopíruje do:
 
 ```text
-C:\Users\Vladimir\Documents\CelloCoolClubEngine\assets\audio\
+C:\Users\Vladimir\Documents\CelloCoolClub\engine\assets\audio\
 ```
 
 - Veřejný export pak zkopíruje audio do:
@@ -128,7 +128,7 @@ Výchozí texty se nebudou psát ručně do UI. Engine je načte ze souboru.
 ### MVP zdroj
 
 ```text
-C:\Users\Vladimir\Documents\CelloCoolClubEngine\data\clean-sources\prevert_komplet.md
+C:\Users\Vladimir\Documents\CelloCoolClub\engine\data\clean-sources\prevert_komplet.md
 ```
 
 ### Požadavky

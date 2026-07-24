@@ -3,7 +3,9 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 export const engineRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-export const defaultSitePath = path.resolve(engineRoot, "..", "CelloCoolClub");
+// Engine žije uvnitř webového projektu (CelloCoolClub/engine), takže web je o úroveň výš.
+// Dřív byl engine sourozeneckou složkou a cesta vedla na "../CelloCoolClub".
+export const defaultSitePath = path.resolve(engineRoot, "..");
 export const cardsPath = path.join(engineRoot, "data", "cards.json");
 
 export const allowedStatuses = new Set([

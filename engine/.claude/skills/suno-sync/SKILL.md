@@ -10,7 +10,7 @@ Zastřešuje tři existující skilly do jedné pipeline:
 - `suno-assisted-clipboard` (generování v Sunu) — **jen Codex** (přihlášený Chrome)
 - `suno-download-mp3` (přejmenování + stažení MP3) — **jen Codex**
 
-Pracovní adresář: `C:\Users\Vladimir\Documents\CelloCoolClubEngine`.
+Pracovní adresář: `C:\Users\Vladimir\Documents\CelloCoolClub\engine`.
 **Suno nemá API a blokuje agenty — nikdy nenavrhuj API integraci.**
 
 ## Jak se ovládá Suno: PixelRag (oči pro agenta)

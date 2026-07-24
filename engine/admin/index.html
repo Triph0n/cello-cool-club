@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cello Cool Club Engine</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Cello Cool Club</p>
+        <h1>Engine Panel</h1>
+      </div>
+      <a class="public-link" href="http://127.0.0.1:5173/cards/" target="_blank" rel="noreferrer">Public Archive</a>
+    </header>
+
+    <main class="shell">
+      <section class="panel sources-panel">
+        <div class="panel-head">
+          <h2>Source Poems</h2>
+          <button id="refresh" type="button">Refresh</button>
+        </div>
+        <div class="batch-panel">
+          <label>Batch create
+            <select id="batch-source"></select>
+          </label>
+          <div class="batch-row">
+            <input id="batch-range" placeholder="1-5 or 1,3,7-9">
+            <select id="batch-language" aria-label="Batch language">
+              <option value="en">English</option>
+              <option value="cs">Czech</option>
+              <option value="fr">French</option>
+            </select>
+          </div>
+          <button id="batch-create-suno" type="button" class="secondary">Batch Create Songs</button>
+          <div id="batch-message" class="message"></div>
+        </div>
+        <div id="sources" class="sources"></div>
+      </section>
+
+      <section class="panel cards-panel">
+        <div class="panel-head">
+          <h2>Cards</h2>
+          <span id="status" class="status">Loading</span>
+        </div>
+        <div id="cards" class="cards"></div>
+      </section>
+
+      <section class="panel detail-panel">
+        <div class="panel-head">
+          <h2>Workspace</h2>
+          <div id="workspace-actions" class="actions"></div>
+        </div>
+        <div id="workspace" class="workspace empty">
+          Select a poem or card.
+        </div>
+      </section>
+    </main>
+
+    <template id="poem-template">
+      <article class="poem-item">
+        <button type="button" class="poem-select"></button>
+      </article>
+    </template>
+
+    <template id="card-template">
+      <article class="card-item">
+        <button type="button" class="card-select"></button>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

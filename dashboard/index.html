@@ -24,6 +24,22 @@
     letter-spacing:2px;text-transform:uppercase;margin-top:4px}
   .meta{font-size:12.5px;color:var(--ink2);text-align:right;max-width:420px}
   .meta code{background:var(--paper2);padding:1px 5px;border-radius:4px}
+  .bar{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--line);
+    padding:12px 0 12px;margin-bottom:22px}
+  .bar .stats{display:flex;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--ink2);margin-bottom:10px}
+  .bar .stats b{color:var(--ink);font-variant-numeric:tabular-nums}
+  .bar .controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .bar input[type=search]{flex:0 0 260px;padding:7px 11px;border:1px solid var(--line);border-radius:7px;
+    background:var(--card);font:inherit;font-size:13px;color:var(--ink)}
+  .filters{display:flex;gap:6px;flex-wrap:wrap}
+  .filters button{padding:6px 11px;border:1px solid var(--line);border-radius:999px;background:var(--card);
+    font:inherit;font-size:12px;color:var(--ink2);cursor:pointer}
+  .filters button:hover{border-color:var(--sepia)}
+  .filters button[aria-pressed=true]{background:var(--sepia);border-color:var(--sepia);color:#fff}
+  .found{margin-top:9px;font-size:12px;color:var(--ink2)}
+  .more{padding:9px 20px;border:1px solid var(--line);border-radius:8px;background:var(--card);
+    font:inherit;font-size:13px;color:var(--ink);cursor:pointer}
+  .more:hover{border-color:var(--sepia)}
   .hint{margin:14px 0 26px;font-size:13.5px;color:var(--ink2);background:var(--card);
     border:1px solid var(--line);border-left:4px solid var(--ochre);border-radius:8px;padding:10px 14px}
   .poem{background:var(--card);border:1px solid var(--line);border-radius:14px;
@@ -89,7 +105,19 @@
     <div class="meta" id="meta"></div>
   </header>
   <div class="hint" id="hint"></div>
+  <div class="bar">
+    <div class="stats" id="stats"></div>
+    <div class="controls">
+      <input type="search" id="q" placeholder="hledat název nebo číslo…" autocomplete="off">
+      <span class="filters" id="filters"></span>
+    </div>
+    <div class="found" id="found"></div>
+  </div>
   <div id="app"></div>
+  <div style="text-align:center;margin:26px 0">
+    <button class="more" id="more" hidden>zobrazit dalších 50</button>
+  </div>
+  <div id="lib"></div>
   <footer>Zdroj pravdy: <code>index.json</code> — uprav a obnov stránku. · Cello Cool Club</footer>
 </div>
 
@@ -179,7 +207,66 @@ fetch('index.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{
   document.getElementById('hint').innerHTML=
     `<b>Jak to funguje:</b> ${esc(m.notes||'')}`;
   const app=document.getElementById('app');
-  data.poems.forEach((p,i)=>app.appendChild(poemCard(p,i)));
+
+  // --- statistiky, filtry, hledání, postupné vykreslování ---------------------
+  const has=p=>({
+    poster:!!(p.poster&&p.poster.file),
+    suno:!!(p.suno&&p.suno.prompt),
+    audio:!!(p.audio&&(p.audio.variantA?.file||p.audio.variantB?.file))
+  });
+  const all=data.poems;
+  const n=k=>all.filter(p=>has(p)[k]).length;
+  document.getElementById('stats').innerHTML=
+    `<span><b>${all.length}</b> básní</span>
+     <span><b>${n('suno')}</b> se Suno promptem</span>
+     <span><b>${n('audio')}</b> s písní</span>
+     <span><b>${n('poster')}</b> s plakátem</span>
+     <span><b>${all.length-n('poster')}</b> čeká na plakát</span>`;
+
+  const FILTERS=[
+    ['vse','vše',()=>true],
+    ['hotove','hotové (vše má)',p=>{const h=has(p);return h.poster&&h.suno&&h.audio}],
+    ['poster','má plakát',p=>has(p).poster],
+    ['bezposteru','chybí plakát',p=>!has(p).poster],
+    ['audio','má píseň',p=>has(p).audio],
+    ['bezaudia','chybí píseň',p=>!has(p).audio],
+    ['bezsuno','chybí Suno prompt',p=>!has(p).suno]
+  ];
+  // ?filtr=<klic>&q=<hledani> — umožní odkázat rovnou na filtrovaný pohled
+  const url=new URLSearchParams(location.search);
+  let active=FILTERS.some(f=>f[0]===url.get('filtr'))?url.get('filtr'):'vse';
+  let query=url.get('q')||'', shown=0, matched=[];
+  const PAGE=50;
+  const moreBtn=document.getElementById('more');
+
+  function apply(reset){
+    if(reset){
+      const f=FILTERS.find(x=>x[0]===active)[2];
+      const q=query.trim().toLowerCase();
+      matched=all.filter(p=>f(p)&&(!q||String(p.title).toLowerCase().includes(q)||String(p.id).includes(q)));
+      app.innerHTML=''; shown=0;
+    }
+    const slice=matched.slice(shown,shown+PAGE);
+    const frag=document.createDocumentFragment();
+    slice.forEach((p,i)=>frag.appendChild(poemCard(p,shown+i)));
+    app.appendChild(frag);
+    shown+=slice.length;
+    document.getElementById('found').textContent=
+      `zobrazeno ${shown} z ${matched.length}`+(matched.length!==all.length?` (filtrováno z ${all.length})`:'');
+    moreBtn.hidden = shown>=matched.length;
+    moreBtn.textContent=`zobrazit dalších ${Math.min(PAGE,matched.length-shown)}`;
+  }
+
+  const fbox=document.getElementById('filters');
+  FILTERS.forEach(([key,label])=>{
+    const b=document.createElement('button');
+    b.textContent=label; b.setAttribute('aria-pressed',String(key===active));
+    b.onclick=()=>{active=key;[...fbox.children].forEach(c=>c.setAttribute('aria-pressed',String(c===b)));apply(true)};
+    fbox.appendChild(b);
+  });
+  let t; document.getElementById('q').value=query;document.getElementById('q').oninput=e=>{clearTimeout(t);t=setTimeout(()=>{query=e.target.value;apply(true)},180)};
+  moreBtn.onclick=()=>apply(false);
+  apply(true);
 
   // Global reference library
   const lib=data.referenceLibrary;
@@ -207,7 +294,7 @@ fetch('index.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{
     const btn=sec.querySelector('[data-lib]'), wrap=sec.querySelector('.libwrap');
     btn.onclick=()=>{const o=wrap.style.maxHeight&&wrap.style.maxHeight!=='0px';
       wrap.style.maxHeight=o?'0':'1600px';btn.textContent=o?'▸ zobrazit':'▾ skrýt'};
-    app.appendChild(sec);
+    document.getElementById('lib').appendChild(sec);
   }
 }).catch(e=>{
   document.getElementById('app').innerHTML=

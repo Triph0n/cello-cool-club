@@ -365,14 +365,24 @@ function sharesStem(a, b) {
   return a.startsWith(b) || b.startsWith(a) || (a.length >= 5 && b.length >= 5 && a.slice(0, 5) === b.slice(0, 5));
 }
 
-function getMoodPalette(text) {
+// "warm" | "melancholic" | "bittersweet" — shared by the card palette and the
+// poster ink treatment, so both read a poem's temperature the same way.
+export function scoreMood(text) {
   const happyScore = scoreWords(text, happyWords);
   const sadScore = scoreWords(text, sadWords);
 
-  if (happyScore > sadScore + 1) {
+  if (happyScore > sadScore + 1) return "warm";
+  if (sadScore > happyScore + 1) return "melancholic";
+  return "bittersweet";
+}
+
+function getMoodPalette(text) {
+  const mood = scoreMood(text);
+
+  if (mood === "warm") {
     return "Warm amber, cream, and soft vermilion palette, late-morning light, an undertone of gentle wit.";
   }
-  if (sadScore > happyScore + 1) {
+  if (mood === "melancholic") {
     return "Smoky blue-grey, faded gold, and deep umber palette, dusk light through a window, tender melancholy.";
   }
   return "Muted gold, slate, and warm sepia palette, lamplight against gathering dark, bittersweet stillness.";
@@ -387,7 +397,10 @@ export function buildSunoPrompt(title, poemText) {
 function getSunoMoodPrompt(title, poemText) {
   const text = `${title || ""} ${poemText.join(" ")}`.toLowerCase();
   const titleKey = String(title || "").toLowerCase();
-  const base = "inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with warm female vocal, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling";
+  // JEDNOHLAS je tvrdé pravidlo Cello Cool Clubu: vždy jeden zpěvák, NIKDY vícehlas.
+  // Nezkracuj a nevyhazuj SOLO_VOICE — bez toho si Suno samo přidá harmonie a sbory.
+  const SOLO_VOICE = "solo vocal only, one single lead singer throughout, monophonic vocal line, no choir, no backing vocals, no vocal harmonies, no vocal layering or doubling, no duet, no call-and-response vocals";
+  const base = `inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with a single warm female lead voice, ${SOLO_VOICE}, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling`;
   const poemDirection = getPoemMusicDirection(text);
   const titleProfiles = {
     "the clock": `${base}, ${poemDirection}, precise tick-tock piano rhythm, muted brass pulses like clock hands, graceful circular melody, playful but aware of time passing, no humming at the beginning.`,

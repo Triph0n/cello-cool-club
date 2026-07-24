@@ -116,18 +116,20 @@
       "suno": {
         "prompt": "Style prompt: inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with a single warm female lead voice, solo vocal only, one single lead singer throughout, monophonic vocal line, no choir, no backing vocals, no vocal harmonies, no vocal layering or doubling, no duet, no call-and-response vocals, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling, medium-tempo brushed swing with gentle rubato, bittersweet mood, balanced between warmth and sadness, warm major-minor harmony, elegant restraint, subtle emotional lift, blue-note harmony, expressive pauses, low upright bass, mournful saxophone replies, fragile but forward-moving vocal phrasing, no humming at the beginning.",
         "promptSource": "buildSunoPrompt (engine)",
-        "status": "done"
+        "status": "done",
+        "regeneratedAt": "2026-07-24",
+        "note": "Pregenerovano 2026-07-24 s jednohlasym promptem (SOLO_VOICE); starsi nahravka bez te pojistky nahrazena."
       },
       "audio": {
         "variantA": {
           "file": "the-man-who-fed-the-pigeons-a.mp3",
           "label": "Suno A",
-          "sunoUrl": "https://suno.com/song/8ce9a6f1-02cb-4651-9e66-1106ad68cecc"
+          "sunoUrl": "https://suno.com/song/73123315-446c-48d6-9f84-adc2d89af8f2"
         },
         "variantB": {
           "file": "the-man-who-fed-the-pigeons-b.mp3",
           "label": "Suno B",
-          "sunoUrl": "https://suno.com/song/5f3c8e9b-b963-433f-8925-943cca6280df"
+          "sunoUrl": "https://suno.com/song/e5a55a49-4614-471a-80db-6c04e6d85918"
         }
       },
       "poster": {
@@ -206,18 +208,20 @@
       "suno": {
         "prompt": "Style prompt: inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with a single warm female lead voice, solo vocal only, one single lead singer throughout, monophonic vocal line, no choir, no backing vocals, no vocal harmonies, no vocal layering or doubling, no duet, no call-and-response vocals, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling, uptempo swing with playful stop-time breaks, bittersweet mood, balanced between warmth and sadness, warm major-minor harmony, elegant restraint, subtle emotional lift, walking-street groove, brushed snare like footsteps, muted trumpet prayer responses, damp pavement atmosphere, wry sacred-comic vocal delivery, tender urban melancholy, no humming at the beginning.",
         "promptSource": "buildSunoPrompt (engine)",
-        "status": "done"
+        "status": "done",
+        "regeneratedAt": "2026-07-24",
+        "note": "Pregenerovano 2026-07-24 s jednohlasym promptem (SOLO_VOICE); starsi nahravka bez te pojistky nahrazena."
       },
       "audio": {
         "variantA": {
           "file": "the-forgotten-umbrella-a.mp3",
           "label": "Suno A",
-          "sunoUrl": "https://suno.com/song/3f529b0a-823d-4562-bfc6-3f015af5ae18"
+          "sunoUrl": "https://suno.com/song/af1e9895-4f67-4357-bc0a-4b20f6263d83"
         },
         "variantB": {
           "file": "the-forgotten-umbrella-b.mp3",
           "label": "Suno B",
-          "sunoUrl": "https://suno.com/song/1967bf42-6ffa-4b50-a0b9-28fd8fcbcfe7"
+          "sunoUrl": "https://suno.com/song/e4e34e76-c339-475a-aa6c-8170a88cded0"
         }
       },
       "poster": {

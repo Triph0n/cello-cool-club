@@ -3,9 +3,9 @@
     "note": "Kanonické číslo = pořadí v assets/text/AllEnglishTexts.md. Páruje se OTISKEM TEXTU, nikdy názvem. Existující záznamy se při přestavbě NEPŘEPISUJÍ — crosswalk je zmrazený. Soubory se nepřejmenovávají; tady je jen zapsáno, co k čemu patří.",
     "generatedAt": "2026-07-24",
     "counts": {
-      "kanonickych": 1096,
-      "sKartou": 505,
-      "sAudiem": 330,
+      "kanonickych": 1102,
+      "sKartou": 511,
+      "sAudiem": 331,
       "sPlakatem": 93
     }
   },
@@ -592,6 +592,49 @@
       "masterNum": "1096",
       "displayTitle": "The Minor Character"
     },
+    "1097": {
+      "canon": "1097",
+      "title": "The Sidewalk's Prayer",
+      "masterNum": "1097",
+      "cardId": "011",
+      "audio": "011-the-sidewalk-s-prayer.mp3",
+      "displayTitle": "The Sidewalk's Prayer"
+    },
+    "1098": {
+      "canon": "1098",
+      "title": "The Thief of Endings",
+      "masterNum": "1098",
+      "cardId": "024",
+      "displayTitle": "The Thief of Endings"
+    },
+    "1099": {
+      "canon": "1099",
+      "title": "The Merchant of \"If Only\"",
+      "masterNum": "1099",
+      "cardId": "030",
+      "displayTitle": "The Merchant of \"If Only\""
+    },
+    "1100": {
+      "canon": "1100",
+      "title": "The Book's Prayer",
+      "masterNum": "1100",
+      "cardId": "031",
+      "displayTitle": "The Book's Prayer"
+    },
+    "1101": {
+      "canon": "1101",
+      "title": "The Dance of Strangers",
+      "masterNum": "1101",
+      "cardId": "033",
+      "displayTitle": "The Dance of Strangers"
+    },
+    "1102": {
+      "canon": "1102",
+      "title": "The Last Piano in the Bar",
+      "masterNum": "1102",
+      "cardId": "036",
+      "displayTitle": "The Last Piano in the Bar"
+    },
     "0001": {
       "canon": "0001",
       "title": "Monday",
@@ -897,7 +940,6 @@
       "title": "The God of Forgotten Things",
       "masterNum": "051",
       "cardId": "037",
-      "cardTitleLegacy": "Le Dieu des Choses Oubliées",
       "displayTitle": "The God of Forgotten Things"
     },
     "0052": {
@@ -913,7 +955,6 @@
       "title": "The Stock Exchange of Hearts",
       "masterNum": "053",
       "cardId": "039",
-      "cardTitleLegacy": "La Bourse des Sentiments",
       "displayTitle": "The Stock Exchange of Hearts"
     },
     "0054": {
@@ -921,7 +962,6 @@
       "title": "The Dialogue of Hammer and Glass",
       "masterNum": "054",
       "cardId": "040",
-      "cardTitleLegacy": "Le Dialogue du Marteau et du Verre",
       "displayTitle": "The Dialogue of Hammer and Glass"
     },
     "0055": {
@@ -929,7 +969,6 @@
       "title": "The Revolt of the Billboards",
       "masterNum": "055",
       "cardId": "041",
-      "cardTitleLegacy": "La Révolte des Panneaux Publicitaires",
       "displayTitle": "The Revolt of the Billboards"
     },
     "0056": {
@@ -937,7 +976,6 @@
       "title": "The Weight of a Regret",
       "masterNum": "056",
       "cardId": "042",
-      "cardTitleLegacy": "Le Poids d'un Regret",
       "displayTitle": "The Weight of a Regret"
     },
     "0057": {
@@ -945,7 +983,6 @@
       "title": "The Streetlamp's Prayer",
       "masterNum": "057",
       "cardId": "043",
-      "cardTitleLegacy": "La Prière du Lampadaire",
       "displayTitle": "The Streetlamp's Prayer"
     },
     "0058": {
@@ -953,7 +990,6 @@
       "title": "The Taste of Rain",
       "masterNum": "058",
       "cardId": "044",
-      "cardTitleLegacy": "Le Goût de la Pluie",
       "displayTitle": "The Taste of Rain"
     },
     "0059": {
@@ -961,7 +997,6 @@
       "title": "The Revolt of the Common Nouns",
       "masterNum": "059",
       "cardId": "045",
-      "cardTitleLegacy": "La Révolte des Noms Communs",
       "displayTitle": "The Revolt of the Common Nouns"
     },
     "0060": {
@@ -969,7 +1004,6 @@
       "title": "The Collector of Silences",
       "masterNum": "060",
       "cardId": "046",
-      "cardTitleLegacy": "Le Collectionneur de Silences",
       "displayTitle": "The Collector of Silences"
     },
     "0061": {
@@ -993,7 +1027,6 @@
       "title": "The Weight of Words",
       "masterNum": "063",
       "cardId": "049",
-      "cardTitleLegacy": "Le Poids des Mots",
       "displayTitle": "The Weight of Words"
     },
     "0064": {
@@ -1009,7 +1042,6 @@
       "title": "The Merchant of Gray Skies",
       "masterNum": "065",
       "cardId": "051",
-      "cardTitleLegacy": "Le Marchand de Ciels Gris",
       "displayTitle": "The Merchant of Gray Skies"
     },
     "0066": {
@@ -1017,7 +1049,6 @@
       "title": "The Road's Prayer",
       "masterNum": "066",
       "cardId": "052",
-      "cardTitleLegacy": "La Prière de la Route",
       "displayTitle": "The Road's Prayer"
     },
     "0067": {
@@ -1025,7 +1056,6 @@
       "title": "The Ministry of Complicated Things",
       "masterNum": "067",
       "cardId": "053",
-      "cardTitleLegacy": "Le Ministère des Choses Compliquées",
       "displayTitle": "The Ministry of Complicated Things"
     },
     "0068": {
@@ -1033,7 +1063,6 @@
       "title": "The Dance of the Dead Leaves",
       "masterNum": "068",
       "cardId": "054",
-      "cardTitleLegacy": "La Danse des Feuilles Mortes",
       "displayTitle": "The Dance of the Dead Leaves"
     },
     "0069": {
@@ -1041,7 +1070,6 @@
       "title": "The Thief of Sleep",
       "masterNum": "069",
       "cardId": "055",
-      "cardTitleLegacy": "Le Voleur de Sommeil",
       "displayTitle": "The Thief of Sleep"
     },
     "0070": {
@@ -1049,7 +1077,6 @@
       "title": "The Song of the Crack",
       "masterNum": "070",
       "cardId": "056",
-      "cardTitleLegacy": "La Chanson de la Fissure",
       "displayTitle": "The Song of the Crack"
     },
     "0071": {
@@ -1057,7 +1084,6 @@
       "title": "The Last Train",
       "masterNum": "071",
       "cardId": "057",
-      "cardTitleLegacy": "Le Dernier Train",
       "displayTitle": "The Last Train"
     },
     "0072": {
@@ -1089,7 +1115,6 @@
       "title": "The Sidewalk's Prayer",
       "masterNum": "075",
       "cardId": "061",
-      "cardTitleLegacy": "La Prière du Trottoir",
       "displayTitle": "The Sidewalk's Prayer"
     },
     "0076": {
@@ -1141,7 +1166,6 @@
       "title": "The Dialogue of the Hand and the Glove",
       "masterNum": "082",
       "cardId": "018",
-      "cardTitleLegacy": "The Dialogue of Hand and Glove",
       "displayTitle": "The Dialogue of the Hand and the Glove"
     },
     "0083": {
@@ -1184,7 +1208,6 @@
       "title": "The Thief of Endings",
       "masterNum": "088",
       "cardId": "074",
-      "cardTitleLegacy": "Le Voleur de Fins",
       "displayTitle": "The Thief of Endings"
     },
     "0089": {
@@ -1199,7 +1222,6 @@
       "title": "The Prostitute's Last Client",
       "masterNum": "090",
       "cardId": "026",
-      "cardTitleLegacy": "The Prostitute's Last Customer",
       "displayTitle": "The Prostitute's Last Client"
     },
     "0091": {
@@ -1207,7 +1229,6 @@
       "title": "The Testament of a Blade of Grass",
       "masterNum": "091",
       "cardId": "027",
-      "cardTitleLegacy": "The Will of a Blade of Grass",
       "displayTitle": "The Testament of a Blade of Grass"
     },
     "0092": {
@@ -1215,7 +1236,6 @@
       "title": "The Dialogue of the Heart and Reason",
       "masterNum": "092",
       "cardId": "028",
-      "cardTitleLegacy": "The Dialogue of Heart and Reason",
       "displayTitle": "The Dialogue of the Heart and Reason"
     },
     "0093": {
@@ -1230,7 +1250,6 @@
       "title": "The Merchant of \"If Only\"",
       "masterNum": "094",
       "cardId": "080",
-      "cardTitleLegacy": "Le Marchand de \"Si Seulement\"",
       "displayTitle": "The Merchant of \"If Only\""
     },
     "0095": {
@@ -1238,7 +1257,6 @@
       "title": "The Book's Prayer",
       "masterNum": "095",
       "cardId": "081",
-      "cardTitleLegacy": "La Prière du Livre",
       "displayTitle": "The Book's Prayer"
     },
     "0096": {
@@ -1253,7 +1271,6 @@
       "title": "The Dance of the Strangers",
       "masterNum": "097",
       "cardId": "083",
-      "cardTitleLegacy": "La Danse des Étrangers",
       "displayTitle": "The Dance of the Strangers"
     },
     "0098": {
@@ -1275,7 +1292,6 @@
       "title": "The Last Piano in the Bar",
       "masterNum": "100",
       "cardId": "086",
-      "cardTitleLegacy": "Le Dernier Piano du Bar",
       "displayTitle": "The Last Piano in the Bar"
     },
     "0101": {
@@ -1291,7 +1307,6 @@
       "title": "The Newsstand",
       "masterNum": "102",
       "cardId": "088",
-      "cardTitleLegacy": "Le Kiosque à Journaux",
       "displayTitle": "The Newsstand"
     },
     "0103": {
@@ -1299,7 +1314,6 @@
       "title": "The Unemployed Man's Prayer",
       "masterNum": "103",
       "cardId": "089",
-      "cardTitleLegacy": "La Prière du Chômeur",
       "displayTitle": "The Unemployed Man's Prayer"
     },
     "0104": {
@@ -1307,7 +1321,6 @@
       "title": "The Words You Don't Say",
       "masterNum": "104",
       "cardId": "090",
-      "cardTitleLegacy": "Les Mots que Tu ne Dis Pas",
       "displayTitle": "The Words You Don't Say"
     },
     "0105": {
@@ -1315,7 +1328,6 @@
       "title": "The Drawing on the Wall",
       "masterNum": "105",
       "cardId": "091",
-      "cardTitleLegacy": "Le Dessin sur le Mur",
       "displayTitle": "The Drawing on the Wall"
     },
     "0106": {
@@ -1323,7 +1335,6 @@
       "title": "The Dream of a Hammer",
       "masterNum": "106",
       "cardId": "092",
-      "cardTitleLegacy": "Le Rêve d'un Marteau",
       "displayTitle": "The Dream of a Hammer"
     },
     "0107": {
@@ -1331,7 +1342,6 @@
       "title": "Grammar Is a Prison",
       "masterNum": "107",
       "cardId": "093",
-      "cardTitleLegacy": "La Grammaire est une Prison",
       "displayTitle": "Grammar Is a Prison"
     },
     "0108": {
@@ -1339,7 +1349,6 @@
       "title": "The Bridge of Sighs",
       "masterNum": "108",
       "cardId": "094",
-      "cardTitleLegacy": "Le Pont des Soupirs",
       "displayTitle": "The Bridge of Sighs"
     },
     "0109": {
@@ -1347,7 +1356,6 @@
       "title": "The Statesman's Suit",
       "masterNum": "109",
       "cardId": "095",
-      "cardTitleLegacy": "Le Costume de l'Homme d'État",
       "displayTitle": "The Statesman's Suit"
     },
     "0110": {
@@ -1355,7 +1363,6 @@
       "title": "The Scar",
       "masterNum": "110",
       "cardId": "096",
-      "cardTitleLegacy": "La Cicatrice",
       "displayTitle": "The Scar"
     },
     "0111": {
@@ -1363,7 +1370,6 @@
       "title": "The Dialogue of the Rain and the Window",
       "masterNum": "111",
       "cardId": "097",
-      "cardTitleLegacy": "Le Dialogue de la Pluie et de la Fenêtre",
       "displayTitle": "The Dialogue of the Rain and the Window"
     },
     "0112": {
@@ -1371,7 +1377,6 @@
       "title": "The Cloud's Profession",
       "masterNum": "112",
       "cardId": "098",
-      "cardTitleLegacy": "Le Métier de Nuage",
       "displayTitle": "The Cloud's Profession"
     },
     "0113": {
@@ -1379,7 +1384,6 @@
       "title": "The Message in a Bottle",
       "masterNum": "113",
       "cardId": "099",
-      "cardTitleLegacy": "La Bouteille à la Mer",
       "displayTitle": "The Message in a Bottle"
     },
     "0114": {
@@ -1387,7 +1391,6 @@
       "title": "The Animal Court",
       "masterNum": "114",
       "cardId": "100",
-      "cardTitleLegacy": "Le Tribunal des Animaux",
       "displayTitle": "The Animal Court"
     },
     "0115": {
@@ -1395,7 +1398,6 @@
       "title": "The Color of Silence",
       "masterNum": "115",
       "cardId": "101",
-      "cardTitleLegacy": "La Couleur du Silence",
       "displayTitle": "The Color of Silence"
     },
     "0116": {
@@ -1403,7 +1405,6 @@
       "title": "The Collector of First Times",
       "masterNum": "116",
       "cardId": "102",
-      "cardTitleLegacy": "Le Collectionneur de Premières Fois",
       "displayTitle": "The Collector of First Times"
     },
     "0117": {
@@ -1411,7 +1412,6 @@
       "title": "The Revolt of the Question Mark",
       "masterNum": "117",
       "cardId": "103",
-      "cardTitleLegacy": "La Révolte du Point d'Interrogation",
       "displayTitle": "The Revolt of the Question Mark"
     },
     "0118": {
@@ -1419,7 +1419,6 @@
       "title": "The Umbrella Merchant",
       "masterNum": "118",
       "cardId": "104",
-      "cardTitleLegacy": "Le Marchand de Parapluies",
       "displayTitle": "The Umbrella Merchant"
     },
     "0119": {
@@ -1427,7 +1426,6 @@
       "title": "The Secret Life of Proper Names",
       "masterNum": "119",
       "cardId": "105",
-      "cardTitleLegacy": "La Vie Secrète des Noms Propres",
       "displayTitle": "The Secret Life of Proper Names"
     },
     "0120": {
@@ -1435,7 +1433,6 @@
       "title": "The Streetlamp Blues",
       "masterNum": "120",
       "cardId": "106",
-      "cardTitleLegacy": "Le Blues du Lampadaire",
       "displayTitle": "The Streetlamp Blues"
     },
     "0121": {
@@ -1443,7 +1440,6 @@
       "title": "The Revolt of the Ellipses",
       "masterNum": "121",
       "cardId": "107",
-      "cardTitleLegacy": "La Révolte des Points de Suspension",
       "displayTitle": "The Revolt of the Ellipses"
     },
     "0122": {
@@ -1451,7 +1447,6 @@
       "title": "The Collector of Farewells",
       "masterNum": "122",
       "cardId": "108",
-      "cardTitleLegacy": "Le Collectionneur d'Adieux",
       "displayTitle": "The Collector of Farewells"
     },
     "0123": {
@@ -1459,7 +1454,6 @@
       "title": "The Poem That Was Looking for a Reader",
       "masterNum": "123",
       "cardId": "109",
-      "cardTitleLegacy": "Le Poème qui Cherchait un Lecteur",
       "displayTitle": "The Poem That Was Looking for a Reader"
     },
     "0124": {
@@ -1467,7 +1461,6 @@
       "title": "The Revolt of the Still Lifes",
       "masterNum": "124",
       "cardId": "110",
-      "cardTitleLegacy": "La Révolte des Natures Mortes",
       "displayTitle": "The Revolt of the Still Lifes"
     },
     "0125": {
@@ -1475,7 +1468,6 @@
       "title": "The Merchant of Good Excuses",
       "masterNum": "125",
       "cardId": "111",
-      "cardTitleLegacy": "Le Marchand de Bonnes Excuses",
       "displayTitle": "The Merchant of Good Excuses"
     },
     "0126": {
@@ -1483,7 +1475,6 @@
       "title": "The Tree's Prayer",
       "masterNum": "126",
       "cardId": "112",
-      "cardTitleLegacy": "La Prière de l'Arbre",
       "displayTitle": "The Tree's Prayer"
     },
     "0127": {
@@ -1491,7 +1482,6 @@
       "title": "The Ministry of Forgetting",
       "masterNum": "127",
       "cardId": "113",
-      "cardTitleLegacy": "Le Ministère de l'Oubli",
       "displayTitle": "The Ministry of Forgetting"
     },
     "0128": {
@@ -1499,7 +1489,6 @@
       "title": "The Geometry of Love",
       "masterNum": "128",
       "cardId": "114",
-      "cardTitleLegacy": "La Géométrie de l'Amour",
       "displayTitle": "The Geometry of Love"
     },
     "0129": {
@@ -1507,7 +1496,6 @@
       "title": "The Thief of Faces",
       "masterNum": "129",
       "cardId": "115",
-      "cardTitleLegacy": "Le Voleur de Visages",
       "displayTitle": "The Thief of Faces"
     },
     "0130": {
@@ -1515,7 +1503,6 @@
       "title": "The Song of Things That Fall",
       "masterNum": "130",
       "cardId": "116",
-      "cardTitleLegacy": "La Chanson des Choses qui Tombent",
       "displayTitle": "The Song of Things That Fall"
     },
     "0131": {
@@ -1523,7 +1510,6 @@
       "title": "The Last Dream",
       "masterNum": "131",
       "cardId": "117",
-      "cardTitleLegacy": "Le Dernier Rêve",
       "displayTitle": "The Last Dream"
     },
     "0132": {
@@ -1531,7 +1517,6 @@
       "title": "The Wind Merchant",
       "masterNum": "132",
       "cardId": "118",
-      "cardTitleLegacy": "Le Marchand de Vent",
       "displayTitle": "The Wind Merchant"
     },
     "0133": {
@@ -1539,7 +1524,6 @@
       "title": "The Revolt of the Furniture",
       "masterNum": "133",
       "cardId": "119",
-      "cardTitleLegacy": "La Révolte des Meubles",
       "displayTitle": "The Revolt of the Furniture"
     },
     "0134": {
@@ -1547,7 +1531,6 @@
       "title": "The Lost Poem",
       "masterNum": "134",
       "cardId": "120",
-      "cardTitleLegacy": "Le Poème Égaré",
       "displayTitle": "The Lost Poem"
     },
     "0135": {
@@ -1555,7 +1538,6 @@
       "title": "The Tool Conference",
       "masterNum": "135",
       "cardId": "121",
-      "cardTitleLegacy": "La Conférence des Outils",
       "displayTitle": "The Tool Conference"
     },
     "0136": {
@@ -1563,7 +1545,6 @@
       "title": "The Unknown Soldier's Prayer",
       "masterNum": "136",
       "cardId": "122",
-      "cardTitleLegacy": "La Prière du Soldat Inconnu",
       "displayTitle": "The Unknown Soldier's Prayer"
     },
     "0137": {
@@ -1571,7 +1552,6 @@
       "title": "The Merchant of Silences",
       "masterNum": "137",
       "cardId": "123",
-      "cardTitleLegacy": "Le Marchand de Silences",
       "displayTitle": "The Merchant of Silences"
     },
     "0138": {
@@ -1579,7 +1559,6 @@
       "title": "The Revolt of the Adjectives",
       "masterNum": "138",
       "cardId": "124",
-      "cardTitleLegacy": "La Révolte des Adjectifs",
       "displayTitle": "The Revolt of the Adjectives"
     },
     "0139": {
@@ -1587,7 +1566,6 @@
       "title": "The Collector of Ends of the World",
       "masterNum": "139",
       "cardId": "125",
-      "cardTitleLegacy": "Le Collectionneur de Fins du Monde",
       "displayTitle": "The Collector of Ends of the World"
     },
     "0140": {
@@ -1595,7 +1573,6 @@
       "title": "The Lock Song",
       "masterNum": "140",
       "cardId": "126",
-      "cardTitleLegacy": "La Chanson de la Serrure",
       "displayTitle": "The Lock Song"
     },
     "0141": {
@@ -1603,7 +1580,6 @@
       "title": "The Last Journey",
       "masterNum": "141",
       "cardId": "127",
-      "cardTitleLegacy": "Le Dernier Voyage",
       "displayTitle": "The Last Journey"
     },
     "0142": {
@@ -1611,7 +1587,6 @@
       "title": "The Weight of Clouds",
       "masterNum": "142",
       "cardId": "128",
-      "cardTitleLegacy": "Le Poids des Nuages",
       "displayTitle": "The Weight of Clouds"
     },
     "0143": {
@@ -1619,7 +1594,6 @@
       "title": "The Revolt of the Odd Numbers",
       "masterNum": "143",
       "cardId": "129",
-      "cardTitleLegacy": "La Révolte des Chiffres Impairs",
       "displayTitle": "The Revolt of the Odd Numbers"
     },
     "0144": {
@@ -1627,7 +1601,6 @@
       "title": "The Merchant of First Words",
       "masterNum": "144",
       "cardId": "130",
-      "cardTitleLegacy": "Le Marchand de Premiers Mots",
       "displayTitle": "The Merchant of First Words"
     },
     "0145": {
@@ -1635,7 +1608,6 @@
       "title": "The Saints' Strike",
       "masterNum": "145",
       "cardId": "131",
-      "cardTitleLegacy": "La Grève des Saints",
       "displayTitle": "The Saints' Strike"
     },
     "0146": {
@@ -1643,7 +1615,6 @@
       "title": "The Tattooed Poem",
       "masterNum": "146",
       "cardId": "132",
-      "cardTitleLegacy": "Le Poème Tatoué",
       "displayTitle": "The Tattooed Poem"
     },
     "0147": {
@@ -1651,7 +1622,6 @@
       "title": "The Revolt of the Red Lights",
       "masterNum": "147",
       "cardId": "133",
-      "cardTitleLegacy": "La Révolte des Feux Rouges",
       "displayTitle": "The Revolt of the Red Lights"
     },
     "0148": {
@@ -1659,7 +1629,6 @@
       "title": "The Taste of Absence",
       "masterNum": "148",
       "cardId": "134",
-      "cardTitleLegacy": "Le Goût de l'Absence",
       "displayTitle": "The Taste of Absence"
     },
     "0149": {
@@ -1667,7 +1636,6 @@
       "title": "The Sunset Collector",
       "masterNum": "149",
       "cardId": "135",
-      "cardTitleLegacy": "Le Collectionneur de Soleils Couchants",
       "displayTitle": "The Sunset Collector"
     },
     "0150": {
@@ -1675,7 +1643,6 @@
       "title": "The Dance of Passwords",
       "masterNum": "150",
       "cardId": "136",
-      "cardTitleLegacy": "La Danse des Mots de Passe",
       "displayTitle": "The Dance of Passwords"
     },
     "0151": {
@@ -1683,7 +1650,6 @@
       "title": "The Last Tree in the City",
       "masterNum": "151",
       "cardId": "137",
-      "cardTitleLegacy": "Le Dernier Arbre de la Ville",
       "displayTitle": "The Last Tree in the City"
     },
     "0152": {
@@ -1691,7 +1657,6 @@
       "title": "The Souvenir Seller",
       "masterNum": "152",
       "cardId": "138",
-      "cardTitleLegacy": "Le Vendeur de Souvenirs",
       "displayTitle": "The Souvenir Seller"
     },
     "0153": {
@@ -1699,7 +1664,6 @@
       "title": "The Clocks' Strike",
       "masterNum": "153",
       "cardId": "139",
-      "cardTitleLegacy": "La Grève des Horloges",
       "displayTitle": "The Clocks' Strike"
     },
     "0154": {
@@ -1707,7 +1671,6 @@
       "title": "The Wind's Speech",
       "masterNum": "154",
       "cardId": "140",
-      "cardTitleLegacy": "Le Discours du Vent",
       "displayTitle": "The Wind's Speech"
     },
     "0155": {
@@ -1715,7 +1678,6 @@
       "title": "The Lesson of Silence",
       "masterNum": "155",
       "cardId": "141",
-      "cardTitleLegacy": "La Leçon de Silence",
       "displayTitle": "The Lesson of Silence"
     },
     "0156": {
@@ -1723,7 +1685,6 @@
       "title": "The Flat-Pack Heart",
       "masterNum": "156",
       "cardId": "142",
-      "cardTitleLegacy": "Le Cœur en Kit",
       "displayTitle": "The Flat-Pack Heart"
     },
     "0157": {
@@ -1731,7 +1692,6 @@
       "title": "The Poet and the Accountant",
       "masterNum": "157",
       "cardId": "143",
-      "cardTitleLegacy": "Le Poète et le Comptable",
       "displayTitle": "The Poet and the Accountant"
     },
     "0158": {
@@ -1739,7 +1699,6 @@
       "title": "The City That Dreams",
       "masterNum": "158",
       "cardId": "144",
-      "cardTitleLegacy": "La Ville qui Rêve",
       "displayTitle": "The City That Dreams"
     },
     "0159": {
@@ -1747,7 +1706,6 @@
       "title": "The Atheist's Prayer",
       "masterNum": "159",
       "cardId": "145",
-      "cardTitleLegacy": "La Prière de l'Athée",
       "displayTitle": "The Atheist's Prayer"
     },
     "0160": {
@@ -1755,7 +1713,6 @@
       "title": "The Last Lover",
       "masterNum": "160",
       "cardId": "146",
-      "cardTitleLegacy": "Le Dernier Amoureux",
       "displayTitle": "The Last Lover"
     },
     "0161": {
@@ -1763,7 +1720,6 @@
       "title": "The Factory of Sorrows",
       "masterNum": "161",
       "cardId": "147",
-      "cardTitleLegacy": "L'Usine à Chagrins",
       "displayTitle": "The Factory of Sorrows"
     },
     "0162": {
@@ -1771,7 +1727,6 @@
       "title": "The Ghost of the Metro",
       "masterNum": "162",
       "cardId": "148",
-      "cardTitleLegacy": "Le Fantôme du Métro",
       "displayTitle": "The Ghost of the Metro"
     },
     "0163": {
@@ -1779,7 +1734,6 @@
       "title": "The Revolt of the Statues",
       "masterNum": "163",
       "cardId": "149",
-      "cardTitleLegacy": "La Révolte des Statues",
       "displayTitle": "The Revolt of the Statues"
     },
     "0164": {
@@ -1787,7 +1741,6 @@
       "title": "The Thief of Colors",
       "masterNum": "164",
       "cardId": "150",
-      "cardTitleLegacy": "Le Voleur de Couleurs",
       "displayTitle": "The Thief of Colors"
     },
     "0165": {
@@ -1795,7 +1748,6 @@
       "title": "The Song of the Ink Stain",
       "masterNum": "165",
       "cardId": "151",
-      "cardTitleLegacy": "La Chanson de la Tache d'Encre",
       "displayTitle": "The Song of the Ink Stain"
     },
     "0166": {
@@ -1803,7 +1755,6 @@
       "title": "The Menu of the Day",
       "masterNum": "166",
       "cardId": "152",
-      "cardTitleLegacy": "Le Menu du Jour",
       "displayTitle": "The Menu of the Day"
     },
     "0167": {
@@ -1811,7 +1762,6 @@
       "title": "The Asphalt Gardener",
       "masterNum": "167",
       "cardId": "153",
-      "cardTitleLegacy": "Le Jardinier de l'Asphalte",
       "displayTitle": "The Asphalt Gardener"
     },
     "0168": {
@@ -1819,7 +1769,6 @@
       "title": "The Memory of the Staircase",
       "masterNum": "168",
       "cardId": "154",
-      "cardTitleLegacy": "La Mémoire de l'Escalier",
       "displayTitle": "The Memory of the Staircase"
     },
     "0169": {
@@ -1827,7 +1776,6 @@
       "title": "The Trial of the Sun",
       "masterNum": "169",
       "cardId": "155",
-      "cardTitleLegacy": "Le Procès du Soleil",
       "displayTitle": "The Trial of the Sun"
     },
     "0170": {
@@ -1835,7 +1783,6 @@
       "title": "The Letter Never Written",
       "masterNum": "170",
       "cardId": "156",
-      "cardTitleLegacy": "La Lettre Jamais Écrite",
       "displayTitle": "The Letter Never Written"
     },
     "0171": {
@@ -1843,7 +1790,6 @@
       "title": "The Last Word",
       "masterNum": "171",
       "cardId": "157",
-      "cardTitleLegacy": "Le Dernier Mot",
       "displayTitle": "The Last Word"
     },
     "0172": {
@@ -1851,7 +1797,6 @@
       "title": "The Office of Lost Things",
       "masterNum": "172",
       "cardId": "158",
-      "cardTitleLegacy": "Le Bureau des Objets Perdus",
       "displayTitle": "The Office of Lost Things"
     },
     "0173": {
@@ -1859,7 +1804,6 @@
       "title": "The Geography Lesson",
       "masterNum": "173",
       "cardId": "159",
-      "cardTitleLegacy": "La Leçon de Géographie",
       "displayTitle": "The Geography Lesson"
     },
     "0174": {
@@ -1867,7 +1811,6 @@
       "title": "The General's Sunday",
       "masterNum": "174",
       "cardId": "160",
-      "cardTitleLegacy": "Le Dimanche du Général",
       "displayTitle": "The General's Sunday"
     },
     "0175": {
@@ -1875,7 +1818,6 @@
       "title": "The Color of Your Absence",
       "masterNum": "175",
       "cardId": "161",
-      "cardTitleLegacy": "La Couleur de Ton Absence",
       "displayTitle": "The Color of Your Absence"
     },
     "0176": {
@@ -1883,7 +1825,6 @@
       "title": "The Flea Market",
       "masterNum": "176",
       "cardId": "162",
-      "cardTitleLegacy": "Le Marché aux Puces",
       "displayTitle": "The Flea Market"
     },
     "0177": {
@@ -1891,7 +1832,6 @@
       "title": "The Living Statue",
       "masterNum": "177",
       "cardId": "163",
-      "cardTitleLegacy": "L'Homme-Statue",
       "displayTitle": "The Living Statue"
     },
     "0178": {
@@ -1899,7 +1839,6 @@
       "title": "The Worker's Prayer",
       "masterNum": "178",
       "cardId": "164",
-      "cardTitleLegacy": "La Prière de l'Ouvrier",
       "displayTitle": "The Worker's Prayer"
     },
     "0179": {
@@ -1907,7 +1846,6 @@
       "title": "The Words on Strike",
       "masterNum": "179",
       "cardId": "165",
-      "cardTitleLegacy": "Les Mots en Grève",
       "displayTitle": "The Words on Strike"
     },
     "0180": {
@@ -1915,7 +1853,6 @@
       "title": "The Gardener Who Watered Names",
       "masterNum": "180",
       "cardId": "166",
-      "cardTitleLegacy": "Le Jardinier du Cimetière",
       "displayTitle": "The Gardener Who Watered Names"
     },
     "0181": {
@@ -1923,7 +1860,6 @@
       "title": "The Recipe for Happiness",
       "masterNum": "181",
       "cardId": "167",
-      "cardTitleLegacy": "La Recette du Bonheur",
       "displayTitle": "The Recipe for Happiness"
     },
     "0182": {
@@ -1931,7 +1867,6 @@
       "title": "The Mirror's Confession",
       "masterNum": "182",
       "cardId": "168",
-      "cardTitleLegacy": "La Confession du Miroir",
       "displayTitle": "The Mirror's Confession"
     },
     "0183": {
@@ -1939,7 +1874,6 @@
       "title": "The Last Tree",
       "masterNum": "183",
       "cardId": "169",
-      "cardTitleLegacy": "Le Dernier Arbre",
       "displayTitle": "The Last Tree"
     },
     "0184": {
@@ -1947,7 +1881,6 @@
       "title": "The Cloud Factory",
       "masterNum": "184",
       "cardId": "170",
-      "cardTitleLegacy": "La Fabrique de Nuages",
       "displayTitle": "The Cloud Factory"
     },
     "0185": {
@@ -1955,7 +1888,6 @@
       "title": "The Liar",
       "masterNum": "185",
       "cardId": "171",
-      "cardTitleLegacy": "Le Menteur",
       "displayTitle": "The Liar"
     },
     "0186": {
@@ -1963,7 +1895,6 @@
       "title": "The Laundry of Worries",
       "masterNum": "186",
       "cardId": "172",
-      "cardTitleLegacy": "La Lessive des Soucis",
       "displayTitle": "The Laundry of Worries"
     },
     "0187": {
@@ -1971,7 +1902,6 @@
       "title": "The Collector of Sounds",
       "masterNum": "187",
       "cardId": "173",
-      "cardTitleLegacy": "Le Collectionneur de Bruits",
       "displayTitle": "The Collector of Sounds"
     },
     "0188": {
@@ -1979,7 +1909,6 @@
       "title": "The Passport",
       "masterNum": "188",
       "cardId": "174",
-      "cardTitleLegacy": "Le Passeport",
       "displayTitle": "The Passport"
     },
     "0189": {
@@ -1987,7 +1916,6 @@
       "title": "The Revolt of the Vegetables",
       "masterNum": "189",
       "cardId": "175",
-      "cardTitleLegacy": "La Révolte des Légumes",
       "displayTitle": "The Revolt of the Vegetables"
     },
     "0190": {
@@ -1995,7 +1923,6 @@
       "title": "The Harbor Siren",
       "masterNum": "190",
       "cardId": "176",
-      "cardTitleLegacy": "La Sirène du Port",
       "displayTitle": "The Harbor Siren"
     },
     "0191": {
@@ -2003,7 +1930,6 @@
       "title": "The Blind Photographer",
       "masterNum": "191",
       "cardId": "177",
-      "cardTitleLegacy": "Le Photographe Aveugle",
       "displayTitle": "The Blind Photographer"
     },
     "0192": {
@@ -2011,7 +1937,6 @@
       "title": "The Postman of Words",
       "masterNum": "192",
       "cardId": "178",
-      "cardTitleLegacy": "Le Facteur de Mots",
       "displayTitle": "The Postman of Words"
     },
     "0193": {
@@ -2019,7 +1944,6 @@
       "title": "The Meeting of the Shadows",
       "masterNum": "193",
       "cardId": "179",
-      "cardTitleLegacy": "La Réunion des Ombres",
       "displayTitle": "The Meeting of the Shadows"
     },
     "0194": {
@@ -2027,7 +1951,6 @@
       "title": "The Sky on Sale",
       "masterNum": "194",
       "cardId": "180",
-      "cardTitleLegacy": "Le Ciel en Solde",
       "displayTitle": "The Sky on Sale"
     },
     "0195": {
@@ -2035,7 +1958,6 @@
       "title": "The Colors' Strike",
       "masterNum": "195",
       "cardId": "181",
-      "cardTitleLegacy": "La Grève des Couleurs",
       "displayTitle": "The Colors' Strike"
     },
     "0196": {
@@ -2043,7 +1965,6 @@
       "title": "The Mechanic of Time",
       "masterNum": "196",
       "cardId": "182",
-      "cardTitleLegacy": "Le Mécanicien du Temps",
       "displayTitle": "The Mechanic of Time"
     },
     "0197": {
@@ -2051,7 +1972,6 @@
       "title": "The Soup Kitchen",
       "masterNum": "197",
       "cardId": "183",
-      "cardTitleLegacy": "La Soupe Populaire",
       "displayTitle": "The Soup Kitchen"
     },
     "0198": {
@@ -2059,7 +1979,6 @@
       "title": "The Confessional of a Park Bench",
       "masterNum": "198",
       "cardId": "184",
-      "cardTitleLegacy": "Le Confessionnal d'un Banc Public",
       "displayTitle": "The Confessional of a Park Bench"
     },
     "0199": {
@@ -2067,7 +1986,6 @@
       "title": "The Architect of Ruins",
       "masterNum": "199",
       "cardId": "185",
-      "cardTitleLegacy": "L'Architecte de Ruines",
       "displayTitle": "The Architect of Ruins"
     },
     "0200": {
@@ -2075,7 +1993,6 @@
       "title": "The Flying Lesson",
       "masterNum": "200",
       "cardId": "186",
-      "cardTitleLegacy": "La Leçon de Vol",
       "displayTitle": "The Flying Lesson"
     },
     "0201": {
@@ -2083,7 +2000,6 @@
       "title": "The Ferryman of Dreams",
       "masterNum": "201",
       "cardId": "187",
-      "cardTitleLegacy": "Le Passeur de Rêves",
       "displayTitle": "The Ferryman of Dreams"
     },
     "0202": {
@@ -2091,7 +2007,6 @@
       "title": "Canned Sadness",
       "masterNum": "202",
       "cardId": "188",
-      "cardTitleLegacy": "La Tristesse en Conserve",
       "displayTitle": "Canned Sadness"
     },
     "0203": {
@@ -2099,7 +2014,6 @@
       "title": "The Rain's Speech",
       "masterNum": "203",
       "cardId": "189",
-      "cardTitleLegacy": "Le Discours de la Pluie",
       "displayTitle": "The Rain's Speech"
     },
     "0204": {
@@ -2107,7 +2021,6 @@
       "title": "The Collector of Echoes",
       "masterNum": "204",
       "cardId": "190",
-      "cardTitleLegacy": "Le Collectionneur d'Échos",
       "displayTitle": "The Collector of Echoes"
     },
     "0205": {
@@ -2115,7 +2028,6 @@
       "title": "The Revolt of the Road Signs",
       "masterNum": "205",
       "cardId": "191",
-      "cardTitleLegacy": "La Révolte des Panneaux de Signalisation",
       "displayTitle": "The Revolt of the Road Signs"
     },
     "0206": {
@@ -2123,7 +2035,6 @@
       "title": "The Merchant of Maybe",
       "masterNum": "206",
       "cardId": "192",
-      "cardTitleLegacy": "Le Marchand de Peut-Être",
       "displayTitle": "The Merchant of Maybe"
     },
     "0207": {
@@ -2131,7 +2042,6 @@
       "title": "The Cemetery of Forgotten Words",
       "masterNum": "207",
       "cardId": "193",
-      "cardTitleLegacy": "Le Cimetière des Mots Oubliés",
       "displayTitle": "The Cemetery of Forgotten Words"
     },
     "0208": {
@@ -2139,7 +2049,6 @@
       "title": "The Dance of the Littered Papers",
       "masterNum": "208",
       "cardId": "194",
-      "cardTitleLegacy": "La Danse des Papiers Gras",
       "displayTitle": "The Dance of the Littered Papers"
     },
     "0209": {
@@ -2147,7 +2056,6 @@
       "title": "The Tailor of Silences",
       "masterNum": "209",
       "cardId": "195",
-      "cardTitleLegacy": "Le Tailleur de Silences",
       "displayTitle": "The Tailor of Silences"
     },
     "0210": {
@@ -2155,7 +2063,6 @@
       "title": "The Station of Farewells",
       "masterNum": "210",
       "cardId": "196",
-      "cardTitleLegacy": "La Gare des Adieux",
       "displayTitle": "The Station of Farewells"
     },
     "0211": {
@@ -2163,7 +2070,6 @@
       "title": "The Clock That Ran Backwards",
       "masterNum": "211",
       "cardId": "197",
-      "cardTitleLegacy": "L'Horloge qui Allait à l'Envers",
       "displayTitle": "The Clock That Ran Backwards"
     },
     "0212": {
@@ -2171,7 +2077,6 @@
       "title": "The Painter of the Invisible",
       "masterNum": "212",
       "cardId": "198",
-      "cardTitleLegacy": "Le Peintre de l'Invisible",
       "displayTitle": "The Painter of the Invisible"
     },
     "0213": {
@@ -2179,7 +2084,6 @@
       "title": "The Library of Unlived Lives",
       "masterNum": "213",
       "cardId": "199",
-      "cardTitleLegacy": "La Bibliothèque des Vies non Vécues",
       "displayTitle": "The Library of Unlived Lives"
     },
     "0214": {
@@ -2187,7 +2091,6 @@
       "title": "The Meeting of the Street Names",
       "masterNum": "214",
       "cardId": "200",
-      "cardTitleLegacy": "La Réunion des Noms de Rue",
       "displayTitle": "The Meeting of the Street Names"
     },
     "0215": {
@@ -2195,7 +2098,6 @@
       "title": "The Tamer of Nightmares",
       "masterNum": "215",
       "cardId": "201",
-      "cardTitleLegacy": "Le Dompteur de Cauchemars",
       "displayTitle": "The Tamer of Nightmares"
     },
     "0216": {
@@ -2203,7 +2105,6 @@
       "title": "The Cat's Prayer",
       "masterNum": "216",
       "cardId": "202",
-      "cardTitleLegacy": "La Prière du Chat",
       "displayTitle": "The Cat's Prayer"
     },
     "0217": {
@@ -2211,7 +2112,6 @@
       "title": "The Ministry of Grayness",
       "masterNum": "217",
       "cardId": "203",
-      "cardTitleLegacy": "Le Ministère de la Grisaille",
       "displayTitle": "The Ministry of Grayness"
     },
     "0218": {
@@ -2219,7 +2119,6 @@
       "title": "The Taste of Words",
       "masterNum": "218",
       "cardId": "204",
-      "cardTitleLegacy": "Le Goût des Mots",
       "displayTitle": "The Taste of Words"
     },
     "0219": {
@@ -2227,7 +2126,6 @@
       "title": "The Thief of Horizons",
       "masterNum": "219",
       "cardId": "205",
-      "cardTitleLegacy": "Le Voleur d'Horizons",
       "displayTitle": "The Thief of Horizons"
     },
     "0220": {
@@ -2235,7 +2133,6 @@
       "title": "The Song of the Drying Laundry",
       "masterNum": "220",
       "cardId": "206",
-      "cardTitleLegacy": "La Chanson du Linge qui Sèche",
       "displayTitle": "The Song of the Drying Laundry"
     },
     "0221": {
@@ -2243,7 +2140,6 @@
       "title": "One Last Poem",
       "masterNum": "221",
       "cardId": "207",
-      "cardTitleLegacy": "Le Dernier Poème",
       "displayTitle": "One Last Poem"
     },
     "0222": {
@@ -2251,7 +2147,6 @@
       "title": "The Maker of Tears",
       "masterNum": "222",
       "cardId": "208",
-      "cardTitleLegacy": "Le Fabricant de Larmes",
       "displayTitle": "The Maker of Tears"
     },
     "0223": {
@@ -2259,7 +2154,6 @@
       "title": "The Wall That Spoke",
       "masterNum": "223",
       "cardId": "209",
-      "cardTitleLegacy": "Le Mur qui Parlait",
       "displayTitle": "The Wall That Spoke"
     },
     "0224": {
@@ -2267,7 +2161,6 @@
       "title": "The Commas' Strike",
       "masterNum": "224",
       "cardId": "210",
-      "cardTitleLegacy": "La Grève des Virgules",
       "displayTitle": "The Commas' Strike"
     },
     "0225": {
@@ -2275,7 +2168,6 @@
       "title": "The Merchant of Spare Skies",
       "masterNum": "225",
       "cardId": "211",
-      "cardTitleLegacy": "Le Marchand de Ciels de Rechange",
       "displayTitle": "The Merchant of Spare Skies"
     },
     "0226": {
@@ -2283,7 +2175,6 @@
       "title": "The Loneliness of the Number One",
       "masterNum": "226",
       "cardId": "212",
-      "cardTitleLegacy": "La Solitude du Chiffre Un",
       "displayTitle": "The Loneliness of the Number One"
     },
     "0227": {
@@ -2291,7 +2182,6 @@
       "title": "The Dust Ball",
       "masterNum": "227",
       "cardId": "213",
-      "cardTitleLegacy": "Le Bal des Poussières",
       "displayTitle": "The Dust Ball"
     },
     "0228": {
@@ -2299,7 +2189,6 @@
       "title": "The Walker Through Walls of Feeling",
       "masterNum": "228",
       "cardId": "214",
-      "cardTitleLegacy": "Le Passe-Muraille des Sentiments",
       "displayTitle": "The Walker Through Walls of Feeling"
     },
     "0229": {
@@ -2307,7 +2196,6 @@
       "title": "The Revolt of Reflections",
       "masterNum": "229",
       "cardId": "215",
-      "cardTitleLegacy": "La Révolte des Reflets",
       "displayTitle": "The Revolt of Reflections"
     },
     "0230": {
@@ -2315,7 +2203,6 @@
       "title": "The Fisher of Stars",
       "masterNum": "230",
       "cardId": "216",
-      "cardTitleLegacy": "Le Pêcheur d'Étoiles",
       "displayTitle": "The Fisher of Stars"
     },
     "0231": {
@@ -2324,7 +2211,6 @@
       "masterNum": "231",
       "cardId": "217",
       "audio": "217-la-clinique-des-mots-malades.mp3",
-      "cardTitleLegacy": "La Clinique des Mots Malades",
       "displayTitle": "The Clinic for Sick Words"
     },
     "0232": {
@@ -2333,7 +2219,6 @@
       "masterNum": "232",
       "cardId": "218",
       "audio": "218-le-souffle-sur-la-vitre.mp3",
-      "cardTitleLegacy": "Le Souffle sur la Vitre",
       "displayTitle": "Breath on the Windowpane"
     },
     "0233": {
@@ -2342,7 +2227,6 @@
       "masterNum": "233",
       "cardId": "219",
       "audio": "219-le-catalogue-des-choses-inutiles.mp3",
-      "cardTitleLegacy": "Le Catalogue des Choses Inutiles",
       "displayTitle": "The Catalog of Useless Things"
     },
     "0234": {
@@ -2351,7 +2235,6 @@
       "masterNum": "234",
       "cardId": "220",
       "audio": "220-la-tristesse-du-mannequin-de-vitrine.mp3",
-      "cardTitleLegacy": "La Tristesse du Mannequin de Vitrine",
       "displayTitle": "The Sadness of the Shop-Window Mannequin"
     },
     "0235": {
@@ -2360,7 +2243,6 @@
       "masterNum": "235",
       "cardId": "221",
       "audio": "221-le-discours-de-la-statue-du-commandeur.mp3",
-      "cardTitleLegacy": "Le Discours de la Statue du Commandeur",
       "displayTitle": "The Speech of the Commander's Statue"
     },
     "0236": {
@@ -2369,7 +2251,6 @@
       "masterNum": "236",
       "cardId": "222",
       "audio": "222-le-gouter-des-fantomes.mp3",
-      "cardTitleLegacy": "Le Goûter des Fantômes",
       "displayTitle": "The Ghosts' Afternoon Tea"
     },
     "0237": {
@@ -2378,7 +2259,6 @@
       "masterNum": "237",
       "cardId": "223",
       "audio": "223-la-colere-d-une-goutte-d-eau.mp3",
-      "cardTitleLegacy": "La Colère d'une Goutte d'Eau",
       "displayTitle": "The Anger of a Drop of Water"
     },
     "0238": {
@@ -2387,7 +2267,6 @@
       "masterNum": "238",
       "cardId": "224",
       "audio": "224-le-marchand-de-sommeil.mp3",
-      "cardTitleLegacy": "Le Marchand de Sommeil",
       "displayTitle": "The Merchant of Sleep"
     },
     "0239": {
@@ -2396,7 +2275,6 @@
       "masterNum": "239",
       "cardId": "225",
       "audio": "225-la-danse-des-cles-perdues.mp3",
-      "cardTitleLegacy": "La Danse des Clés Perdues",
       "displayTitle": "The Dance of the Lost Keys"
     },
     "0240": {
@@ -2405,7 +2283,6 @@
       "masterNum": "240",
       "cardId": "226",
       "audio": "226-le-dernier-client-du-cafe.mp3",
-      "cardTitleLegacy": "Le Dernier Client du Café",
       "displayTitle": "The Café's Last Customer"
     },
     "0241": {
@@ -2414,7 +2291,6 @@
       "masterNum": "241",
       "cardId": "227",
       "audio": "227-le-testament-d-un-poete.mp3",
-      "cardTitleLegacy": "Le Testament d'un Poète",
       "displayTitle": "A Poet's Testament"
     },
     "0242": {
@@ -2423,7 +2299,6 @@
       "masterNum": "242",
       "cardId": "228",
       "audio": "228-modra-barva-snu.mp3",
-      "cardTitleLegacy": "Modrá, barva snů",
       "displayTitle": "Blue, the Color of Dreams"
     },
     "0243": {
@@ -2432,7 +2307,6 @@
       "masterNum": "243",
       "cardId": "229",
       "audio": "229-oranzova-barva-soumraku.mp3",
-      "cardTitleLegacy": "Oranžová, barva soumraku",
       "displayTitle": "Orange, the Color of Twilight"
     },
     "0244": {
@@ -2441,7 +2315,6 @@
       "masterNum": "244",
       "cardId": "230",
       "audio": "230-zelena-barva-nadeje.mp3",
-      "cardTitleLegacy": "Zelená, barva naděje",
       "displayTitle": "Green, the Color of Hope"
     },
     "0245": {
@@ -2450,7 +2323,6 @@
       "masterNum": "245",
       "cardId": "231",
       "audio": "231-cervena-barva-srdce.mp3",
-      "cardTitleLegacy": "Červená, barva srdce",
       "displayTitle": "Red, the Color of the Heart"
     },
     "0246": {
@@ -2459,7 +2331,6 @@
       "masterNum": "246",
       "cardId": "232",
       "audio": "232-zluta-barva-smichu.mp3",
-      "cardTitleLegacy": "Žlutá, barva smíchu",
       "displayTitle": "Yellow, the Color of Laughter"
     },
     "0247": {
@@ -2468,7 +2339,6 @@
       "masterNum": "247",
       "cardId": "233",
       "audio": "233-fialova-barva-kouzel.mp3",
-      "cardTitleLegacy": "Fialová, barva kouzel",
       "displayTitle": "Purple, the Color of Magic"
     },
     "0248": {
@@ -2477,7 +2347,6 @@
       "masterNum": "248",
       "cardId": "234",
       "audio": "234-letni-dest.mp3",
-      "cardTitleLegacy": "Letní déšť",
       "displayTitle": "Summer Rain"
     },
     "0249": {
@@ -2486,7 +2355,6 @@
       "masterNum": "249",
       "cardId": "235",
       "audio": "235-pavucina.mp3",
-      "cardTitleLegacy": "Pavučina",
       "displayTitle": "The Spiderweb"
     },
     "0250": {
@@ -2495,7 +2363,6 @@
       "masterNum": "250",
       "cardId": "236",
       "audio": "236-vune-stare-knihy.mp3",
-      "cardTitleLegacy": "Vůně staré knihy",
       "displayTitle": "The Smell of an Old Book"
     },
     "0251": {
@@ -2504,7 +2371,6 @@
       "masterNum": "251",
       "cardId": "237",
       "audio": "237-ranni-kava.mp3",
-      "cardTitleLegacy": "Ranní káva",
       "displayTitle": "Morning Coffee"
     },
     "0252": {
@@ -2513,7 +2379,6 @@
       "masterNum": "252",
       "cardId": "238",
       "audio": "238-stare-kreslo.mp3",
-      "cardTitleLegacy": "Staré křeslo",
       "displayTitle": "The Old Armchair"
     },
     "0253": {
@@ -2522,7 +2387,6 @@
       "masterNum": "253",
       "cardId": "239",
       "audio": "239-ztraceny-sepot.mp3",
-      "cardTitleLegacy": "Ztracený šepot",
       "displayTitle": "The Lost Whisper"
     },
     "0254": {
@@ -2531,7 +2395,6 @@
       "masterNum": "254",
       "cardId": "240",
       "audio": "240-pisen-more.mp3",
-      "cardTitleLegacy": "Píseň moře",
       "displayTitle": "The Song of the Sea"
     },
     "0255": {
@@ -2540,7 +2403,6 @@
       "masterNum": "255",
       "cardId": "241",
       "audio": "241-mestske-svetla.mp3",
-      "cardTitleLegacy": "Městské světla",
       "displayTitle": "City Lights"
     },
     "0256": {
@@ -2549,7 +2411,6 @@
       "masterNum": "256",
       "cardId": "001",
       "audio": "hands-of-time-en.mp3",
-      "cardTitleLegacy": "The Clock",
       "displayTitle": "The Hands of the Clock"
     },
     "0257": {
@@ -2558,7 +2419,6 @@
       "masterNum": "257",
       "cardId": "243",
       "audio": "243-ticho-po-slove.mp3",
-      "cardTitleLegacy": "Ticho po slově",
       "displayTitle": "The Silence After the Word"
     },
     "0258": {
@@ -2567,7 +2427,6 @@
       "masterNum": "258",
       "cardId": "244",
       "audio": "244-ruze-v-zime.mp3",
-      "cardTitleLegacy": "Růže v zimě",
       "displayTitle": "The Rose in Winter"
     },
     "0259": {
@@ -2576,7 +2435,6 @@
       "masterNum": "259",
       "cardId": "245",
       "audio": "245-bila-barva-vseho-a-niceho.mp3",
-      "cardTitleLegacy": "Bílá, barva všeho a ničeho",
       "displayTitle": "White, the Color of Everything and Nothing"
     },
     "0260": {
@@ -3716,7 +3574,7 @@
       "poemNumber": "107",
       "cardId": "306",
       "audio": "306-the-key-without-a-lock.mp3",
-      "cardTitleLegacy": "The Key Without a Lock",
+      "cardTitleLegacy": "The Key without a Lock",
       "displayTitle": "The Key without a Lock"
     },
     "0367": {
@@ -3925,7 +3783,7 @@
       "poemNumber": "126",
       "cardId": "325",
       "audio": "325-the-tree-that-grew-crooked.mp3",
-      "cardTitleLegacy": "The Tree That Grew Crooked",
+      "cardTitleLegacy": "The Tree that Grew Crooked",
       "displayTitle": "The Tree that Grew Crooked"
     },
     "0386": {
@@ -3958,7 +3816,7 @@
       "poemNumber": "129",
       "cardId": "328",
       "audio": "328-the-river-that-changed-its-course.mp3",
-      "cardTitleLegacy": "The River That Changed Its Course",
+      "cardTitleLegacy": "The River that Changed Its Course",
       "displayTitle": "The River that Changed Its Course"
     },
     "0389": {
@@ -3969,7 +3827,7 @@
       "poemNumber": "130",
       "cardId": "329",
       "audio": "329-the-cloud-that-did-not-rain.mp3",
-      "cardTitleLegacy": "The Cloud That Did Not Rain",
+      "cardTitleLegacy": "The Cloud that Did Not Rain",
       "displayTitle": "The Cloud that Did Not Rain"
     },
     "0390": {
@@ -4189,7 +4047,7 @@
       "poemNumber": "150",
       "cardId": "349",
       "audio": "349-the-clock-that-runs-slow.mp3",
-      "cardTitleLegacy": "The Clock That Runs Slow",
+      "cardTitleLegacy": "The Clock that Runs Slow",
       "displayTitle": "The Clock that Runs Slow"
     },
     "0410": {
@@ -4266,7 +4124,7 @@
       "poemNumber": "157",
       "cardId": "356",
       "audio": "356-the-guide-dog-without-a-master.mp3",
-      "cardTitleLegacy": "The Guide Dog Without a Master",
+      "cardTitleLegacy": "The Guide Dog without a Master",
       "displayTitle": "The Guide Dog without a Master"
     },
     "0417": {
@@ -4596,7 +4454,7 @@
       "poemNumber": "187",
       "cardId": "386",
       "audio": "386-grandfather-s-shoes.mp3",
-      "cardTitleLegacy": "Grandfather'S Shoes",
+      "cardTitleLegacy": "Grandfather's Shoes",
       "displayTitle": "Grandfather's Shoes"
     },
     "0447": {
@@ -4607,7 +4465,7 @@
       "poemNumber": "188",
       "cardId": "387",
       "audio": "387-the-treasure-map-without-the-cross.mp3",
-      "cardTitleLegacy": "The Treasure Map Without the Cross",
+      "cardTitleLegacy": "The Treasure Map without the Cross",
       "displayTitle": "The Treasure Map without the Cross"
     },
     "0448": {
@@ -4618,7 +4476,7 @@
       "poemNumber": "189",
       "cardId": "388",
       "audio": "388-the-candle-that-burned-out.mp3",
-      "cardTitleLegacy": "The Candle That Burned Out",
+      "cardTitleLegacy": "The Candle that Burned Out",
       "displayTitle": "The Candle that Burned Out"
     },
     "0449": {
@@ -4662,7 +4520,7 @@
       "poemNumber": "193",
       "cardId": "392",
       "audio": "392-the-garden-gate-that-creaks.mp3",
-      "cardTitleLegacy": "The Garden Gate That Creaks",
+      "cardTitleLegacy": "The Garden Gate that Creaks",
       "displayTitle": "The Garden Gate that Creaks"
     },
     "0453": {
@@ -4684,7 +4542,7 @@
       "poemNumber": "195",
       "cardId": "394",
       "audio": "394-the-star-that-no-longer-shines.mp3",
-      "cardTitleLegacy": "The Star That No Longer Shines",
+      "cardTitleLegacy": "The Star that No Longer Shines",
       "displayTitle": "The Star that No Longer Shines"
     },
     "0455": {
@@ -4739,7 +4597,7 @@
       "poemNumber": "200",
       "cardId": "399",
       "audio": "399-someone-else-s-flowers.mp3",
-      "cardTitleLegacy": "Someone Else'S Flowers",
+      "cardTitleLegacy": "Someone Else's Flowers",
       "displayTitle": "Someone Else's Flowers"
     },
     "0460": {
@@ -4772,7 +4630,7 @@
       "poemNumber": "203",
       "cardId": "402",
       "audio": "402-the-walled-up-door.mp3",
-      "cardTitleLegacy": "The Walled-Up Door",
+      "cardTitleLegacy": "The Walled-up Door",
       "displayTitle": "The Walled-up Door"
     },
     "0463": {
@@ -4838,7 +4696,7 @@
       "poemNumber": "209",
       "cardId": "408",
       "audio": "408-the-organist-without-an-organ.mp3",
-      "cardTitleLegacy": "The Organist Without an Organ",
+      "cardTitleLegacy": "The Organist without an Organ",
       "displayTitle": "The Organist without an Organ"
     },
     "0469": {
@@ -5058,7 +4916,7 @@
       "poemNumber": "229",
       "cardId": "428",
       "audio": "428-dad-s-reading-glasses.mp3",
-      "cardTitleLegacy": "Dad'S Reading Glasses",
+      "cardTitleLegacy": "Dad's Reading Glasses",
       "displayTitle": "Dad's Reading Glasses"
     },
     "0489": {
@@ -5080,7 +4938,7 @@
       "poemNumber": "231",
       "cardId": "430",
       "audio": "430-great-grandmother-s-sewing-machine.mp3",
-      "cardTitleLegacy": "Great-Grandmother'S Sewing Machine",
+      "cardTitleLegacy": "Great-Grandmother's Sewing Machine",
       "displayTitle": "Great-Grandmother's Sewing Machine"
     },
     "0491": {
@@ -5091,7 +4949,7 @@
       "poemNumber": "232",
       "cardId": "431",
       "audio": "431-last-year-s-calendar.mp3",
-      "cardTitleLegacy": "Last Year'S Calendar",
+      "cardTitleLegacy": "Last Year's Calendar",
       "displayTitle": "Last Year's Calendar"
     },
     "0492": {
@@ -5234,7 +5092,7 @@
       "poemNumber": "245",
       "cardId": "444",
       "audio": "444-the-staircase-without-a-lift.mp3",
-      "cardTitleLegacy": "The Staircase Without a Lift",
+      "cardTitleLegacy": "The Staircase without a Lift",
       "displayTitle": "The Staircase without a Lift"
     },
     "0505": {
@@ -5542,7 +5400,7 @@
       "poemNumber": "273",
       "cardId": "927",
       "audio": "927-the-firemen-s-band.mp3",
-      "cardTitleLegacy": "The Firemen'S Band",
+      "cardTitleLegacy": "The Firemen's Band",
       "displayTitle": "The Firemen's Band"
     },
     "0533": {
@@ -5608,7 +5466,7 @@
       "poemNumber": "279",
       "cardId": "933",
       "audio": "933-the-road-that-led-nowhere.mp3",
-      "cardTitleLegacy": "The Road That Led Nowhere",
+      "cardTitleLegacy": "The Road that Led Nowhere",
       "displayTitle": "The Road that Led Nowhere"
     },
     "0539": {
@@ -5674,7 +5532,7 @@
       "poemNumber": "285",
       "cardId": "939",
       "audio": "939-the-postcard-that-arrived-years-late.mp3",
-      "cardTitleLegacy": "The Postcard That Arrived Years Late",
+      "cardTitleLegacy": "The Postcard that Arrived Years Late",
       "displayTitle": "The Postcard that Arrived Years Late"
     },
     "0545": {
@@ -5696,7 +5554,7 @@
       "poemNumber": "287",
       "cardId": "941",
       "audio": "941-the-dream-that-kept-returning.mp3",
-      "cardTitleLegacy": "The Dream That Kept Returning",
+      "cardTitleLegacy": "The Dream that Kept Returning",
       "displayTitle": "The Dream that Kept Returning"
     },
     "0547": {
@@ -5718,7 +5576,7 @@
       "poemNumber": "289",
       "cardId": "943",
       "audio": "943-the-alarm-clock-that-didn-t-ring-on-sunday.mp3",
-      "cardTitleLegacy": "The Alarm Clock That Didn'T Ring on Sunday",
+      "cardTitleLegacy": "The Alarm Clock that Didn't Ring on Sunday",
       "displayTitle": "The Alarm Clock that Didn't Ring on Sunday"
     },
     "0549": {
@@ -5872,7 +5730,7 @@
       "poemNumber": "303",
       "cardId": "957",
       "audio": "957-grandma-s-first-smiley.mp3",
-      "cardTitleLegacy": "Grandma'S First Smiley",
+      "cardTitleLegacy": "Grandma's First Smiley",
       "displayTitle": "Grandma's First Smiley"
     },
     "0563": {
@@ -5905,7 +5763,7 @@
       "poemNumber": "306",
       "cardId": "960",
       "audio": "960-the-statue-that-faced-one-way.mp3",
-      "cardTitleLegacy": "The Statue That Faced One Way",
+      "cardTitleLegacy": "The Statue that Faced One Way",
       "displayTitle": "The Statue that Faced One Way"
     },
     "0566": {
@@ -6026,7 +5884,7 @@
       "poemNumber": "352",
       "cardId": "971",
       "audio": "971-three-o-clock-on-a-november-afternoon.mp3",
-      "cardTitleLegacy": "Three O'Clock on a November Afternoon",
+      "cardTitleLegacy": "Three O'clock on a November Afternoon",
       "displayTitle": "Three O'clock on a November Afternoon"
     },
     "0577": {
@@ -6392,6 +6250,7 @@
       "title": "THE BELL",
       "masterNum": "620",
       "cardId": "996",
+      "cardTitleLegacy": "The Bell",
       "displayTitle": "The Bell"
     },
     "0621": {

@@ -19,3 +19,6 @@ assets/images/
 # Generované plakáty a hi-res verze jsou média (mimo git).
 # assets/poster-references/ je NAOPAK vstup workflow → verzuje se.
 assets/posters-hires/
+
+# Koš vyřazených věcí — mimo git
+/_VYRAZENO*

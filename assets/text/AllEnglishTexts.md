@@ -57169,3 +57169,131 @@ You
 can do
 
 more
+---
+
+## 1097. The Sidewalk's Prayer
+
+Our Father who art concrete
+let my surface be walked upon
+let your kingdom of pedestrians come
+their will be done on me as it is elsewhere
+Give us this day our daily rain
+forgive us our cracks
+as we forgive the chewing gum flattened upon us
+and lead us not into the temptation of street repairs
+but deliver us from dog droppings
+for ours is the kingdom of the rushed the wanderers and lovers
+for the streets of the streets
+Amen
+and let the cigarette butts
+be our daily incense.
+
+---
+
+## 1098. The Thief of Endings
+
+He steals the endings of stories
+just before "they lived happily ever after"
+just before "he died in peace"
+just before "all's well that ends well"
+He leaves the tales suspended in the air
+with a taste of the unfinished
+The characters wander without a destination
+the readers are left frustrated
+He does not do this out of cruelty
+he does it because he detests endings
+He believes an ending
+is the heavy door of a prison
+He prefers the stories that never close
+the loves that keep on going
+the questions that remain open
+He is the great defender
+of "to be continued"
+which is the most beautiful promise
+of life.
+
+---
+
+## 1099. The Merchant of "If Only"
+
+He sells "if onlys"
+in little glass vials
+"If only I had dared"
+"If only I had known"
+"If only I had gone"
+It is the most potent perfume in the world
+the scent of regret
+People dab a single drop behind their ear
+and spend the rest of the day dreaming
+about the life they never lived
+It is a sweet and terrible drug
+that stops you from living in the now
+The merchant is a wealthy man
+because "if only"
+is an inexhaustible resource
+within the hearts of men.
+
+---
+
+## 1100. The Book's Prayer
+
+Our Father who art paper
+let my title be read
+let your kingdom of readers come
+your will be done on my pages as it is elsewhere
+Give us this day our daily reading
+forgive us our typos
+as we forgive those who dog-ear our pages
+and lead us not into the temptation of the bookcase
+but deliver us from being forgotten
+for ours is the story the imagination and the dreams
+for ever and ever
+Amen
+and let my last page
+be the most beautiful.
+
+---
+
+## 1101. The Dance of Strangers
+
+In the subway during rush hour
+bodies touch brush squeeze past each other
+It is a strange and involuntary dance
+a forced intimacy
+We feel the warmth of others
+their smell their breath
+We are closer to them
+than to our own family
+But no one looks at anyone
+no one talks to anyone
+each person is an island of solitude
+in an ocean of crowds
+Then the doors open
+and the dance stops
+everyone returns to their own solitude
+carrying away on their skin
+the ghost memory
+of an unknown touch.
+
+---
+
+## 1102. The Last Piano in the Bar
+
+The piano is old and out of tune
+its keys yellowed like a smoker's teeth
+It remembers all of the songs
+the sorrowful songs of love
+the joyful songs of drinking
+It remembers the hands that used to play it
+the expert hands of the professional
+the clumsy hands of the lover
+the drunken hands of the late-night patron
+The bar is going to close
+they will sell it off for scrap wood
+It will play one final song
+only for itself
+a song without any notes
+made of all the silences
+all the laughter
+all the tears
+that it kept company for fifty years.

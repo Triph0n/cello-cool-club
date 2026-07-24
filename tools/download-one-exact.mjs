@@ -6,6 +6,7 @@ import { CDP } from "file:///C:/Users/Vladimir/Desktop/suno-generator/scripts/cd
 
 const title = process.argv[2];
 const rowIndex = Number(process.argv[3] || 0);
+const searchQuery = process.argv[4] || title;
 const downloadDir = "C:/Users/Vladimir/Downloads";
 
 if (!title) {
@@ -51,13 +52,13 @@ if (!searchPoint) {
 }
 
 const existingSearch = await cdp.eval(`${search}.value`);
-if (existingSearch !== title) {
+if (existingSearch !== searchQuery) {
   await cdp.click(searchPoint.x, searchPoint.y);
   await key("keyDown", "a", "KeyA", 65, 2);
   await key("keyUp", "a", "KeyA", 65, 2);
   await key("keyDown", "Delete", "Delete", 46);
   await key("keyUp", "Delete", "Delete", 46);
-  await cdp.send("Input.insertText", { text: title });
+  await cdp.send("Input.insertText", { text: searchQuery });
   await sleep(5000);
   // Suno's virtualized result list can remain unmounted after a fresh search
   // until the page is painted. Capturing once forces that paint.
@@ -66,7 +67,7 @@ if (existingSearch !== title) {
 }
 
 const searchValue = await cdp.eval(`${search}.value`);
-if (searchValue !== title) {
+if (searchValue !== searchQuery) {
   console.log(`SEARCH_MISMATCH|${searchValue}`);
   await cdp.screenshot("download-exact-fail.png");
   cdp.close();
@@ -75,10 +76,10 @@ if (searchValue !== title) {
 
 let rows = [];
 for (let attempt = 0; attempt < 60 && rows.length === 0; attempt += 1) {
-  const titleRows = await cdp.eval(`(()=>{const wanted=${JSON.stringify(
-    title.toLowerCase(),
+  const titleRows = await cdp.eval(`(()=>{const norm=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'');const wanted=${JSON.stringify(
+    title.toLowerCase().replace(/[^a-z0-9]+/g, ""),
   )};const ys=[...document.querySelectorAll('*')]
-    .filter(e=>e.children.length===0&&e.offsetParent&&e.textContent.trim().toLowerCase()===wanted)
+    .filter(e=>e.children.length===0&&e.offsetParent&&norm(e.textContent.trim())===wanted)
     .map(e=>{const r=e.getBoundingClientRect();return {x:Math.round(r.x),y:Math.round(r.y+r.height/2),w:Math.round(r.width)}})
     .filter(r=>r.x>500&&r.y>80&&r.w>20)
     .sort((a,b)=>a.y-b.y);

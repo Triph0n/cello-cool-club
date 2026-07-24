@@ -8,6 +8,7 @@
     "new-card": "node scripts/new-card.mjs",
     "next-release": "node scripts/next-release.mjs",
     "generate-image": "node scripts/generate-image.mjs",
+    "poster": "node scripts/generate-poster.mjs",
     "export-suno": "node scripts/export-suno-prompt.mjs",
     "attach-image": "node scripts/attach-image.mjs",
     "attach-audio": "node scripts/attach-audio.mjs",

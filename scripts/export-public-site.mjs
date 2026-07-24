@@ -224,7 +224,7 @@ function renderHomepage(card, cards) {
         <span class="sign-dot" aria-hidden="true"></span>
       </header>
 
-      <article class="playing-card">
+      <article class="playing-card${(card.poemText||[]).length>24?" playing-card--long":""}">
         <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
           <img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.altText)}"${imageSizeAttrs(card)} decoding="async">
         </button>

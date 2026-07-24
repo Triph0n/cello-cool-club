@@ -196,6 +196,12 @@ Pořadí doporučené: E1 → E2 → E3 (jádro zážitku), pak E4–E9 dle chut
 - [ ] **F8. Přání do éteru** (NAP-16b, po F5): fronta věnování v admin panelu
   (schválení Vladimír), vybraná se čtou v „Nedělní kávě“ (newsletter D1 +
   YouTube community post). Členská výhoda.
+- [ ] **F9. Plakát na zeď s hrajícím QR** (NAP-23, zadání 2026-07-13):
+  formát `poster` v `export-print.mjs` (A3/50×70, 300 DPI) — artwork +
+  celá báseň jako grafika + umělecký QR-label desky (sdílený QR-label
+  modul s F1: matice z `qrcode`, EC úroveň H, kruhový ořez, barvy sezóny,
+  mini-ilustrace uprostřed). Prototyp na kartě 007; ověřit skenovatelnost
+  ze 2 m. Varianty: „deska v rámu“ 30×30, plakát na míru (k F7).
 
 ## Stav karet (2026-07-07)
 244 karet: 3 posted (001, 002, 007), 1 approved, 240 draft.

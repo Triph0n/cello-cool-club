@@ -9,6 +9,8 @@ const errors = [];
 const warnings = [];
 const privateFields = new Set([
   "imagePrompt",
+  "posterPrompt",
+  "posterPlate",
   "sunoPrompt",
   "musicNotes",
   "notes",

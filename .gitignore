@@ -9,3 +9,9 @@ export/
 exports/
 data/cards.json.bak
 data/cards.json.tmp
+
+# Média mimo git (rozhodnutí 2026-07-24) — zdroj pravdy = lokální disk
+assets/audio/
+assets/generated-images/
+# zálohy z dávkových úprav
+*.bak-*

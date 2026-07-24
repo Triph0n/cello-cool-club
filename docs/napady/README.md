@@ -48,6 +48,8 @@ zdarma, členové sbírají a poslouchají kdekoli.**
 | 20 | [Kalendář klubu / advent](20-kalendar-klubu.md) | fyzické+obsah | 2 | ⏰ deadline září! |
 | 21 | [Ambientní formáty](21-ambientni-formaty.md) | marketing | 1–2 | 💡 |
 | 22 | [Komunita — čísla, rada](22-komunita-clenstvi.md) | členství | 3 | 💡 |
+| 23 | [Na zeď — plakát s hrajícím QR](23-plakat-na-zed.md) | fyzické (B) | 2 | 💡 zadání 13. 7. |
+| 24 | [Sety po devíti — odemykání](24-sety-po-deviti.md) | mechaniky+web | 1→3 | 💡 zadání 22. 7., LP prototyp hotový |
 | 18 | [Otevřené otázky](18-otevrene-otazky.md) | vše | — | 🔄 živý seznam |
 
 ## Co stavět v jakém pořadí (MVP vlny)

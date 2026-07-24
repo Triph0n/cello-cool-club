@@ -22,7 +22,7 @@ if (args.card && args.file) {
   const filePath = path.isAbsolute(String(args.file))
     ? String(args.file)
     : path.join(downloadsDir, String(args.file));
-  const { card } = await attachAudioToCard(String(args.card), filePath);
+  const card = await attachAudioToCard(String(args.card), filePath);
   console.log(`Attached ${filePath} to card ${card.id} (${card.title}), status: ${card.status}.`);
   process.exit(0);
 }
@@ -124,7 +124,7 @@ if (!args.confirm) {
 }
 
 for (const proposal of attachable) {
-  const { card } = await attachAudioToCard(proposal.best.card.id, proposal.fullPath);
+  const card = await attachAudioToCard(proposal.best.card.id, proposal.fullPath);
   console.log(`Attached ${proposal.name} -> card ${card.id} (${card.title}), status: ${card.status}.`);
 }
 

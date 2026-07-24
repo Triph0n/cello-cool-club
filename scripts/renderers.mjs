@@ -119,7 +119,7 @@ export function renderCardPage(card, cards, options = {}) {
         <span class="sign-dot" aria-hidden="true"></span>
       </header>
 
-      <article class="playing-card">
+      <article class="playing-card${(card.poemText||[]).length>24?" playing-card--long":""}">
         <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
           <img src="${escapeHtml(assetPath(safeImage))}" alt="${escapeHtml(safeAlt)}"${sizeAttrs} decoding="async">
         </button>
@@ -160,13 +160,15 @@ ${renderPoemLines(card)}
 `;
 }
 
-// QR-code landing page: one artwork, one huge play button, nothing to get lost in.
-// Self-contained (inline CSS/JS, no script.js) and always noindex — it is a
-// utility page reached from printed cards, not part of the browsable site.
+// QR-code landing page: the card as a vinyl record (TASK E1). Tap the disc —
+// it spins up and plays; pause — it coasts to a stop. The center label is the
+// card artwork. Self-contained (inline CSS/JS, no script.js) and always
+// noindex — a utility page reached from printed cards, not the browsable site.
 export function renderPlayerPage(card) {
   const signText = getDeck(card) === "kids" ? "Cello Cool Club — Kids" : "Cello Cool Club";
   const safeImage = card.image || "assets/images/clock-card.png";
   const assetPath = (asset) => assetPathFromDepth(asset, 2);
+  const catalogNumber = Number.isInteger(card.number) ? `CCC-${formatCardNumber(card)}` : `CCC-${card.id}`;
 
   return `<!doctype html>
 <html lang="${escapeHtml(card.language || "en")}">
@@ -190,55 +192,174 @@ export function renderPlayerPage(card) {
         font-family: Georgia, "Times New Roman", serif;
         text-align: center;
       }
-      main { display: grid; gap: 18px; justify-items: center; width: min(420px, 100%); }
+      main { display: grid; gap: 16px; justify-items: center; width: min(420px, 100%); }
       .sign { font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: #c5a059; }
-      img.art {
-        width: min(320px, 78vw);
-        aspect-ratio: 4 / 5;
-        object-fit: cover;
-        border-radius: 10px;
-        border: 1px solid rgba(197, 160, 89, 0.6);
-        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
-      }
-      h1 { font-size: clamp(24px, 6vw, 34px); color: #ffd978; font-weight: 600; }
-      .play {
-        display: grid;
-        place-items: center;
-        width: 108px;
-        height: 108px;
+      .stage { position: relative; width: min(320px, 82vw); aspect-ratio: 1; }
+      .deck {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        padding: 0;
         border-radius: 50%;
-        border: 2px solid #c5a059;
-        background: rgba(18, 9, 4, 0.85);
-        color: #ffd978;
+        background: transparent;
         cursor: pointer;
-        transition: transform 0.15s ease;
       }
-      .play:active { transform: scale(0.94); }
-      .play svg { width: 44px; height: 44px; fill: currentColor; }
-      .play .pause-icon { display: none; }
-      .play.playing .pause-icon { display: block; }
-      .play.playing .play-icon { display: none; }
+      .deck:focus-visible { outline: 3px solid #ffd978; outline-offset: 6px; }
+      .rotor {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background:
+          repeating-radial-gradient(circle at 50% 50%,
+            #16110d 0 2.1px, #221a13 2.1px 4.2px);
+        border: 1px solid rgba(197, 160, 89, 0.35);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6), inset 0 0 40px rgba(0, 0, 0, 0.55);
+        will-change: transform;
+      }
+      .rotor::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        background: conic-gradient(from 210deg,
+          rgba(255, 233, 178, 0.10) 0 24deg, transparent 40deg 158deg,
+          rgba(255, 233, 178, 0.07) 178deg 202deg, transparent 218deg);
+        pointer-events: none;
+      }
+      .label {
+        position: absolute;
+        inset: 28.5%;
+        display: block;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid rgba(197, 160, 89, 0.85);
+        background: #120904;
+      }
+      .label img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .hole {
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background: #120904;
+        border: 1px solid rgba(243, 228, 194, 0.35);
+        z-index: 3;
+      }
+      .tonearm {
+        position: absolute;
+        top: -3%;
+        right: 2%;
+        width: 30%;
+        height: 56%;
+        transform-origin: 82% 9%;
+        transform: rotate(-34deg);
+        transition: transform 0.9s cubic-bezier(0.33, 0.9, 0.4, 1);
+        pointer-events: none;
+        z-index: 4;
+        filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.5));
+      }
+      .playing .tonearm { transform: rotate(3deg); }
+      .tonearm .pivot {
+        position: absolute;
+        top: 2%;
+        right: 8%;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: radial-gradient(circle at 35% 30%, #e8cf9a, #8a6a33 70%);
+        border: 1px solid rgba(0, 0, 0, 0.4);
+      }
+      .tonearm .arm {
+        position: absolute;
+        top: 8%;
+        right: calc(8% + 8px);
+        width: 5px;
+        height: 78%;
+        border-radius: 3px;
+        background: linear-gradient(90deg, #d9c08a, #9d7c42);
+        transform: rotate(9deg);
+        transform-origin: top center;
+      }
+      .tonearm .head {
+        position: absolute;
+        bottom: 4%;
+        left: 34%;
+        width: 12px;
+        height: 26px;
+        border-radius: 3px;
+        background: #c5a059;
+        transform: rotate(9deg);
+      }
+      h1 { font-size: clamp(22px, 6vw, 32px); color: #ffd978; font-weight: 600; }
+      .catalog { font-size: 12px; letter-spacing: 0.2em; color: #c5a059; }
       .hint { font-size: 14px; opacity: 0.75; }
+      @media (prefers-reduced-motion: reduce) {
+        .tonearm { transition: none; }
+      }
     </style>
   </head>
   <body>
     <main>
       <p class="sign">${escapeHtml(signText)}</p>
-      <img class="art" src="${escapeHtml(assetPath(safeImage))}" alt="${escapeHtml(card.altText || card.title)}" decoding="async">
+      <div class="stage" id="stage">
+        <button class="deck" type="button" id="play" aria-pressed="false" aria-label="Play ${escapeHtml(card.title)}">
+          <span class="rotor" id="rotor">
+            <span class="label">
+              <img src="${escapeHtml(assetPath(safeImage))}" alt="${escapeHtml(card.altText || card.title)}" decoding="async">
+            </span>
+            <span class="hole" aria-hidden="true"></span>
+          </span>
+        </button>
+        <div class="tonearm" aria-hidden="true">
+          <div class="arm"></div>
+          <div class="head"></div>
+          <div class="pivot"></div>
+        </div>
+      </div>
       <h1>${escapeHtml(card.title)}</h1>
-      <button class="play" type="button" id="play" aria-label="Play ${escapeHtml(card.title)}">
-        <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-        <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
-      </button>
+      <p class="catalog">${escapeHtml(catalogNumber)}</p>
       <audio id="audio" preload="auto" src="${escapeHtml(assetPath(card.audio || ""))}"></audio>
       <p class="hint">&#9834;</p>
     </main>
     <script>
       const audio = document.getElementById("audio");
       const button = document.getElementById("play");
-      const syncState = () => button.classList.toggle("playing", !audio.paused && !audio.ended);
+      const stage = document.getElementById("stage");
+      const rotor = document.getElementById("rotor");
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const isPlaying = () => !audio.paused && !audio.ended;
+      const syncState = () => {
+        stage.classList.toggle("playing", isPlaying());
+        button.setAttribute("aria-pressed", String(isPlaying()));
+      };
       button.addEventListener("click", () => { audio.paused ? audio.play() : audio.pause(); });
       ["play", "pause", "ended"].forEach((name) => audio.addEventListener(name, syncState));
+
+      // Vinyl physics: spin up while playing, coast to a stop on pause
+      // (rAF with eased velocity) — unless the user prefers reduced motion.
+      if (!reducedMotion) {
+        let angle = 0;
+        let velocity = 0;
+        let last = performance.now();
+        const CRUISE = 66; // degrees per second — a lazy 33 rpm feel
+        const tick = (now) => {
+          const dt = Math.min((now - last) / 1000, 0.1);
+          last = now;
+          const target = isPlaying() ? CRUISE : 0;
+          velocity += (target - velocity) * Math.min(1, dt * 1.6);
+          if (velocity > 0.05) {
+            angle = (angle + velocity * dt) % 360;
+            rotor.style.transform = "rotate(" + angle + "deg)";
+          }
+          requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      }
       audio.play().catch(() => {});
     </script>
   </body>

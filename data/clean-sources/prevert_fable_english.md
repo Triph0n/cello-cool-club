@@ -1,6 +1,6 @@
 # Prevert Fable English
 
-## 001. THE MAN WHO FED THE PIGEONS
+## 001. The Man Who Fed the Pigeons
 
 Every morning at seven
 on the market square
@@ -41,9 +41,9 @@ you have no paragraph yet
 
 ---
 
-## 002. THE FORGOTTEN UMBRELLA
+## 002. The Forgotten Umbrella
 
-Mr. Novák bought himself an umbrella
+Mr. Smith bought himself an umbrella
 a solid black umbrella
 so he would never get wet
 and the very first Tuesday
@@ -69,7 +69,7 @@ notes washed out by rain
 a wedding
 and the sea
 
-Mr. Novák bought a new umbrella
+Mr. Smith bought a new umbrella
 an even more solid one
 and so as not to lose it again
 he kept it at home
@@ -78,12 +78,12 @@ he stayed home with it
 
 The umbrella saw the world
 because it got lost
-Mr. Novák saw nothing
+Mr. Smith saw nothing
 because he was afraid of getting lost
 
 ---
 
-## 003. INVENTORY AFTER GRANDMOTHER
+## 003. Inventory After Grandmother
 
 One shoebox
 and in it:
@@ -116,12 +116,12 @@ or say out loud
 
 ---
 
-## 004. THE NIGHT TRAM
+## 004. The Night Tram
 
 The last tram
 number twenty-two
 runs empty after midnight
-and the driver Mr. Souček
+and the driver Mr. Barton
 still announces every stop
 Railway Station
 Theatre
@@ -136,7 +136,7 @@ to an empty tram?
 he asked officially
 and for good order punched his own ticket
 
-Mr. Souček did not slow down
+Mr. Barton did not slow down
 You see, you got on all the same
 he said
 I announce them for everyone
@@ -159,7 +159,7 @@ where he had never gotten off
 
 ---
 
-## 005. THE WATCHMAKER
+## 005. The Watchmaker
 
 The watchmaker's shop by the fountain
 repairs everything
@@ -198,7 +198,7 @@ in memory
 
 ---
 
-## 006. THE BAKER WHO SKIPS BREAKFAST
+## 006. The Baker Who Skips Breakfast
 
 Three in the morning
 when even the streetlamps are sleeping
@@ -241,7 +241,7 @@ is waiting for the baker
 
 ---
 
-## 007. THE TRAFFIC-LIGHT PAINTER
+## 007. The Traffic-Light Painter
 
 He paints the red
 he paints the green
@@ -287,7 +287,7 @@ And he crosses
 
 ---
 
-## 008. THE ODD GLOVE
+## 008. The Odd Glove
 
 On the number nine tram
 between Lilac Street
@@ -330,7 +330,7 @@ even without us
 
 ---
 
-## 009. THE GEOGRAPHY TEACHER
+## 009. The Geography Teacher
 
 Here is the Sahara children
 sand and sand and sand
@@ -380,7 +380,7 @@ by the hands of her children
 
 ---
 
-## 010. THE MAN WHO SAVED TIME
+## 010. The Man Who Saved Time
 
 He knew every shortcut
 through the butcher's yard
@@ -426,7 +426,7 @@ on hurrying
 
 ---
 
-## 011. THE LAST TELEPHONE BOX
+## 011. The Last Telephone Box
 
 On the street corner
 stands the last telephone box
@@ -475,7 +475,7 @@ the way it did that night?
 
 ---
 
-## 012. THE MUSEUM GUARD
+## 012. The Museum Guard
 
 For forty years Mr Joseph
 has sat on his chair in the corner of the room
@@ -523,7 +523,7 @@ and he looks
 
 ---
 
-## 013. THE BINMAN AND THE BOOKS
+## 013. The Binman and the Books
 
 At four in the morning the bins rattle
 and Mr Charlie in his orange vest
@@ -567,7 +567,7 @@ he picks up after them
 
 ---
 
-## 014. TWO CHAIRS
+## 014. Two Chairs
 
 Mr Anton lives alone
 third floor
@@ -616,10 +616,10 @@ is an invitation
 
 ---
 
-## 015. THE CEMETERY GARDENER
+## 015. The Cemetery Gardener
 
 Mr Victor plants pansies
-on Mrs Novak's grave
+on Mrs Smith's grave
 he waters the begonias
 of the old schoolmaster
 and the rose
@@ -666,7 +666,7 @@ reasons to return
 
 ---
 
-## 016. THE LETTER WITHOUT AN ADDRESS
+## 016. The Letter Without an Address
 
 The postwoman sorts the morning mail
 letters with addresses
@@ -715,7 +715,7 @@ and reads it
 
 ---
 
-## 017. THE FISHERMAN WHO LETS THEM GO
+## 017. The Fisherman Who Lets Them Go
 
 Every morning by the river
 old Miller sits with his rod
@@ -759,7 +759,7 @@ gets given everything
 
 ---
 
-## 018. THE PIANO TUNER
+## 018. The Piano Tuner
 
 Mr Marsh is a piano tuner
 forty years he's tuned pianos
@@ -805,7 +805,7 @@ maybe because of the wrong notes
 
 ---
 
-## 019. THE LOST AND FOUND OFFICE
+## 019. The Lost and Found Office
 
 I've come for an umbrella
 a black one
@@ -852,7 +852,7 @@ any shelf
 
 ---
 
-## 020. GRANDMOTHER AND DAYLIGHT SAVING TIME
+## 020. Grandmother and Daylight Saving Time
 
 On Sunday night
 the whole country changed its clocks
@@ -899,7 +899,7 @@ if you know why
 
 ---
 
-## 021. THE BRIDGE BUILDER
+## 021. The Bridge Builder
 
 Engineer Brandt built a hundred bridges
 bridges over rivers
@@ -947,7 +947,7 @@ Forgive me
 
 ---
 
-## 022. THE TICKET SELLER
+## 022. The Ticket Seller
 
 Behind the station window
 Miss Marie
@@ -996,7 +996,7 @@ is trembling
 
 ---
 
-## 023. WINTER'S INVENTORY
+## 023. Winter'S Inventory
 
 In December in the yard
 the children built a snowman
@@ -1044,7 +1044,7 @@ of all that people gave it
 
 ---
 
-## 024. THE NIGHT BAKERY
+## 024. The Night Bakery
 
 At night when the city sleeps
 those who don't sleep go walking
@@ -1085,7 +1085,7 @@ and scent for those who don't
 
 ---
 
-## 025. THE BLIND MAN AT THE CINEMA
+## 025. The Blind Man at the Cinema
 
 He goes to the pictures every Wednesday
 the blind man
@@ -1132,7 +1132,7 @@ what is on the screen
 
 ---
 
-## 026. THE CAROUSEL MAN
+## 026. The Carousel Man
 
 From town to town
 from fair to fair
@@ -1176,7 +1176,7 @@ but without the music
 
 ---
 
-## 027. THE LAST COBBLER
+## 027. The Last Cobbler
 
 In the city of supermarkets
 where new shoes cost less
@@ -1224,7 +1224,7 @@ and never knows a thing
 
 ---
 
-## 028. THE METRONOME
+## 028. The Metronome
 
 The old violinist died on a Tuesday
 quietly
@@ -1272,7 +1272,7 @@ how fast it was lived in
 
 ---
 
-## 029. THE NAMES OF TREES
+## 029. The Names of Trees
 
 For sixty years he walked to work
 down the same avenue
@@ -1320,7 +1320,7 @@ not for trees
 
 ---
 
-## 030. THE NIGHT TRAIN CONDUCTOR
+## 030. The Night Train Conductor
 
 Forty years of night trains
 forty years walking the corridor
@@ -1365,7 +1365,7 @@ there was no one to wake him
 
 ---
 
-## 031. THE FLOWER SELLER
+## 031. The Flower Seller
 
 Every morning at five
 she cuts the roses
@@ -1409,7 +1409,7 @@ people do that themselves
 
 ---
 
-## 032. THE BOY AND THE ECHO
+## 032. The Boy and the Echo
 
 A boy stands at the edge of the valley
 small against the mountains
@@ -1462,7 +1462,7 @@ whatever you call into it
 
 ---
 
-## 033. THE HOUSE PAINTER
+## 033. The House Painter
 
 He comes with his bucket
 and his roller
@@ -1515,7 +1515,7 @@ who remembers it for them
 
 ---
 
-## 034. THE RETIRED FIREMAN
+## 034. The Retired Fireman
 
 All his life
 he carried water
@@ -1567,7 +1567,7 @@ nothing is burning
 
 ---
 
-## 035. THE WEDDING-DRESS TAILOR
+## 035. The Wedding-Dress Tailor
 
 He sews dresses
 made to measure
@@ -1623,7 +1623,7 @@ to wipe away some happiness
 
 ---
 
-## 036. THE LIFT BOY
+## 036. The Lift Boy
 
 For forty years Mister Albert
 goes up and down
@@ -1674,7 +1674,7 @@ the sky
 
 ---
 
-## 037. THE POSTCARD COLLECTOR
+## 037. The Postcard Collector
 
 In the second-hand shop by the station
 in a shoebox
@@ -1727,7 +1727,7 @@ could look too
 
 ---
 
-## 038. THE THEATRE CLEANING LADY
+## 038. The Theatre Cleaning Lady
 
 When the curtain falls
 when the chandeliers go out
@@ -1774,7 +1774,7 @@ sometimes wants to hear the end
 
 ---
 
-## 039. THE WEATHER ANNOUNCER
+## 039. The Weather Announcer
 
 Every morning
 into the microphone
@@ -1830,7 +1830,7 @@ must say it out loud
 
 ---
 
-## 040. THE EMPTY ROOM
+## 040. The Empty Room
 
 They are moving
 boxes by the door
@@ -1884,7 +1884,7 @@ was so afraid of the dark
 
 ---
 
-## 041. THE DOORBELL
+## 041. The Doorbell
 
 At the old man's door
 nobody rings
@@ -1938,7 +1938,7 @@ needs a fifth shoehorn
 
 ---
 
-## 042. THE VIOLINIST IN THE UNDERPASS
+## 042. The Violinist in the Underpass
 
 In the underpass
 where the wind pulls through
@@ -1990,7 +1990,7 @@ be changed
 
 ---
 
-## 043. THE LAMPLIGHTER
+## 043. The Lamplighter
 
 The last gas lamp
 in the city
@@ -2054,7 +2054,7 @@ by hand
 
 ---
 
-## 044. THE OLD SWIMMER
+## 044. The Old Swimmer
 
 Every morning he comes to the river
 the old swimmer
@@ -2101,7 +2101,7 @@ stopped chasing each other
 
 ---
 
-## 045. THE COFFEE MACHINE
+## 045. The Coffee Machine
 
 At three in the morning
 in the hospital corridor
@@ -2155,7 +2155,7 @@ that nobody likes
 
 ---
 
-## 046. THE MISSING WORD
+## 046. The Missing Word
 
 Grandfather sits by the window
 a dictionary on his knees
@@ -2206,7 +2206,7 @@ by being missing
 
 ---
 
-## 047. THE CARETAKER AND THE LIGHT
+## 047. The Caretaker and the Light
 
 Every evening at ten
 the caretaker walks the building
@@ -2252,7 +2252,7 @@ is an address
 
 ---
 
-## 048. THE BARBER
+## 048. The Barber
 
 The customers talk
 they talk about wives
@@ -2297,7 +2297,7 @@ and so do stories
 
 ---
 
-## 049. THE STOP IN THE FIELDS
+## 049. The Stop in the Fields
 
 The train stops on request
 in the middle of the fields
@@ -2350,7 +2350,7 @@ a sign cannot
 
 ---
 
-## 050. A LETTER TO MYSELF
+## 050. A Letter to Myself
 
 The teacher told the children
 write a letter
@@ -2400,7 +2400,7 @@ twenty years ago
 
 ---
 
-## 051. TOMATOES OVER THE FENCE
+## 051. Tomatoes over the Fence
 
 Two neighbours
 and between them a fence
@@ -2454,7 +2454,7 @@ they came out ahead
 
 ---
 
-## 052. THE CONDUCTOR IN THE PARK
+## 052. The Conductor in the Park
 
 Every morning he comes to the park
 the retired conductor
@@ -2510,7 +2510,7 @@ applauds with its leaves
 
 ---
 
-## 053. CHESS IN THE PARK
+## 053. Chess in the Park
 
 Two old men
 on a bench in the park
@@ -2565,7 +2565,7 @@ and tomorrow there's another move
 
 ---
 
-## 054. THE CROSSING
+## 054. The Crossing
 
 An old woman
 crosses at the crossing
@@ -2623,7 +2623,7 @@ who has just hushed the world
 
 ---
 
-## 055. THE WEDDING PHOTOGRAPHER
+## 055. The Wedding Photographer
 
 He photographed a thousand weddings
 a thousand times he said
@@ -2677,7 +2677,7 @@ and out of frame
 
 ---
 
-## 056. THE BOOK NEVER RETURNED
+## 056. The Book Never Returned
 
 The librarian has rubber stamps
 red ones blue ones violet ones
@@ -2720,7 +2720,7 @@ they are lent for a life
 
 ---
 
-## 057. THE SPARROW
+## 057. The Sparrow
 
 Every morning
 before the coffee
@@ -2766,7 +2766,7 @@ a good window when he's found one
 
 ---
 
-## 058. THE ASTRONOMICAL CLOCK
+## 058. The Astronomical Clock
 
 Tourists from Tokyo from Lima from Melbourne
 heads tipped back
@@ -2809,7 +2809,7 @@ is often the nearest
 
 ---
 
-## 059. THE ICE CREAM MAN AND THE CHESTNUTS
+## 059. The Ice Cream Man and the Chestnuts
 
 On the corner by the pharmacy
 in summer stands an ice cream man
@@ -2850,7 +2850,7 @@ and with a smile thrown in
 
 ---
 
-## 060. CHINESE WHISPERS
+## 060. Chinese Whispers
 
 The children sit in a circle on the grass
 and the first one whispers
@@ -2895,7 +2895,7 @@ history
 
 ---
 
-## 061. THE MANUSCRIPT
+## 061. The Manuscript
 
 All his life he rewrote
 a single manuscript
@@ -2950,7 +2950,7 @@ it had been written for
 
 ---
 
-## 062. LOVE LOCKS
+## 062. Love Locks
 
 On the bridge hung padlocks
 thousands of padlocks
@@ -3004,7 +3004,7 @@ stays locked
 
 ---
 
-## 063. THE STARTING PISTOL
+## 063. The Starting Pistol
 
 The referee raises his arm
 he holds a pistol
@@ -3048,7 +3048,7 @@ and not at the graveyard
 
 ---
 
-## 064. THE WINDOW ACROSS THE STREET
+## 064. The Window Across the Street
 
 In the morning a wave
 in the evening a light switched on
@@ -3100,7 +3100,7 @@ across a whole life
 
 ---
 
-## 065. THE LEAF SWEEPER
+## 065. The Leaf Sweeper
 
 He sweeps the whole town
 tons of leaves
@@ -3149,7 +3149,7 @@ keep a single leaf
 
 ---
 
-## 066. THE HOURGLASS
+## 066. The Hourglass
 
 In the souvenir shop
 between the postcards and the magnets
@@ -3202,7 +3202,7 @@ that time is running low
 
 ---
 
-## 067. THE MARKET CAT
+## 067. The Market Cat
 
 At the fish market
 every morning
@@ -3252,7 +3252,7 @@ and purr
 
 ---
 
-## 068. INFINITY
+## 068. Infinity
 
 The mathematics teacher
 writes on the blackboard
@@ -3308,7 +3308,7 @@ it is truly explained
 
 ---
 
-## 069. THE FERRIS WHEEL
+## 069. The Ferris Wheel
 
 The Ferris wheel operator
 presses a button
@@ -3366,7 +3366,7 @@ and will never see where he lives
 
 ---
 
-## 070. THE CLOAKROOM ATTENDANT
+## 070. The Cloakroom Attendant
 
 At the philharmonic
 behind door number three
@@ -3417,7 +3417,7 @@ I heard the whole of it
 
 ---
 
-## 071. THE CYCLIST AND THE WIND
+## 071. The Cyclist and the Wind
 
 In the morning to work
 against the wind
@@ -3471,7 +3471,7 @@ the wind would blow against him again
 
 ---
 
-## 072. THE NIGHT ATTENDANT
+## 072. The Night Attendant
 
 The all-night filling station
 by the motorway
@@ -3528,7 +3528,7 @@ and somewhere to leave from
 
 ---
 
-## 073. THE DOCTOR AND THE TEDDY BEAR
+## 073. The Doctor and the Teddy Bear
 
 Morning at the surgery
 it smells of alcohol and fear
@@ -3571,7 +3571,7 @@ with love
 
 ---
 
-## 074. THE CRACKED BELL
+## 074. The Cracked Bell
 
 In the tower hangs a great bell
 and it is cracked
@@ -3619,7 +3619,7 @@ and tinkles on
 
 ---
 
-## 075. THE CHIMNEY SWEEP
+## 075. The Chimney Sweep
 
 Down the street comes the chimney sweep
 all black as the night
@@ -3666,7 +3666,7 @@ and all over happy
 
 ---
 
-## 076. THE LIFEGUARD IN WINTER
+## 076. The Lifeguard in Winter
 
 The pool is closed for winter
 a tarp over the deep end
@@ -3708,7 +3708,7 @@ its peace
 
 ---
 
-## 077. THE MATCHES
+## 077. The Matches
 
 Twenty years ago
 he stubbed out his last cigarette
@@ -3752,7 +3752,7 @@ never
 
 ---
 
-## 078. THE INTERPRETER
+## 078. The Interpreter
 
 From morning till night
 she speaks with the words of other people
@@ -3801,7 +3801,7 @@ who will interpret her
 
 ---
 
-## 079. THE FADED TIMETABLE
+## 079. The Faded Timetable
 
 At the stop by the edge of the fields
 hangs a timetable
@@ -3852,7 +3852,7 @@ in no hurry to be anywhere
 
 ---
 
-## 080. THE BIRD FEEDERS
+## 080. The Bird Feeders
 
 Grandfather has shavings in his workshop
 and the smell of wood
@@ -3906,7 +3906,7 @@ it never happened
 
 ---
 
-## 081. THE INLAND LIGHTHOUSE
+## 081. The Inland Lighthouse
 
 Someone built on the hill
 above the beets and the wheat
@@ -3954,7 +3954,7 @@ that somebody shines
 
 ---
 
-## 082. THE DESK CLERK
+## 082. The Desk Clerk
 
 Behind the desk stands the clerk
 and he smiles at those who arrive
@@ -4008,7 +4008,7 @@ he owns in that hotel
 
 ---
 
-## 083. THE OLD MAP
+## 083. The Old Map
 
 Grandfather walks through the city
 with the map of his youth
@@ -4058,7 +4058,7 @@ is the one you carry inside
 
 ---
 
-## 084. THE BALLOON SELLER
+## 084. The Balloon Seller
 
 At the fair among the carousels
 stands the balloon seller
@@ -4113,7 +4113,7 @@ adds one more to the flock
 
 ---
 
-## 085. THE DENTIST
+## 085. The Dentist
 
 The dentist looks into mouths all day long
 open mouths
@@ -4165,7 +4165,7 @@ and talk to me
 
 ---
 
-## 086. THE LITTLE TREE IN JANUARY
+## 086. The Little Tree in January
 
 In January the trees lie by the bins
 on the pavement on the snow
@@ -4211,7 +4211,7 @@ but a neighbour
 
 ---
 
-## 087. THE DRIVING INSTRUCTOR
+## 087. The Driving Instructor
 
 All day he teaches strangers to drive
 into first gear
@@ -4258,7 +4258,7 @@ knows best how the town drives
 
 ---
 
-## 088. THE PROMPTER
+## 088. The Prompter
 
 All her life she whispers
 from the little box below the footlights
@@ -4304,7 +4304,7 @@ and whispers to the audience thank you
 
 ---
 
-## 089. THE WELL
+## 089. The Well
 
 In the middle of the square stands a well
 and on it hangs a sign
@@ -4356,7 +4356,7 @@ it saves itself
 
 ---
 
-## 090. THE TWO DOORBELLS
+## 090. The Two Doorbells
 
 On the flat's door two bells
 one new and white
@@ -4408,7 +4408,7 @@ only a faded name at the door
 
 ---
 
-## 091. THE SWEATERS
+## 091. The Sweaters
 
 The grandmother knits sweaters
 by the window by the lamp
@@ -4455,7 +4455,7 @@ is worn closer to the heart
 
 ---
 
-## 092. THE STATION CLOCK
+## 092. The Station Clock
 
 Under the great station clock
 people wait
@@ -4507,7 +4507,7 @@ they were already looking at each other
 
 ---
 
-## 093. THE SWIFTS
+## 093. The Swifts
 
 The building firm is to repair the school
 the façade the gutters the plaster
@@ -4559,7 +4559,7 @@ above your head must learn to fly
 
 ---
 
-## 094. THE SILENCE IN THE LIBRARY
+## 094. The Silence in the Library
 
 On the library door hangs a sign
 SILENCE PLEASE
@@ -4606,7 +4606,7 @@ so that at last everyone can
 
 ---
 
-## 095. THE PIANO AT AUCTION
+## 095. The Piano at Auction
 
 In the auction hall a piano
 an old piano
@@ -4650,7 +4650,7 @@ only when the little girl plays
 
 ---
 
-## 096. THE PHONE BOOK
+## 096. The Phone Book
 
 An old man keeps hidden
 the last phone book of the town
@@ -4693,7 +4693,7 @@ and Emil picks up every time
 
 ---
 
-## 097. THE BET ON THE RAIN
+## 097. The Bet on the Rain
 
 Two farmers all the dry summer
 stand at the fence and argue
@@ -4734,7 +4734,7 @@ because rain never belongs to just one
 
 ---
 
-## 098. THE HOLE IN THE PHOTOGRAPH
+## 098. The Hole in the Photograph
 
 The granddaughter leafs through the album
 old photographs
@@ -4778,7 +4778,7 @@ I reach him my hand through that hole
 
 ---
 
-## 099. THE ANCHOR
+## 099. The Anchor
 
 The tavern THE ANCHOR
 stands far inland
@@ -4819,7 +4819,7 @@ so they won't drown
 
 ---
 
-## 100. THE BROKEN RADIO
+## 100. The Broken Radio
 
 Grandfather's old radio
 picks up only one station now
@@ -4864,7 +4864,7 @@ and for free
 
 ---
 
-## 101. THE KEYHOLE
+## 101. The Keyhole
 
 The child kneels at the door
 of the locked room
@@ -4907,7 +4907,7 @@ and can still marvel at all the same
 
 ---
 
-## 102. THE SEED IN THE POCKET
+## 102. The Seed in the Pocket
 
 In spring the woman puts on
 her winter coat one last time
@@ -4953,7 +4953,7 @@ do you know me?
 
 ---
 
-## 103. THE SWALLOWS ON THE WIRES
+## 103. The Swallows on the Wires
 
 Before the great departure
 the swallows settle on the wires
@@ -4997,7 +4997,7 @@ and a new movement will begin
 
 ---
 
-## 104. THE MAN WHO SAID HELLO
+## 104. The Man Who Said Hello
 
 In the town where people don't greet each other
 there's a man
@@ -5046,7 +5046,7 @@ patient carrier
 
 ---
 
-## 105. THE LAST POEM
+## 105. The Last Poem
 
 The poet has to write a poem
 and nothing comes to him
@@ -5093,7 +5093,7 @@ and that is how this one came to be
 
 ---
 
-## 106. THE LAST PENCIL
+## 106. The Last Pencil
 
 In the case full of pens
 lies one last pencil
@@ -5139,7 +5139,7 @@ allowed to be wrong
 
 ---
 
-## 107. THE KEY WITHOUT A LOCK
+## 107. The Key Without a Lock
 
 In the drawer among the buttons
 and the old stamps
@@ -5187,7 +5187,7 @@ that truly opens anything
 
 ---
 
-## 108. THE LEAKY POT
+## 108. The Leaky Pot
 
 The housewife has a pot
 old
@@ -5239,7 +5239,7 @@ it thinks it only leaks
 
 ---
 
-## 109. THE UNFINISHED LETTER
+## 109. The Unfinished Letter
 
 In the drawer of the desk
 there is a letter
@@ -5292,7 +5292,7 @@ and he still does not know what
 
 ---
 
-## 110. THE OLD CHAIR BY THE ROAD
+## 110. The Old Chair by the Road
 
 Someone carried out a chair
 and set it by the road
@@ -5338,7 +5338,7 @@ all the people in the world
 
 ---
 
-## 111. THE STOPPED WATCH
+## 111. The Stopped Watch
 
 A man wears on his wrist
 a wristwatch
@@ -5386,7 +5386,7 @@ that used to fasten it on
 
 ---
 
-## 112. THE LAST COIN
+## 112. The Last Coin
 
 It was a currency
 that had ceased to be legal tender
@@ -5435,7 +5435,7 @@ that no government abolishes
 
 ---
 
-## 113. THE MIRROR IN THE JUNK SHOP
+## 113. The Mirror in the Junk Shop
 
 In the junk shop between the lamps
 and the old clocks
@@ -5489,7 +5489,7 @@ because it remembers none of it
 
 ---
 
-## 114. THE UMBRELLA TURNED INSIDE OUT
+## 114. The Umbrella Turned Inside Out
 
 On the street corner
 the wind caught an umbrella
@@ -5537,7 +5537,7 @@ it caught something
 
 ---
 
-## 115. THE CEREMONIAL SCISSORS
+## 115. The Ceremonial Scissors
 
 They brought them on a velvet cushion
 large
@@ -5589,7 +5589,7 @@ that is their whole biography
 
 ---
 
-## 116. THE STATION DOG
+## 116. The Station Dog
 
 Every day at noon
 he comes to the station
@@ -5628,7 +5628,7 @@ more beautiful than the reason it lost
 
 ---
 
-## 117. THE CAT WHO CHOSE
+## 117. The Cat Who Chose
 
 One morning
 she simply came
@@ -5664,7 +5664,7 @@ among the warm furniture
 
 ---
 
-## 118. THE SPARROW AND THE STATUE
+## 118. The Sparrow and the Statue
 
 On the square stands a general
 of bronze
@@ -5704,7 +5704,7 @@ a sparrow comes to sit
 
 ---
 
-## 119. THE FISH WHO SAW THE SKY
+## 119. The Fish Who Saw the Sky
 
 He swam in the shoal
 the way a shoal swims
@@ -5745,7 +5745,7 @@ that he can never prove to those below
 
 ---
 
-## 120. THE CAROUSEL HORSE
+## 120. The Carousel Horse
 
 A wooden horse
 a red saddle
@@ -5785,7 +5785,7 @@ while the barrel organ plays
 
 ---
 
-## 121. THE BUTTERFLY OF A SINGLE DAY
+## 121. The Butterfly of a Single Day
 
 In the morning he was born
 from a crumpled little sack
@@ -5825,7 +5825,7 @@ he who knows not when he ends lives whole
 
 ---
 
-## 122. THE ROOSTER WHO CROWED TOO LATE
+## 122. The Rooster Who Crowed Too Late
 
 The rooster on the fence
 his red comb
@@ -5865,7 +5865,7 @@ someone to welcome it
 
 ---
 
-## 123. THE SPIDER IN THE LIBRARY
+## 123. The Spider in the Library
 
 In the corner of the library
 between the dictionary and the wall
@@ -5905,7 +5905,7 @@ every library needs a hunter of what got away
 
 ---
 
-## 124. THE PIGEON WITH NO MESSAGE
+## 124. The Pigeon with No Message
 
 The last carrier pigeon
 grey and grave
@@ -5945,7 +5945,7 @@ hold on
 
 ---
 
-## 125. THE BEE IN WINTER
+## 125. The Bee in Winter
 
 She woke too early
 far too early
@@ -5985,7 +5985,7 @@ is even the picture of what is not yet
 
 ---
 
-## 126. THE TREE THAT GREW CROOKED
+## 126. The Tree That Grew Crooked
 
 Against the wall grew a tree
 and the wall was high
@@ -6033,7 +6033,7 @@ and we ask why we don't stand up straight
 
 ---
 
-## 127. THE LAST LEAF
+## 127. The Last Leaf
 
 On the tree stayed one leaf
 the last
@@ -6083,7 +6083,7 @@ just before the winter
 
 ---
 
-## 128. THE SEED IN THE ASPHALT
+## 128. The Seed in the Asphalt
 
 In the middle of the car park
 where the cars stand
@@ -6132,7 +6132,7 @@ and then the grass speaks
 
 ---
 
-## 129. THE RIVER THAT CHANGED ITS COURSE
+## 129. The River That Changed Its Course
 
 After the flood
 one night
@@ -6181,7 +6181,7 @@ the river is the line
 
 ---
 
-## 130. THE CLOUD THAT DID NOT RAIN
+## 130. The Cloud That Did Not Rain
 
 Over the parched land
 floated a cloud
@@ -6231,7 +6231,7 @@ for a foreign land
 
 ---
 
-## 131. THE STONE ON THE CAIRN
+## 131. The Stone on the Cairn
 
 At the start of the path
 the pilgrim picked up a stone
@@ -6282,7 +6282,7 @@ we were finally allowed to set down
 
 ---
 
-## 132. THE APPLE TREE BY THE DEMOLISHED HOUSE
+## 132. The Apple Tree by the Demolished House
 
 There stood an apple tree
 and beside it a house
@@ -6332,7 +6332,7 @@ even for the empty place where love was
 
 ---
 
-## 133. SNOW IN SPRING
+## 133. Snow in Spring
 
 It was April
 and the trees were in bloom
@@ -6382,7 +6382,7 @@ just long enough that you cannot run to reach them
 
 ---
 
-## 134. THE ROOT UNDER THE PAVEMENT
+## 134. The Root Under the Pavement
 
 Under the pavement
 grew a root
@@ -6431,7 +6431,7 @@ into our straight lines
 
 ---
 
-## 135. THE TWO TREES GROWN TOGETHER
+## 135. The Two Trees Grown Together
 
 By the path stood two trees
 so close
@@ -6485,7 +6485,7 @@ tighter than many a vow
 
 ---
 
-## 136. THE GRAVEDIGGER AND THE NAMES
+## 136. The Gravedigger and the Names
 
 Every morning the gravedigger takes his spade
 and walks the cemetery
@@ -6521,7 +6521,7 @@ no one can name anymore
 
 ---
 
-## 137. THE BRIDGE KEEPER
+## 137. The Bridge Keeper
 
 All night the keeper sits
 beside the drawbridge
@@ -6565,7 +6565,7 @@ you can count on it
 
 ---
 
-## 138. THE WASHERWOMAN
+## 138. The Washerwoman
 
 At home she has a machine
 white silent modern
@@ -6605,7 +6605,7 @@ to meet someone
 
 ---
 
-## 139. THE STONECUTTER
+## 139. The Stonecutter
 
 All his life he carved others' names
 into the cold stone
@@ -6646,7 +6646,7 @@ a stranger's hand
 
 ---
 
-## 140. THE SWITCHBOARD OPERATOR
+## 140. The Switchboard Operator
 
 Once she sat at the great board
 full of holes and cords
@@ -6689,7 +6689,7 @@ you can't unplug
 
 ---
 
-## 141. THE BAKER AND THE SHAPE OF BREAD
+## 141. The Baker and the Shape of Bread
 
 For each regular
 the baker makes the bread differently
@@ -6725,7 +6725,7 @@ that no one will print
 
 ---
 
-## 142. THE DEAF MUSIC TEACHER
+## 142. The Deaf Music Teacher
 
 The old music teacher
 went deaf as a stump
@@ -6764,7 +6764,7 @@ and he hears them better than before
 
 ---
 
-## 143. THE JUDGE ON THE BENCH
+## 143. The Judge on the Bench
 
 Retired the judge sits
 on a bench in the park
@@ -6804,7 +6804,7 @@ but when someone hears them out
 
 ---
 
-## 144. THE MIDWIFE
+## 144. The Midwife
 
 By the window the old midwife sits
 counting on her fingers
@@ -6842,7 +6842,7 @@ and that is quite enough
 
 ---
 
-## 145. THE RETIRED POSTMAN
+## 145. The Retired Postman
 
 Every morning the postman sets out
 down the same street as for forty years
@@ -6884,7 +6884,7 @@ the day goes on
 
 ---
 
-## 146. THE BENCH WITH A PLAQUE
+## 146. The Bench with a Plaque
 
 On the bench there is a little plaque
 made of brass
@@ -6928,7 +6928,7 @@ rest on
 
 ---
 
-## 147. THE CROSSING FOR THE BLIND
+## 147. The Crossing for the Blind
 
 At three in the morning
 the street is empty
@@ -6977,7 +6977,7 @@ will come
 
 ---
 
-## 148. THE DISCONTINUED POSTBOX
+## 148. The Discontinued Postbox
 
 On the corner hangs a postbox
 yellow
@@ -7025,7 +7025,7 @@ arrive
 
 ---
 
-## 149. THE DRY FOUNTAIN
+## 149. The Dry Fountain
 
 They shut the fountain off
 in autumn
@@ -7074,7 +7074,7 @@ the longing
 
 ---
 
-## 150. THE CLOCK THAT RUNS SLOW
+## 150. The Clock That Runs Slow
 
 The clock on the tower
 in the square
@@ -7119,7 +7119,7 @@ fell behind
 
 ---
 
-## 151. THE LAMP IN LOVE
+## 151. The Lamp in Love
 
 It's an ordinary lamp
 on the corner by the park
@@ -7166,7 +7166,7 @@ for the next ones
 
 ---
 
-## 152. THE PHONE BOOTH LIBRARY
+## 152. The Phone Booth Library
 
 From the old telephone booth
 they made a library
@@ -7216,7 +7216,7 @@ from them anymore
 
 ---
 
-## 153. THE WORN BANISTER
+## 153. The Worn Banister
 
 At the foot of the old stairs
 there is an iron banister
@@ -7263,7 +7263,7 @@ we held on
 
 ---
 
-## 154. THE TWO STATION CLOCKS
+## 154. The Two Station Clocks
 
 In the station there are two clocks
 one above the ticket window
@@ -7312,7 +7312,7 @@ by our hope
 
 ---
 
-## 155. THE CHAINED BICYCLE
+## 155. The Chained Bicycle
 
 Against the railing stands a bicycle
 chained up
@@ -7361,7 +7361,7 @@ I'll return
 
 ---
 
-## 156. THE BIRD IN THE OPEN CAGE
+## 156. The Bird in the Open Cage
 
 The little door is open
 the little door was open
@@ -7405,7 +7405,7 @@ for letting him stay sitting
 
 ---
 
-## 157. THE GUIDE DOG WITHOUT A MASTER
+## 157. The Guide Dog Without a Master
 
 Left at the bench
 right at the fountain
@@ -7452,7 +7452,7 @@ and looks for him in every face
 
 ---
 
-## 158. THE BOOKSHOP CAT
+## 158. The Bookshop Cat
 
 In the window among the volumes
 a cat sleeps
@@ -7498,7 +7498,7 @@ reached in the end for it
 
 ---
 
-## 159. THE SWAN ON THE FROZEN POND
+## 159. The Swan on the Frozen Pond
 
 All the swans have flown
 south
@@ -7545,7 +7545,7 @@ how to care
 
 ---
 
-## 160. THE ANTS AND THE CRUMB
+## 160. The Ants and the Crumb
 
 Ten ants
 under a single crust
@@ -7597,7 +7597,7 @@ what was never its own
 
 ---
 
-## 161. THE OWL ON THE TOWN HALL
+## 161. The Owl on the Town Hall
 
 In the tower of the town hall
 between the clock and the bell
@@ -7647,7 +7647,7 @@ truly keeps watch over it
 
 ---
 
-## 162. THE DOG AND THE POSTMAN
+## 162. The Dog and the Postman
 
 Every morning at eight
 the gate creaks
@@ -7701,7 +7701,7 @@ affection
 
 ---
 
-## 163. THE STRANDED WHALE
+## 163. The Stranded Whale
 
 The sea has gone away
 and left her lying
@@ -7753,7 +7753,7 @@ into a tide
 
 ---
 
-## 164. THE HORSE AND THE TRACTOR
+## 164. The Horse and the Tractor
 
 In the yard stands a tractor
 red
@@ -7806,7 +7806,7 @@ that one cannot be replaced
 
 ---
 
-## 165. THE STORK ON THE CHIMNEY
+## 165. The Stork on the Chimney
 
 On the old factory chimney
 that is to come down
@@ -7857,7 +7857,7 @@ of looking up
 
 ---
 
-## 166. THE SHADOW
+## 166. The Shadow
 
 The shadow complains
 all day long it complains
@@ -7904,7 +7904,7 @@ are we equal with our darkness
 
 ---
 
-## 167. THE ECHO LEFT ALONE
+## 167. The Echo Left Alone
 
 In the abandoned quarry
 among the stones
@@ -7953,7 +7953,7 @@ it died because no one would talk to it
 
 ---
 
-## 168. THE SILENCE IN THE HOSPITAL
+## 168. The Silence in the Hospital
 
 At three in the morning
 in room number nine
@@ -8005,7 +8005,7 @@ silence mends what has no medicine
 
 ---
 
-## 169. THE FIRST SNOW
+## 169. The First Snow
 
 The first snow is shy
 it comes at night
@@ -8053,7 +8053,7 @@ and in the morning plays the innocent
 
 ---
 
-## 170. OBLIVION
+## 170. Oblivion
 
 Oblivion walks through the town
 with a great sack
@@ -8103,7 +8103,7 @@ that oblivion cannot fall through
 
 ---
 
-## 171. THE WIND AND THE WASHING
+## 171. The Wind and the Washing
 
 In the yard between the houses
 the washing hangs on the line
@@ -8153,7 +8153,7 @@ would be too little for it
 
 ---
 
-## 172. COUNTING SHEEP
+## 172. Counting Sheep
 
 The insomniac lies in bed
 and counts the sheep
@@ -8206,7 +8206,7 @@ and the sheep knew it first
 
 ---
 
-## 173. THE ZERO
+## 173. The Zero
 
 The number zero sits in a corner
 and cries
@@ -8255,7 +8255,7 @@ worth is a question of place
 
 ---
 
-## 174. THE QUESTION MARK
+## 174. The Question Mark
 
 The question mark envies the full stop
 it is so calm
@@ -8307,7 +8307,7 @@ certainty is the end of the conversation
 
 ---
 
-## 175. THE REST IN MUSIC
+## 175. The Rest in Music
 
 In the score between the black dots
 sits a rest
@@ -8364,7 +8364,7 @@ is the one that never sounds
 
 ---
 
-## 176. THE HIDDEN CLOAKROOM TICKET
+## 176. The Hidden Cloakroom Ticket
 
 In his wallet between the coins
 and an old tram ticket
@@ -8408,7 +8408,7 @@ come in
 
 ---
 
-## 177. GRANDMOTHER AND THE SOAP OPERA
+## 177. Grandmother and the Soap Opera
 
 Every evening at eight
 grandmother turns on the television
@@ -8454,7 +8454,7 @@ four people emptier
 
 ---
 
-## 178. THE CHILD AND THE MOON
+## 178. The Child and the Moon
 
 Grandpa look
 the moon is following me
@@ -8500,7 +8500,7 @@ who faithfully walks beside him
 
 ---
 
-## 179. THE MAN WHO NEVER HURRIED
+## 179. The Man Who Never Hurried
 
 In the city where everyone runs
 one man walks slowly
@@ -8552,7 +8552,7 @@ you saw nothing
 
 ---
 
-## 180. THE WOMAN WHO TALKED TO HER PLANTS
+## 180. The Woman Who Talked to Her Plants
 
 Good morning geranium
 did you sleep well
@@ -8598,7 +8598,7 @@ that one blooms as well
 
 ---
 
-## 181. THE OLD MAN AND ONE SEA
+## 181. The Old Man and One Sea
 
 Once in his life he saw the sea
 just once
@@ -8646,7 +8646,7 @@ will you see it the same
 
 ---
 
-## 182. THE COLLECTOR OF SUNSETS
+## 182. The Collector of Sunsets
 
 Every evening he goes out on the balcony
 and photographs the sunset
@@ -8697,7 +8697,7 @@ has no two days the same
 
 ---
 
-## 183. TWO SISTERS AND ONE WATCH
+## 183. Two Sisters and One Watch
 
 Their mother left one watch
 small and gold
@@ -8748,7 +8748,7 @@ at least twice a year
 
 ---
 
-## 184. THE UMBRELLA MENDER
+## 184. The Umbrella Mender
 
 In the age when umbrellas are thrown away
 because it's cheaper than the mending
@@ -8801,7 +8801,7 @@ of that hand
 
 ---
 
-## 185. THE BARBER AND THE FIRST CUT
+## 185. The Barber and the First Cut
 
 Each time he cuts a child for the first time
 the mother keeps her hands in her lap
@@ -8855,7 +8855,7 @@ all this time
 
 ---
 
-## 186. THE EMPTY TRAM TO THE DEPOT
+## 186. The Empty Tram to the Depot
 
 The last tram
 rolls to the depot
@@ -8904,7 +8904,7 @@ the line is finally free
 
 ---
 
-## 187. GRANDFATHER'S SHOES
+## 187. Grandfather'S Shoes
 
 The grandson got grandfather's shoes
 black and heavy
@@ -8958,7 +8958,7 @@ that remember him
 
 ---
 
-## 188. THE TREASURE MAP WITHOUT THE CROSS
+## 188. The Treasure Map Without the Cross
 
 They found a treasure map
 yellowed in a box
@@ -9012,7 +9012,7 @@ the map beneath her pillow
 
 ---
 
-## 189. THE CANDLE THAT BURNED OUT
+## 189. The Candle That Burned Out
 
 On the cake stood a candle
 a single one
@@ -9071,7 +9071,7 @@ opened outward
 
 ---
 
-## 190. THE NOTEBOOK WITH ONE SENTENCE
+## 190. The Notebook with One Sentence
 
 At the secondhand shop among the books
 lay a notebook
@@ -9130,7 +9130,7 @@ written for you
 
 ---
 
-## 191. TWO DROPS ON THE WINDOW
+## 191. Two Drops on the Window
 
 It is raining
 and two children sit by the window
@@ -9189,7 +9189,7 @@ in the end becomes one
 
 ---
 
-## 192. THE OLD CIRCUS ELEPHANT
+## 192. The Old Circus Elephant
 
 The circus went bankrupt
 they folded the big top
@@ -9248,7 +9248,7 @@ for him to learn it
 
 ---
 
-## 193. THE GARDEN GATE THAT CREAKS
+## 193. The Garden Gate That Creaks
 
 The garden gate creaks
 for long years now
@@ -9302,7 +9302,7 @@ even what is broken
 
 ---
 
-## 194. THE LAST APPLE ON THE TREE
+## 194. The Last Apple on the Tree
 
 The harvest is over
 the crates are full
@@ -9356,7 +9356,7 @@ no one is forgotten
 
 ---
 
-## 195. THE STAR THAT NO LONGER SHINES
+## 195. The Star That No Longer Shines
 
 The astronomer took the children up the hill
 far from the lamps
@@ -9410,7 +9410,7 @@ for whom nobody knows yet
 
 ---
 
-## 196. ONE UMBRELLA FOR TWO
+## 196. One Umbrella for Two
 
 It's raining
 and they have a single umbrella
@@ -9460,7 +9460,7 @@ leans on someone
 
 ---
 
-## 197. THE POSTWOMAN AND ONE HOUSE
+## 197. The Postwoman and One House
 
 To that house on the corner
 she carries only flyers
@@ -9512,7 +9512,7 @@ that remembers
 
 ---
 
-## 198. THE PIANIST IN THE HOTEL LOBBY
+## 198. The Pianist in the Hotel Lobby
 
 He plays in the lobby
 among the potted palms
@@ -9567,7 +9567,7 @@ that doesn't sleep
 
 ---
 
-## 199. THE COIN IN THE COBBLES
+## 199. The Coin in the Cobbles
 
 Between two cobblestones
 a coin is stuck
@@ -9616,7 +9616,7 @@ where the poor walk
 
 ---
 
-## 200. SOMEONE ELSE'S FLOWERS
+## 200. Someone Else'S Flowers
 
 The neighbor left
 on holiday
@@ -9669,7 +9669,7 @@ knows no fences
 
 ---
 
-## 201. THE GIVEN STONE
+## 201. The Given Stone
 
 The child came in from outside
 with dirty knees
@@ -9726,7 +9726,7 @@ given with love
 
 ---
 
-## 202. THE LAST SNOWFLAKE
+## 202. The Last Snowflake
 
 Winter is ending
 the snow melts
@@ -9783,7 +9783,7 @@ to let it melt
 
 ---
 
-## 203. THE WALLED-UP DOOR
+## 203. The Walled-Up Door
 
 In the old wall
 a door remains
@@ -9839,7 +9839,7 @@ cannot be walled up
 
 ---
 
-## 204. THE OLD BRIDGE AND THE NEW
+## 204. The Old Bridge and the New
 
 Across the river
 they built a new bridge
@@ -9898,7 +9898,7 @@ is in a hurry
 
 ---
 
-## 205. THE COLLECTION OF POEMS
+## 205. The Collection of Poems
 
 The poet has written
 the last line
@@ -9966,7 +9966,7 @@ lets it go from his hand
 
 ---
 
-## 206. THE KNIFE GRINDER
+## 206. The Knife Grinder
 
 Down the street comes a bicycle with a grindstone
 and the bell announces ahead of it
@@ -10030,7 +10030,7 @@ so this town can get some sleep
 
 ---
 
-## 207. THE GLAZIER
+## 207. The Glazier
 
 He walks the town with panes on his back
 transparent wings of window glass
@@ -10088,7 +10088,7 @@ a good hard shot with a ball
 
 ---
 
-## 208. THE BOOKBINDER
+## 208. The Bookbinder
 
 The workshop smells of glue leather and thread
 on the table lies a hospital of books
@@ -10146,7 +10146,7 @@ where a person opens most
 
 ---
 
-## 209. THE ORGANIST WITHOUT AN ORGAN
+## 209. The Organist Without an Organ
 
 On the church door hangs a sign
 CLOSED FOR TECHNICAL REASONS
@@ -10209,7 +10209,7 @@ a sign on the air
 
 ---
 
-## 210. THE TAXI DRIVER WHO TURNS OFF THE METER
+## 210. The Taxi Driver Who Turns Off the Meter
 
 The taxi waits at the station rank
 and the meter counts
@@ -10270,7 +10270,7 @@ you must not count
 
 ---
 
-## 211. THE SUMMER CINEMA PROJECTIONIST
+## 211. The Summer Cinema Projectionist
 
 The open-air cinema behind the brewery
 a screen stretched between two poplars
@@ -10333,7 +10333,7 @@ it's only a caption
 
 ---
 
-## 212. THE MUSIC BOX REPAIRMAN
+## 212. The Music Box Repairman
 
 In the courtyard workshop a hundred small musics are sleeping
 music boxes with cranks
@@ -10404,7 +10404,7 @@ stuck it hurts forever
 
 ---
 
-## 213. THE STATION PORTER
+## 213. The Station Porter
 
 At the station by platform two
 stands a porter with his trolley
@@ -10467,7 +10467,7 @@ that stayed behind at home
 
 ---
 
-## 214. THE SIGN PAINTER
+## 214. The Sign Painter
 
 The sign painter stands on his ladder
 scraping an old shop sign
@@ -10478,9 +10478,9 @@ it's going to say PHARMACY
 And under the paint letters appear
 GROCERIES
 and under the groceries
-HAVLÍČEK'S FINE FOODS
+HALLIDAY'S FINE FOODS
 and under the fine foods
-BAKERY FRANTIŠEK ČERMÁK AND SON
+BAKERY FRANCIS CHAMBERS AND SON
 and under the bakery
 only a golden shadow of lettering
 whose name nobody can read any more
@@ -10520,13 +10520,13 @@ to have something to read
 
 ---
 
-## 215. THE BEEKEEPER ON THE ROOF
+## 215. The Beekeeper on the Roof
 
 On the roof of a tower block
 eight floors above the street
 between the aerials and the lift shafts
 stand three beehives
-and Mr Novák with a veil over his face
+and Mr Smith with a veil over his face
 
 The neighbours shake their heads
 Honey from the city? they say
@@ -10541,18 +10541,18 @@ in the morning they fly out over the street
 and see what the neighbours never see
 the lindens by the post office
 the acacias along the tracks
-Mrs Horáčková's balcony full of window boxes
+Mrs Horton's balcony full of window boxes
 mulleins on the demolition site
 little gardens behind the garages
 a whole city in bloom
 that believes itself grey
 
-In autumn Mr Novák rings the doorbells
+In autumn Mr Smith rings the doorbells
 a jar of honey in each hand
 and on the box a sign
 DON'T BELIEVE IT? TASTE IT
 
-Mrs Horáčková tastes
+Mrs Horton tastes
 and raises her eyebrows
 How strange
 it tastes like our balcony
@@ -10570,7 +10570,7 @@ and it is sweet
 
 ---
 
-## 216. THE HEDGEHOG AND THE AUTUMN LEAVES
+## 216. The Hedgehog and the Autumn Leaves
 
 All September the hedgehog made his bed
 leaf by leaf
@@ -10623,7 +10623,7 @@ on purpose
 
 ---
 
-## 217. THE MOLE AND THE GARDENER
+## 217. The Mole and the Gardener
 
 The gardener had a lawn like a billiard table
 English style
@@ -10679,7 +10679,7 @@ the garden is the whole house
 
 ---
 
-## 218. THE FOX IN THE CITY
+## 218. The Fox in the City
 
 At three in the morning the city belongs to the fox
 the traffic lights blink amber
@@ -10732,9 +10732,9 @@ until three in the morning
 
 ---
 
-## 219. THE HEN WHO FLEW
+## 219. The Hen Who Flew
 
-In the Nováks' yard it happened on a Tuesday
+In the Smiths' yard it happened on a Tuesday
 the dog was chasing the hen
 the hen was running
 the fence was close
@@ -10784,7 +10784,7 @@ a colleague
 
 ---
 
-## 220. THE OLD CARP IN THE FOUNTAIN
+## 220. The Old Carp in the Fountain
 
 In the fountain on the square lives a carp
 big as a forearm
@@ -10840,7 +10840,7 @@ gave in
 
 ---
 
-## 221. THE BATS IN THE CHURCH ATTIC
+## 221. The Bats in the Church Attic
 
 To the church on the hill
 only three grandmothers and a draught still come
@@ -10898,7 +10898,7 @@ standing upright
 
 ---
 
-## 222. THE SNAIL AND THE RACE
+## 222. The Snail and the Race
 
 On the path along the gardens
 a race was run that morning
@@ -10947,7 +10947,7 @@ right at the start
 
 ---
 
-## 223. THE MAGPIE AND THE WEDDING RING
+## 223. The Magpie and the Wedding Ring
 
 She left it on the ledge by the sink
 just for a moment
@@ -11003,7 +11003,7 @@ where no magpie can reach
 
 ---
 
-## 224. THE SQUIRREL AND THE FORGOTTEN NUTS
+## 224. The Squirrel and the Forgotten Nuts
 
 All autumn she worked
 a hazelnut here
@@ -11057,7 +11057,7 @@ And that is just as well
 
 ---
 
-## 225. THE BLACKBIRD WHO SANG IN DECEMBER
+## 225. The Blackbird Who Sang in December
 
 On the seventeenth of December
 at half past four in the dark
@@ -11113,7 +11113,7 @@ just in case
 
 ---
 
-## 226. THE GRAMOPHONE AND ONE RECORD
+## 226. The Gramophone and One Record
 
 The gramophone in the corner of the room
 plays one record
@@ -11161,7 +11161,7 @@ it's the heart
 
 ---
 
-## 227. THE TYPEWRITER MISSING A LETTER
+## 227. The Typewriter Missing a Letter
 
 An old typewriter
 types every letter
@@ -11210,7 +11210,7 @@ only she is written by hand
 
 ---
 
-## 228. THE SUITCASE COVERED IN STICKERS
+## 228. The Suitcase Covered in Stickers
 
 In the attic under the beam
 sleeps a suitcase
@@ -11263,7 +11263,7 @@ from the inside
 
 ---
 
-## 229. DAD'S READING GLASSES
+## 229. Dad'S Reading Glasses
 
 Dad left few things behind
 a watch that kept going
@@ -11316,7 +11316,7 @@ you have to grow into them
 
 ---
 
-## 230. THE NIGHT-SHIFT THERMOS
+## 230. The Night-Shift Thermos
 
 Thirty years of night shifts
 thirty years of three in the morning
@@ -11371,7 +11371,7 @@ is only a messenger
 
 ---
 
-## 231. GREAT-GRANDMOTHER'S SEWING MACHINE
+## 231. Great-Grandmother'S Sewing Machine
 
 In the corner of the bedroom stands
 a sewing machine
@@ -11423,7 +11423,7 @@ where the service goes on
 
 ---
 
-## 232. LAST YEAR'S CALENDAR
+## 232. Last Year'S Calendar
 
 In the kitchen hangs a new calendar
 it does its job honestly
@@ -11474,7 +11474,7 @@ because nobody turned it
 
 ---
 
-## 233. THE CRACKED CUP
+## 233. The Cracked Cup
 
 In the cupboard behind glass
 stand the cups for guests
@@ -11527,7 +11527,7 @@ what is true
 
 ---
 
-## 234. THE SLED IN SUMMER
+## 234. The Sled in Summer
 
 July
 the asphalt melting in the yard
@@ -11588,7 +11588,7 @@ that was taking its time
 
 ---
 
-## 235. THE OFFICIAL STAMP
+## 235. The Official Stamp
 
 All day long it jumps
 from ink pad to paper
@@ -11647,7 +11647,7 @@ at their own risk
 
 ---
 
-## 236. THE WAITING ROOM
+## 236. The Waiting Room
 
 The doctor's waiting room
 smells of iodine and old paper
@@ -11686,7 +11686,7 @@ I have all the time in the world
 
 When the waiting room is empty
 the doctor comes to the door
-Mrs Nováková, nothing wrong again?
+Mrs Smith, nothing wrong again?
 
 Nothing, doctor
 at home the silence is only mine
@@ -11694,36 +11694,36 @@ here for a while it was ours
 
 ---
 
-## 237. THE LAST NEWSSTAND
+## 237. The Last Newsstand
 
 The newsstand on the corner
 is small as a confessional
-and Mr Souček has kept it
+and Mr Barton has kept it
 for fifty years
 
-The sports paper for Mr Krejčí
-crosswords for Mrs Bláhová
+The sports paper for Mr Taylor
+crosswords for Mrs Blake
 the political daily for the doctor
 who curses as he reads it
 and takes it all the same
 
-Mr Souček knows everyone by name
+Mr Barton knows everyone by name
 and by name he also knows the ones
 who come no longer
-Mr Krejčí left in April
+Mr Taylor left in April
 his sports paper lay on the counter for a week
-before Mr Souček admitted to himself
-that Mr Krejčí no longer needed the scores
+before Mr Barton admitted to himself
+that Mr Taylor no longer needed the scores
 
 The young don't buy papers
 they carry the news in their pockets
 faster than ink
-Mr Souček, what's paper for
+Mr Barton, what's paper for
 when it's all on the phone?
 
-It's all there, nods Mr Souček
+It's all there, nods Mr Barton
 only in there nobody says
-good morning Mr Novák
+good morning Mr Smith
 is your mother home from the hospital yet?
 
 One Monday the newsstand is closed
@@ -11740,7 +11740,7 @@ before
 
 ---
 
-## 238. THE CARPET RACK
+## 238. The Carpet Rack
 
 In the courtyard between the houses
 stands the iron carpet rack
@@ -11791,7 +11791,7 @@ to play
 
 ---
 
-## 239. THE PASSAGEWAY
+## 239. The Passageway
 
 Between Long Street and Short Street
 there is a passageway
@@ -11835,7 +11835,7 @@ that only the body knows
 
 ---
 
-## 240. THE SECOND-HAND BOOKSHOP
+## 240. The Second-Hand Bookshop
 
 In the second-hand bookshop by the bridge
 the books smell
@@ -11848,8 +11848,8 @@ I love you, Christmas 1961
 price in pencil twenty crowns
 
 In a book of verses about the sea
-To my Anička for her graduation, Dad
-Anička may have grandchildren by now
+To my Annie for her graduation, Dad
+Annie may have grandchildren by now
 and her graduation lies here
 for fifteen
 
@@ -11884,7 +11884,7 @@ same as back then
 
 ---
 
-## 241. THE PLAYGROUND AFTER DARK
+## 241. The Playground After Dark
 
 The playground after dark
 is like a theatre after the show
@@ -11934,7 +11934,7 @@ like a clock
 
 ---
 
-## 242. THE POST OFFICE ONE MINUTE BEFORE CLOSING
+## 242. The Post Office One Minute Before Closing
 
 The post office closes at six
 at five fifty-nine
@@ -11989,7 +11989,7 @@ the night
 
 ---
 
-## 243. THE MANNEQUIN IN THE WINDOW
+## 243. The Mannequin in the Window
 
 In the fashion house on the square
 a mannequin stands in the window
@@ -12039,7 +12039,7 @@ someone was looking at them
 
 ---
 
-## 244. THE VILLAGE LOUDSPEAKER
+## 244. The Village Loudspeaker
 
 At noon the loudspeaker crackles
 on the pole by the chapel
@@ -12060,12 +12060,12 @@ do not be alarmed
 And further
 it is with deep sorrow that we announce
 the passing of
-Mr Antonín Vávra carpenter
+Mr Anthony Warren carpenter
 the funeral is Friday at two
 
 All in one voice
 in one tone
-the glove the pullets Mr Vávra
+the glove the pullets Mr Warren
 a stranger would find it odd
 is death announced like a glove?
 
@@ -12074,7 +12074,7 @@ the village is a single ear
 and what is lost
 is lost to everyone
 the glove for a week
-Mr Vávra for good
+Mr Warren for good
 the tone is the same
 because a loss is a loss
 only the size differs
@@ -12083,7 +12083,7 @@ Only once did the voice break
 in the middle of an announcement
 it is with deep sorrow that we announce
 the passing of
-Mrs Marie Doležalová
+Mrs Marie Dalton
 
 and then a pause
 long as the whole village
@@ -12105,7 +12105,7 @@ tomorrow
 
 ---
 
-## 245. THE STAIRCASE WITHOUT A LIFT
+## 245. The Staircase Without a Lift
 
 House number twelve has no lift
 it has a staircase
@@ -12130,7 +12130,7 @@ On the third nobody
 the flat is for rent
 the steps outside it are the quietest
 
-And on the fourth Mr Řehoř
+And on the fourth Mr Gregory
 eighty-two years old
 ninety-six steps
 half an hour to the top
@@ -12141,11 +12141,11 @@ at the young couple's he smiles
 at the empty flat he takes off his hat
 
 The doctor tells him
-Mr Řehoř, change flats
+Mr Gregory, change flats
 take the ground floor
 spare your heart
 
-And Mr Řehoř shakes his head
+And Mr Gregory shakes his head
 Doctor
 on the ground floor I'd be home at once
 and then what?
@@ -12169,7 +12169,7 @@ to be the sky
 
 ---
 
-## 246. FOG OVER THE RIVER
+## 246. Fog over the River
 
 This morning the river breathed in
 so deeply
@@ -12221,7 +12221,7 @@ and everything was far away again
 
 ---
 
-## 247. RAINBOW OVER THE HOUSING ESTATE
+## 247. Rainbow over the Housing Estate
 
 All day it rained on the estate
 conscientiously and in gray
@@ -12272,7 +12272,7 @@ it's just a longer while
 
 ---
 
-## 248. THE PUDDLE
+## 248. The Puddle
 
 After the rain there stayed on the square
 a puddle
@@ -12320,7 +12320,7 @@ for the next rain
 
 ---
 
-## 249. FROST ON THE WINDOWPANE
+## 249. Frost on the Windowpane
 
 In the night a painter came
 nobody heard him ring
@@ -12367,7 +12367,7 @@ it would only be a curtain
 
 ---
 
-## 250. THE GALE AND THE PAPER KITE
+## 250. The Gale and the Paper Kite
 
 A gale like nothing in years
 bends the poplars over the town
@@ -12418,7 +12418,7 @@ the sky is still tied on
 
 ---
 
-## 251. THE FIRST STORM OF THE YEAR
+## 251. The First Storm of the Year
 
 All winter and all spring
 the sky did nothing but whisper
@@ -12473,7 +12473,7 @@ they were standing side by side
 
 ---
 
-## 252. INDIAN SUMMER
+## 252. Indian Summer
 
 Summer doesn't leave by train
 it has no suitcases
@@ -12523,7 +12523,7 @@ in person
 
 ---
 
-## 253. HAIL ON THE GREENHOUSE
+## 253. Hail on the Greenhouse
 
 In June on a scorching afternoon
 the sky turned black
@@ -12573,7 +12573,7 @@ not for the labour
 
 ---
 
-## 254. THE MELTING SNOWMAN
+## 254. The Melting Snowman
 
 He stood by the gate since December
 a saucepan on his head
@@ -12621,7 +12621,7 @@ with the neighbours
 
 ---
 
-## 255. THE SMELL OF RAIN ON HOT ASPHALT
+## 255. The Smell of Rain on Hot Asphalt
 
 All day the city glowed
 like a stovetop
@@ -12669,7 +12669,7 @@ they only paved me over
 
 ---
 
-## 256. THE FIRST WHISTLE
+## 256. The First Whistle
 
 Grandfather can whistle like a blackbird
 whistle like a train
@@ -12721,7 +12721,7 @@ has just answered
 
 ---
 
-## 257. THE DRESS IN THE BOX
+## 257. The Dress in the Box
 
 High up in the wardrobe
 above the sweaters above the bed linen
@@ -12771,7 +12771,7 @@ has somewhere to live
 
 ---
 
-## 258. THE FIRST GREY HAIR
+## 258. The First Grey Hair
 
 In the morning at the bathroom mirror
 between the brushes and the bottles
@@ -12824,7 +12824,7 @@ grew for him
 
 ---
 
-## 259. DANCING IN THE KITCHEN
+## 259. Dancing in the Kitchen
 
 On the stove the soup is bubbling
 on the board an onion waits
@@ -12885,7 +12885,7 @@ always burns something
 
 ---
 
-## 260. THE INHERITED LAUGH
+## 260. The Inherited Laugh
 
 The father left behind
 a watch that needs winding
@@ -12939,7 +12939,7 @@ And it begins with the laugh
 
 ---
 
-## 261. THE LAST FAMILY PHOTOGRAPH
+## 261. The Last Family Photograph
 
 It's a bad photo
 you have to admit
@@ -12991,7 +12991,7 @@ next time we'll take a proper one
 
 ---
 
-## 262. THE CROOKED STAR
+## 262. The Crooked Star
 
 In the box of decorations
 everything is ordered like a jeweller's shop
@@ -13048,7 +13048,7 @@ once they've moved away
 
 ---
 
-## 263. THE SIDES OF THE BED
+## 263. The Sides of the Bed
 
 For forty years
 he slept on the door side
@@ -13104,7 +13104,7 @@ between her and the sky
 
 ---
 
-## 264. THE HAND ON THE SADDLE
+## 264. The Hand on the Saddle
 
 The street behind the house
 Sunday morning
@@ -13132,7 +13132,7 @@ on a Sunday
 in his Sunday shoes
 he runs past the fences
 past the dustbins
-past Mrs Novak with her shopping bag
+past Mrs Smith with her shopping bag
 he runs and he holds
 
 And then he only runs
@@ -13175,7 +13175,7 @@ it is the truth
 
 ---
 
-## 265. THE PHONE AT SEVEN
+## 265. The Phone at Seven
 
 Every Sunday at seven
 the telephone rings
@@ -13250,7 +13250,7 @@ who still feel like talking
 
 ---
 
-## 266. SECOND VIOLIN
+## 266. Second Violin
 
 Forty years in the same quartet
 forty years second violin
@@ -13296,7 +13296,7 @@ as long as you're walking across
 
 ---
 
-## 267. THE PAGE TURNER
+## 267. The Page Turner
 
 She sits to the left of the pianist
 half a chair behind
@@ -13343,7 +13343,7 @@ in thirty years
 
 ---
 
-## 268. THE BACK ROW OF THE THEATRE
+## 268. The Back Row of the Theatre
 
 In the front row sit those
 who want to be seen
@@ -13389,7 +13389,7 @@ what theatre can do
 
 ---
 
-## 269. THE FRESCO RESTORER
+## 269. The Fresco Restorer
 
 High on the scaffolding under the vault
 the restorer lifts away centuries
@@ -13441,7 +13441,7 @@ the touch remains
 
 ---
 
-## 270. THE STREET PORTRAITIST
+## 270. The Street Portraitist
 
 On the bridge sits the portraitist
 a sign propped against his suitcase
@@ -13496,7 +13496,7 @@ hardly anyone wants them anyway
 
 ---
 
-## 271. THE CELLO ON THE TRAM
+## 271. The Cello on the Tram
 
 Evening tram number nine
 tired people
@@ -13553,7 +13553,7 @@ and to you too maestro
 
 ---
 
-## 272. THE PROOFREADER
+## 272. The Proofreader
 
 Forty years of red pencil
 forty years of other people's mistakes
@@ -13603,7 +13603,7 @@ than the rule
 
 ---
 
-## 273. THE FIREMEN'S BAND
+## 273. The Firemen'S Band
 
 On Sunday on the village square
 the firemen's band is playing
@@ -13654,7 +13654,7 @@ and that everyone can hear all the same
 
 ---
 
-## 274. THE RETIRED DANCER
+## 274. The Retired Dancer
 
 At the stop of the number three bus
 an old lady stands with her shopping bag
@@ -13710,7 +13710,7 @@ who once knew how to fly
 
 ---
 
-## 275. THE LULLABY SINGER
+## 275. The Lullaby Singer
 
 Every evening she sings to the children
 the most grateful audience in the world
@@ -13762,7 +13762,7 @@ that they end well
 
 ---
 
-## 276. THE LAST NIGHT FLIGHT
+## 276. The Last Night Flight
 
 The airport at one in the morning
 goes out piece by piece
@@ -13809,7 +13809,7 @@ to a house gone dark
 
 ---
 
-## 277. THE HITCHHIKER WITH A SIGN SAYING ANYWHERE
+## 277. The Hitchhiker with a Sign Saying Anywhere
 
 At the edge of the road past the last house
 stands a hitchhiker
@@ -13862,7 +13862,7 @@ it points exactly the right way
 
 ---
 
-## 278. THE FERRYMAN
+## 278. The Ferryman
 
 Across the river between two steeples
 the ferryman goes
@@ -13910,7 +13910,7 @@ you can only cross
 
 ---
 
-## 279. THE ROAD THAT LED NOWHERE
+## 279. The Road That Led Nowhere
 
 Past the village a road begins
 an honest road with milestones
@@ -13959,7 +13959,7 @@ of nowhere
 
 ---
 
-## 280. THE BOUNDARY STONE
+## 280. The Boundary Stone
 
 On the bank between Upper End and Lower End
 a stone sits in the grass
@@ -14004,7 +14004,7 @@ that is the best seat there is
 
 ---
 
-## 281. THE HIGHWAY DINER
+## 281. The Highway Diner
 
 A diner between two exits
 a hundred kilometers from everywhere
@@ -14054,7 +14054,7 @@ turn out happy
 
 ---
 
-## 282. THE LAST STOP OF THE CABLE CAR
+## 282. The Last Stop of the Cable Car
 
 The cable car climbs out of the valley
 over the spruces over the clearing
@@ -14109,7 +14109,7 @@ as the price of admission
 
 ---
 
-## 283. THE MAN WHO CAME BACK THE SAME WAY
+## 283. The Man Who Came Back the Same Way
 
 Every morning at ten past seven
 he left the house
@@ -14162,7 +14162,7 @@ for the whole world
 
 ---
 
-## 284. THE METRO MAP OF A FOREIGN CITY
+## 284. The Metro Map of a Foreign City
 
 In the drawer under the rubber bands
 under the old glasses and the bills
@@ -14220,7 +14220,7 @@ every five minutes
 
 ---
 
-## 285. THE POSTCARD THAT ARRIVED YEARS LATE
+## 285. The Postcard That Arrived Years Late
 
 When they took apart the old sorting machine at the post office
 a postcard fell out from behind the tin
@@ -14282,7 +14282,7 @@ with an official stamp
 
 ---
 
-## 286. THE MAN WHO COUNTED THE STARS
+## 286. The Man Who Counted the Stars
 
 On the roof of the house by the station
 a man sits every night
@@ -14341,9 +14341,9 @@ like a grown-up
 
 ---
 
-## 287. THE DREAM THAT KEPT RETURNING
+## 287. The Dream That Kept Returning
 
-Mrs Hedvika has one dream
+Mrs Edith has one dream
 for forty years always the same
 the garden behind her childhood house
 a line full of white washing
@@ -14351,7 +14351,7 @@ and her mother with her back turned
 pinning up sheets against the wind
 
 The dream has its rules
-Hedvika stands by the currant bush
+Edith stands by the currant bush
 she must not speak
 she must not move
 and before her mother turns around
@@ -14371,14 +14371,14 @@ is blue
 
 Such a small thing
 who would notice
-Hedvika notices
+Edith notices
 she's been looking for forty years
 
 And her mother without turning
 says
 hand me a clothes-peg
 
-And Hedvika takes a step
+And Edith takes a step
 her first step in forty years
 and hands it over
 
@@ -14395,7 +14395,7 @@ the wind should blow
 
 ---
 
-## 288. RADIO FOR THE SLEEPLESS
+## 288. Radio for the Sleepless
 
 At two in the morning a voice speaks on the radio
 soft as a kitchen lamp
@@ -14441,9 +14441,9 @@ he isn't saying it to the dark
 
 ---
 
-## 289. THE ALARM CLOCK THAT DIDN'T RING ON SUNDAY
+## 289. The Alarm Clock That Didn'T Ring on Sunday
 
-Mr Bohumil has a tin alarm clock
+Mr Walter has a tin alarm clock
 handed down from his father
 he winds it every evening
 with the little key at the back
@@ -14457,7 +14457,7 @@ Wednesday Thursday Friday
 Saturday for the market
 and Sunday
 Sunday too
-because Mr Bohumil forgets to switch it off
+because Mr Walter forgets to switch it off
 and then lies with his eyes closed
 listening to the bells of Saint James
 which ring so much better
@@ -14465,7 +14465,7 @@ which ring so much better
 One Saturday evening
 there was a party at the neighbour's
 accordion wine stories of the old days
-and Mr Bohumil came home late
+and Mr Walter came home late
 and fell asleep in his shoes
 and never wound the clock
 
@@ -14474,7 +14474,7 @@ the sun already sat on the floor
 like a guest nobody had invited
 who still arrived on time
 
-Mr Bohumil took fright
+Mr Walter took fright
 then remembered it was Sunday
 then looked at the alarm clock
 and the clock kept quiet
@@ -14482,14 +14482,14 @@ hands folded behind its back
 pretending nothing at all
 
 You could have told me sooner
-says Mr Bohumil
+says Mr Walter
 that there's no ringing on Sundays
 
 The clock said nothing
 alarm clocks don't talk
 alarm clocks simply know
 
-Since then Mr Bohumil
+Since then Mr Walter
 doesn't wind it on Saturday nights
 he calls it an agreement
 and on Sunday mornings he lies in
@@ -14501,7 +14501,7 @@ takes orders from no one
 
 ---
 
-## 290. THE MINUTE OF SILENCE
+## 290. The Minute of Silence
 
 At the stadium across the river
 before the Sunday match
@@ -14558,13 +14558,13 @@ and watched the match to the end
 
 ---
 
-## 291. THE LAST DAY OF THE HOLIDAYS
+## 291. The Last Day of the Holidays
 
 On the thirty-first of August
 the days are long as a whole summer
 and short as nothing at all
 
-The Vrána boy knows it
+The Crowe boy knows it
 so from morning on he's rushing
 one last time to the river
 one last time up the cherry tree
@@ -14599,7 +14599,7 @@ that once they too could hear
 summer swinging shut
 like a great gate
 
-But the Vrána boy hears it
+But the Crowe boy hears it
 so that evening in his pencil case
 between the brand-new pens
 he hides a pebble from the river
@@ -14614,7 +14614,7 @@ the river will keep flowing
 
 ---
 
-## 292. THE HOUR BETWEEN NIGHT AND MORNING
+## 292. The Hour Between Night and Morning
 
 There is one hour
 that appears in no timetable
@@ -14668,7 +14668,7 @@ those two
 
 ---
 
-## 293. HOW CHILDREN FALL ASLEEP
+## 293. How Children Fall Asleep
 
 Children fall asleep in the middle of a sentence
 and then the dinosaur went
@@ -14726,7 +14726,7 @@ till after Colchester
 
 ---
 
-## 294. THE NIGHT WATCHMAN WHO READ POETRY
+## 294. The Night Watchman Who Read Poetry
 
 A warehouse on the edge of town
 three hundred boxes on pallets
@@ -14782,7 +14782,7 @@ a light is on
 
 ---
 
-## 295. THE SECOND HAND
+## 295. The Second Hand
 
 On the clock there are three hands
 
@@ -14842,7 +14842,7 @@ all the work of time
 
 ---
 
-## 296. THE BOX MARKED OTHER
+## 296. The Box Marked Other
 
 Form number seven
 offers you options
@@ -14889,7 +14889,7 @@ valid indefinitely
 
 ---
 
-## 297. COMPLAINTS IN VERSE
+## 297. Complaints in Verse
 
 The complaints department of the transit authority
 received a letter
@@ -14935,7 +14935,7 @@ on something beautiful
 
 ---
 
-## 298. NUMBER FORTY-SEVEN
+## 298. Number Forty-Seven
 
 The ticket machine by the door
 hands out numbers
@@ -14981,7 +14981,7 @@ just as they come
 
 ---
 
-## 299. KEEP OFF THE GRASS
+## 299. Keep Off the Grass
 
 In the middle of the park stands a sign
 KEEP OFF THE GRASS
@@ -15026,7 +15026,7 @@ really walking on it
 
 ---
 
-## 300. THE LOYALTY CARD
+## 300. The Loyalty Card
 
 In a man's wallet
 between his ID card and a photo of the grandchildren
@@ -15038,7 +15038,7 @@ Nine small blue cups
 punched one after another
 nine mornings
 nine times
-good morning Mr Novák
+good morning Mr Smith
 the usual?
 the usual
 
@@ -15075,7 +15075,7 @@ exists
 
 ---
 
-## 301. MAKE A U-TURN
+## 301. Make a U-Turn
 
 In the traveling salesman's car
 a woman's voice is speaking
@@ -15130,7 +15130,7 @@ it is right
 
 ---
 
-## 302. THE SELF-CHECKOUT
+## 302. The Self-Checkout
 
 At the supermarket they closed till number four
 the one with Marie
@@ -15185,7 +15185,7 @@ has noticed
 
 ---
 
-## 303. GRANDMA'S FIRST SMILEY
+## 303. Grandma'S First Smiley
 
 They bought grandmother a telephone
 smarter than the whole family
@@ -15234,7 +15234,7 @@ you'll learn it
 
 ---
 
-## 304. THE INSTRUCTION MANUAL
+## 304. The Instruction Manual
 
 In the drawer under the television
 sleep the instruction manuals
@@ -15286,7 +15286,7 @@ that it is connected
 
 ---
 
-## 305. THE SATISFACTION SURVEY
+## 305. The Satisfaction Survey
 
 At ten in the evening the phone buzzes
 RATE YOUR DAY TODAY
@@ -15345,7 +15345,7 @@ just let there be another one tomorrow
 
 ---
 
-## 306. THE STATUE THAT FACED ONE WAY
+## 306. The Statue That Faced One Way
 
 On the square stands a statue
 some general or a poet
@@ -15410,3 +15410,1655 @@ like me
 
 at least I have an excuse
 I am made of bronze
+
+---
+
+## 327. The Unfinished Scarf
+
+In the basket by the armchair
+a ball of blue wool
+and an unfinished scarf
+the needles stuck mid-row
+just as she set them down
+when she went to answer the door
+and never came back
+
+The aunt says
+I'll finish it
+I know the pattern
+it practically knits itself
+
+Don't you dare
+says the mother
+and no more is said about it
+
+The scarf stays in the basket
+winter follows winter
+the moths got the sweaters
+they never touched the scarf
+even moths understood something
+
+One day the granddaughter asks
+why doesn't anyone finish it
+it would keep somebody warm
+
+And the mother takes the needles in her palm
+gently as if they were sleeping
+A finished scarf is a finished thing
+she says
+finished things get folded into the wardrobe
+and that's the end of them
+
+But an unfinished row
+is somebody
+who has only stepped away from her work
+somebody who'll be back any minute
+to sit down by the armchair
+and say
+now where was I
+
+---
+
+## 328. The Rocking Horse in the Attic
+
+In the attic among the suitcases
+stands a rocking horse
+mane of hemp rope
+one eye still painted
+the other chipped away
+they carried him up
+when the children outgrew him
+which is to say thirty years ago
+
+Sometimes at night
+he creaks
+and rocks for a while
+all by himself
+
+That's a draft
+says the father
+the roof isn't tight
+physics
+nothing more
+
+The mother doesn't like going up to the attic
+not that she's afraid
+she just doesn't care
+to run into physics
+
+One day the grandson climbs the ladder
+to fetch the Christmas ornaments
+and sees the horse rocking
+quite slowly
+quite quietly
+as if someone very light
+were sitting on him
+
+Downstairs he tells them
+the father shrugs
+a draft
+
+Maybe
+says the mother putting wood on the fire
+but a draft is only wind after all
+wind that lost its way in the house
+and found in the attic
+the last thing left
+that still wants to play with it
+
+---
+
+## 329. The Fountain Pen
+
+In the desk drawer
+lies a fountain pen
+black with a gold nib
+worn smooth by fingers
+
+It signed two weddings
+one as groom one as witness
+the deed to the house
+garden and mortgage included
+a job application
+a resignation letter
+excuse notes for the children
+congratulations condolences
+and at the end one piece of paper
+that is not spoken of at home
+
+These days anything will do for signing
+a ballpoint from the insurance company
+a finger on a screen
+a box to tick
+nothing more
+
+The grandson finds the pen while tidying
+Does it still write?
+he opens it
+dips the nib into the little bottle
+that had been waiting too
+
+And the pen writes
+as if the years had never happened
+it writes his name
+in one stroke without hesitating
+
+You see says the grandfather
+a pen makes no distinctions
+it signed love and the bank
+a birth and the other thing
+all in the same ink
+
+Because a pen doesn't know what it's signing
+he says and closes the drawer
+it only knows whose hand it is
+and the hand
+the hand knows everything
+
+---
+
+## 330. The Light Switch
+
+The parents' house is up for sale
+the son comes to walk through it one last time
+the agent hands him the keys
+the electricity's been cut
+he warns
+take a flashlight
+
+He didn't take a flashlight
+
+He steps into the dark hallway
+and his hand all by itself
+before he can even think
+flies to the doorframe
+a little to the left
+a small cold square
+the light switch
+
+Click
+no light comes on
+that's all right
+
+The hand goes on
+three steps straight ahead
+mind the stair that creaks
+second switch around the corner
+radiator don't touch it burns
+the kitchen handle sticks
+lift and push
+
+The body walks the house
+in the dark
+and stumbles nowhere
+the head has forgotten dates and quarrels
+the head has forgotten so much
+the body nothing
+
+Outside he returns the keys
+You didn't take anything?
+the agent wonders
+people always carry something off
+
+I did
+says the son
+and raises his hand
+but don't worry
+nobody in there will miss it
+
+---
+
+## 337. The Night Laundromat
+
+At two in the morning the only lit window
+on the whole street is on the corner
+SELF-SERVICE LAUNDRY
+OPEN ALL NIGHT
+
+Inside three people
+who don't know each other
+a nurse after her shift
+a boy with his sheets in a plastic bag
+and a lady in a coat
+thrown over her nightgown
+
+They don't speak
+they sit on plastic chairs
+watching the drums
+like children watching a carousel
+
+In one the whites go round
+in another the blues
+in the third a man's entire week
+Monday's shirt
+Wednesday's dish towels
+the socks of every day
+
+The boy leans toward the nurse
+You can't sleep either?
+I could, says the nurse
+but at home nothing turns
+
+So they sit in silence
+three strangers
+staring into the same carousel
+the way people once stared into fires
+
+The lady in the coat gets up
+takes out the warm laundry
+and holds it a while in her arms
+
+If only you could
+she says into the silence
+put a whole day into the drum
+forty minutes at sixty degrees
+and take it out
+clean and warm
+and fold it up for tomorrow
+
+---
+
+## 347. Dew on the Grass
+
+Every morning before six
+the meadow opens its jewellery shop
+no bars no display cases no insurance
+a million brilliants laid out in the grass
+a diamond on every blade
+pearls strung along the spiderwebs
+sapphires in the cups of plantain leaves
+
+No shop assistant
+no till
+no sign saying DO NOT TOUCH
+
+The jeweller from the square walks by each morning
+and stops at the fence
+If I had this in my window
+he says
+I'd be the richest man in the county
+
+But you have it
+says the meadow
+you only need to bend down
+
+But the jeweller is in a hurry
+at nine he opens his shop
+and in the shop he has a safe
+and in the safe little stones
+that last
+
+At nine o'clock the sun arrives
+the greatest thief under heaven
+no gloves no crowbar
+it gathers everything
+brilliants pearls sapphires
+down to the last drop
+
+Nobody reports it to the police
+The meadow just shrugs its blades
+Tomorrow they deliver fresh stock
+it says
+unlike the jeweller I know
+that the most precious things
+are the ones that cannot be kept
+
+---
+
+## 348. Wind in the Chimney
+
+The young couple bought an old house
+and the first night they didn't sleep
+Someone is singing in the chimney
+she says
+And the stairs creak
+he says
+and the doors as well
+we'll call the mason in the morning
+
+The mason came
+walked around the house
+tapped the chimney
+listened for a while
+
+There's nothing here for me to fix
+he said
+The chimney is sound
+the stairs are sound
+it's only the wind talking to the house
+and the house talking back
+
+Sixty years together
+the wind and this house
+at that age you don't sing for strangers anymore
+you sing out of habit
+The wind asks
+the house creaks
+and that's that
+
+My old folks were the same
+said the mason in the doorway
+In the evening dad just said hmm
+mum just said well yes
+and everything was said
+that young people say in an hour
+
+That night the young couple laughed
+then lay in the dark and listened
+the wind asking
+the house answering
+slowly without hurry
+like those who already know
+the other one won't leave
+
+And many years from now
+on some windy night
+she will only say hmm
+and he will only say well yes
+and the house above them
+will give a contented creak
+
+---
+
+## 349. Icicles
+
+Everything in the world grows upward
+grass chimneys children prices
+only icicles grow head down
+winter's armoury
+hung beneath the gutter
+
+A boy breaks one off
+the longest one
+a sword
+and at once he is a knight
+and at once he has a war
+
+He swings his sword at winter
+a slash here
+a thrust there
+winter says nothing
+winter is enormous
+and the knight has one mitten with a wet thumb
+
+Soon the sword is sweating
+soon the sword is shorter
+soon the sword is a dagger
+the dagger a splinter
+the splinter a drop
+in an empty palm
+
+The boy is crying
+I killed my sword
+he says
+I held it too tight
+
+But the grandmother at the gate laughs
+You silly little soldier
+don't cry
+it was never your sword
+it was winter's
+all season long it forged them by the thousand
+and handed them out to children
+
+A weapon that melts in your hand
+says the grandmother
+that's winter for you
+it only arms you
+if you promise
+the war will be over
+before the thaw
+
+---
+
+## 350. Grass Between the Rails
+
+Under regulation D-17 paragraph 3
+the trackbed shall be kept free of vegetation
+
+The grass between the rails
+never read the regulation
+it grows among the sleepers
+at the worst address in town
+gravel instead of soil
+diesel instead of rain
+and twice an hour a thunder
+rolling over its head
+
+The express to Paris
+the express from Paris
+people at the windows with important destinations
+conferences weddings aeroplanes
+nobody looks down
+
+Once a year come the men in orange
+with the regulation weedkiller
+and the grass turns yellow
+and a report is signed
+VEGETATION REMOVED
+
+By spring it is back
+green insolence
+between platform five and platform six
+
+The stationmaster with thirty years of service
+said it once to a young colleague
+See her there?
+They've cancelled everything here
+the night train the local the buffet the post office
+she's the only service still running
+
+And sure enough
+when they closed the line beyond the town
+and the rails rusted
+and the timetables dissolved in the rain
+the grass stayed at its platform
+It overgrew the sleepers overgrew the rails
+and raised its seed-heads
+right where all its life
+the trains had rolled above its head
+
+It was never in a hurry to get anywhere
+and it travelled farthest of all
+
+---
+
+## 351. Eclipse of the Sun
+
+At a quarter to eleven
+the whole town the quarrelling town
+the litigating town
+the town of two parishes three pubs
+and one endless dispute over parking
+
+stopped
+and looked up
+
+The butcher next to the vegetarian
+the landlord next to the tenant who owes him
+the constable next to the graffiti kid
+the bank director next to the man
+who wouldn't return his good morning
+the lady from the counter next to everyone
+she had ever told COME BACK TOMORROW
+
+All with their heads tipped back
+all in the same cardboard glasses
+all suddenly equally small
+under one nibbled sun
+
+Three minutes of night at noon
+The birds went quiet
+the coffee machine glowed in the dusk
+and nobody blamed anybody for anything
+because every mouth was hanging open
+
+Then the sun came back
+whole
+Light like something freshly washed
+
+And the town lowered its heads
+put its everyday faces back on
+and dispersed to its disputes
+
+Only one boy asked his mother
+Mum when is the next one?
+In sixty years
+said the mother
+
+That's a pity
+said the boy
+that's a long time to wait
+just to be kind together
+
+---
+
+## 352. Three O'Clock on a November Afternoon
+
+In November the dark arrives before the children leave school
+At three it waits at the gate
+like an impatient grandmother
+a whole hour early
+
+The bell rings
+and the children walk out into an evening
+that came without an appointment
+satchels lanterns woolly hats
+and already the first street lamps overhead
+
+Miss
+why is it night when it isn't night yet?
+asks a small girl in the cloakroom
+
+It isn't night
+says the teacher buttoning the girl's coat
+it's just the sun in November
+cutting down its hours
+It teaches all year too
+it gets tired too
+
+The children walk home through the dark like miners
+little shifts coming up from the pit of the day
+and because of them the windows
+light up earlier
+the soups simmer earlier
+the mothers watch from the windows earlier
+
+And maybe that is exactly why
+the teacher says to the caretaker
+while locking up the classroom
+November is the month of lit kitchens
+
+In June the children come home into sunshine
+and nobody looks out for them
+In November they come home into darkness
+and the whole street turns its lights on
+just to see them coming
+
+The dark isn't wicked
+says the caretaker switching off
+the dark only turns the lamps
+into a proper welcome
+
+---
+
+## 353. June Downpour
+
+It fell without warning
+a June sky has no patience
+and the street emptied out
+like a necklace snapping
+
+Under the awning of the pastry shop
+suddenly pressed together
+a bank clerk with his briefcase
+a girl with blue hair
+a postwoman
+a gentleman with a dachshund
+and the dachshund
+
+Five people and one dog
+who otherwise would never have met
+not at a wedding not at a funeral
+not in the queue at the fishmonger's
+
+The first minute they are silent
+each watching a different rain
+
+The second minute the man with the dog says
+Well the gardens needed that
+and everyone nods
+even the dachshund
+
+The third minute the clerk lends
+his handkerchief to the girl with blue hair
+because the blue is running down her neck
+and it is his best handkerchief
+and he doesn't want it back
+
+The fourth minute the postwoman laughs
+at something the girl said
+and the man with the dog joins in
+and they all laugh
+the laughter of people who never introduced themselves
+
+The fifth minute the rain eases
+raises the curtain
+and the show is over
+
+They part in four directions
+no addresses no names no promises
+the bank the post round home the blue hair
+
+The sky writes in its notebook
+introduced a few more of them today
+and has nothing to add
+Summer carries on
+
+---
+
+## 354. The Night of Falling Stars
+
+An August night on the hill outside town
+blankets thermoses tilted heads
+the whole town lying on its back
+waiting for something to fall
+
+There
+somebody shouts
+and a hundred people hurry to make a wish
+
+Health for the little one
+let him call back
+let it work out
+let her come home
+let it finally stop hurting
+
+And meanwhile up above
+a stone is falling
+A small cold stone
+that flew through space for millions of years
+knew nobody
+promised nothing
+and now burns up in two seconds
+over one hill full of people
+
+The physicist on his blanket would say
+the star couldn't care less about your wish
+it's just a pebble and friction
+
+But the girl beside him asks
+Then who gets what out of it?
+
+The physicist is silent a long time
+and then very quietly
+The stone gets nothing
+that's true
+But you just admitted to yourself
+what it is you really want
+That almost never happens to people
+
+Sometimes something
+has to fall out of the sky
+for a person to shine a light
+into themselves for one second
+
+There
+somebody shouts
+and the physicist hurries to make a wish
+
+---
+
+## 355. Circles on the Pond
+
+A boy on the south bank
+finds a stone
+flat and just right for the palm
+and throws it into the middle of the pond
+just because
+because he is seven
+and the stone was there
+
+Plop
+and the stone is gone
+
+But water keeps nothing to itself
+Water broadcasts everything
+First circle second third
+the circles set out from the plop
+like news that can't be stopped
+wider and wider
+softer and softer
+
+The boy is already running home for his snack
+and his circles are still travelling
+
+They brush the reeds
+rock the ducklings
+lift and lower the fisherman's float
+the fisherman looks up
+nobody anywhere
+
+And on the north bank
+a twenty-minute walk away
+an old lady sits on a bench
+and watches the very last circle
+arrive at her feet
+no more than a wrinkle on the water
+faint as breath
+but it reaches her
+
+Where have you come from
+she asks it
+
+The circle doesn't answer
+circles carry no return address
+
+So the old lady smiles at the whole pond
+just in case
+because somebody on the far side
+may be waving right now
+without knowing at whom
+
+---
+
+## 356. The Moon by Day
+
+At half past ten in the morning
+the moon hangs in the blue sky
+pale as after a night shift
+a thumbprint on the clean heavens
+
+Nobody looks
+Today the show belongs to the sun
+the sun gets the applause the sunglasses the ice cream
+the crowded terraces the crowded beaches
+
+And the moon?
+The moon nothing
+The moon hangs there and shines
+into broad daylight
+which is like singing
+in a station full of express trains
+
+A small girl at the bus stop spots it
+Mum the moon overslept
+it forgot to go home
+
+No
+says her mother
+it never goes home
+it's up there all the time
+even now even at noon
+you just can't see it
+because the sun talks too loud
+
+And at night?
+
+At night the sun goes down
+all the loud ones fall asleep
+and suddenly it turns out
+somebody was there all along
+
+The little girl stares up for a long time
+
+That's like grandma
+she says at last
+She sits in her corner all day
+and nobody notices her
+and at night when I'm scared
+she shines the brightest of all
+
+And the moon up there
+pale unpaid patient
+goes on shining into the wide day
+It doesn't shine because anyone sees it
+It shines because it is the moon
+
+---
+
+## 357. The Father and the Tie
+
+Sunday morning at the mirror
+a father and a son
+and between them a tie
+navy blue with stripes
+borrowed from adulthood
+
+The wide end over the narrow
+says the father
+once around
+up through the back
+and down through the loop
+
+The son is eight
+and the knot looks like
+anything in the world
+except a knot
+
+Never mind says the father
+a knot isn't learned with hands
+a knot is learned with years
+
+And the years did the teaching
+the first dance
+the first job interview
+the wedding
+the funerals of strangers
+and each time the son's hands remembered
+the wide end over the narrow
+once around
+up through the back
+and down through the loop
+
+Today is Sunday again
+the mirror is the same one
+it just hangs in a smaller flat
+the father holds the tie
+and his hands tremble
+as if they carried all those years
+
+Come here says the son
+and stands behind him
+the way his father once stood behind him
+
+Not too tight says the father
+Don't worry says the son
+a man taught me
+at a mirror
+one Sunday
+
+In the mirror stand two men
+and one knot
+that holds
+while everything else
+slowly comes untied
+
+---
+
+## 358. The Outgrown Sleeves
+
+Evening under the lamp
+mother unpicks a hem
+the coat bought in September
+is too short by January
+children grow faster than fabric
+
+In the sleeves waits a reserve
+two fingers of darker blue
+the sun had no time to drink
+a spare piece of winter
+just in case
+
+Children grow out of shoes
+grow out of beds
+grow out of bedtime stories
+mum nobody says that anymore
+grow out of the kitchen doorframe
+where the pencil marks
+climb over one another
+
+Mother lets out
+whatever can be let out
+and what cannot be let out
+will one day give way on its own
+
+Then came a winter
+when the sleeves lasted till spring
+and after it a winter
+when the coats went away
+with the arms still in them
+to other cities
+
+Tonight the lamp is on again
+and again a seam is being unpicked
+only the other way round
+father's coat has grown too big
+old age grows inward
+
+The needle isn't surprised
+the needle sews
+both directions with the same stitch
+and always leaves a reserve
+just in case
+because love needs
+room to grow
+
+---
+
+## 377. The Last Carriage
+
+In the last carriage ride
+the ones who ran until the very last second
+coat over the arm and heart in the throat
+the ones who can't stand a crowd
+a soldier on leave
+a student with a guitar
+and one old man
+who picks the last carriage on purpose
+
+Everyone pushes toward the front
+closer to the engine
+closer to the future
+from the first carriage you get off first
+they say
+the first carriage sees the station soonest
+
+Sir, asks the conductor
+why do you always ride in the back
+
+And the man points out the window
+From here you can see the rails
+slowly meeting again behind us
+the station waving goodbye
+instead of welcoming
+the level crossing lowering its barriers
+and lifting them at once like a hat
+the cowshed the church and the three poplars
+how long they stand in place
+watching us go
+here the countryside doesn't run to meet you
+here the countryside takes its leave
+
+Up front sit the people in a hurry
+they see only where the train is going
+the driver knows that too
+and it changes nothing for him
+
+In the back sits me
+says the man
+and I see the way we came
+somebody after all has to watch
+over everything
+the train leaves in peace behind it
+
+---
+
+## 378. The Night Crossing
+
+Half past one in the morning
+a level crossing in the middle of the fields
+the red light blinking
+blinking and blinking
+like a heart somebody forgot to switch off
+
+The driver is alone
+the only car for miles
+engine running heater humming
+and the barriers down
+
+A freight train is passing
+and it has no end
+wagons wagons wagons
+the driver tries to count them
+at thirty-seven he gives up
+
+So he reads what they carry instead
+timber from Poland
+cars under tarpaulins
+grain coal tank wagons
+containers with words on them
+he doesn't understand
+the whole world rolls by in the night
+to be in its place by morning
+flour at the bakery
+petrol at the pump
+new cars in the showroom
+and nobody thinks of the ones
+who haul it through the dark
+
+Somewhere up front in the locomotive
+sits a man as alone as he is
+two men awake in the middle of the night
+one waiting one driving
+and between them rumbles past
+everything people will need by dawn
+
+The last wagon with its little red lamp
+the barriers rise
+the road is clear
+
+And the driver doesn't pull away just yet
+he sits there looking into the dark
+for the first time all day
+nobody hurried him anywhere
+they simply took three minutes from him
+and suddenly he isn't quite sure
+whether they were taken
+or given
+
+---
+
+## 379. The Roundabout
+
+The roundabout at the edge of town
+has four exits
+to the motorway
+to the airport
+to the centre
+and to the hospital
+each one leads somewhere
+each one promises something
+and in the middle there is a flowerbed
+that leads nowhere
+it just blooms
+
+One Sunday morning
+a man began to circle
+first lap second third
+tenth
+
+On the twelfth a patrol pulled him over
+Sir, where are you going
+Nowhere
+That won't do, here you drive from somewhere to somewhere
+I'm driving from nowhere in circles
+the man replies
+
+The officer takes off his cap
+You can't do that
+a road is for getting there
+
+And the man points to the middle
+You see that flowerbed
+somebody planted it in spring
+waters it weeds it
+and nobody ever gives it a look
+everyone watches the exits
+the motorway the airport the centre
+I am the first man
+who has seen it from every side
+
+The officer looks at the middle
+and for a moment there is silence
+You're right, they are lovely
+he says
+one more lap
+and then go home
+
+And the man drives one more lap
+slowly
+the way you walk around a statue
+and the officer stands at the roadside
+and for the first time in twenty years of duty
+he looks at the middle
+instead of the traffic
+
+---
+
+## 380. The Signpost in the Mountains
+
+At the saddle where three paths meet
+stands a signpost
+an old wooden post with yellow arrows
+
+SUMMIT 3 HOURS
+LAKE 2 HOURS 30 MINUTES
+VILLAGE 1 HOUR 15 MINUTES
+
+The signpost promises hours
+it promises nothing else
+it doesn't say that from the summit you see a sea of clouds
+it doesn't say the lake is cold even in August
+it doesn't say they bake bread in the village
+it only says what it will cost
+and you pay with your legs
+
+The hikers come up from below
+sweating and full of questions
+Which way is prettier
+Which way is worth it
+Which way should we go
+
+And the signpost says nothing
+it points in every direction at once
+which comes to the same thing
+as pointing nowhere at all
+
+It knows all three paths by heart
+every stone every switchback
+and itself has never been anywhere
+whoever points everywhere
+arrives nowhere
+whoever wants to arrive
+must leave every path but one
+alone
+
+The young ones stand a long time arguing
+the summit or the lake
+the lake or the summit
+
+And an old woman passes with her stick
+without a glance at the signpost
+You don't read the arrows? they call after her
+
+Not anymore, she says
+I've been coming here forty years
+the arrows tell you how many hours
+but where you are really going
+was never written on them
+that much everyone carries in their own pack
+
+---
+
+## 381. Room Twelve
+
+Hotel room number twelve
+a bed a wardrobe a table a washbasin
+and a window on the courtyard
+
+It remembers no one
+every morning at ten
+the chambermaid comes
+puts on clean sheets
+airs the room mops wipes the dust
+and the room is a blank page again
+
+And yet everyone left something here
+
+the travelling salesman a shirt button
+the newlyweds laughter in the walls
+the lady in black a night cried through
+the musician the note of a tuned guitar
+the girl who ran away from home
+a pencilled message under the drawer
+DON'T BE AFRAID
+the man who couldn't sleep
+a hollow in the armchair by the window
+and a hollow in the windowsill
+where the elbow goes
+
+The chambermaid can erase it all
+except what can't be erased
+
+The receptionist says
+room twelve is as good as new
+nobody has been here
+nobody is here
+
+And meanwhile all over the world
+walk people who remember
+room number twelve
+that's where she said yes
+that's where I heard about dad
+that's where I first slept alone
+that's where we laughed till three in the morning
+
+The room remembers no one
+that is its job
+forgetting is its trade
+but everyone remembers the room
+and so that little room with the courtyard window
+lives a thousand lives at once
+in strangers' heads
+all over the world
+and knows nothing about it
+
+---
+
+## 382. The Truck Driver
+
+Behind the windscreen of the truck rolls Europe
+bridges over valleys
+tunnels under the Alps
+harbours where cranes bow like storks
+Madrid at noon
+Hamburg in fog
+Milan in a traffic jam
+petrol stations glowing in the dark
+like little churches
+
+And on the dashboard a photo
+a wife two boys and a dog
+standing in front of the house squinting
+because whoever took the picture
+stood them facing the sun
+
+The drivers at the truck stop say
+you're a real traveller you are
+all of Europe behind your glass
+
+And he shrugs
+I only half see Europe
+because with half my eyes
+I'm always looking at that photo
+
+The photo has faded
+the Andalusian sun tanned it
+the sea fogs soaked it
+a Polish winter took its colours
+a family that never went further than the lake
+has travelled all of Europe
+on a dashboard
+without lifting a finger
+
+All the roads he measures in kilometres
+Rotterdam twelve hundred
+Naples eighteen hundred
+only one road is measured differently
+the road home
+that one is measured in days
+and the last stretch in hours
+and the last kilometre in heartbeats
+
+And when on Friday evening he pulls up at the house
+the wife the two boys and the dog
+come running out the door
+and stand exactly the way
+they stand in the photo
+except the boys are always
+a little taller
+
+---
+
+## 383. The Slow Train
+
+The slow train stops everywhere
+Upper Lhota
+Lower Lhota
+Lhota halt
+Lhota village
+it stops even where nobody gets on
+because you never know
+
+On the express the passengers check their watches
+and the slow train is waved aside
+it pulls onto the third track and waits
+the express shoots past like lightning
+full of people who will be everywhere first
+
+The slow train doesn't watch it go
+the slow train knows its own
+
+the woman with the basket riding two stops to market
+the boys from year six with their satchels
+the stationmaster at Lower Lhota
+who waves even when he doesn't have to
+and his dog who waves with its tail
+the fisherman who gets off in the middle of the fields
+where the halt doesn't even have a name
+only a sign
+REQUEST STOP
+
+The express crosses the stations so fast
+it never has time to read their names
+Upper Lhota to it is a smear
+the woman with the basket a vertical stroke
+whole countrysides are nothing to it
+but green behind the glass
+
+In the evening the two trains meet at the terminus
+side by side along the platform
+and the express hisses with pride
+I got here two hours before you
+
+True, says the slow train
+you arrived earlier
+
+and it falls silent the way one does
+with a compartment full of names and greetings
+
+I brought back more
+
+---
+
+## 397. The Password
+
+The form is strict
+YOUR PASSWORD MUST CONTAIN
+at least eight characters
+one capital letter
+one number
+and one special character
+
+The man sits at the keyboard
+and wonders
+what a person still remembers
+after forgetting everything else
+
+The capital letter M
+that's Marie
+
+the numbers nine and five
+that's the ninth of May
+when she stood on the station platform
+in a dress borrowed from her sister
+not knowing whether to wave
+
+and the special character
+an exclamation mark
+because that's the kind of day it was
+
+The form turns red
+DO NOT USE NAMES OR PERSONAL DATES
+it says under the box
+someone might guess them
+
+The man clicks I understand
+and leaves it as it is
+nobody will guess this
+who wasn't there
+
+STRONG PASSWORD
+the machine congratulates him
+with no idea how strong
+
+CHANGE YOUR PASSWORD EVERY NINETY DAYS
+the system advises in farewell
+
+The man shakes his head
+this password doesn't change
+this password repeats itself
+every morning
+at login
+quietly
+so it won't be forgotten
+
+---
+
+## 398. I Am Not a Robot
+
+Tick the box
+I AM NOT A ROBOT
+and just to be sure
+SELECT ALL SQUARES WITH CROSSWALKS
+
+The man clicks
+crosswalk
+crosswalk
+that one's a staircase not a crosswalk
+crosswalk
+
+CORRECT
+says the machine
+YOU ARE HUMAN
+please proceed
+
+And the man proceeds
+up at six twenty
+like yesterday
+coffee two sugars
+like yesterday
+same tram same doors
+same thumb on the same glass
+like yesterday
+like the day before
+like all year long
+
+In the evening he remembers the box
+That was easy
+he tells himself
+the robot in me clicks very well
+it clicks all day
+it's been clicking for years
+and nobody has caught it yet
+
+The next morning
+at a real crosswalk
+an old lady stands
+unable to make up her mind
+
+The man stops
+offers her his arm
+and they cross together
+slowly
+terribly slowly
+outside all the traffic of the internet
+
+and that box
+he ticked himself
+
+---
+
+## 399. Press One
+
+Good afternoon
+you have reached customer service
+
+For contracts press one
+for faults press two
+for complaints press three
+for payments press four
+to hear about our offers press five
+to change your details press six
+to confirm press seven
+to return to the main menu press eight
+
+The man holds the receiver
+and waits for nine
+
+Nine never comes
+instead there is music
+that nobody has ever heard to the end
+
+YOUR CALL IS IMPORTANT TO US
+
+The man waits
+he is seventy-three
+and hasn't spoken to anyone today
+
+YOUR CALL IS IMPORTANT TO US
+THERE ARE TWELVE CALLERS AHEAD OF YOU
+
+Meanwhile the man makes himself some tea
+looks out the window
+the pigeon on the ledge is waiting too
+who knows for what
+
+And then it clicks
+Hello this is Jane
+what can I do for you?
+
+Nothing
+says the man
+you've already done it
+you're talking
+
+At the other end of the line
+a moment of silence
+a human one this time
+the kind no switchboard will ever record
+and then
+a very quiet laugh
+
+that one isn't on the menu
+one through nine
+
+---
+
+## 400. Two-Year Warranty
+
+The washing machine died on a Monday
+two years and one week
+after purchase
+
+That's no longer covered by the warranty
+says the man behind the counter
+spreading his hands
+as if the weather were to blame
+
+Next aisle they sell a new one
+TWO-YEAR WARRANTY
+says the label
+and the salesman smiles
+a smile guaranteed
+until closing time
+
+But in grandmother's kitchen
+stands a fridge
+bought the year
+people flew to the Moon
+
+It hums
+all this time it has hummed
+it outlived the country that made it
+three currencies
+six governments
+and two family quarrels over inheritance
+
+it keeps the butter
+the medicine
+and under a magnet the grandchildren's photos
+
+Grandma does it still run?
+And why wouldn't it run
+says the grandmother
+
+It never promised anyone anything
+that fridge
+no paper
+no stamp
+no two years
+
+and maybe that's exactly why
+says the grandmother closing the door
+it lasts
+
+At night when the house is asleep
+you can hear it
+humming in the dark
+like somebody breathing
+with no intention of stopping
+
+---
+
+## 401. The Food Photo
+
+In the restaurant by the station
+the soup arrives
+and over the table the phones rise
+like a flock of birds over a field
+
+Nobody eats
+Everybody photographs
+close up
+from above
+from the side
+one more with better light
+
+The steam rises into the lenses
+meanwhile the soup goes cold
+very quietly
+the way soups know how
+
+The kitchen sends out more plates
+and more phones take flight
+
+At grandmother's nobody ever took pictures
+On Sundays the roast smelled
+from morning on
+the smell went down the stairs
+all the way to the street
+and the people in the house knew
+it's Sunday at the Smiths'
+
+Grandmother carried in the plates
+nobody raised anything
+but a spoon
+and everything got eaten
+even the bits people saved for last
+
+Of that whole kitchen
+not a single photo remains
+
+and yet everyone can see it
+just close your eyes
+and there it is
+the steam over the plate
+grandmother's hands
+Sunday
+
+The soup in the photo
+never goes cold
+that's true
+
+it never warms anyone either
+
+---
+
+## 402. The Pub Review
+
+Four point seven stars
+says the phone
+and outside the pub two tourists
+read what strangers have to say
+about the foam
+about the service
+about the toilets
+
+GREAT BEER BUT LONG WAIT
+wrote Martin K three weeks ago
+
+Inside by the window sits Mr Barton
+he sits there on Tuesdays
+he sits there on Fridays
+he's sat there through three barmen
+and he never gave a single star
+nobody knows where you put them
+
+The tourists come in
+photograph the tap
+photograph the ceiling
+take a sip
+give five stars
+and are never seen again
+
+Mr Barton raises one finger
+as always
+and the barman pours him
+what he pours for no one else
+his usual
+just under the line
+
+The young man at the next table leans over
+So would you recommend this place?
+
+Mr Barton looks around
+at the bar at the ceiling at the window
+
+I've been coming here forty years
+one Tuesday I met my wife here
+and last year one Friday I drank here
+to her memory
+
+Whether that's five stars or one
+I couldn't tell you
+
+it doesn't fit in a phone
+
+---
+
+## 403. The Automatic Doors
+
+The doors of the department store
+open
+
+for the lady with the pram
+they open
+for the mayor with his briefcase
+they open
+for the boy who's only come to look
+they open
+for the beggar from the fountain
+they open
+exactly the same
+to the same width
+just as wide
+
+They ask for no name
+they don't size up your shoes
+they don't check your pockets
+they want to see no papers
+
+The mayor walks through without noticing
+the lady with the pram tells her children
+say thank you
+and the children thank the doors
+
+In the evening the beggar stops by them
+just like that
+for the warm air
+and the doors bow
+welcome
+and the people around look away
+but not the doors
+the doors look exactly at him
+and step out of his way
+the way people step aside for kings
+
+The politest thing in town
+says the beggar
+nobody taught them that
+they just forgot to tell them
+who they're not supposed to open for
+
+At night the store closes
+and the doors stand in the dark
+and wait
+
+for morning to come
+and someone to bow to again
+
+
+## 620. THE BELL
+
+In the village they had a bell
+that rang noon and the Angelus and the death knell
+and the ringer Frank knew it
+like his own heart
+
+When the war came
+they came for the bell
+to make cannon
+and Frank rang it one last time
+so long
+that the rope snapped
+
+Since then the church tower has been silent
+but the cannon made from that bell
+they say never fired properly
+there was always something in the barrel
+still chiming.
+
+---
+

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mléčný zub — komiks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --papir: #ece0c4;
+    --papir-svetly: #f4ecd8;
+    --inkoust: #453626;
+    --inkoust-svetly: #6d5c44;
+    --oliva: #6b6840;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #35302a;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: "EB Garamond", Georgia, serif;
+  }
+
+  #scaler {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform-origin: center center;
+  }
+
+  .list {
+    width: 1120px;
+    height: 1760px;
+    padding: 55px 55px 40px;
+    background:
+      radial-gradient(ellipse at 30% 10%, rgba(255,250,235,.45), transparent 55%),
+      radial-gradient(ellipse at 85% 95%, rgba(120,95,55,.10), transparent 55%),
+      var(--papir);
+    box-shadow: 0 25px 70px rgba(0,0,0,.5), 0 6px 20px rgba(0,0,0,.35);
+    color: var(--inkoust);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .zahlavi {
+    text-align: center;
+    margin-bottom: 26px;
+  }
+  .cislo-basne {
+    font-size: 13px;
+    letter-spacing: .45em;
+    color: var(--inkoust-svetly);
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing: .06em;
+    font-variant: small-caps;
+  }
+  .ornament {
+    margin: 10px auto 0;
+    width: 150px;
+    height: 14px;
+    color: var(--oliva);
+  }
+
+  /* ---- komiksová mřížka ---- */
+  .mrizka {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px 240px 250px;
+    gap: 18px;
+  }
+
+  .panel {
+    position: relative;
+    border: 3px solid var(--oliva);
+    box-shadow: inset 0 0 0 1px rgba(236,224,196,.9), 0 2px 6px rgba(60,42,20,.25);
+    background-color: #d8c9a8;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .p-matka   { grid-column: 1; grid-row: 3 / span 2; }
+  .p-zuby    { grid-column: 2 / span 2; grid-row: 4; }
+  .p-finale  { grid-column: 1 / span 3; grid-row: 5; }
+
+  /* vypravěčský rámeček */
+  .titulek {
+    position: absolute;
+    top: 10px; left: 10px;
+    max-width: 78%;
+    background: var(--papir-svetly);
+    border: 1px solid var(--inkoust-svetly);
+    box-shadow: 2px 2px 0 rgba(69,54,38,.35);
+    padding: 7px 12px 8px;
+    font-style: italic;
+    font-size: 14.5px;
+    line-height: 1.3;
+  }
+  .titulek.dole { top: auto; bottom: 10px; }
+  .titulek.vpravo { left: auto; right: 10px; }
+
+</style>
+</head>
+<body>
+<div id="scaler">
+  <div class="list">
+
+    <header class="zahlavi">
+      <h1>Mléčný zub</h1>
+      <svg class="ornament" viewBox="0 0 150 14" fill="none" stroke="currentColor" stroke-width="1">
+        <line x1="0" y1="7" x2="58" y2="7"/>
+        <path d="M70 3 q2 -2 4 0 q1 1 1 3 q0 4 -2 6 q-1 1 -1.5 -1 q-.5 2 -1.5 1 q-2 -2 -2 -6 q0 -2 1 -3 z" transform="translate(1,0)"/>
+        <line x1="92" y1="7" x2="150" y2="7"/>
+      </svg>
+    </header>
+
+    <div class="mrizka">
+
+      <div class="panel" data-crop="542,1134,504,479">
+        <div class="titulek">Vypadl jsem<br>Jsem mléčný zub</div>
+      </div>
+
+      <div class="panel" data-crop="290,466,390,365">
+        <div class="titulek">Kluk mě strčil pod polštář<br>a přišla víla<br>a nechala mu tam korunu</div>
+      </div>
+
+      <div class="panel" data-crop="202,1060,428,396">
+        <div class="titulek">A byl jsem první<br>A on křičel a nespal<br>a rodiče byli zoufalí</div>
+        <div class="titulek dole vpravo">Kvůli mně</div>
+      </div>
+
+      <div class="panel" data-crop="430,870,380,370">
+        <div class="titulek">A pak jsem sloužil šest let<br>kousal jsem rohlíky a jablka<br>a byl jsem důležitý</div>
+      </div>
+
+      <div class="panel" data-crop="660,800,250,290">
+        <div class="titulek">A pak jsem se začal viklat<br>a on mě viklal jazykem<br>tajně<br>celé týdny</div>
+      </div>
+
+      <div class="panel" data-crop="60,1975,420,390">
+        <div class="titulek dole">A pak jsem vypadl<br>A pod polštář<br>a víla<br>a hotovo</div>
+      </div>
+
+      <div class="panel p-matka" data-crop="731,781,529,932">
+        <div class="titulek">A já ležím v krabičce ve skříni<br>dvacet let</div>
+        <div class="titulek dole vpravo">A máma tu krabičku<br>občas otevře<br>Nikomu to neřekne</div>
+      </div>
+
+      <div class="panel" data-crop="1035,710,430,420">
+        <div class="titulek">A ten kluk je dneska muž<br>a bydlí jinde</div>
+      </div>
+
+      <div class="panel" data-crop="1190,1960,460,420">
+        <div class="titulek dole">a nevolá často</div>
+      </div>
+
+      <div class="panel p-zuby" data-crop="545,2065,610,220">
+        <div class="titulek">a je tam nás sedm<br>sedm malých bílých zubů</div>
+        <div class="titulek dole vpravo">a v každém je celý jeden rok<br>jeho dětství</div>
+      </div>
+
+      <div class="panel p-finale" data-crop="700,930,520,160">
+        <div class="titulek">Nechte si ty zuby<br>Je to jediná část dítěte<br>kterou si smíte nechat</div>
+        <div class="titulek dole vpravo">všechno ostatní<br>vám<br>odejde</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  var SIRKA_OBRAZU = 1696;
+
+  // vyřízne z ilustrace oblast data-crop="x,y,w,h" a vyplní jí panel (cover)
+  function orizni() {
+    document.querySelectorAll('.panel').forEach(function (p) {
+      var c = p.dataset.crop.split(',').map(Number);
+      var x = c[0], y = c[1], w = c[2], h = c[3];
+      var pw = p.clientWidth, ph = p.clientHeight;
+      var k = Math.max(pw / w, ph / h);
+      p.style.backgroundImage = 'url(kniha-mlecny-zub-obrazek.png)';
+      p.style.backgroundSize = (SIRKA_OBRAZU * k) + 'px auto';
+      var bx = -(x * k - (pw - w * k) / 2);
+      var by = -(y * k - (ph - h * k) / 2);
+      p.style.backgroundPosition = bx + 'px ' + by + 'px';
+    });
+  }
+
+  function fit() {
+    var el = document.getElementById('scaler');
+    var pad = 40;
+    var s = Math.min((innerWidth - pad) / 1120, (innerHeight - pad) / 1760);
+    el.style.transform = 'translate(-50%, -50%) scale(' + Math.min(s, 1) + ')';
+  }
+
+  addEventListener('resize', function () { fit(); orizni(); });
+  orizni();
+  fit();
+</script>
+</body>
+</html>

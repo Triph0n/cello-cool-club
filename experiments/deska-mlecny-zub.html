@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mléčný zub — gramodeska</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --papir: #ecdfc0;
+    --papir-svetly: #f4ecd8;
+    --inkoust: #453626;
+    --inkoust-svetly: #6d5c44;
+    --oliva: #6b6840;
+    --vinyl: #1c1815;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #35302a;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: "EB Garamond", Georgia, serif;
+  }
+
+  .pohled {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  body[data-pohled="karta"]  #pohled-karta,
+  body[data-pohled="plakat"] #pohled-plakat,
+  body[data-pohled="basen"]  #pohled-basen { display: flex; }
+
+  /* ---------- 1) OBAL LP + DESKA ---------- */
+  #pohled-karta { flex-direction: column; }
+
+  /* scéna posunutá doleva, aby vpravo bylo místo na vyjetou desku */
+  .sceny {
+    position: relative;
+    transform: translateX(-9vw);
+  }
+
+  .obal {
+    position: relative;
+    z-index: 2;
+    width: min(50vh, 60vw);
+    aspect-ratio: 687 / 1024;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 30px 80px rgba(0,0,0,.55), 0 8px 22px rgba(0,0,0,.4);
+    background: url(mlecny-zub-born.png) center / cover no-repeat;
+  }
+  /* hrana kapsy obalu vpravo */
+  .obal::after {
+    content: "";
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 14px;
+    background: linear-gradient(to left, rgba(0,0,0,.32), transparent);
+  }
+
+  /* ---------- gramodeska ---------- */
+  .deska {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 58%;
+    width: min(46vh, 55vw);
+    aspect-ratio: 1;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: left .9s cubic-bezier(.25,.8,.3,1);
+    filter: drop-shadow(0 18px 45px rgba(0,0,0,.55));
+  }
+  body.hraje .deska,
+  body.vytazena .deska { left: 92%; }
+
+  .vinyl {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background:
+      /* odlesk světla */
+      conic-gradient(from 210deg,
+        transparent 0deg,
+        rgba(236,224,196,.10) 16deg,
+        transparent 40deg,
+        transparent 180deg,
+        rgba(236,224,196,.07) 200deg,
+        transparent 225deg),
+      /* drážky */
+      repeating-radial-gradient(circle,
+        var(--vinyl) 0 2.5px,
+        #262019 2.5px 3px,
+        var(--vinyl) 3px 5.5px),
+      var(--vinyl);
+    box-shadow: inset 0 0 0 2px rgba(236,224,196,.12), inset 0 0 40px rgba(0,0,0,.7);
+    animation: toceni 3.4s linear infinite;
+    animation-play-state: paused;
+  }
+  body.hraje .vinyl { animation-play-state: running; }
+  @keyframes toceni { to { transform: rotate(360deg); } }
+
+  /* středový label = kulatý výřez z plakátu (zub v krabičce) */
+  .label {
+    position: absolute;
+    inset: 31.5%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url(mlecny-zub-born.png) no-repeat;
+    background-size: 300%;
+    background-position: 40% 56%;
+    box-shadow: 0 0 0 3px rgba(236,224,196,.85), 0 0 0 5px rgba(0,0,0,.5), inset 0 0 22px rgba(0,0,0,.35);
+  }
+  /* středová dírka */
+  .label::after {
+    content: "";
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 9%;
+    aspect-ratio: 1;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background: #35302a;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.9), 0 0 0 2px rgba(236,224,196,.55);
+  }
+
+  /* trojúhelníček play na desce (zmizí, když hraje) */
+  .deska .znak {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    width: 15%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: rgba(69,54,38,.82);
+    box-shadow: 0 0 0 2px rgba(236,224,196,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .3s;
+  }
+  .deska .znak svg { width: 44%; height: 44%; fill: var(--papir-svetly); }
+  body.hraje .deska .znak { opacity: 0; }
+
+  /* název karty — galerijní popiska pod obalem */
+  .popiska {
+    margin-top: 44px;
+    color: rgba(236,224,196,.8);
+    font-variant: small-caps;
+    font-weight: 500;
+    font-size: clamp(17px, 2.6vh, 24px);
+    letter-spacing: .22em;
+    text-indent: .22em;
+    user-select: none;
+  }
+
+  /* ---------- 2) PLAKÁT ---------- */
+  #pohled-plakat { cursor: pointer; }
+  .plakat {
+    height: calc(100vh - 56px);
+    aspect-ratio: 687 / 1024;
+    max-width: 94vw;
+    background: url(mlecny-zub-born.png) center / contain no-repeat;
+    filter: drop-shadow(0 24px 60px rgba(0,0,0,.55));
+  }
+  .dal {
+    position: fixed;
+    right: 26px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(236,224,196,.45);
+    font-size: 44px;
+    line-height: 1;
+    user-select: none;
+    transition: color .2s;
+  }
+  #pohled-plakat:hover .dal { color: rgba(236,224,196,.85); }
+
+  /* mini deska v rohu (pohled plakát a báseň) — ovládá hudbu */
+  #minideska {
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    z-index: 50;
+    width: 72px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: none;
+    background:
+      repeating-radial-gradient(circle,
+        var(--vinyl) 0 2px,
+        #262019 2px 2.5px,
+        var(--vinyl) 2.5px 4.5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,.5), inset 0 0 0 2px rgba(236,224,196,.25);
+  }
+  body[data-pohled="plakat"] #minideska,
+  body[data-pohled="basen"]  #minideska { display: block; }
+  #minideska .label {
+    inset: 30%;
+    animation: toceni 3.4s linear infinite;
+    animation-play-state: paused;
+  }
+  body.hraje #minideska .label { animation-play-state: running; }
+
+  /* ---------- 3) BÁSEŇ ---------- */
+  #pohled-basen { cursor: pointer; }
+  .list {
+    width: min(64vh, 88vw);
+    aspect-ratio: 687 / 1024;
+    background:
+      radial-gradient(ellipse at 35% 15%, rgba(255,250,235,.55), transparent 60%),
+      radial-gradient(ellipse at 80% 92%, rgba(120,95,55,.12), transparent 55%),
+      var(--papir);
+    box-shadow: 0 30px 80px rgba(0,0,0,.55), 0 8px 22px rgba(0,0,0,.4);
+    border-radius: 14px;
+    color: var(--inkoust);
+    padding: 4.5% 5%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .zahlavi { text-align: center; margin-bottom: 2.5%; }
+  h1 {
+    font-weight: 500;
+    font-size: clamp(20px, 3.4vh, 30px);
+    letter-spacing: .06em;
+    font-variant: small-caps;
+  }
+  .ornament {
+    margin: 8px auto 0;
+    width: 130px;
+    height: 13px;
+    color: var(--oliva);
+  }
+
+  .basen {
+    flex: 1;
+    column-count: 2;
+    column-gap: 4.5%;
+    column-rule: 1px solid rgba(125,122,74,.28);
+    font-size: clamp(9px, 1.42vh, 13.5px);
+    line-height: 1.32;
+  }
+  .basen p { break-inside: avoid; margin-bottom: .5em; }
+  .basen p:last-child { margin-bottom: 0; }
+</style>
+</head>
+<body data-pohled="karta">
+
+  <!-- 1) obal LP s deskou -->
+  <div class="pohled" id="pohled-karta">
+    <div class="sceny">
+      <div class="deska" role="button" aria-label="Přehrát píseň">
+        <div class="vinyl">
+          <div class="label"></div>
+        </div>
+        <div class="znak"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="obal" role="img" aria-label="Obal desky Mléčný zub — plakát podle Adolfa Borna"></div>
+    </div>
+    <div class="popiska">Mléčný zub</div>
+  </div>
+
+  <!-- 2) celý plakát -->
+  <div class="pohled" id="pohled-plakat">
+    <div class="plakat" role="img" aria-label="Celý plakát Mléčný zub"></div>
+    <div class="dal">›</div>
+  </div>
+
+  <!-- 3) báseň -->
+  <div class="pohled" id="pohled-basen">
+    <div class="list">
+      <header class="zahlavi">
+        <h1>Mléčný zub</h1>
+        <svg class="ornament" viewBox="0 0 150 14" fill="none" stroke="currentColor" stroke-width="1">
+          <line x1="0" y1="7" x2="58" y2="7"/>
+          <path d="M70 3 q2 -2 4 0 q1 1 1 3 q0 4 -2 6 q-1 1 -1.5 -1 q-.5 2 -1.5 1 q-2 -2 -2 -6 q0 -2 1 -3 z" transform="translate(1,0)"/>
+          <line x1="92" y1="7" x2="150" y2="7"/>
+        </svg>
+      </header>
+
+      <div class="basen">
+        <p>Vypadl jsem</p>
+
+        <p>Kluk mě strčil pod polštář<br>
+        a přišla víla<br>
+        a nechala mu tam korunu</p>
+
+        <p>A já jsem skončil<br>
+        v krabičce<br>
+        kterou má máma ve skříni</p>
+
+        <p>Jsem mléčný zub</p>
+
+        <p>A byl jsem první<br>
+        Byl jsem ten<br>
+        kdo se prokousal ven<br>
+        z dásně<br>
+        když bylo tomu klukovi<br>
+        šest měsíců</p>
+
+        <p>A on křičel a nespal<br>
+        a rodiče chodili po bytě<br>
+        v noci<br>
+        a nosili ho<br>
+        a byli zoufalí</p>
+
+        <p>Kvůli mně</p>
+
+        <p>První zub<br>
+        to je vždycky drama</p>
+
+        <p>A pak jsem sloužil<br>
+        šest let<br>
+        kousal jsem rohlíky a jablka<br>
+        a byl jsem důležitý</p>
+
+        <p>A pak jsem se začal viklat</p>
+
+        <p>A on se mě bál sáhnout<br>
+        a viklal mě jazykem<br>
+        tajně<br>
+        celé týdny</p>
+
+        <p>A pak jsem vypadl</p>
+
+        <p>A byla to sláva<br>
+        a byl v tom kus radosti<br>
+        a kus strachu</p>
+
+        <p>A pod polštář<br>
+        a víla<br>
+        a hotovo</p>
+
+        <p>A já ležím v krabičce ve skříni<br>
+        dvacet let</p>
+
+        <p>A ten kluk<br>
+        je dneska muž<br>
+        a bydlí jinde<br>
+        a nevolá často</p>
+
+        <p>A máma<br>
+        máma tu krabičku<br>
+        občas otevře</p>
+
+        <p>Nikomu to neřekne</p>
+
+        <p>Jenom ji otevře<br>
+        a dívá se na mě<br>
+        a je tam nás sedm<br>
+        sedm malých bílých zubů</p>
+
+        <p>a v každém<br>
+        je celý jeden rok<br>
+        jeho dětství</p>
+
+        <p>Nechte si ty zuby</p>
+
+        <p>říkám vám to já<br>
+        mléčný zub v krabičce</p>
+
+        <p>Nechte si je</p>
+
+        <p>Je to jediná část dítěte<br>
+        kterou si smíte<br>
+        nechat</p>
+
+        <p>všechno ostatní<br>
+        vám<br>
+        odejde</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- mini deska v rohu: hudba jede dál i na plakátu a básni -->
+  <button id="minideska" aria-label="Přehrát / pozastavit píseň">
+    <div class="label"></div>
+  </button>
+
+  <audio id="audio" src="900-mlecny-zub.mp3" preload="auto"></audio>
+
+<script>
+  var audio = document.getElementById('audio');
+
+  // ?pohled=plakat|basen a ?stav=hraje — přímý vstup (i pro screenshotovou kontrolu)
+  var q = new URLSearchParams(location.search);
+  var start = q.get('pohled');
+  if (start === 'plakat' || start === 'basen') document.body.dataset.pohled = start;
+  if (q.get('stav') === 'hraje') document.body.classList.add('hraje');
+
+  function prehraj(e) {
+    e.stopPropagation();
+    if (audio.paused) { audio.play(); } else { audio.pause(); }
+  }
+  document.querySelector('.deska').addEventListener('click', prehraj);
+  document.getElementById('minideska').addEventListener('click', prehraj);
+
+  function prekresli() {
+    document.body.classList.toggle('hraje', !audio.paused);
+  }
+  audio.addEventListener('play',  prekresli);
+  audio.addEventListener('pause', prekresli);
+  audio.addEventListener('ended', prekresli);
+
+  // klik na obal -> celý plakát; klik na plakát -> báseň; klik na báseň -> zpět
+  document.querySelector('.obal').addEventListener('click', function () {
+    document.body.dataset.pohled = 'plakat';
+  });
+  document.getElementById('pohled-plakat').addEventListener('click', function () {
+    document.body.dataset.pohled = 'basen';
+  });
+  document.getElementById('pohled-basen').addEventListener('click', function () {
+    document.body.dataset.pohled = 'karta';
+  });
+</script>
+</body>
+</html>

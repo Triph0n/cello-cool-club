@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cello Cool Club — Dashboard</title>
+<style>
+  :root{
+    --paper:#f4ecd8; --paper2:#efe4c9; --ink:#2c2418; --ink2:#5c4f38;
+    --olive:#6b6a3a; --ochre:#b07a2c; --sepia:#8a5a2b; --vermilion:#b23a26;
+    --line:#d8c9a5; --card:#fbf5e6; --shadow:0 2px 10px rgba(60,45,20,.12);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:
+      radial-gradient(1200px 600px at 80% -10%, #fbf3dd 0%, transparent 60%),
+      var(--paper);
+    color:var(--ink);font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1100px;margin:0 auto;padding:32px 22px 80px}
+  header.top{display:flex;align-items:flex-end;justify-content:space-between;
+    gap:20px;flex-wrap:wrap;border-bottom:2px solid var(--sepia);padding-bottom:16px;margin-bottom:8px}
+  .brand{font-size:30px;letter-spacing:.3px;font-weight:700}
+  .brand small{display:block;font-size:13px;font-weight:400;color:var(--ink2);
+    letter-spacing:2px;text-transform:uppercase;margin-top:4px}
+  .meta{font-size:12.5px;color:var(--ink2);text-align:right;max-width:420px}
+  .meta code{background:var(--paper2);padding:1px 5px;border-radius:4px}
+  .hint{margin:14px 0 26px;font-size:13.5px;color:var(--ink2);background:var(--card);
+    border:1px solid var(--line);border-left:4px solid var(--ochre);border-radius:8px;padding:10px 14px}
+  .poem{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    box-shadow:var(--shadow);margin:26px 0;overflow:hidden}
+  .poem > .head{display:flex;align-items:center;gap:12px;padding:16px 20px;
+    background:linear-gradient(var(--paper2),transparent);border-bottom:1px solid var(--line)}
+  .num{font-size:13px;font-weight:700;color:#fff;background:var(--sepia);
+    padding:3px 9px;border-radius:20px;letter-spacing:1px}
+  .title{font-size:22px;font-weight:700;flex:1}
+  .badges{display:flex;gap:6px;flex-wrap:wrap}
+  .badge{font-size:11px;letter-spacing:.4px;padding:3px 9px;border-radius:20px;
+    border:1px solid var(--line);color:var(--ink2);background:var(--paper)}
+  .badge.ok{color:#3d5a2a;border-color:#b6c79a;background:#eef3e0}
+  .badge.pending{color:var(--vermilion);border-color:#e2b4aa;background:#f7e7e2}
+  .body{display:grid;grid-template-columns:300px 1fr;gap:24px;padding:20px}
+  @media(max-width:760px){.body{grid-template-columns:1fr}}
+  .poster{position:relative}
+  .poster img{width:100%;border-radius:8px;border:1px solid var(--line);
+    box-shadow:0 4px 14px rgba(60,45,20,.18);display:block}
+  .poster .style{font-size:12px;color:var(--ink2);margin-top:8px;font-style:italic}
+  .refs{margin-top:12px}
+  .refs h4,.col h4{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
+    color:var(--olive);margin:0 0 8px;font-weight:700}
+  .refrow{display:flex;gap:8px;flex-wrap:wrap}
+  .ref{width:64px;text-align:center}
+  .ref img{width:64px;height:64px;object-fit:cover;border-radius:6px;
+    border:1px solid var(--line);filter:sepia(.15)}
+  .ref .rn{font-size:9.5px;color:var(--ink2);margin-top:3px;word-break:break-word;line-height:1.2}
+  .ref .prov{display:inline-block;font-size:8.5px;margin-top:2px;padding:0 4px;border-radius:8px}
+  .ref .prov.guess{background:#f7e7e2;color:var(--vermilion)}
+  .ref .prov.set{background:#eef3e0;color:#3d5a2a}
+  .col{min-width:0}
+  .block{margin-bottom:20px}
+  .prompt{position:relative;background:var(--paper);border:1px solid var(--line);
+    border-radius:8px;padding:12px 14px;font-family:"SFMono-Regular",Consolas,monospace;
+    font-size:12px;line-height:1.55;color:var(--ink2);white-space:pre-wrap;max-height:190px;overflow:auto}
+  .copy{position:absolute;top:8px;right:8px;font-size:11px;border:1px solid var(--line);
+    background:var(--card);color:var(--ink2);border-radius:6px;padding:3px 8px;cursor:pointer}
+  .copy:hover{background:var(--paper2)}
+  .audio{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(max-width:520px){.audio{grid-template-columns:1fr}}
+  .track{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+  .track .tl{font-size:12px;font-weight:700;color:var(--ink2);margin-bottom:6px;
+    display:flex;justify-content:space-between;align-items:center}
+  .track audio{width:100%}
+  .empty{border:1px dashed var(--ochre);color:var(--ochre);font-size:12px;
+    text-align:center;padding:16px 8px;border-radius:8px;font-style:italic}
+  .poemtext{font-size:14.5px;color:var(--ink);white-space:pre-wrap;
+    columns:2;column-gap:32px;max-height:0;overflow:hidden;transition:max-height .3s}
+  @media(max-width:520px){.poemtext{columns:1}}
+  .poemtext.open{max-height:1400px}
+  .toggle{cursor:pointer;color:var(--sepia);font-size:12px;border:none;background:none;
+    padding:0;font-family:inherit;text-decoration:underline}
+  footer{margin-top:40px;font-size:12px;color:var(--ink2);text-align:center}
+  .err{color:var(--vermilion);background:#f7e7e2;border:1px solid #e2b4aa;
+    border-radius:8px;padding:14px;margin:20px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">Cello Cool Club<small id="mtitle">Dashboard</small></div>
+    <div class="meta" id="meta"></div>
+  </header>
+  <div class="hint" id="hint"></div>
+  <div id="app"></div>
+  <footer>Zdroj pravdy: <code>index.json</code> — uprav a obnov stránku. · Cello Cool Club</footer>
+</div>
+
+<script>
+const esc = s => (s??"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function copyBtn(text){
+  const b=document.createElement('button');
+  b.className='copy';b.textContent='kopírovat';
+  b.onclick=()=>{navigator.clipboard.writeText(text).then(()=>{b.textContent='zkopírováno ✓';setTimeout(()=>b.textContent='kopírovat',1400)})};
+  return b;
+}
+
+function track(t){
+  if(t && t.file){
+    return `<div class="track"><div class="tl"><span>${esc(t.label||'Suno')}</span>${t.sunoUrl?`<a href="${esc(t.sunoUrl)}" target="_blank" style="font-size:11px">Suno ↗</a>`:''}</div>
+      <audio controls preload="none" src="ccc-audio/${encodeURIComponent(t.file)}"></audio></div>`;
+  }
+  return `<div class="track"><div class="tl"><span>${esc(t&&t.label||'Suno')}</span></div>
+    <div class="empty">zatím nevygenerováno<br>→ Suno · vlož název MP3 z <code>CelloCoolClub/assets/audio</code></div></div>`;
+}
+
+function refThumb(r){
+  const set = r.assigned===true;
+  return `<div class="ref">
+    <img src="${esc(r.file)}" alt="${esc(r.name)}" title="${esc(r.name)}${r.note?' — '+esc(r.note):''}">
+    <div class="rn">${esc(r.name||'')}</div>
+    <span class="prov ${set?'set':'guess'}">${set?'použito':'navrženo'}</span>
+  </div>`;
+}
+
+function poemCard(p,i){
+  const audioDone = p.audio && (p.audio.variantA?.file || p.audio.variantB?.file);
+  const posterDone = !!(p.poster && p.poster.file);
+  const el=document.createElement('section');el.className='poem';
+  el.innerHTML=`
+    <div class="head">
+      <span class="num">${esc(p.id)}</span>
+      <span class="title">${esc(p.title)}</span>
+      <span class="badges">
+        <span class="badge ${posterDone?'ok':'pending'}">poster ${posterDone?'✓':'—'}</span>
+        <span class="badge ${p.suno?.status==='done'?'ok':'pending'}">suno prompt ${p.suno?.prompt?'✓':'—'}</span>
+        <span class="badge ${audioDone?'ok':'pending'}">audio ${audioDone?'✓':'chybí'}</span>
+      </span>
+    </div>
+    <div class="body">
+      <div class="poster">
+        ${posterDone?`<img src="${esc(p.poster.file)}" alt="${esc(p.title)} — poster" loading="lazy">`:`<div class="empty">bez posteru</div>`}
+        ${p.poster?.hiRes?`<div style="font-size:11px;margin-top:6px"><a href="${esc(p.poster.hiRes)}" target="_blank" style="color:var(--sepia)">otevřít hi-res ↗</a></div>`:''}
+        ${p.poster?.style?`<div class="style">${esc(p.poster.style)}</div>`:''}
+        ${p.poster?.references?.length?`<div class="refs"><h4>Reference (Born)</h4><div class="refrow">${p.poster.references.map(refThumb).join('')}</div></div>`:''}
+      </div>
+      <div class="col">
+        <div class="block">
+          <h4>Suno prompt</h4>
+          <div class="prompt" data-prompt>${esc(p.suno?.prompt||'—')}</div>
+        </div>
+        <div class="block">
+          <h4>Zvukové stopy (A / B)</h4>
+          <div class="audio">${track(p.audio?.variantA)}${track(p.audio?.variantB)}</div>
+        </div>
+        <div class="block">
+          <h4>Poster prompt</h4>
+          <div class="prompt" data-prompt>${esc(p.poster?.prompt||'—')}</div>
+        </div>
+        <div class="block">
+          <button class="toggle" data-toggle>▸ zobrazit text básně (${(p.poemText||[]).filter(Boolean).length} veršů)</button>
+          <div class="poemtext">${esc((p.poemText||[]).join('\n'))}</div>
+        </div>
+      </div>
+    </div>`;
+  // copy buttons on prompts
+  el.querySelectorAll('[data-prompt]').forEach(pre=>{
+    if(pre.textContent.trim()!=='—') pre.appendChild(copyBtn(pre.textContent));
+  });
+  // poem toggle
+  const tg=el.querySelector('[data-toggle]'), pt=el.querySelector('.poemtext');
+  tg.onclick=()=>{const o=pt.classList.toggle('open');tg.textContent=(o?'▾ skrýt text básně':'▸ zobrazit text básně')+` (${(p.poemText||[]).filter(Boolean).length} veršů)`};
+  return el;
+}
+
+fetch('index.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{
+  const m=data.meta||{};
+  document.getElementById('mtitle').textContent=m.title||'Dashboard';
+  document.getElementById('meta').innerHTML=
+    `${esc(m.generatedAt||'')} · zdroj <code>${esc((m.sourceRoot||'').split('/').pop())}</code><br>${data.poems.length} básní v indexu`;
+  document.getElementById('hint').innerHTML=
+    `<b>Jak to funguje:</b> ${esc(m.notes||'')}`;
+  const app=document.getElementById('app');
+  data.poems.forEach((p,i)=>app.appendChild(poemCard(p,i)));
+
+  // Global reference library
+  const lib=data.referenceLibrary;
+  if(lib && lib.files?.length){
+    const used=new Set();
+    data.poems.forEach(p=>(p.poster?.references||[]).forEach(r=>{if(r.assigned)used.add(r.name)}));
+    const sec=document.createElement('section');sec.className='poem';
+    sec.innerHTML=`
+      <div class="head">
+        <span class="title" style="font-size:18px">Knihovna Bornových referencí</span>
+        <span class="badges"><span class="badge">${lib.files.length} litografií</span></span>
+        <button class="toggle" data-lib style="margin-left:10px">▸ zobrazit</button>
+      </div>
+      <div class="libwrap" style="max-height:0;overflow:hidden;transition:max-height .35s">
+        <div style="padding:16px 20px">
+          <div style="font-size:12.5px;color:var(--ink2);margin-bottom:12px">${esc(lib.note||'')}</div>
+          <div class="refrow" style="gap:12px">${lib.files.map(f=>{
+            const name=f.replace(/\.jpg$/,'');const isUsed=used.has(name);
+            return `<div class="ref" style="width:78px"><img style="width:78px;height:78px" src="${esc(lib.dir)}/${esc(f)}" alt="${esc(name)}" title="${esc(name)}">
+              <div class="rn">${esc(name.replace('born-',''))}</div>
+              ${isUsed?'<span class="prov set">použito</span>':''}</div>`;
+          }).join('')}</div>
+        </div>
+      </div>`;
+    const btn=sec.querySelector('[data-lib]'), wrap=sec.querySelector('.libwrap');
+    btn.onclick=()=>{const o=wrap.style.maxHeight&&wrap.style.maxHeight!=='0px';
+      wrap.style.maxHeight=o?'0':'1600px';btn.textContent=o?'▸ zobrazit':'▾ skrýt'};
+    app.appendChild(sec);
+  }
+}).catch(e=>{
+  document.getElementById('app').innerHTML=
+    `<div class="err"><b>Nepodařilo se načíst index.json.</b><br>Spusť dashboard přes lokální server:
+    <code>node serve.mjs</code> a otevři <code>http://localhost:8790</code>.<br>(${esc(e.message)})</div>`;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Milk Tooth — comic</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --papir: #ece0c4;
+    --papir-svetly: #f4ecd8;
+    --inkoust: #453626;
+    --inkoust-svetly: #6d5c44;
+    --oliva: #6b6840;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #35302a;
+    min-height: 100vh;
+    font-family: "EB Garamond", Georgia, serif;
+  }
+
+  .kniha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 60px 0;
+  }
+  body[data-stranka] .kniha { padding: 20px 0; gap: 0; }
+  body[data-stranka="1"] .list:not(#strana1),
+  body[data-stranka="2"] .list:not(#strana2),
+  body[data-stranka="3"] .list:not(#strana3) { display: none; }
+
+  .list {
+    width: 1120px;
+    height: 1760px;
+    padding: 55px 55px 40px;
+    background:
+      radial-gradient(ellipse at 30% 10%, rgba(255,250,235,.45), transparent 55%),
+      radial-gradient(ellipse at 85% 95%, rgba(120,95,55,.10), transparent 55%),
+      var(--papir);
+    box-shadow: 0 25px 70px rgba(0,0,0,.5), 0 6px 20px rgba(0,0,0,.35);
+    color: var(--inkoust);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+
+  .zahlavi { text-align: center; margin-bottom: 26px; }
+  h1 {
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing: .06em;
+    font-variant: small-caps;
+  }
+  .ornament {
+    margin: 10px auto 0;
+    width: 150px;
+    height: 14px;
+    color: var(--oliva);
+  }
+  .zahlavi.tiche { margin-bottom: 20px; }
+  .zahlavi.tiche .ornament { margin-top: 0; }
+
+  /* ---- comic grids ---- */
+  .mrizka {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  #strana1 .mrizka { grid-template-rows: 400px 345px 345px 1fr; }
+  #strana2 .mrizka { grid-template-rows: 360px 360px 360px 1fr; }
+  #strana3 .mrizka { grid-template-rows: 440px 440px 170px 1fr; }
+
+  .panel {
+    position: relative;
+    border: 3px solid var(--oliva);
+    box-shadow: inset 0 0 0 1px rgba(236,224,196,.9), 0 2px 6px rgba(60,42,20,.25);
+    background-color: #d8c9a8;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .vysoky2 { grid-row: span 2; }
+  .siroky2 { grid-column: span 2; }
+  .siroky3 { grid-column: 1 / span 3; }
+
+  /* narrator caption */
+  .titulek {
+    position: absolute;
+    top: 10px; left: 10px;
+    max-width: 78%;
+    background: var(--papir-svetly);
+    border: 1px solid var(--inkoust-svetly);
+    box-shadow: 2px 2px 0 rgba(69,54,38,.35);
+    padding: 7px 12px 8px;
+    font-style: italic;
+    font-size: 14.5px;
+    line-height: 1.3;
+  }
+  .titulek.dole { top: auto; bottom: 10px; }
+  .titulek.vpravo { left: auto; right: 10px; }
+
+  /* quiet beat panel — caption centred on ornamental paper */
+  .panel.beat { display: flex; align-items: center; justify-content: center; }
+  .panel.beat .titulek {
+    position: static;
+    max-width: 86%;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="kniha">
+
+  <!-- ============ PAGE 1 : stanzas 1–9 ============ -->
+  <div class="list" id="strana1">
+    <header class="zahlavi">
+      <h1>The Milk Tooth</h1>
+      <svg class="ornament" viewBox="0 0 150 14" fill="none" stroke="currentColor" stroke-width="1">
+        <line x1="0" y1="7" x2="58" y2="7"/>
+        <path d="M70 3 q2 -2 4 0 q1 1 1 3 q0 4 -2 6 q-1 1 -1.5 -1 q-.5 2 -1.5 1 q-2 -2 -2 -6 q0 -2 1 -3 z" transform="translate(1,0)"/>
+        <line x1="92" y1="7" x2="150" y2="7"/>
+      </svg>
+    </header>
+
+    <div class="mrizka">
+
+      <div class="panel vysoky2" data-crop="585,1120,330,775">
+        <div class="titulek">I fell out</div>
+      </div>
+
+      <div class="panel siroky2" data-crop="280,470,540,325">
+        <div class="titulek">The boy tucked me under his pillow<br>and the fairy came<br>and left him a coin</div>
+      </div>
+
+      <div class="panel" data-crop="470,1560,400,380">
+        <div class="titulek">And I ended up<br>in a little box<br>his mum keeps in the wardrobe</div>
+        <div class="titulek dole vpravo">I am a milk tooth</div>
+      </div>
+
+      <div class="panel" data-crop="475,985,210,225">
+        <div class="titulek">And I was the first<br>I was the one<br>who bit his way out<br>of the gum<br>when that boy<br>was six months old</div>
+      </div>
+
+      <div class="panel" data-crop="195,1090,330,375">
+        <div class="titulek">And he cried and wouldn't sleep<br>and his parents paced the flat<br>at night<br>carrying him around<br>and they were desperate</div>
+        <div class="titulek dole vpravo">Because of me</div>
+      </div>
+
+      <div class="panel beat" data-crop="10,725,220,310">
+        <div class="titulek">The first tooth<br>is always a drama</div>
+      </div>
+
+      <div class="panel" data-crop="705,40,260,275">
+        <div class="titulek">And then I served<br>six years</div>
+      </div>
+
+      <div class="panel siroky3" data-crop="445,865,440,159">
+        <div class="titulek">I bit into rolls and apples<br>and I was important</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============ PAGE 2 : stanzas 10–16 ============ -->
+  <div class="list" id="strana2">
+    <header class="zahlavi tiche">
+      <svg class="ornament" viewBox="0 0 150 14" fill="none" stroke="currentColor" stroke-width="1">
+        <line x1="0" y1="7" x2="58" y2="7"/>
+        <path d="M70 3 q2 -2 4 0 q1 1 1 3 q0 4 -2 6 q-1 1 -1.5 -1 q-.5 2 -1.5 1 q-2 -2 -2 -6 q0 -2 1 -3 z" transform="translate(1,0)"/>
+        <line x1="92" y1="7" x2="150" y2="7"/>
+      </svg>
+    </header>
+
+    <div class="mrizka">
+
+      <div class="panel" data-crop="615,780,255,305">
+        <div class="titulek">And then I started to wobble</div>
+        <div class="titulek dole vpravo">And he was afraid to touch me<br>so he wiggled me with his tongue<br>in secret<br>for weeks</div>
+      </div>
+
+      <div class="panel" data-crop="600,1195,290,300">
+        <div class="titulek">And then I fell out</div>
+      </div>
+
+      <div class="panel" data-crop="500,1090,200,205">
+        <div class="titulek">And it was a glory<br>and there was some joy in it<br>and some fear</div>
+      </div>
+
+      <div class="panel" data-crop="55,2010,400,380">
+        <div class="titulek">And under the pillow<br>and the fairy<br>and done</div>
+      </div>
+
+      <div class="panel vysoky2" data-crop="750,770,450,980">
+        <div class="titulek">And I've been lying in the box in the wardrobe<br>for twenty years</div>
+      </div>
+
+      <div class="panel" data-crop="1055,620,325,330">
+        <div class="titulek">And that boy<br>is a man now</div>
+      </div>
+
+      <div class="panel" data-crop="1135,670,310,320">
+        <div class="titulek">and lives elsewhere</div>
+      </div>
+
+      <div class="panel" data-crop="1185,1955,440,430">
+        <div class="titulek dole">and doesn't call often</div>
+      </div>
+
+      <div class="panel siroky3" data-crop="330,385,920,290"></div>
+
+    </div>
+  </div>
+
+  <!-- ============ PAGE 3 : stanzas 17–25 ============ -->
+  <div class="list" id="strana3">
+    <header class="zahlavi tiche">
+      <svg class="ornament" viewBox="0 0 150 14" fill="none" stroke="currentColor" stroke-width="1">
+        <line x1="0" y1="7" x2="58" y2="7"/>
+        <path d="M70 3 q2 -2 4 0 q1 1 1 3 q0 4 -2 6 q-1 1 -1.5 -1 q-.5 2 -1.5 1 q-2 -2 -2 -6 q0 -2 1 -3 z" transform="translate(1,0)"/>
+        <line x1="92" y1="7" x2="150" y2="7"/>
+      </svg>
+    </header>
+
+    <div class="mrizka">
+
+      <div class="panel" data-crop="882,860,225,290">
+        <div class="titulek">And his mum<br>his mum opens that box<br>now and then</div>
+        <div class="titulek dole vpravo">She tells no one</div>
+      </div>
+
+      <div class="panel siroky2" data-crop="560,2055,570,375">
+        <div class="titulek">She just opens it<br>and looks at me<br>and there are seven of us<br>seven small white teeth</div>
+      </div>
+
+      <div class="panel siroky2" data-crop="470,650,750,470">
+        <div class="titulek">and in every one of us<br>a whole year<br>of his childhood</div>
+      </div>
+
+      <div class="panel" data-crop="600,1160,330,430">
+        <div class="titulek">Keep those teeth</div>
+        <div class="titulek dole vpravo">I'm telling you this<br>a milk tooth in a box</div>
+      </div>
+
+      <div class="panel beat siroky3" data-crop="480,2318,760,122">
+        <div class="titulek">Keep them</div>
+      </div>
+
+      <div class="panel siroky3" data-crop="700,860,560,283">
+        <div class="titulek">They are the only part of a child<br>you are allowed<br>to keep</div>
+        <div class="titulek dole vpravo">everything else<br>will<br>leave you</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script>
+  var SIRKA_OBRAZU = 1696;
+
+  // cut the data-crop="x,y,w,h" region out of the illustration and fill the panel (cover)
+  function orizni() {
+    document.querySelectorAll('.panel').forEach(function (p) {
+      var c = p.dataset.crop.split(',').map(Number);
+      var x = c[0], y = c[1], w = c[2], h = c[3];
+      var pw = p.clientWidth, ph = p.clientHeight;
+      var k = Math.max(pw / w, ph / h);
+      p.style.backgroundImage = 'url(kniha-mlecny-zub-obrazek.png)';
+      p.style.backgroundSize = (SIRKA_OBRAZU * k) + 'px auto';
+      var bx = -(x * k - (pw - w * k) / 2);
+      var by = -(y * k - (ph - h * k) / 2);
+      p.style.backgroundPosition = bx + 'px ' + by + 'px';
+    });
+  }
+
+  // ?stranka=1|2|3 shows a single page scaled to the window (screenshot checks);
+  // without the parameter all three pages stack vertically, scaled to the window width
+  var stranka = new URLSearchParams(location.search).get('stranka');
+  if (stranka === '1' || stranka === '2' || stranka === '3') {
+    document.body.dataset.stranka = stranka;
+  }
+
+  function fit() {
+    var kniha = document.querySelector('.kniha');
+    var s = document.body.dataset.stranka
+      ? Math.min((innerWidth - 40) / 1120, (innerHeight - 40) / 1800, 1)
+      : Math.min((innerWidth - 60) / 1120, 1);
+    kniha.style.zoom = s;
+    orizni();
+  }
+
+  addEventListener('resize', fit);
+  fit();
+</script>
+</body>
+</html>

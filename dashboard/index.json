@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "project": "Cello Cool Club",
+    "title": "Cello Cool Club — Dashboard",
+    "generatedAt": "2026-07-24",
+    "sourceRoot": "C:/Users/Vladimir/Documents/CelloCoolClub",
+    "poemSource": "engine/data/clean-sources/prevert_fable_english.md",
+    "audioSource": "assets/audio (server je pripojuje na /ccc-audio/<soubor>)",
+    "referenceLibrary": "assets/poster-references (39 Born litografii, server je pripojuje na /ccc-refs/<soubor>)",
+    "notes": "Tohle je JEDINY zdroj pravdy. Uprav tento soubor (rucne nebo pres Codex) a dashboard se po nacteni prekresli. Audio A/B se prehrava primo z CelloCoolClub/assets/audio — staci do audio.variantA/B.file vlozit nazev MP3. Obe seed basne uz maji obe Suno varianty (A+B) stazene pres Suno CDN. Reference u posteru jsou zatim navrzene (assigned:false) — potvrd/uprav, ktere Bornovy litografie se pouzily.",
+    "layout": {
+      "projekt": "JEDNA slozka C:/Users/Vladimir/Documents/CelloCoolClub — vse uvnitr",
+      "dashboard": "dashboard/ (rozhrani; index.json = jediny zdroj pravdy)",
+      "texty": "poems/ (337 trojjazycnych basni) + poems/collections/ (ceske stovky) + assets/text/",
+      "pisne": "assets/audio/ (MP3 ze Suno)",
+      "plakaty": "assets/posters/ + assets/posters-hires/",
+      "reference": "assets/poster-references/ (vstup pro born-poster)",
+      "engine": "engine/ (redakce, karty, export)"
+    }
+  },
+  "statusLegend": {
+    "poster": "hotovo = poster.file existuje",
+    "suno": "prompt-ready = prompt hotov, audio nevygenerovano | generating | done",
+    "audio": "file != null => prehravatelne"
+  },
+  "referenceLibrary": {
+    "note": "Vsech 39 Bornovych litografii lezi v assets/poster-references/ uvnitr projektu (server je pripojuje na /ccc-refs/). Z nich born-poster vybira 2-3 na kazdy poster. Ktere se u konkretniho posteru pouzily, zapis do poems[].poster.references (assigned:true).",
+    "dir": "/ccc-refs/",
+    "files": [
+      "born-afrika.jpg",
+      "born-benatky.jpg",
+      "born-defile.jpg",
+      "born-destik.jpg",
+      "born-doktorska.jpg",
+      "born-freud-sen.jpg",
+      "born-grand-bazar.jpg",
+      "born-iluzioniste.jpg",
+      "born-karneval-benatky.jpg",
+      "born-kocka-afrodita.jpg",
+      "born-kolotoc.jpg",
+      "born-kolumbus.jpg",
+      "born-konec-predstaveni.jpg",
+      "born-kralovna-saba.jpg",
+      "born-krysar.jpg",
+      "born-lautrec-inspirace.jpg",
+      "born-loira.jpg",
+      "born-lovci-kuriozit.jpg",
+      "born-mehmed-arcimboldo.jpg",
+      "born-moliere-spor.jpg",
+      "born-moulin-rouge.jpg",
+      "born-nocni-plavba.jpg",
+      "born-norsko.jpg",
+      "born-oliva.jpg",
+      "born-peloponesos.jpg",
+      "born-poradci.jpg",
+      "born-radecky.jpg",
+      "born-recka-spionka.jpg",
+      "born-rembrandt.jpg",
+      "born-rozverna-parta.jpg",
+      "born-senatori.jpg",
+      "born-strazci-fjordu.jpg",
+      "born-sultan-mustafa.jpg",
+      "born-taiwan.jpg",
+      "born-traktat-opice.jpg",
+      "born-turecky-dustojnik.jpg",
+      "born-unos-evropy.jpg",
+      "born-vylet.jpg",
+      "born-vyslanci-rudolf.jpg"
+    ]
+  },
+  "poems": [
+    {
+      "id": "001",
+      "slug": "the-man-who-fed-the-pigeons",
+      "title": "The Man Who Fed the Pigeons",
+      "language": "en",
+      "source": "prevert_fable_english.md #001",
+      "poemText": [
+        "Every morning at seven",
+        "on the market square",
+        "an old man in a grey coat",
+        "crumbled bread for the pigeons",
+        "and the pigeons knew him",
+        "the way one knows church bells",
+        "",
+        "Then came the sign",
+        "FEEDING PIGEONS FORBIDDEN",
+        "fine one thousand crowns",
+        "signature illegible",
+        "",
+        "Next morning at seven",
+        "the old man came",
+        "sat down on the bench",
+        "with empty hands",
+        "entirely empty",
+        "and the pigeons came all the same",
+        "landed on his shoulders",
+        "on his hat",
+        "on his knees",
+        "",
+        "The clerk who had signed the sign",
+        "watched from the town hall window",
+        "on the third day he came down",
+        "What are you feeding them? he asked sternly",
+        "Nothing, said the man",
+        "Then why do they come?",
+        "",
+        "And the old man smiled",
+        "The bread, that was for you",
+        "so you'd have something to forbid",
+        "They never came here for bread",
+        "they came here for me",
+        "and against that",
+        "you have no paragraph yet"
+      ],
+      "suno": {
+        "prompt": "Style prompt: inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with a single warm female lead voice, solo vocal only, one single lead singer throughout, monophonic vocal line, no choir, no backing vocals, no vocal harmonies, no vocal layering or doubling, no duet, no call-and-response vocals, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling, medium-tempo brushed swing with gentle rubato, bittersweet mood, balanced between warmth and sadness, warm major-minor harmony, elegant restraint, subtle emotional lift, blue-note harmony, expressive pauses, low upright bass, mournful saxophone replies, fragile but forward-moving vocal phrasing, no humming at the beginning.",
+        "promptSource": "buildSunoPrompt (engine)",
+        "status": "done"
+      },
+      "audio": {
+        "variantA": {
+          "file": "the-man-who-fed-the-pigeons-a.mp3",
+          "label": "Suno A",
+          "sunoUrl": "https://suno.com/song/8ce9a6f1-02cb-4651-9e66-1106ad68cecc"
+        },
+        "variantB": {
+          "file": "the-man-who-fed-the-pigeons-b.mp3",
+          "label": "Suno B",
+          "sunoUrl": "https://suno.com/song/5f3c8e9b-b963-433f-8925-943cca6280df"
+        }
+      },
+      "poster": {
+        "file": "/ccc-posters/001-the-man-who-fed-the-pigeons.png",
+        "hiRes": "/ccc-posters-hires/001-the-man-who-fed-the-pigeons.png",
+        "style": "Born litografie — centralni ramovana scena + siroka margie s marginaliemi, tlumena olive/ochre/sepia",
+        "prompt": "Study the attached lithographs by Adolf Born and imitate their TECHNIQUE precisely — not their subjects. Reproduce: the granular lithographic stipple texture, the soft airbrushed color fields, the fine hatched line work, the whimsical elongated caricature figures, the aged warm paper, and the overall feel of a precious old print. Compose it as a central framed scene surrounded by a wide aged-paper margin decorated with small hand-drawn marginalia sketches and elegant calligraphic flourishes. Muted dusty palette of olive, ochre and sepia — restrained, antique.\n\nNow the NEW subject, drawn in exactly that technique: an old man in a grey coat sits on a park bench like a living monument, entirely covered in adoring pigeons — pigeons on his shoulders, on his hat, on his knees, and on his wide-open, completely EMPTY hands. Next to the bench towers a comically oversized official prohibition board on a pole — a blank white board with a stern red diagonal stripe, no writing — and a tiny stiff clerk in a bowler hat gazes up at it, baffled that the pigeons ignore it. Behind them a small market square with a fountain. In the margins: a single breadcrumb, a lone falling feather, an official rubber stamp, a small church bell.\n\nNo text, no letters, no words anywhere. No signature, no edition number. Tender absurd humor, no kitsch. Portrait orientation 2:3.",
+        "references": [
+          {
+            "file": "/ccc-refs/born-senatori.jpg",
+            "name": "born-senatori",
+            "assigned": false,
+            "note": "navrzeno — uredni/postavy"
+          },
+          {
+            "file": "/ccc-refs/born-radecky.jpg",
+            "name": "born-radecky",
+            "assigned": false,
+            "note": "navrzeno — namesti/pomnik"
+          },
+          {
+            "file": "/ccc-refs/born-poradci.jpg",
+            "name": "born-poradci",
+            "assigned": false,
+            "note": "navrzeno — figury v davu"
+          }
+        ]
+      },
+      "status": "done"
+    },
+    {
+      "id": "002",
+      "slug": "the-forgotten-umbrella",
+      "title": "The Forgotten Umbrella",
+      "language": "en",
+      "source": "prevert_fable_english.md #002",
+      "poemText": [
+        "Mr. Novák bought himself an umbrella",
+        "a solid black umbrella",
+        "so he would never get wet",
+        "and the very first Tuesday",
+        "he left it on the train to Brno",
+        "",
+        "The umbrella travelled on",
+        "in Brno a student took it",
+        "and under it she kissed a boy",
+        "she was not supposed to kiss",
+        "and left it in a café",
+        "",
+        "In the café a violinist took it",
+        "and played beneath it at the station",
+        "when rain fell on his sheet music",
+        "then he lent it to a bride",
+        "whose veil was catching the rain",
+        "and the bride left it in a taxi",
+        "and the taxi drove it all the way to the sea",
+        "",
+        "And so the umbrella saw Brno",
+        "a kiss that wasn't allowed to be",
+        "notes washed out by rain",
+        "a wedding",
+        "and the sea",
+        "",
+        "Mr. Novák bought a new umbrella",
+        "an even more solid one",
+        "and so as not to lose it again",
+        "he kept it at home",
+        "and when it rained",
+        "he stayed home with it",
+        "",
+        "The umbrella saw the world",
+        "because it got lost",
+        "Mr. Novák saw nothing",
+        "because he was afraid of getting lost"
+      ],
+      "suno": {
+        "prompt": "Style prompt: inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with a single warm female lead voice, solo vocal only, one single lead singer throughout, monophonic vocal line, no choir, no backing vocals, no vocal harmonies, no vocal layering or doubling, no duet, no call-and-response vocals, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling, uptempo swing with playful stop-time breaks, bittersweet mood, balanced between warmth and sadness, warm major-minor harmony, elegant restraint, subtle emotional lift, walking-street groove, brushed snare like footsteps, muted trumpet prayer responses, damp pavement atmosphere, wry sacred-comic vocal delivery, tender urban melancholy, no humming at the beginning.",
+        "promptSource": "buildSunoPrompt (engine)",
+        "status": "done"
+      },
+      "audio": {
+        "variantA": {
+          "file": "the-forgotten-umbrella-a.mp3",
+          "label": "Suno A",
+          "sunoUrl": "https://suno.com/song/3f529b0a-823d-4562-bfc6-3f015af5ae18"
+        },
+        "variantB": {
+          "file": "the-forgotten-umbrella-b.mp3",
+          "label": "Suno B",
+          "sunoUrl": "https://suno.com/song/1967bf42-6ffa-4b50-a0b9-28fd8fcbcfe7"
+        }
+      },
+      "poster": {
+        "file": "/ccc-posters/002-the-forgotten-umbrella.png",
+        "style": "Born litografie — velka cista scena + spodni predella pruh, sytejsi barvy s akcentem vermilion/turquoise",
+        "prompt": "Study the attached lithographs by Adolf Born and imitate their TECHNIQUE precisely — not their subjects. Reproduce: the granular lithographic stipple texture, the soft airbrushed color fields, the fine hatched line work, the whimsical elongated caricature figures, the aged warm paper, and the overall feel of a precious old print. Keep the scene large and clean, with one narrow horizontal strip of tiny predella scenes along the bottom edge only. Richer joyful saturated colors with one glowing accent of vermilion or turquoise.\n\nNow the NEW subject, drawn in exactly that technique: one enormous open black umbrella sails majestically through the sky above the open sea like a proud ship under full wind, gulls escorting it, its curved handle trailing a ribbon of rain. Far below at the edge of the scene, tiny in his window, a cautious man in a buttoned coat clutches a brand-new umbrella indoors, watching the rain from behind glass, going nowhere. The predella strip along the bottom tells the lost umbrella's journey in tiny scenes: a railway carriage, a student kissing a boy beneath the umbrella, a violinist playing under it at a station, a bride sheltering her veil, a taxi driving toward the sea.\n\nNo text, no letters, no words anywhere. No signature, no edition number. Tender absurd humor, no kitsch. Portrait orientation 2:3.",
+        "references": [
+          {
+            "file": "/ccc-refs/born-nocni-plavba.jpg",
+            "name": "born-nocni-plavba",
+            "assigned": false,
+            "note": "navrzeno — plavba/more"
+          },
+          {
+            "file": "/ccc-refs/born-benatky.jpg",
+            "name": "born-benatky",
+            "assigned": false,
+            "note": "navrzeno — voda/lode"
+          },
+          {
+            "file": "/ccc-refs/born-kolotoc.jpg",
+            "name": "born-kolotoc",
+            "assigned": false,
+            "note": "navrzeno — radostna sytost"
+          }
+        ]
+      },
+      "status": "done"
+    }
+  ]
+}

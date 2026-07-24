@@ -3,3 +3,15 @@ preview/
 *.log
 Thumbs.db
 .DS_Store
+
+# Média mimo git (rozhodnutí 2026-07-24): objem 3+ GB je pro GitHub nevhodný.
+# Zdroj pravdy pro média = lokální disk. Už sledované soubory tím nemizí.
+assets/audio/
+assets/posters/
+assets/images/
+
+# Ladicí screenshoty z automatizace (Suno/Chrome) v kořeni — nepatří do repa
+/alttab-*.png
+/suno-*.png
+/chrome-*.png
+/pixel-fill-*.png

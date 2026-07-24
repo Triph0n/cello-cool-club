@@ -132,6 +132,11 @@ button {
     inset 0 0 44px rgba(90, 63, 18, 0.14);
 }
 
+/* Long poems: cap the text panel so the artwork keeps its space; the poem scrolls. */
+.playing-card--long {
+  grid-template-rows: minmax(0, 1fr) 0 fit-content(58%);
+}
+
 .playing-card::before {
   position: absolute;
   inset: 9px;
@@ -259,6 +264,10 @@ button {
 .poem-card-body {
   position: relative;
   z-index: 5;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(128, 97, 38, 0.55) transparent;
   padding: 38px 28px 22px;
   border-top: 3px double rgba(128, 97, 38, 0.46);
   background:
@@ -399,6 +408,10 @@ h1 {
     width: min(360px, calc(100vw - 24px));
     height: calc(100dvh - 118px);
     grid-template-rows: minmax(0, 1fr) 0 auto;
+  }
+
+  .playing-card--long {
+    grid-template-rows: minmax(0, 1fr) 0 fit-content(58%);
   }
 
   .art-button {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "note": "Kanonické číslo = pořadí v assets/text/AllEnglishTexts.md. Páruje se OTISKEM TEXTU, nikdy názvem. Existující záznamy se při přestavbě NEPŘEPISUJÍ — crosswalk je zmrazený. Soubory se nepřejmenovávají; tady je jen zapsáno, co k čemu patří.",
-    "generatedAt": "2026-07-24",
+    "generatedAt": "2026-07-25",
     "counts": {
       "kanonickych": 1102,
       "sKartou": 511,

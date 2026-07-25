@@ -2,7 +2,7 @@
   "meta": {
     "project": "Cello Cool Club",
     "title": "Cello Cool Club — Dashboard",
-    "generatedAt": "2026-07-24",
+    "generatedAt": "2026-07-25",
     "generator": "tools/build-dashboard-index.mjs (spusť s --write)",
     "sourceRoot": "C:/Users/Vladimir/Documents/CelloCoolClub",
     "poemSource": "assets/text/AllEnglishTexts.md",
@@ -12,7 +12,7 @@
       "basni": 1102,
       "sKartou": 511,
       "sunoPrompt": 511,
-      "audio": 334,
+      "audio": 337,
       "poster": 93
     },
     "notes": "Index se GENERUJE z assets/text/AllEnglishTexts.md. Ruční obohacení (poster.prompt, poster.style, poster.references, Suno URL, varianta B) se při přegenerování ZACHOVÁVÁ podle názvu básně — piš je klidně přímo sem. Znovu postavit: node tools/build-dashboard-index.mjs --write"
@@ -11757,7 +11757,16 @@
         "prompt": "Style prompt: inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with a single warm female lead voice, no choir, no backing vocals, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling, brisk satirical foxtrot, clipped two-beat swing, melancholic, tender, emotionally sad mood, soft minor-key harmony, restrained brushed drums, mournful saxophone replies, blue-note harmony, expressive pauses, low upright bass, mournful saxophone replies, fragile but forward-moving vocal phrasing, no humming at the beginning, single lead voice, no choir, no backing vocals.",
         "status": "done"
       },
-      "audio": null,
+      "audio": {
+        "variantA": {
+          "file": "994-the-night-tram.mp3",
+          "label": "Suno A"
+        },
+        "variantB": {
+          "file": "",
+          "label": "Suno B"
+        }
+      },
       "poster": {
         "file": "/ccc-posters/004-the-night-tram.png",
         "style": "",
@@ -11767,7 +11776,7 @@
       "status": {
         "text": true,
         "suno": true,
-        "audio": false,
+        "audio": true,
         "poster": true
       }
     },
@@ -12528,7 +12537,16 @@
         "prompt": "Style prompt: inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with a single warm female lead voice, no choir, no backing vocals, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling, mid-tempo bolero-jazz sway with a romantic pulse, warm, hopeful, lightly cheerful mood, brighter brass colors, smiling piano fills, buoyant brushed drums, blue-note harmony, expressive pauses, low upright bass, mournful saxophone replies, fragile but forward-moving vocal phrasing, no humming at the beginning, single lead voice, no choir, no backing vocals.",
         "status": "done"
       },
-      "audio": null,
+      "audio": {
+        "variantA": {
+          "file": "995-the-cemetery-gardener.mp3",
+          "label": "Suno A"
+        },
+        "variantB": {
+          "file": "",
+          "label": "Suno B"
+        }
+      },
       "poster": {
         "file": "/ccc-posters/015-the-cemetery-gardener.png",
         "style": "",
@@ -12538,7 +12556,7 @@
       "status": {
         "text": true,
         "suno": true,
-        "audio": false,
+        "audio": true,
         "poster": true
       }
     },
@@ -38994,12 +39012,21 @@
         "prompt": "Style prompt: inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with a single warm female lead voice, no choir, no backing vocals, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling, mid-tempo bolero-jazz sway with a romantic pulse, melancholic, tender, emotionally sad mood, soft minor-key harmony, restrained brushed drums, mournful saxophone replies, blue-note harmony, expressive pauses, low upright bass, mournful saxophone replies, fragile but forward-moving vocal phrasing, no humming at the beginning, single lead voice, no choir, no backing vocals.",
         "status": "done"
       },
-      "audio": null,
+      "audio": {
+        "variantA": {
+          "file": "996-the-bell.mp3",
+          "label": "Suno A"
+        },
+        "variantB": {
+          "file": "",
+          "label": "Suno B"
+        }
+      },
       "poster": null,
       "status": {
         "text": true,
         "suno": true,
-        "audio": false,
+        "audio": true,
         "poster": false
       }
     },

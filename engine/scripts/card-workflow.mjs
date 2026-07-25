@@ -391,7 +391,40 @@ function getMoodPalette(text) {
 export function buildSunoPrompt(title, poemText) {
   const moodPrompt = getSunoMoodPrompt(title, poemText);
 
-  return `Style prompt: ${moodPrompt}`;
+  return ensureCelloSingleVoice(`Style prompt: ${moodPrompt}`);
+}
+
+export const CELLO_SINGLE_VOICE_RULE = [
+  "strictly one warm female lead singer throughout",
+  "solo vocal only",
+  "monophonic vocal line",
+  "no choir",
+  "no backing vocals",
+  "no vocal harmonies",
+  "no vocal layering or doubling",
+  "no duet",
+  "no call-and-response vocals"
+].join(", ");
+
+export function ensureCelloSingleVoice(stylePrompt) {
+  const prompt = String(stylePrompt || "").trim();
+  if (!prompt) return `Style prompt: ${CELLO_SINGLE_VOICE_RULE}.`;
+
+  const normalized = prompt.toLowerCase();
+  const required = [
+    "one warm female lead singer",
+    "solo vocal only",
+    "monophonic vocal line",
+    "no choir",
+    "no backing vocals",
+    "no vocal harmonies",
+    "no vocal layering or doubling",
+    "no duet",
+    "no call-and-response vocals"
+  ];
+  if (required.every((phrase) => normalized.includes(phrase))) return prompt;
+
+  return `${prompt.replace(/[.\s]+$/, "")}, ${CELLO_SINGLE_VOICE_RULE}.`;
 }
 
 function getSunoMoodPrompt(title, poemText) {
@@ -399,7 +432,7 @@ function getSunoMoodPrompt(title, poemText) {
   const titleKey = String(title || "").toLowerCase();
   // JEDNOHLAS je tvrdé pravidlo Cello Cool Clubu: vždy jeden zpěvák, NIKDY vícehlas.
   // Nezkracuj a nevyhazuj SOLO_VOICE — bez toho si Suno samo přidá harmonie a sbory.
-  const SOLO_VOICE = "solo vocal only, one single lead singer throughout, monophonic vocal line, no choir, no backing vocals, no vocal harmonies, no vocal layering or doubling, no duet, no call-and-response vocals";
+  const SOLO_VOICE = CELLO_SINGLE_VOICE_RULE;
   const base = `inspired by the style of Jazz., Traditional Pop, elegant 1950s vocal jazz with a single warm female lead voice, ${SOLO_VOICE}, effortless phrasing, soft brass and sax sections, upright bass, brushed drums, swinging piano, rich analog sound, sophisticated great american songbook feeling`;
   const poemDirection = getPoemMusicDirection(text);
   const titleProfiles = {

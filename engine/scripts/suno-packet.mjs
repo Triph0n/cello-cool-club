@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { engineRoot } from "./card-utils.mjs";
-import { buildSunoPrompt } from "./card-workflow.mjs";
+import { buildSunoPrompt, ensureCelloSingleVoice } from "./card-workflow.mjs";
 
 export async function exportSunoPacket(card) {
   if (!card?.sunoPrompt) {
@@ -70,7 +70,9 @@ export async function exportSunoBatch({ sourceFile, range, language, packets, er
 
 export function buildSunoPacket(card) {
   const lyrics = (card.poemText || []).join("\n");
-  const stylePrompt = lyrics ? buildSunoPrompt(card.title, card.poemText || []) : card.sunoPrompt || "";
+  const stylePrompt = ensureCelloSingleVoice(
+    lyrics ? buildSunoPrompt(card.title, card.poemText || []) : card.sunoPrompt || ""
+  );
 
   return {
     cardId: card.id,

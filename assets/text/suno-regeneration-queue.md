@@ -1,12 +1,18 @@
 # Suno regeneration queue — changed Czech names
 
-Aktualizováno: 2026-07-24
+Aktualizováno: 2026-07-25
 
-Zdroj textů: `PrevertFableEnglish.md`  
+## ✅ HOTOVO (2026-07-25)
+
+Všech 18 básní se změněnými jmény **přegenerováno v Sunu** (Codex — jsou to
+nejnovější klipy v Library) a **přiloženo ke kartám** (18/18, přes
+`match-audio --card/--file`, přepsány staré nahrávky). Zdrojové MP3 stáhl
+Codex do `C:\Users\Vladimir\Downloads` (2026-07-24). Ověřeno: velikosti
+karet se změnily proti starým nahrávkám, index 337 karet s písní,
+validace 511 karet, testy 49/49. Commit 5499dbd.
+
+Zdroj textů: `AllEnglishTexts.md`  
 Zdroj seznamu změn: `zmenena-ceska-jmena.md`
-
-Pro každou položku je potřeba v Sunu vytvořit novou verzi z aktuálního
-anglického textu, ponechat anglický titul a stáhnout výsledné MP3.
 
 | báseň | songTitle (EN) | akce | stav |
 |---:|---|---|---|

@@ -1,0 +1,22 @@
+{
+  "engineCardId": "109",
+  "posterNumber": "090",
+  "title": "The Poem That Was Looking for a Reader",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/5089bc47-ceae-49e1-8692-655f330f74d8",
+  "sunoId": "",
+  "audioFile": "The Poem That Was Looking for a Reader — 1920.mp3",
+  "accent": "#2a2438",
+  "posterPopis": {
+    "a": "the old woman holding the unread poem against her heart in the rain",
+    "b": "seal — one folded blank scrap of paper",
+    "c": "empty bench and warm pocket — found, not read",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the old woman holding the unread poem against her heart in the rain)",
+    "b": "Symbol B — pečeť (seal — one folded blank scrap of paper)",
+    "c": "Symbol C — dialog symbolů (empty bench and warm pocket — found, not read)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

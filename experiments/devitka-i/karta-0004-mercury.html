@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mercury, the Hurried Messenger | Cello Cool Club</title>
+    <meta name="description" content="Nine I — The Celestial Household: Mercury, the Hurried Messenger.">
+    <link rel="icon" href="../../assets/ccc-icon.ico">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .card-nav { position: fixed; right: 16px; bottom: 14px; z-index: 20; display: flex; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid rgba(197,160,89,.55); border-radius: 8px; background: rgba(18,9,4,.78); color: var(--paper); font-size: 13px; }
+      .card-nav a { color: var(--gold-bright); text-decoration: none; }
+      .card-nav span { opacity: .64; }
+      .card-meta { margin: 0 0 4px; color: var(--gold-dark); font-size: 10px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+
+    <main class="card-stage" aria-label="Mercury, the Hurried Messenger poem card">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card playing-card--long">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="0004-mercury-card.png" alt="Mercury, the Hurried Messenger — emblem artwork." width="547" height="790" decoding="async">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play Mercury, the Hurried Messenger" data-action="play" data-target="audio-0004-mercury">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="gramofon-icon-born.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-0004-mercury" preload="metadata" src="../../assets/audio/0004-mercury-the-hurried-messenger.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">Nine I · 1/9 · The Celestial Household</p>
+          <h1 id="poem-title">Mercury, the Hurried Messenger</h1>
+          <div class="poem-lines">
+            <p>I am the first the closest</p>
+            <p>The little messenger of the great king Sun</p>
+            <p>I run I run I never stop</p>
+            <p>My race is my prayer and my madness</p>
+            <p>I carry an urgent message</p>
+            <p>But I have no mouth to speak it</p>
+            <p>And there is no one to hear it</p>
+            <p>I have two faces like a liar or a lover</p>
+            <p>One face turned toward him</p>
+            <p>Burned with love and with light</p>
+            <p>A land of molten rock and of despair</p>
+            <p>Where silence boils under a sky of fire</p>
+            <p>It is the face of the eternal &quot;yes&quot;</p>
+            <p>My other face is turned toward the void</p>
+            <p>Frozen by solitude and by night</p>
+            <p>A plain of black ice and absolute silence</p>
+            <p>Where the stars are cold pinpricks</p>
+            <p>It is the face of &quot;never&quot;</p>
+            <p>And I live ceaselessly between these two extremes</p>
+            <p>Between the kiss that burns and the absence that freezes</p>
+            <p>The other planets watch me from afar</p>
+            <p>They turn slowly in their queenly gowns</p>
+            <p>They see me as a little fool a nervous spark</p>
+            <p>They do not understand my haste and my devotion</p>
+            <p>They do not know what it is</p>
+            <p>To love a fire that devours you</p>
+            <p>On my skin I have scars</p>
+            <p>The memories of an old war of pebbles</p>
+            <p>Each crater is a letter of an unknown alphabet</p>
+            <p>That tells the story of my terrible birth</p>
+            <p>My message is written on my face</p>
+            <p>But no one knows how to read it</p>
+            <p>So I run</p>
+            <p>With one side of my body on fire</p>
+            <p>And the other of ice</p>
+            <p>The first word in the great king's sentence</p>
+            <p>The first servant and the first prisoner</p>
+            <p>I am the spinning top that the Sun has launched</p>
+            <p>And that will never stop turning.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="index.html" data-nav-shelf>Shelf</a>
+      <span>Previous</span>
+      <a data-nav-next data-next-key="0008-venus">Next</a>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="0004-mercury-card.png" alt="Enlarged emblem artwork for Mercury, the Hurried Messenger." decoding="async">
+    </dialog>
+
+    <script src="../../script.js"></script>
+    <script>
+      // Devítka: zamčená karta přesměruje na polici; Next se odemyká doposloucháním; ?vse = náhled
+      (function () {
+        var PORADI = ["0004-mercury","0008-venus","0009-earth","0003-mars","0002-jupiter","0006-saturn","0007-uranus","0005-neptune","0016-sun"];
+        var KEY = '0004-mercury';
+        var vse = new URLSearchParams(location.search).has('vse');
+        var q = vse ? '?vse' : '';
+        var stav = {};
+        function nactiStav() {
+          try { stav = JSON.parse(localStorage.getItem('devitka-i') || '{}'); } catch (e) { stav = {}; }
+        }
+        function odemcena(k) {
+          if (vse) return true;
+          var i = PORADI.indexOf(k);
+          for (var j = 0; j < i; j++) { if (!stav[PORADI[j]]) return false; }
+          return true;
+        }
+        nactiStav();
+        if (!odemcena(KEY)) { location.replace('index.html' + q); return; }
+
+        var shelf = document.querySelector('[data-nav-shelf]');
+        var prev = document.querySelector('[data-nav-prev]');
+        if (shelf) shelf.href = 'index.html' + q;
+        if (prev) prev.href = prev.getAttribute('href').split('?')[0] + q;
+
+        var next = document.querySelector('[data-nav-next]');
+        function obnovNext() {
+          if (!next) return;
+          nactiStav();
+          var nk = next.dataset.nextKey;
+          if (odemcena(nk)) {
+            next.href = 'karta-' + nk + '.html' + q;
+            next.style.opacity = '';
+            next.title = '';
+          } else {
+            next.removeAttribute('href');
+            next.style.opacity = '0.4';
+            next.title = 'Odemkne se doposloucháním této desky';
+          }
+        }
+        obnovNext();
+
+        var audio = document.getElementById('audio-0004-mercury');
+        audio && audio.addEventListener('ended', function () {
+          try {
+            var d = JSON.parse(localStorage.getItem('devitka-i') || '{}');
+            d[KEY] = true;
+            localStorage.setItem('devitka-i', JSON.stringify(d));
+          } catch (e) {}
+          obnovNext();
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+Reference obrázky (kompozice/technika + tváře) — SDÍLENÉ pro všechny karty, nepatří jen
+téhle. Zdroj pravdy je vždy živý obsah těchto dvou složek (mění se v čase, kurátoruje
+Vladimír — viz skill born-poster):
+
+  C:UsersVladimirDocumentsCelloCoolClubassetsposter-references  C:UsersVladimirDocumentsCelloCoolClubassetsposter-face-references
+Konkrétně použito (2026-08-22, sada CelloCoolClubLive):
+  kompozice: doplní se při generování
+  tváře:     doplní se při generování

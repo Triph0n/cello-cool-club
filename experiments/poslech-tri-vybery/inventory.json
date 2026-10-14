@@ -1,0 +1,28 @@
+{
+  "builtAt": "2026-09-09T21:09:05.561Z",
+  "collections": [
+    {
+      "title": "Další příběhy",
+      "count": 9,
+      "withAudio": 9,
+      "withPosters": 4,
+      "posters": 4
+    },
+    {
+      "title": "Tvůj výběr",
+      "count": 10,
+      "withAudio": 10,
+      "withPosters": 9,
+      "posters": 40
+    },
+    {
+      "title": "Barvy",
+      "count": 8,
+      "withAudio": 8,
+      "withPosters": 0,
+      "posters": 0
+    }
+  ],
+  "assets": 91,
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="cs"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Thief of Sleep · filmová studie</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0d1117;color:#eadfc9;font:16px/1.6 Georgia,serif}main{max-width:1280px;margin:auto;padding:28px 24px 50px}header{display:flex;justify-content:space-between;align-items:baseline;gap:20px;margin:0 0 20px}h1{font-size:clamp(24px,4vw,40px);font-weight:400;margin:0}small{font:11px/1.5 system-ui;letter-spacing:.17em;color:#ac9d86;text-transform:uppercase}video{width:100%;display:block;background:#0d1117;max-height:76vh}nav{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}button,a{font:14px system-ui;color:inherit}button{background:none;border:1px solid #5b5346;border-radius:2px;padding:11px 17px;cursor:pointer}button[aria-pressed=true]{background:#c6aa71;color:#111720;border-color:#c6aa71}p{color:#aca79d;max-width:790px}a{text-underline-offset:4px}details{margin-top:28px}details img{width:100%;margin-top:16px}::cue{font-family:Georgia,serif;background:#0d1117cc;color:#eadfc9}@media(max-width:600px){main{padding:18px 12px}header{display:block}small{display:block;margin-top:6px}}
+</style><main>
+<header><h1>The Thief of Sleep</h1><small>Cello Cool Club · filmová studie 01</small></header>
+<video id="film" controls playsinline preload="metadata" poster="cover.jpg"><source src="The-Thief-of-Sleep-film-study.mp4" type="video/mp4"><track src="lyrics.vtt" kind="subtitles" srclang="en" label="English"></video>
+<nav aria-label="Verze filmu"><button id="full" aria-pressed="true">Celá píseň · 1:27</button><button id="excerpt" aria-pressed="false">Minutová ukázka · závěr příběhu</button></nav>
+<p>Stejné světlo mění význam: ukradený spánek se stává darem. Studie střihu a jemného pohybu světla v původních ilustracích. Anglické titulky lze zapnout v přehrávači celé písně.</p>
+<a id="download" href="The-Thief-of-Sleep-film-study.mp4" download>Stáhnout MP4</a>
+<details><summary>Záběry a časování</summary><img src="storyboard.jpg" alt="Dvanáct obrazů filmu s časy střihu"></details>
+</main><script>
+const player=document.querySelector('#film'),full=document.querySelector('#full'),excerpt=document.querySelector('#excerpt');
+function select(short){const playing=!player.paused;player.pause();player.src=short?'The-Thief-of-Sleep-60s.mp4':'The-Thief-of-Sleep-film-study.mp4';for(const track of player.textTracks)track.mode='disabled';const old=player.querySelector('track');if(old)old.remove();if(!short){const track=document.createElement('track');Object.assign(track,{src:'lyrics.vtt',kind:'subtitles',srclang:'en',label:'English'});player.append(track)}full.setAttribute('aria-pressed',String(!short));excerpt.setAttribute('aria-pressed',String(short));document.querySelector('#download').href=player.src;player.load();if(playing)player.play().catch(()=>{})}
+full.onclick=()=>select(false);excerpt.onclick=()=>select(true);
+</script></html>

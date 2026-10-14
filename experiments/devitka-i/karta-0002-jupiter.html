@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jupiter, the Stormy King | Cello Cool Club</title>
+    <meta name="description" content="Nine I — The Celestial Household: Jupiter, the Stormy King.">
+    <link rel="icon" href="../../assets/ccc-icon.ico">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .card-nav { position: fixed; right: 16px; bottom: 14px; z-index: 20; display: flex; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid rgba(197,160,89,.55); border-radius: 8px; background: rgba(18,9,4,.78); color: var(--paper); font-size: 13px; }
+      .card-nav a { color: var(--gold-bright); text-decoration: none; }
+      .card-nav span { opacity: .64; }
+      .card-meta { margin: 0 0 4px; color: var(--gold-dark); font-size: 10px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+
+    <main class="card-stage" aria-label="Jupiter, the Stormy King poem card">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card playing-card--long">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="0002-jupiter-card.png" alt="Jupiter, the Stormy King — emblem artwork." width="547" height="790" decoding="async">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play Jupiter, the Stormy King" data-action="play" data-target="audio-0002-jupiter">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="gramofon-icon-born.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-0002-jupiter" preload="metadata" src="../../assets/audio/0002-jupiter-the-stormy-king.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">Nine I · 5/9 · The Celestial Household</p>
+          <h1 id="poem-title">Jupiter, the Stormy King</h1>
+          <div class="poem-lines">
+            <p>After the red soldier and his silence of rust</p>
+            <p>I am the king, the giant, the big gentleman</p>
+            <p>I am not made of earth nor of regrets</p>
+            <p>I am made of gas, of anger, and of solitude</p>
+            <p>I have no ground to place my feet on</p>
+            <p>My only land is my own immense weight</p>
+            <p>I am a painter who paints only with storms</p>
+            <p>My colors are ocher, brick, and old gold</p>
+            <p>My brushes are winds of a thousand kilometers per hour</p>
+            <p>I paint ribbons of clouds that never dry</p>
+            <p>And in the middle of it all, I have my masterpiece</p>
+            <p>My great red wound</p>
+            <p>A cyclone's eye open for centuries</p>
+            <p>That stares into the void without ever blinking</p>
+            <p>It is the signature of my melancholy</p>
+            <p>I have a large family of little moons</p>
+            <p>My court of silent and faithful servants</p>
+            <p>They dance around me to try to calm me</p>
+            <p>They polish my great ball of gas with their little light</p>
+            <p>They do not understand</p>
+            <p>That you cannot calm a storm</p>
+            <p>That is inside of yourself</p>
+            <p>I am the big protective brother of the family</p>
+            <p>The goalkeeper of the solar system</p>
+            <p>With my immense body, I catch the stray stones</p>
+            <p>The drunken comets that would like to do harm</p>
+            <p>To my fragile little sisters, Earth or Venus</p>
+            <p>It is a thankless and solitary job</p>
+            <p>They are too busy with their little lives</p>
+            <p>To see the dangers I divert for them</p>
+            <p>So I turn heavily in the dark</p>
+            <p>The beating heart of the great celestial clockwork</p>
+            <p>A king without a castle, a god without prayers</p>
+            <p>A father who protects his children from afar</p>
+            <p>And who can only show them</p>
+            <p>His tormented and magnificent face</p>
+            <p>I am the great storm that will never end.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="index.html" data-nav-shelf>Shelf</a>
+      <a href="karta-0003-mars.html" data-nav-prev>Previous</a>
+      <a data-nav-next data-next-key="0006-saturn">Next</a>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="0002-jupiter-card.png" alt="Enlarged emblem artwork for Jupiter, the Stormy King." decoding="async">
+    </dialog>
+
+    <script src="../../script.js"></script>
+    <script>
+      // Devítka: zamčená karta přesměruje na polici; Next se odemyká doposloucháním; ?vse = náhled
+      (function () {
+        var PORADI = ["0004-mercury","0008-venus","0009-earth","0003-mars","0002-jupiter","0006-saturn","0007-uranus","0005-neptune","0016-sun"];
+        var KEY = '0002-jupiter';
+        var vse = new URLSearchParams(location.search).has('vse');
+        var q = vse ? '?vse' : '';
+        var stav = {};
+        function nactiStav() {
+          try { stav = JSON.parse(localStorage.getItem('devitka-i') || '{}'); } catch (e) { stav = {}; }
+        }
+        function odemcena(k) {
+          if (vse) return true;
+          var i = PORADI.indexOf(k);
+          for (var j = 0; j < i; j++) { if (!stav[PORADI[j]]) return false; }
+          return true;
+        }
+        nactiStav();
+        if (!odemcena(KEY)) { location.replace('index.html' + q); return; }
+
+        var shelf = document.querySelector('[data-nav-shelf]');
+        var prev = document.querySelector('[data-nav-prev]');
+        if (shelf) shelf.href = 'index.html' + q;
+        if (prev) prev.href = prev.getAttribute('href').split('?')[0] + q;
+
+        var next = document.querySelector('[data-nav-next]');
+        function obnovNext() {
+          if (!next) return;
+          nactiStav();
+          var nk = next.dataset.nextKey;
+          if (odemcena(nk)) {
+            next.href = 'karta-' + nk + '.html' + q;
+            next.style.opacity = '';
+            next.title = '';
+          } else {
+            next.removeAttribute('href');
+            next.style.opacity = '0.4';
+            next.title = 'Odemkne se doposloucháním této desky';
+          }
+        }
+        obnovNext();
+
+        var audio = document.getElementById('audio-0002-jupiter');
+        audio && audio.addEventListener('ended', function () {
+          try {
+            var d = JSON.parse(localStorage.getItem('devitka-i') || '{}');
+            d[KEY] = true;
+            localStorage.setItem('devitka-i', JSON.stringify(d));
+          } catch (e) {}
+          obnovNext();
+        });
+      })();
+    </script>
+  </body>
+</html>

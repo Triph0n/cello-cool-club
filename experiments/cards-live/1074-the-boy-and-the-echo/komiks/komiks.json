@@ -1,0 +1,214 @@
+{
+  "title": "The Boy and the Echo",
+  "eyebrow": "Cello Cool Club · card 1074",
+  "subtitle": "a comic in four pages · eighteen panels · lithograph after Adolf Born",
+  "footer": "CelloCoolClubLive 1920",
+  "lang": "en",
+  "audio": "../../../../celloclublive/1074-the-boy-and-the-echo/The Boy and the Echo — 1920.mp3",
+  "palette": {
+    "papir": "#ece4cc",
+    "inkoust": "#1c2b22",
+    "linka": "#31463a",
+    "ochr": "#c08a3e",
+    "slepa": "#16241d",
+    "stul": "#c6b995"
+  },
+  "pages": [
+    {
+      "act": "part one",
+      "title": "The Valley",
+      "panels": [
+        {
+          "file": "panels/01-edge-of-the-valley.jpg",
+          "type": "wide",
+          "span": 8,
+          "caps": [{ "pos": "tl", "text": "A boy stands at the edge of the valley<br>small against the mountains" }]
+        },
+        {
+          "file": "panels/02-the-mountains-say-nothing.jpg",
+          "type": "square",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [{ "pos": "br", "text": "and the mountains are big<br>and say nothing" }]
+        },
+        {
+          "file": "panels/03-scolded-that-morning.jpg",
+          "type": "square",
+          "span": 5,
+          "ratio": "3/2",
+          "caps": [{ "pos": "tl", "text": "And because he was scolded that morning<br>and because he is seven" }]
+        },
+        {
+          "file": "panels/04-takes-a-breath.jpg",
+          "type": "wide",
+          "span": 7,
+          "ratio": "auto",
+          "caps": [{ "pos": "tl", "text": "and the world is unfair<br>he takes a breath<br>and shouts into the valley" }]
+        }
+      ]
+    },
+    {
+      "act": "part two",
+      "title": "You Idiot",
+      "panels": [
+        {
+          "file": "panels/05-you-idiot.jpg",
+          "type": "full",
+          "span": 12,
+          "caps": [{ "pos": "tl", "text": "YOU IDIOT" }]
+        },
+        {
+          "file": "panels/06-the-valley-takes-a-breath.jpg",
+          "type": "square",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [{ "pos": "tl", "text": "And the valley takes a breath<br>and gives it back" }]
+        },
+        {
+          "file": "panels/07-idiot-idiot-idiot.jpg",
+          "type": "banner",
+          "span": 8,
+          "caps": [{ "pos": "br", "text": "idiot idiot idiot<br>three times four times<br>once from every side" }]
+        },
+        {
+          "file": "panels/08-sits-down-and-cries.jpg",
+          "type": "square",
+          "span": 5,
+          "ratio": "3/2",
+          "caps": [{ "pos": "tl", "text": "The boy sits down in the grass<br>and cries" }]
+        },
+        {
+          "file": "panels/09-grandpa-they-call-me-names.jpg",
+          "type": "wide",
+          "span": 7,
+          "ratio": "auto",
+          "caps": [{ "pos": "br", "text": "grandpa the mountains don't like me<br>they call me names<br>did you hear?" }]
+        }
+      ]
+    },
+    {
+      "act": "part three",
+      "title": "Grandpa",
+      "panels": [
+        {
+          "file": "panels/10-grandpa-sits-down.jpg",
+          "type": "banner",
+          "span": 8,
+          "caps": [{ "pos": "tl", "text": "Grandpa sits down beside him<br>pipe smoke rising straight<br>like a proper upbringing" }]
+        },
+        {
+          "file": "panels/11-try-telling-them-something-else.jpg",
+          "type": "square",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [{ "pos": "br", "text": "Try telling them something else<br>he says" }]
+        },
+        {
+          "file": "panels/12-mountains-repeat.jpg",
+          "type": "square",
+          "span": 5,
+          "ratio": "1/1",
+          "caps": [{ "pos": "tl", "text": "mountains repeat<br>they can't make anything up" }]
+        },
+        {
+          "file": "panels/13-they-are-only-big.jpg",
+          "type": "wide",
+          "span": 7,
+          "ratio": "auto",
+          "caps": [{ "pos": "br", "text": "they are only big" }]
+        }
+      ]
+    },
+    {
+      "act": "part four",
+      "title": "I Love You",
+      "panels": [
+        {
+          "file": "panels/14-stands-up-and-wipes-his-nose.jpg",
+          "type": "square",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [{ "pos": "tl", "text": "The boy stands up<br>wipes his nose on his sleeve" }]
+        },
+        {
+          "file": "panels/15-breathes-in-down-to-his-boots.jpg",
+          "type": "banner",
+          "span": 8,
+          "caps": [{ "pos": "br", "text": "breathes in down to his boots<br>and shouts" }]
+        },
+        {
+          "file": "panels/16-i-love-you.jpg",
+          "type": "full",
+          "span": 12,
+          "caps": [{ "pos": "tl", "text": "I LOVE YOU" }]
+        },
+        {
+          "file": "panels/17-once-from-every-side.jpg",
+          "type": "full",
+          "span": 12,
+          "caps": [{ "pos": "br", "text": "And the valley gives it back<br>I love you I love you I love you<br>once from every side" }]
+        },
+        {
+          "file": "panels/18-long-into-the-evening.jpg",
+          "type": "full",
+          "span": 12,
+          "caps": [
+            { "pos": "tl", "text": "and then once more<br>and it keeps on saying it<br>long into the evening" },
+            { "pos": "br", "text": "the world is one big echo<br>it gives you back<br>whatever you call into it" }
+          ]
+        }
+      ]
+    }
+  ],
+  "poemLabel": "the poem in full",
+  "poem": [
+    "A boy stands at the edge of the valley",
+    "small against the mountains",
+    "and the mountains are big",
+    "and say nothing",
+    "",
+    "And because he was scolded that morning",
+    "and because he is seven",
+    "and the world is unfair",
+    "he takes a breath",
+    "and shouts into the valley",
+    "YOU IDIOT",
+    "",
+    "And the valley takes a breath",
+    "and gives it back",
+    "idiot idiot idiot",
+    "three times four times",
+    "once from every side",
+    "",
+    "The boy sits down in the grass",
+    "and cries",
+    "grandpa the mountains don't like me",
+    "they call me names",
+    "did you hear?",
+    "",
+    "Grandpa sits down beside him",
+    "pipe smoke rising straight",
+    "like a proper upbringing",
+    "Try telling them something else",
+    "he says",
+    "mountains repeat",
+    "they can't make anything up",
+    "they are only big",
+    "",
+    "The boy stands up",
+    "wipes his nose on his sleeve",
+    "breathes in down to his boots",
+    "and shouts",
+    "I LOVE YOU",
+    "",
+    "And the valley gives it back",
+    "I love you I love you I love you",
+    "once from every side",
+    "and then once more",
+    "and it keeps on saying it",
+    "long into the evening",
+    "the world is one big echo",
+    "it gives you back",
+    "whatever you call into it"
+  ]
+}

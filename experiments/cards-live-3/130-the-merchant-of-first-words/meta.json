@@ -1,0 +1,22 @@
+{
+  "engineCardId": "130",
+  "posterNumber": "096",
+  "title": "The Merchant of First Words",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/77876e1b-da09-4f92-a8cc-cccc6ba7d838",
+  "sunoId": "",
+  "audioFile": "The Merchant of First Words — 1920.mp3",
+  "accent": "#3d2b18",
+  "posterPopis": {
+    "a": "the open music box on the counter, one word rising out of it as light",
+    "b": "seal — the closed music box with its winding key",
+    "c": "open box and listening ear — the beginning played back to the end",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the open music box on the counter, one word rising out of it as light)",
+    "b": "Symbol B — pečeť (seal — the closed music box with its winding key)",
+    "c": "Symbol C — dialog symbolů (open box and listening ear — the beginning played back to the end)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

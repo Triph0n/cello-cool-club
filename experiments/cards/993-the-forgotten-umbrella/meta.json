@@ -1,0 +1,22 @@
+{
+  "engineCardId": "993",
+  "posterNumber": "002",
+  "title": "The Forgotten Umbrella",
+  "collectionLabel": "",
+  "deskaUrl": "https://claude.ai/code/artifact/c5474a0f-39e1-49e8-87c4-540434813e22",
+  "sunoId": "d5a0b6e1-fed9-451b-acad-c15963442b73",
+  "audioFile": "993-the-forgotten-umbrella.mp3",
+  "accent": "#1f4d47",
+  "posterPopis": {
+    "a": "the umbrella alone on the quay",
+    "b": "seal — ex libris",
+    "c": "violin and rain-washed notes — instrumental bridge",
+    "video": "narrative scene (Mr. Smith, Oxford, the kiss, the violinist, the bride, the sea)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (deštník na molu)",
+    "b": "Symbol B — pečeť",
+    "c": "Symbol C — housle a smývané noty",
+    "video": "Plakát pro video — příběhový (zatím neanimováno)"
+  }
+}

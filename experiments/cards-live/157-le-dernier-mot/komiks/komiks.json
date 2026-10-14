@@ -1,0 +1,299 @@
+{
+  "title": "The Last Word",
+  "eyebrow": "Cello Cool Club · card 157",
+  "subtitle": "a comic in twenty panels · lithograph after Adolf Born",
+  "footer": "CelloCoolClubLive 1920",
+  "lang": "en",
+  "audio": "../audio-small.mp3",
+  "poemLabel": "the poem",
+  "poem": [
+    "The old man was on his deathbed",
+    "His family was around him",
+    "The priest spoke to him of paradise",
+    "The doctor spoke to him of morphine",
+    "Everyone was waiting for his last word",
+    "The word that would sum up his life",
+    "The word of wisdom for posterity",
+    "The old man opened his eyes",
+    "He looked at his wife his son his daughter his dog",
+    "He looked at the priest and the doctor",
+    "He took a deep breath",
+    "And he said",
+    "Damn",
+    "Then he died",
+    "The family was shocked",
+    "The priest was scandalized",
+    "The doctor noted the time of death",
+    "Only the dog understood",
+    "He wagged his tail",
+    "For 'Damn' was the word the old man said",
+    "When he was truly happy",
+    "And couldn't find a word big enough to say it."
+  ],
+  "pages": [
+    {
+      "act": "one",
+      "title": "The Deathbed",
+      "panels": [
+        {
+          "file": "panels/01-the-deathbed.jpg",
+          "span": 8,
+          "ratio": "3/2",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "The old man was on his deathbed"
+            }
+          ],
+          "type": "wide"
+        },
+        {
+          "file": "panels/02-the-family.jpg",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "His family was around him"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/03-the-priest.jpg",
+          "span": 5,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "The priest spoke to him<br>of paradise"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/04-the-doctor.jpg",
+          "span": 7,
+          "ratio": "3/2",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "The doctor spoke to him<br>of morphine"
+            }
+          ],
+          "type": "wide"
+        }
+      ]
+    },
+    {
+      "act": "two",
+      "title": "Waiting for Wisdom",
+      "panels": [
+        {
+          "file": "panels/05-everyone-waiting.jpg",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "Everyone was waiting<br>for his last word"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/06-the-sum-of-a-life.jpg",
+          "span": 8,
+          "ratio": "3/2",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "The word that would sum up his life"
+            }
+          ],
+          "type": "wide"
+        },
+        {
+          "file": "panels/07-for-posterity.jpg",
+          "span": 7,
+          "ratio": "3/2",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "The word of wisdom for posterity"
+            }
+          ],
+          "type": "wide"
+        },
+        {
+          "file": "panels/08-he-opened-his-eyes.jpg",
+          "span": 5,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "The old man opened his eyes"
+            }
+          ],
+          "type": "square"
+        }
+      ]
+    },
+    {
+      "act": "three",
+      "title": "The Word",
+      "panels": [
+        {
+          "file": "panels/09-he-looked-at-them.jpg",
+          "span": 8,
+          "ratio": "3/2",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "He looked at his wife his son<br>his daughter his dog"
+            }
+          ],
+          "type": "wide"
+        },
+        {
+          "file": "panels/10-the-priest-and-the-doctor.jpg",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "He looked at the priest<br>and the doctor"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/11-a-deep-breath.jpg",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "He took a deep breath"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/12-and-he-said.jpg",
+          "span": 3,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "And he said"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/13-damn.jpg",
+          "span": 5,
+          "ratio": "3/2",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "Damn"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/14-then-he-died.jpg",
+          "span": 12,
+          "ratio": "21/8",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "Then he died"
+            }
+          ],
+          "type": "full"
+        }
+      ]
+    },
+    {
+      "act": "four",
+      "title": "Only the Dog",
+      "panels": [
+        {
+          "file": "panels/15-the-family-shocked.jpg",
+          "span": 5,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "The family was shocked"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/16-the-priest-scandalized.jpg",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "The priest was scandalized"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/17-the-doctor-notes-the-time.jpg",
+          "span": 3,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "The doctor noted<br>the time of death"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/18-only-the-dog-understood.jpg",
+          "span": 8,
+          "ratio": "3/2",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "Only the dog understood"
+            }
+          ],
+          "type": "wide"
+        },
+        {
+          "file": "panels/19-he-wagged-his-tail.jpg",
+          "span": 4,
+          "ratio": "auto",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "He wagged his tail"
+            }
+          ],
+          "type": "square"
+        },
+        {
+          "file": "panels/20-the-word-for-happiness.jpg",
+          "span": 12,
+          "ratio": "21/8",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "For 'Damn' was the word the old man said<br>when he was truly happy<br>and couldn't find a word big enough to say it."
+            }
+          ],
+          "type": "full"
+        }
+      ]
+    }
+  ]
+}

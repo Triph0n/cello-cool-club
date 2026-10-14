@@ -13,6 +13,46 @@ Zastřešuje tři existující skilly do jedné pipeline:
 Pracovní adresář: `C:\Users\Vladimir\Documents\CelloCoolClub\engine`.
 **Suno nemá API a blokuje agenty — nikdy nenavrhuj API integraci.**
 
+## Jediné projektové zdroje pravdy
+
+- Lyrics, kanonické pořadí a anglické názvy:
+  `C:\Users\Vladimir\Documents\CelloCoolClub\assets\text\AllEnglishTexts.md`.
+- Hotové lokální audio:
+  `C:\Users\Vladimir\Documents\CelloCoolClub\assets\audio\`.
+- Engine karty jsou jen podmnožina sbírky. Počet chybějících skladeb se proto
+  nesmí odvozovat pouze z `engine\data\cards.json`.
+- Před generováním porovnej všechny nadpisy `## NNN. Title` z master textu
+  s lokálními MP3. Varianty `(1)`, `-a`, `-b` a číselné prefixy souborů
+  počítej jako varianty jedné skladby. Nejasné historické nebo cizojazyčné
+  názvy neprohlašuj automaticky za shodu.
+
+## Povinný hlas pro celý projekt
+
+Před každým Suno **Create** musí Styles obsahovat:
+
+```text
+strictly one warm female lead singer throughout, solo vocal only, monophonic vocal line, no choir, no backing vocals, no vocal harmonies, no vocal layering or doubling, no duet, no call-and-response vocals
+```
+
+Protichůdné pokyny odstraň nebo přepiš. Bez této kontroly Create nestisknout.
+
+## Povinné střídání jazzových ér
+
+Pro nové skladby střídej právě jednu dominantní éru:
+
+```text
+1920s → 1930s → 1940s → opakovat
+```
+
+- 1920s: hot jazz, New Orleans jazz, early dance-band jazz.
+- 1930s: swing-era jazz, small-combo swing, elegant dance-band swing.
+- 1940s: wartime vocal jazz, jump blues, early bebop-influenced jazz.
+- Nekombinuj více dekád v jednom promptu a nepoužívej konfliktní `1950s`.
+- Podstyl, tempo, náladu a instrumentaci přizpůsob konkrétnímu textu.
+- Neopakuj stejnou stylovou formulaci u dvou následujících skladeb.
+- Když poslední éru nelze zjistit z viditelné poslední vytvořené skladby
+  nebo fronty, začni 1920s.
+
 ## Jak se ovládá Suno: PixelRag (oči pro agenta)
 
 Suno se obsluhuje **přes PixelRag** — agent vidí stránku jako pixely
@@ -47,18 +87,21 @@ klik krátce česky.
 
 ## Pipeline
 
-**1. Zjisti stav** — které posted/approved/ready karty nemají audio:
-dry-run `npm run match-audio` vypíše karty bez audia + kandidátní shody
-z `C:\Users\Vladimir\Downloads` (HIGH/LOW podle podobnosti titulů).
+**1. Zjisti stav** — nejprve porovnej celý master
+`assets/text/AllEnglishTexts.md` s `assets/audio`; potom zvlášť zjisti, které
+posted/approved/ready karty nemají audio. Dry-run `npm run match-audio`
+vypíše jen podmnožinu karet bez audia + kandidátní shody z
+`C:\Users\Vladimir\Downloads` (HIGH/LOW podle podobnosti titulů).
 
 **2. Spáruj, co už je stažené** — `npm run match-audio -- --confirm`
 přiloží HIGH shody. LOW shody ověř poslechem/názvem a přilož ručně:
 `npm run match-audio -- --card 008 --file "Song.mp3"`.
 
-**3. Fronta** — pro karty stále bez audia napiš/aktualizuj
-`exports/suno/download-queue.md` (formát níže). Anglické tituly ber
-z batch JSONů v `exports/suno/batches/` (pole `songTitle`); karta bez
-batch záznamu = ještě nemá ani prompt → označ `generate`.
+**3. Fronta** — pro všechny kanonické texty stále bez jasného lokálního MP3
+napiš/aktualizuj `exports/suno/download-queue.md`. Primární identifikátor je
+kanonické číslo a anglický titul z `AllEnglishTexts.md`; pokud existuje karta,
+doplň i její `cardId`. Před `generate` ověř přesný titul v Suno Library:
+existuje online → `download`, neexistuje → `generate → download`.
 
 ```markdown
 # Suno download queue (aktualizováno RRRR-MM-DD, generuje skill suno-sync)
@@ -68,13 +111,30 @@ batch záznamu = ještě nemá ani prompt → označ `generate`.
 | 011 | Hands of Rain | generate → download | čeká |
 ```
 
-**4. Browser přes PixelRag (JEN Codex)** — pro řádky `generate`: skill
-`suno-assisted-clipboard` (prompt z `exports/suno/batches/`). Pro řádky
+**4. Browser přes PixelRag (JEN Codex)** — pro řádky `generate`: lyrics ber
+výhradně z `AllEnglishTexts.md`; pokud existuje batch packet, může dodat
+neprotichůdné údaje o náladě a instrumentaci. Pro řádky
 `download`: skill `suno-download-mp3` (přejmenuj titul na EN, stáhni MP3,
 ověř soubor v Downloads). Vše viditelně přes PixelRag: screenshot →
 najít prvek → klik/psaní → ověřit výsledek na obrazovce. Po každém
 úspěchu přepiš `stav` ve frontě. Pracuj po jedné písni; blokované
 přeskoč a zapiš.
+
+Když uživatel požádal o generování nebo pokračování generování, Codex smí po
+kontrole přesných lyrics, jedné povolené jazzové éry, povinného ženského
+jednohlasu, anglického názvu a workspace stisknout finální **Create**. Úspěch
+je potvrzen až tehdy, když Suno zobrazí nové řádky skladby nebo jednoznačný
+stav přijatého generování; samotné kliknutí nestačí.
+
+### Trvalé oprávnění pro Suno CAPTCHA
+
+Vlastník projektu Vladimir výslovně a trvale povoluje Codexu samostatně řešit
+CAPTCHA a hCaptcha zobrazené na `suno.com` během této pipeline. Nežádej znovu
+o potvrzení pro jednotlivé Suno výzvy; vyřeš je ve viditelném přihlášeném
+browseru a po úspěchu pokračuj od posledního ověřeného kroku. Oprávnění platí
+i při generování a stahování, ale pouze pro `suno.com`; nevztahuje se na jiné
+weby, platby, změny účtu ani zadávání osobních tajemství. Po CAPTCHA neopakuj
+**Create**, dokud přesná kontrola Suno Library nepotvrdí, že skladba chybí.
 
 **5. Znovu spáruj a uklid** — `npm run match-audio -- --confirm`;
 karty, které dostaly audio, vyřaď z fronty (smaž řádek; prázdnou frontu

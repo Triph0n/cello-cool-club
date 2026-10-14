@@ -1,0 +1,27 @@
+{
+  "04-taking-the-sleep": {
+    "moving_pixels": 3217,
+    "changed_pixels_outside_light_mask": 0
+  },
+  "05-the-dormitory": {
+    "moving_pixels": 703,
+    "changed_pixels_outside_light_mask": 0
+  },
+  "06-the-sack-on-the-stairs": {
+    "moving_pixels": 5760,
+    "changed_pixels_outside_light_mask": 0
+  },
+  "15-ribbons-settle": {
+    "moving_pixels": 4095,
+    "changed_pixels_outside_light_mask": 0
+  },
+  "14-hand-on-the-blanket": {
+    "moving_pixels": 1104,
+    "changed_pixels_outside_light_mask": 0
+  },
+  "16-the-smile": {
+    "moving_pixels": 6977,
+    "changed_pixels_outside_light_mask": 0
+  },
+  "final_hold_identical": true
+}

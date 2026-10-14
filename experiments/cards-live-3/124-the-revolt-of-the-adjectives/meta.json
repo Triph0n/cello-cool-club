@@ -1,0 +1,22 @@
+{
+  "engineCardId": "124",
+  "posterNumber": "094",
+  "title": "The Revolt of the Adjectives",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/bbec8dd2-c388-4551-8767-a1efc1eb9cf7",
+  "sunoId": "",
+  "audioFile": "The Revolt of the Adjectives — 1920.mp3",
+  "accent": "#2d1f3f",
+  "posterPopis": {
+    "a": "the shared bread with three ribbons of light settling on it",
+    "b": "seal — torn bread with one ribbon of light",
+    "c": "ribbon of light and a child's tear — where the words chose to settle",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the shared bread with three ribbons of light settling on it)",
+    "b": "Symbol B — pečeť (seal — torn bread with one ribbon of light)",
+    "c": "Symbol C — dialog symbolů (ribbon of light and a child's tear — where the words chose to settle)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

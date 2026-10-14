@@ -1,0 +1,11 @@
+Reference images (composition/technique + faces) — SHARED across all cards, not unique
+to this one. Source of truth is always the live content of these two folders (changes
+over time, curated by Vladimir — see skill born-poster):
+
+  C:\Users\Vladimir\Documents\CelloCoolClub\assets\poster-references\
+  C:\Users\Vladimir\Documents\CelloCoolClub\assets\poster-face-references\
+
+Used for A/B/C: Born litografie z poster-references + face-01-moustached-man,
+face-04-flowing-haired-woman. Used for video poster: + face-06-grandmother-profile
+(no child face type exists in the reference set; the sick girl is kept small-scale /
+eyes-closed in the composition rather than forcing an unsupported face type).

@@ -1,0 +1,22 @@
+{
+  "engineCardId": "040",
+  "posterNumber": "080",
+  "title": "The Dialogue of Hammer and Glass",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/f5035975-1760-48b8-9abd-f5725f51d0d8",
+  "sunoId": "",
+  "audioFile": "The Dialogue of Hammer and Glass — 1920.mp3",
+  "accent": "#16304f",
+  "posterPopis": {
+    "a": "the blunt sledgehammer resting among shards that each still reflect the sky",
+    "b": "seal — one glass shard holding a scrap of sky",
+    "c": "hammer head and single shard — brute force and the light it could not break",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the blunt sledgehammer resting among shards that each still reflect the sky)",
+    "b": "Symbol B — pečeť (seal — one glass shard holding a scrap of sky)",
+    "c": "Symbol C — dialog symbolů (hammer head and single shard — brute force and the light it could not break)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

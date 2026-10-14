@@ -1,0 +1,407 @@
+{
+  "source": "C:/Users/Vladimir/Desktop/Cello Cool Club - Five Story Posters.html",
+  "rows": [
+    {
+      "id": "1081",
+      "title": "The Weather Announcer",
+      "slot": "A",
+      "label": "Poster A — cover",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 2.57,
+      "file": "experiments/poslech-tri-vybery/comparison/1081-A.jpg",
+      "currentPath": "experiments/cards/1081-the-weather-announcer/poster-A.png",
+      "embeddedSha256": "7019b1843f930bf61773b9868c6aed171497b747ba848c5ac24563f3c64914e5",
+      "visuallyMatched": true,
+      "currentSha256": "7a5b2d3ee360cc30da14f8761a4aa33229ee0862e5678c0bc3e7697135ead72a"
+    },
+    {
+      "id": "1081",
+      "title": "The Weather Announcer",
+      "slot": "B",
+      "label": "Symbol B — seal",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.36,
+      "file": "experiments/poslech-tri-vybery/comparison/1081-B.jpg",
+      "currentPath": "experiments/cards/1081-the-weather-announcer/poster-B.png",
+      "embeddedSha256": "94d2318e7ecf8b668f3b71236075695149416ce1f76e710dd9c6e4673b9855d2",
+      "visuallyMatched": true,
+      "currentSha256": "dac20c35f185928ee68c6a0b79f96f8b7a2079bce8b36ccd8eaf534816f017d8"
+    },
+    {
+      "id": "1081",
+      "title": "The Weather Announcer",
+      "slot": "C",
+      "label": "Symbol C — dialogue",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.49,
+      "file": "experiments/poslech-tri-vybery/comparison/1081-C.jpg",
+      "currentPath": "experiments/cards/1081-the-weather-announcer/poster-C.png",
+      "embeddedSha256": "5d24a0663ff2ba1d8c289eeac1207a46bbd318d4e6d330e46d9e641fe8e9374b",
+      "visuallyMatched": true,
+      "currentSha256": "8818ca9734d8c1712b5438298a84d17b97c0899d9a3e256fa9ca63c55b5e79ad"
+    },
+    {
+      "id": "1081",
+      "title": "The Weather Announcer",
+      "slot": "video",
+      "label": "Story poster",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 2.55,
+      "file": "experiments/poslech-tri-vybery/comparison/1081-video.jpg",
+      "currentPath": "experiments/cards/1081-the-weather-announcer/poster-video.png",
+      "embeddedSha256": "f4f46b42a7882dacfe7cdcc2016f2fdddf17f827ee9467c8b24e4b8ba7ed7496",
+      "visuallyMatched": true,
+      "currentSha256": "a9d5c8fd3f35e18b29e62091d7fb2527365de37472708e54f185f202046c675a"
+    },
+    {
+      "id": "370",
+      "title": "The Wind and the Washing",
+      "slot": "A",
+      "label": "Poster A — cover",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 2.22,
+      "file": "experiments/poslech-tri-vybery/comparison/370-A.jpg",
+      "currentPath": "experiments/cards/370-the-wind-and-the-washing/poster-A.png",
+      "embeddedSha256": "f494a2a568c94e690fa5ceb056c981cf4c3ed47da67a01121230910e0d532997",
+      "visuallyMatched": true,
+      "currentSha256": "1c0f1c4b5c991f6cdc0e5cc6fe921ce9703ce83e52654be569c7beaf149ab435"
+    },
+    {
+      "id": "370",
+      "title": "The Wind and the Washing",
+      "slot": "B",
+      "label": "Symbol B — seal",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.42,
+      "file": "experiments/poslech-tri-vybery/comparison/370-B.jpg",
+      "currentPath": "experiments/cards/370-the-wind-and-the-washing/poster-B.png",
+      "embeddedSha256": "43a70c032dace17c3d416ea5a721ba2d29b75def73b7b83df054cb2339f2f689",
+      "visuallyMatched": true,
+      "currentSha256": "45688bc4e07ab236235d586f198f477b5a476d54f1cd54942187a9565a70941c"
+    },
+    {
+      "id": "370",
+      "title": "The Wind and the Washing",
+      "slot": "C",
+      "label": "Symbol C — dialogue",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.95,
+      "file": "experiments/poslech-tri-vybery/comparison/370-C.jpg",
+      "currentPath": "experiments/cards/370-the-wind-and-the-washing/poster-C.png",
+      "embeddedSha256": "4b3580fa356ec6be21cc88cc8823021047116f6149154b8e2aece2434ca4bc99",
+      "visuallyMatched": true,
+      "currentSha256": "f5357545e44ab4466af16c4b7e060dc1afc334ee73a44e0da660f54272364e67"
+    },
+    {
+      "id": "370",
+      "title": "The Wind and the Washing",
+      "slot": "video",
+      "label": "Story poster",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 3.03,
+      "file": "experiments/poslech-tri-vybery/comparison/370-video.jpg",
+      "currentPath": "experiments/cards/370-the-wind-and-the-washing/poster-video.png",
+      "embeddedSha256": "7f9181a0fe985e0c1121c8329e72fe89526292401dce46ee237ef566995840a5",
+      "visuallyMatched": true,
+      "currentSha256": "8c9fa4966bceea6b8b233c21005cd9a2b7f865af2dcb59b830a55c7ab95e8589"
+    },
+    {
+      "id": "288",
+      "title": "The Well",
+      "slot": "A",
+      "label": "Poster A — cover",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 2.05,
+      "file": "experiments/poslech-tri-vybery/comparison/288-A.jpg",
+      "currentPath": "experiments/cards/288-the-well/poster-A.png",
+      "embeddedSha256": "2453c773f563f7795f6c9f6a190eb4fc8f3e26155b9feeb2244b422d94aa3646",
+      "visuallyMatched": true,
+      "currentSha256": "ef890704ddd36845cd25e51c5ab67b360a7e66626a2fde06dcf9e319e617198c"
+    },
+    {
+      "id": "288",
+      "title": "The Well",
+      "slot": "B",
+      "label": "Symbol B — seal",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.17,
+      "file": "experiments/poslech-tri-vybery/comparison/288-B.jpg",
+      "currentPath": "experiments/cards/288-the-well/poster-B.png",
+      "embeddedSha256": "4c8142dbaa00e012bf3100346e2c6fd25d718cda86274cdc5d629516f7c7a2ca",
+      "visuallyMatched": true,
+      "currentSha256": "2c57ea335fe8186fe782f1d49710ece6dbff2715542f4eb8ec5c363d3f64855d"
+    },
+    {
+      "id": "288",
+      "title": "The Well",
+      "slot": "C",
+      "label": "Symbol C — dialogue",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.66,
+      "file": "experiments/poslech-tri-vybery/comparison/288-C.jpg",
+      "currentPath": "experiments/cards/288-the-well/poster-C.png",
+      "embeddedSha256": "619e539ab57423d9b5ec5fddba241ac7872635ce5b281ee944e37dd1fee09988",
+      "visuallyMatched": true,
+      "currentSha256": "87ac7b58b86756763b615985a76dc19f9464b7e61eee452b30fcda13c429081a"
+    },
+    {
+      "id": "288",
+      "title": "The Well",
+      "slot": "video",
+      "label": "Story poster",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 3,
+      "file": "experiments/poslech-tri-vybery/comparison/288-video.jpg",
+      "currentPath": "experiments/cards/288-the-well/poster-video.png",
+      "embeddedSha256": "c67fdd5f186614fb4d37592b3fd2e14deda22679bb4317f74ec62c18d4638a56",
+      "visuallyMatched": true,
+      "currentSha256": "49e8214f21e7424ed08a53698196d2edaa1ea2d507e61de8ddd926bf9cf973fa"
+    },
+    {
+      "id": "372",
+      "title": "The Zero",
+      "slot": "A",
+      "label": "Poster A — cover",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.75,
+      "file": "experiments/poslech-tri-vybery/comparison/372-A.jpg",
+      "currentPath": "experiments/cards/372-the-zero/poster-A.png",
+      "embeddedSha256": "de3444f237c73a9f23b0a553c30c73909ad3165f9ab670e229a667fa88b40656",
+      "visuallyMatched": true,
+      "currentSha256": "23d795fed29f0fdbbb7bb0586e5741d9553ffbf77247ce54d8088e0c6d4973d2"
+    },
+    {
+      "id": "372",
+      "title": "The Zero",
+      "slot": "B",
+      "label": "Symbol B — seal",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.35,
+      "file": "experiments/poslech-tri-vybery/comparison/372-B.jpg",
+      "currentPath": "experiments/cards/372-the-zero/poster-B.png",
+      "embeddedSha256": "d2a7c14cb0477e87a3f491fecdb896418baa2fcff6609df8d19be222c180df2f",
+      "visuallyMatched": true,
+      "currentSha256": "c6dc07e4cde5a9cfc3ce94eb482437620fd1cf205d0abac25774c55376aa471c"
+    },
+    {
+      "id": "372",
+      "title": "The Zero",
+      "slot": "C",
+      "label": "Symbol C — dialogue",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.26,
+      "file": "experiments/poslech-tri-vybery/comparison/372-C.jpg",
+      "currentPath": "experiments/cards/372-the-zero/poster-C.png",
+      "embeddedSha256": "4d92adc3da34cd0d37538a9eeae351d5b6d618e0fd8398a7404e9369087bf6b5",
+      "visuallyMatched": true,
+      "currentSha256": "378ac93058f6b8da2b4dea673bc311191fd9fa9236f084fadafb2b87e3c7f4df"
+    },
+    {
+      "id": "372",
+      "title": "The Zero",
+      "slot": "video",
+      "label": "Story poster",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 2.34,
+      "file": "experiments/poslech-tri-vybery/comparison/372-video.jpg",
+      "currentPath": "experiments/cards/372-the-zero/poster-video.png",
+      "embeddedSha256": "ca5621365c7d0a88335e4744cdeca40bca93a693d96bd37a224d74b69ed27e9a",
+      "visuallyMatched": true,
+      "currentSha256": "1d0491c1eb6fe0234b95d84a1e87be1298e3d1f4af077b242d29657e9305e905"
+    },
+    {
+      "id": "435",
+      "title": "The Waiting Room",
+      "slot": "A",
+      "label": "Poster A — cover",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 2.28,
+      "file": "experiments/poslech-tri-vybery/comparison/435-A.jpg",
+      "currentPath": "experiments/cards/435-the-waiting-room/poster-A.png",
+      "embeddedSha256": "96e068bd56d916901030580d9926f6201257c24abd3ea57a91b33d3414d6b3c6",
+      "visuallyMatched": true,
+      "currentSha256": "fa8db6b286eb3f6a6f9bdc2d0bfe72e782bd7e2e380ed00d5ffa6ed07080990c"
+    },
+    {
+      "id": "435",
+      "title": "The Waiting Room",
+      "slot": "B",
+      "label": "Symbol B — seal",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.37,
+      "file": "experiments/poslech-tri-vybery/comparison/435-B.jpg",
+      "currentPath": "experiments/cards/435-the-waiting-room/poster-B.png",
+      "embeddedSha256": "b92ef9c670084143c9cc6a640d1f00d5b4dda0602b58c956940839822ed62544",
+      "visuallyMatched": true,
+      "currentSha256": "f40fef9c740bbc6acd0ad05c500eb6b66d1b095dc77319b541bbf177e080e3ee"
+    },
+    {
+      "id": "435",
+      "title": "The Waiting Room",
+      "slot": "C",
+      "label": "Symbol C — dialogue",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 1.71,
+      "file": "experiments/poslech-tri-vybery/comparison/435-C.jpg",
+      "currentPath": "experiments/cards/435-the-waiting-room/poster-C.png",
+      "embeddedSha256": "edc6291f13c046f221de146beb97072e9e894fcbc27e68386be457d4d38424a2",
+      "visuallyMatched": true,
+      "currentSha256": "905c07dfa34fd0d361ae7a09e728b438db7676ea9cb6c74b1fb8b2dd58ec2b5d"
+    },
+    {
+      "id": "435",
+      "title": "The Waiting Room",
+      "slot": "video",
+      "label": "Story poster",
+      "embedded": [
+        520,
+        775
+      ],
+      "current": [
+        687,
+        1024
+      ],
+      "meanPixelDifference": 2.4,
+      "file": "experiments/poslech-tri-vybery/comparison/435-video.jpg",
+      "currentPath": "experiments/cards/435-the-waiting-room/poster-video.png",
+      "embeddedSha256": "1f2ebc0d547fab0e195e6400b812fcc8c91f36a884b000dcfd512e3c75da3b61",
+      "visuallyMatched": true,
+      "currentSha256": "055329b216994c5fd4d30a55408896a3288e8af895cb77ab6fe3e63ce95b4ec8"
+    }
+  ],
+  "comparedAt": "2026-09-09T21:09:03.562Z",
+  "result": "All 20 images visually show the same artwork; embedded JPEGs are reduced copies, not byte-identical files."
+}

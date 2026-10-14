@@ -1,0 +1,83 @@
+{
+  "poster": "001-the-man-who-fed-the-pigeons",
+  "poster_path": "C:\\Users\\Vladimir\\Documents\\CelloCoolClub\\assets\\posters\\001-the-man-who-fed-the-pigeons.png",
+  "card": "992",
+  "audio": "C:\\Users\\Vladimir\\Documents\\CelloCoolClub\\assets\\audio\\992-the-man-who-fed-the-pigeons.mp3",
+  "size": [687, 1024],
+  "clean_patches": [[15, 15, 220, 95], [460, 15, 670, 95], [10, 740, 88, 1010], [608, 765, 680, 895], [60, 988, 640, 1018], [10, 110, 88, 265]],
+  "timeline": [
+    ["S00", null, null],
+    ["S01", 0.50, 2.2],
+    ["S03", 4.64, 3.2],
+    ["S04", 8.28, 2.5],
+    ["S05", 13.48, 2.2],
+    ["S06", 26.32, 3.0],
+    ["S07", 66.50, 2.5],
+    ["S08", 75.90, 2.0],
+    ["S09", 77.96, 2.2],
+    ["S10", 143.04, 2.4]
+  ],
+  "regions": {
+    "star_watermark": [568, 903, 608, 948],
+    "feather": [25, 590, 96, 720],
+    "left_dash": [36, 563, 82, 620],
+    "bread": [15, 278, 97, 378],
+    "stamp_seal": [592, 232, 682, 398],
+    "bell": [592, 583, 685, 722],
+    "flourish_top": [235, 20, 447, 107],
+    "flourish_bottom": [208, 874, 467, 982],
+    "left_squiggle": [20, 403, 90, 502],
+    "right_squiggle": [590, 443, 674, 548],
+    "right_below_bell": [593, 693, 667, 757],
+    "block": [94, 106, 593, 878]
+  },
+  "gates": {
+    "clerk": [[463, 633, 587, 852]],
+    "pigeons_b": [[225, 585, 352, 672], [358, 580, 462, 648], [343, 648, 412, 708], [278, 655, 338, 718], [192, 676, 258, 742], [112, 532, 192, 598]],
+    "pigeons_a": [[243, 382, 338, 458], [183, 466, 268, 568], [306, 486, 358, 543], [336, 520, 388, 588]],
+    "sign": [[328, 122, 582, 408], [418, 378, 512, 833]],
+    "man": [[112, 378, 462, 872]],
+    "bench": [[92, 412, 472, 882]]
+  },
+  "chain": [
+    {"state": "S10", "from": "master", "op": "none", "reveals": "cely plakat"},
+    {"state": "S09", "from": "S10", "op": "fill", "regions": "feather", "reveals": "pirko (pointa)"},
+    {"state": "S08", "from": "S09", "op": "gemini", "gates": "clerk", "reveals": "urednicek"},
+    {"state": "S07", "from": "S08", "op": "gemini", "gates": "pigeons_b", "reveals": "holubi B (ruce, klin, lavicka)"},
+    {"state": "S06", "from": "S07", "op": "gemini", "gates": "pigeons_a", "reveals": "holubi A (ramena, klobouk)"},
+    {"state": "S05", "from": "S06", "op": "gemini+fill", "gates": "sign", "regions": "stamp_seal", "reveals": "cedule + razitko"},
+    {"state": "S04", "from": "S05", "op": "fill", "regions": "bread,bell", "reveals": "chleb + zvon"},
+    {"state": "S03", "from": "S04", "op": "gemini", "gates": "man", "reveals": "stary pan"},
+    {"state": "S02", "from": "S03", "op": "gemini", "gates": "bench", "reveals": "lavicka"},
+    {"state": "S01", "from": "S02", "op": "fill", "regions": "block", "reveals": "cela scena (blok)"},
+    {"state": "S00", "from": "S01", "op": "fill", "regions": "flourish_top,flourish_bottom,left_squiggle,right_squiggle,right_below_bell,left_dash", "reveals": "ornamenty"}
+  ],
+  "track_symbols": {
+    "B_seal": {
+      "source": "assets/posters/001-the-man-who-fed-the-pigeons-v8.png",
+      "badge": "badge-B.png",
+      "motif": "empty palm turned to the sky, one pigeon landed in it (ex-libris/pecet)",
+      "reveal_t": 0.2, "reveal_d": 1.0, "fade_out": null,
+      "note": "Akt 1 (pecet, pred versem 1) -- persists to konec vc. kolofonu."
+    },
+    "C_dialog": {
+      "source": "assets/posters/992-the-man-who-fed-the-pigeons-symbol-c-seal.png",
+      "badge": "badge-C.png",
+      "motif": "forbidding wax seal (slashed palm) + pigeon perched on it, feather drifting",
+      "reveal_t": 101.0, "reveal_d": 2.0, "fade_out_t": 152.0, "fade_out_d": 3.0,
+      "note": "Akt 3 (instrumentalni most mezi versem 25 t=98.86 a versem 26 t=124.78); odtiskuje se pred kolofonem."
+    }
+  },
+  "verse_triggers": {
+    "S01": "intro (ornamenty, ~2 s)",
+    "S02": "v1 Every morning at seven",
+    "S03": "v2 on the market square (+1 s)",
+    "S04": "v3 an old man in a grey coat",
+    "S05": "v4 crumbled bread for the pigeons",
+    "S06": "v7 Then came the sign",
+    "S07": "v16 and the pigeons came all the same",
+    "S08": "v19 on his knees",
+    "S09": "v20 The clerk who had signed the sign",
+    "S10": "v30 they came here for me"
+  }
+}

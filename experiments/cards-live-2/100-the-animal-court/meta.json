@@ -1,0 +1,22 @@
+{
+  "engineCardId": "100",
+  "posterNumber": "088",
+  "title": "The Animal Court",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/d388159c-de93-408f-b7cc-3af1a321e026",
+  "sunoId": "",
+  "audioFile": "The Animal Court — 1920.mp3",
+  "accent": "#33301c",
+  "posterPopis": {
+    "a": "the man left alone at the centre of the ring of animals",
+    "b": "seal — the empty birdcage with its door open",
+    "c": "lion's head and solitary man — the verdict and the sentence",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the man left alone at the centre of the ring of animals)",
+    "b": "Symbol B — pečeť (seal — the empty birdcage with its door open)",
+    "c": "Symbol C — dialog symbolů (lion's head and solitary man — the verdict and the sentence)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

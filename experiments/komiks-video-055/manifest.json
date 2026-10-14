@@ -1,0 +1,116 @@
+{
+  "card": "055",
+  "audio": "C:/Users/Vladimir/Documents/CelloCoolClub/celloclublive/055-le-voleur-de-sommeil/The Thief of Sleep — 1920.mp3",
+  "comic": "C:/Users/Vladimir/Documents/CelloCoolClub/experiments/komiks-live-055-pages",
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "timeline": [
+    [
+      "S00",
+      null,
+      null
+    ],
+    [
+      "S01",
+      0.15,
+      1.84
+    ],
+    [
+      "S02",
+      4.24,
+      2.14
+    ],
+    [
+      "S03",
+      9.0,
+      1.45
+    ],
+    [
+      "S04",
+      12.22,
+      2.15
+    ],
+    [
+      "S05",
+      17.0,
+      1.32
+    ],
+    [
+      "S06",
+      19.94,
+      2.1
+    ],
+    [
+      "S07",
+      24.6,
+      1.63
+    ],
+    [
+      "S08",
+      28.22,
+      1.55
+    ],
+    [
+      "S09",
+      31.66,
+      2.09
+    ],
+    [
+      "S10",
+      36.3,
+      2.09
+    ],
+    [
+      "S11",
+      40.94,
+      1.22
+    ],
+    [
+      "S12",
+      43.64,
+      2.17
+    ],
+    [
+      "S13",
+      48.46,
+      1.39
+    ],
+    [
+      "S14",
+      51.54,
+      2.2
+    ],
+    [
+      "S15",
+      57.42,
+      1.07
+    ],
+    [
+      "S16",
+      59.8,
+      2.2
+    ],
+    [
+      "S17",
+      65.46,
+      2.2
+    ],
+    [
+      "S18",
+      72.48,
+      2.2
+    ]
+  ],
+  "theme": "tma",
+  "frame": true,
+  "working_index": false,
+  "fade_out": 3.5,
+  "fade_to": [
+    23,
+    19,
+    16
+  ]
+}

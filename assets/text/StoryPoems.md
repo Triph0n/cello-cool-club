@@ -1,0 +1,613 @@
+# Cello Cool Club — Story Poems
+
+Podseznam **příběhových** básní z `AllEnglishTexts.md` (1102 básní, klasifikováno
+2026-08-18 pomocí 8 paralelních čtecích agentů, každý na ~140 básní z digestu
+title + úvod + závěr). Vznikl pro skill `suno-jazz-trio` — komorní klavírní trio
++ sólový vypravěčský hlas sedí nejlíp na básně, které mají skutečný děj, ne na
+čisté portréty/monology beze změny stavu.
+
+## Kritérium
+
+**PŘÍBĚH** = konkrétní postava (nemusí být jmenovaná — muž, úředník, zloděj,
+dívka) prochází událostí nebo situací, která se v průběhu básně vyvíjí nebo
+mění, často s pointou/zvratem na konci. Něco se **stane** — dá se to shrnout
+jako „X udělá Y, pak se stane Z". Příklady z téhle sbírky: *The Man Who Fed the
+Pigeons* (#260), *The Thief of Sleep* (#069), *The Forgotten Umbrella* (#261).
+
+**NENÍ PŘÍBĚH** = portrét, monolog, oslovení nebo personifikace beze děje —
+postava nebo věc (typicky planeta, roční období, předmět) popisuje sama sebe
+nebo svou náladu, ale nic se nestane a nic se nezmění. Příklad: *Jupiter, the
+Stormy King* (#002), *Saturn, the Sad Ballerina* (#006) — sebeportrét, žádná
+zápletka.
+
+Sporné případy (náznak situace, ale hlavně popisné/sebeportrétní) byly řazeny
+jako NENÍ PŘÍBĚH.
+
+## Dvě odlišné polohy v seznamu
+
+1. **#001–953** — klasická prévertovská bajka: postava/y, konkrétní situace,
+   pointa. Tohle je jádro seznamu (473 básní).
+2. **#997–1095** — samostatná sbírka na konci master textu: ikonické literární
+   a mytologické postavy (Hamlet, Alice, Faust, Švejk...) mluví samy o sobě
+   retrospektivně a odhalí skrytou pravdu o svém vlastním příběhu/pověsti
+   („Hamlet": *To be or not to be... And I will tell you what it was: It was
+   fear*). Formálně je to blíž monologu než ději, ale odhalení/pointa na konci
+   z nich dělá dobrý materiál pro vypravěčský sólový zpěv — proto jsou v tomhle
+   seznamu taky, skoro kompletně (93 z ~99 básní v tomhle bloku). Když by
+   `suno-jazz-trio` měl místo toho použít jen básně s doslovnou zápletkou,
+   vynechej tenhle blok.
+
+**Celkem 566 z 1102 básní (51 %).** Při doplňování nových básní do master textu
+podseznam ručně aktualizuj stejnou logikou.
+
+## Seznam
+
+- 025 — The Wall
+- 049 — Freedom in a Cage
+- 050 — The Lovers of the Metro
+- 054 — The Dialogue of Hammer and Glass
+- 055 — The Revolt of the Billboards
+- 059 — The Revolt of the Common Nouns
+- 064 — The Revolt of the Garden Statues
+- 069 — The Thief of Sleep
+- 073 — The Revolt of the Punctuation Marks
+- 076 — The Ministry of Normality
+- 078 — The Thief of Voices
+- 082 — The Dialogue of the Hand and the Glove
+- 083 — The Revolt of the Musical Notes
+- 089 — The Song of the Chewing Gum
+- 090 — The Prostitute's Last Client
+- 093 — The Revolt of the Fairy Tales
+- 099 — The Song of the Chipped Cup
+- 105 — The Drawing on the Wall
+- 110 — The Scar
+- 111 — The Dialogue of the Rain and the Window
+- 113 — The Message in a Bottle
+- 114 — The Animal Court
+- 117 — The Revolt of the Question Mark
+- 123 — The Poem That Was Looking for a Reader
+- 124 — The Revolt of the Still Lifes
+- 133 — The Revolt of the Furniture
+- 135 — The Tool Conference
+- 138 — The Revolt of the Adjectives
+- 143 — The Revolt of the Odd Numbers
+- 144 — The Merchant of First Words
+- 145 — The Saints' Strike
+- 146 — The Tattooed Poem
+- 147 — The Revolt of the Red Lights
+- 150 — The Dance of Passwords
+- 151 — The Last Tree in the City
+- 152 — The Souvenir Seller
+- 153 — The Clocks' Strike
+- 155 — The Lesson of Silence
+- 156 — The Flat-Pack Heart
+- 157 — The Poet and the Accountant
+- 160 — The Last Lover
+- 163 — The Revolt of the Statues
+- 164 — The Thief of Colors
+- 165 — The Song of the Ink Stain
+- 167 — The Asphalt Gardener
+- 169 — The Trial of the Sun
+- 170 — The Letter Never Written
+- 171 — The Last Word
+- 173 — The Geography Lesson
+- 177 — The Living Statue
+- 179 — The Words on Strike
+- 183 — The Last Tree
+- 184 — The Cloud Factory
+- 185 — The Liar
+- 189 — The Revolt of the Vegetables
+- 195 — The Colors' Strike
+- 196 — The Mechanic of Time
+- 200 — The Flying Lesson
+- 201 — The Ferryman of Dreams
+- 205 — The Revolt of the Road Signs
+- 206 — The Merchant of Maybe
+- 207 — The Cemetery of Forgotten Words
+- 211 — The Clock That Ran Backwards
+- 213 — The Library of Unlived Lives
+- 214 — The Meeting of the Street Names
+- 215 — The Tamer of Nightmares
+- 217 — The Ministry of Grayness
+- 219 — The Thief of Horizons
+- 222 — The Maker of Tears
+- 223 — The Wall That Spoke
+- 224 — The Commas' Strike
+- 225 — The Merchant of Spare Skies
+- 229 — The Revolt of Reflections
+- 232 — Breath on the Windowpane
+- 235 — The Speech of the Commander's Statue
+- 237 — The Anger of a Drop of Water
+- 238 — The Merchant of Sleep
+- 260 — The Man Who Fed the Pigeons
+- 261 — The Forgotten Umbrella
+- 262 — Inventory After Grandmother
+- 263 — The Night Tram
+- 264 — The Watchmaker
+- 265 — The Baker Who Skips Breakfast
+- 266 — The Traffic-Light Painter
+- 267 — The Odd Glove
+- 268 — The Geography Teacher
+- 269 — The Man Who Saved Time
+- 270 — The Last Telephone Box
+- 271 — The Museum Guard
+- 272 — The Binman and the Books
+- 273 — Two Chairs
+- 274 — The Cemetery Gardener
+- 275 — The Letter Without an Address
+- 276 — The Fisherman Who Lets Them Go
+- 277 — The Piano Tuner
+- 278 — The Lost and Found Office
+- 279 — Grandmother and Daylight Saving Time
+- 280 — The Bridge Builder
+- 281 — The Ticket Seller
+- 282 — Winter's Inventory
+- 284 — The Blind Man at the Cinema
+- 287 — The Metronome
+- 288 — The Names of Trees
+- 289 — The Night Train Conductor
+- 291 — The Boy and the Echo
+- 293 — The Retired Fireman
+- 294 — The Wedding-Dress Tailor
+- 295 — The Lift Boy
+- 296 — The Postcard Collector
+- 299 — The Empty Room
+- 301 — The Violinist in the Underpass
+- 305 — The Missing Word
+- 309 — A Letter to Myself
+- 313 — The Crossing
+- 314 — The Wedding Photographer
+- 315 — The Book Never Returned
+- 316 — The Sparrow
+- 317 — The Astronomical Clock
+- 318 — The Ice Cream Man and the Chestnuts
+- 319 — Chinese Whispers
+- 320 — The Manuscript
+- 321 — Love Locks
+- 330 — The Cyclist and the Wind
+- 336 — The Matches
+- 341 — The Desk Clerk
+- 345 — The Little Tree in January
+- 346 — The Driving Instructor
+- 347 — The Prompter
+- 348 — The Well
+- 349 — The Two Doorbells
+- 351 — The Station Clock
+- 352 — The Swifts
+- 354 — The Piano at Auction
+- 356 — The Bet on the Rain
+- 357 — The Hole in the Photograph
+- 360 — The Keyhole
+- 361 — The Seed in the Pocket
+- 363 — The Man Who Said Hello
+- 367 — The Leaky Pot
+- 373 — The Umbrella Turned Inside Out
+- 374 — The Ceremonial Scissors
+- 375 — The Station Dog
+- 376 — The Cat Who Chose
+- 377 — The Sparrow and the Statue
+- 378 — The Fish Who Saw the Sky
+- 380 — The Butterfly of a Single Day
+- 381 — The Rooster Who Crowed Too Late
+- 384 — The Bee in Winter
+- 385 — The Tree That Grew Crooked
+- 386 — The Last Leaf
+- 387 — The Seed in the Asphalt
+- 388 — The River That Changed Its Course
+- 389 — The Cloud That Did Not Rain
+- 390 — The Stone on the Cairn
+- 391 — The Apple Tree by the Demolished House
+- 393 — The Root Under the Pavement
+- 394 — The Two Trees Grown Together
+- 398 — The Stonecutter
+- 400 — The Baker and the Shape of Bread
+- 404 — The Retired Postman
+- 415 — The Bird in the Open Cage
+- 416 — The Guide Dog Without a Master
+- 418 — The Swan on the Frozen Pond
+- 419 — The Ants and the Crumb
+- 421 — The Dog and the Postman
+- 422 — The Stranded Whale
+- 423 — The Horse and the Tractor
+- 424 — The Stork on the Chimney
+- 426 — The Echo Left Alone
+- 431 — Counting Sheep
+- 435 — The Hidden Cloakroom Ticket
+- 436 — Grandmother and the Soap Opera
+- 437 — The Child and the Moon
+- 438 — The Man Who Never Hurried
+- 439 — The Woman Who Talked to Her Plants
+- 440 — The Old Man and One Sea
+- 441 — The Collector of Sunsets
+- 442 — Two Sisters and One Watch
+- 443 — The Umbrella Mender
+- 444 — The Barber and the First Cut
+- 445 — The Empty Tram to the Depot
+- 446 — Grandfather's Shoes
+- 447 — The Treasure Map Without the Cross
+- 448 — The Candle That Burned Out
+- 449 — The Notebook with One Sentence
+- 450 — Two Drops on the Window
+- 451 — The Old Circus Elephant
+- 452 — The Garden Gate That Creaks
+- 453 — The Last Apple on the Tree
+- 454 — The Star That No Longer Shines
+- 455 — One Umbrella for Two
+- 456 — The Postwoman and One House
+- 457 — The Pianist in the Hotel Lobby
+- 458 — The Coin in the Cobbles
+- 459 — Someone Else's Flowers
+- 460 — The Given Stone
+- 461 — The Last Snowflake
+- 462 — The Walled-Up Door
+- 463 — The Old Bridge and the New
+- 464 — The Collection of Poems
+- 465 — The Knife Grinder
+- 466 — The Glazier
+- 467 — The Bookbinder
+- 468 — The Organist Without an Organ
+- 469 — The Taxi Driver Who Turns Off the Meter
+- 470 — The Summer Cinema Projectionist
+- 471 — The Music Box Repairman
+- 472 — The Station Porter
+- 473 — The Sign Painter
+- 474 — The Beekeeper on the Roof
+- 475 — The Hedgehog and the Autumn Leaves
+- 476 — The Mole and the Gardener
+- 478 — The Hen Who Flew
+- 479 — The Old Carp in the Fountain
+- 480 — The Bats in the Church Attic
+- 481 — The Snail and the Race
+- 482 — The Magpie and the Wedding Ring
+- 483 — The Squirrel and the Forgotten Nuts
+- 484 — The Blackbird Who Sang in December
+- 485 — The Gramophone and One Record
+- 486 — The Typewriter Missing a Letter
+- 487 — The Suitcase Covered in Stickers
+- 488 — Dad's Reading Glasses
+- 489 — The Night-Shift Thermos
+- 490 — Great-Grandmother's Sewing Machine
+- 491 — Last Year's Calendar
+- 492 — The Cracked Cup
+- 493 — The Sled in Summer
+- 495 — The Waiting Room
+- 496 — The Last Newsstand
+- 497 — The Carpet Rack
+- 499 — The Second-Hand Bookshop
+- 501 — The Post Office One Minute Before Closing
+- 502 — The Mannequin in the Window
+- 503 — The Village Loudspeaker
+- 504 — The Staircase Without a Lift
+- 506 — Rainbow Over the Housing Estate
+- 507 — The Puddle
+- 509 — The Gale and the Paper Kite
+- 510 — The First Storm of the Year
+- 512 — Hail on the Greenhouse
+- 513 — The Melting Snowman
+- 515 — The First Whistle
+- 516 — The Dress in the Box
+- 517 — The First Grey Hair
+- 518 — Dancing in the Kitchen
+- 519 — The Inherited Laugh
+- 520 — The Last Family Photograph
+- 521 — The Crooked Star
+- 522 — The Sides of the Bed
+- 523 — The Hand on the Saddle
+- 524 — The Phone at Seven
+- 525 — Second Violin
+- 526 — The Page Turner
+- 527 — The Back Row of the Theatre
+- 528 — The Fresco Restorer
+- 529 — The Street Portraitist
+- 530 — The Cello on the Tram
+- 531 — The Proofreader
+- 532 — The Firemen's Band
+- 533 — The Retired Dancer
+- 534 — The Lullaby Singer
+- 536 — The Hitchhiker with a Sign Saying Anywhere
+- 537 — The Ferryman
+- 539 — The Boundary Stone
+- 540 — The Highway Diner
+- 542 — The Man Who Came Back the Same Way
+- 543 — The Metro Map of a Foreign City
+- 544 — The Postcard That Arrived Years Late
+- 545 — The Man Who Counted the Stars
+- 546 — The Dream That Kept Returning
+- 547 — Radio for the Sleepless
+- 548 — The Alarm Clock That Didn't Ring on Sunday
+- 549 — The Minute of Silence
+- 550 — The Last Day of the Holidays
+- 552 — How Children Fall Asleep
+- 553 — The Night Watchman Who Read Poetry
+- 555 — The Box Marked Other
+- 556 — Complaints in Verse
+- 557 — Number Forty-Seven
+- 558 — Keep Off the Grass
+- 559 — The Loyalty Card
+- 560 — Make a U-Turn
+- 561 — The Self-Checkout
+- 562 — Grandma's First Smiley
+- 564 — The Satisfaction Survey
+- 566 — The Unfinished Scarf
+- 569 — The Light Switch
+- 572 — Wind in the Chimney
+- 573 — Icicles
+- 575 — Eclipse of the Sun
+- 581 — The Father and the Tie
+- 583 — The Last Carriage
+- 585 — The Roundabout
+- 590 — The Password
+- 591 — I Am Not a Robot
+- 592 — Press One
+- 593 — Two-Year Warranty
+- 595 — The Pub Review
+- 597 — Stocktaking
+- 598 — Breakfast Inside Out
+- 599 — The Clerk and the Sea
+- 600 — The Umbrella
+- 601 — The Military Parade
+- 602 — The Watchmaker
+- 603 — The House Painter
+- 604 — The Parrot
+- 605 — The Lovers from the Station
+- 606 — The Gardener and the Fence
+- 607 — The Lost Glove
+- 608 — The Sermon
+- 609 — The Balance Sheet
+- 610 — The Dog and the Philosopher
+- 612 — The Last Tram
+- 613 — The Fisherman Without Fish
+- 614 — Two Queues
+- 615 — The Telephone Booth
+- 616 — The Prescription
+- 617 — Moving Out
+- 618 — The Canary
+- 619 — Mathematics
+- 620 — The Bell
+- 621 — The Café Table
+- 622 — The Driver's License
+- 623 — A Letter to Be Delivered in Person
+- 624 — The Sculptor
+- 625 — The Train to Paris
+- 626 — The Museum Guard
+- 627 — Shoes
+- 628 — Radio over the Wire
+- 629 — Chess in the Park
+- 630 — The Coffee Machine
+- 631 — The Conductor
+- 632 — The Actor
+- 633 — The Map
+- 634 — The Circus
+- 635 — The Night Watchman
+- 636 — The Blind Man and the Spring
+- 637 — The Elevator
+- 638 — The Report Card
+- 639 — The Carrier Pigeon
+- 640 — The Dentist
+- 641 — The Mirror
+- 642 — The Survey
+- 643 — The Concrete Workers
+- 644 — The Silent Household
+- 645 — The Puppeteer
+- 646 — Half a Hundred
+- 647 — Matches
+- 648 — The Divorce
+- 649 — The Chimney Sweep
+- 650 — The Advertisement
+- 651 — The Fortune Teller
+- 652 — The Swimming School
+- 653 — The Night Shift
+- 654 — The Pickpocket
+- 655 — The Weatherman
+- 656 — The Keys
+- 657 — The Photographer
+- 658 — The Garbage Bin
+- 659 — The Crossing
+- 660 — The Last Pupil
+- 661 — The Tobacconist
+- 662 — Two Windows
+- 663 — Serious Music
+- 664 — The Form
+- 665 — The Vet
+- 666 — Radio Exercises
+- 667 — The Keeper of the Astronomical Clock
+- 668 — Lost and Found
+- 669 — The Bird Feeder
+- 670 — The Job Interview
+- 671 — Sunday Lunch
+- 672 — The Tattoo
+- 673 — The Greenhouse
+- 674 — The Tracks
+- 675 — A Concert for One
+- 676 — The Boundary Stone
+- 677 — The Prop Master
+- 678 — The Morning Shift
+- 679 — Umbrella Repairs
+- 680 — The Dictation
+- 681 — The Cloakroom Attendant
+- 682 — The Bus Stop
+- 683 — The Barber
+- 684 — The Model Ship
+- 685 — The Strike
+- 686 — The Dictionary
+- 687 — The Carousel
+- 688 — The Telegram
+- 689 — The Courtyard
+- 691 — The Herbarium
+- 692 — The Barman
+- 693 — The Nativity Scene
+- 694 — The Last Ride
+- 696 — The Point
+- 698 — Monday
+- 699 — Sisyphus's Stone
+- 700 — The Password
+- 702 — The Echo
+- 704 — Death on Holiday
+- 705 — An Angel Retraining
+- 707 — The Voice from the GPS
+- 708 — The Snowman
+- 709 — The Shadow
+- 710 — Zero
+- 711 — The Escalator
+- 715 — The Scarecrow
+- 716 — The Fourth Little Pig
+- 718 — The Retired Wolf
+- 719 — The Trojan Horse
+- 720 — The Muse at the Job Center
+- 721 — Cupid's Arrow
+- 722 — The Last Mammoth
+- 724 — Pluto
+- 727 — The Question Mark
+- 728 — The Typo
+- 730 — The Bookmark
+- 733 — The Tooth Fairy in Crisis
+- 734 — Baby Jesus in Summer
+- 735 — A Devil Without a Sinner
+- 736 — The Game Die
+- 737 — The Pawn
+- 739 — You Are Here
+- 742 — The Algorithm
+- 745 — The Voicemail
+- 746 — One Percent
+- 747 — The Snooze Button
+- 750 — The Update
+- 751 — The Dodo
+- 752 — The Bonsai
+- 753 — The Cactus
+- 757 — The Lightning That Missed
+- 758 — The Wind
+- 761 — The Last Steam Locomotive
+- 763 — The Mannequin in the Window
+- 764 — The Ghost Without Tourists
+- 768 — The Robot on the Line
+- 769 — An Artificial Intelligence Writes a Poem
+- 771 — The Dash
+- 773 — The Lightning Rod
+- 775 — The Metronome
+- 778 — The Case
+- 781 — The Last Page of the Calendar
+- 784 — The Water Sprite at the Treatment Plant
+- 785 — The Yeti
+- 787 — The Unicorn
+- 793 — The Signature
+- 795 — The Rainbow
+- 799 — The Ellipsis
+- 802 — The Golden Fish
+- 803 — Pandora's Box
+- 804 — Icarus's Wings
+- 805 — The Voyager Golden Record
+- 806 — The Rover on Mars
+- 816 — The Gingerbread House
+- 818 — The Háček
+- 820 — The Loading Spinner
+- 821 — Typing…
+- 822 — Last Seen Online
+- 823 — The Dragon on the Hoard
+- 825 — The Magic Mirror
+- 826 — The Pea Under the Mattresses
+- 830 — The Bow
+- 834 — The Zipper
+- 838 — The Period
+- 847 — The Golden Egg
+- 864 — The Seven Ravens
+- 865 — Otesánek, the Wooden Child
+- 866 — Smolíček
+- 885 — The Frog Prince
+- 886 — The Firebird
+- 953 — The Mold
+
+### Iconic character monologues (#997–1095) — viz poznámka výše
+
+- 997 — Penelope
+- 998 — Argos
+- 999 — The Sirens
+- 1000 — Cassandra
+- 1001 — Antigone
+- 1002 — Orpheus
+- 1003 — Eurydice
+- 1004 — Yorick
+- 1005 — Hamlet
+- 1006 — Ophelia
+- 1007 — Lady Macbeth
+- 1008 — Juliet
+- 1009 — Caliban
+- 1010 — Falstaff
+- 1011 — Cordelia
+- 1012 — Iago
+- 1013 — Prospero
+- 1014 — Don Quixote
+- 1015 — Sancho Panza
+- 1016 — Rocinante
+- 1017 — Emma Bovary
+- 1018 — Anna Karenina
+- 1019 — Raskolnikov
+- 1020 — Sonya
+- 1021 — Prince Myshkin
+- 1022 — The Grand Inquisitor
+- 1023 — Jean Valjean
+- 1024 — Javert
+- 1025 — Gavroche
+- 1026 — Quasimodo
+- 1027 — Miss Havisham
+- 1028 — Scrooge
+- 1029 — Captain Ahab
+- 1030 — The White Whale
+- 1031 — Bartleby
+- 1032 — Robinson Crusoe
+- 1033 — Friday
+- 1034 — Captain Nemo
+- 1035 — The Count of Monte Cristo
+- 1036 — Frankenstein's Monster
+- 1037 — Dorian Gray
+- 1038 — Doctor Jekyll
+- 1039 — Dracula
+- 1040 — Sherlock Holmes
+- 1042 — Professor Moriarty
+- 1043 — Alice
+- 1044 — The Cheshire Cat
+- 1045 — The Mad Hatter
+- 1046 — The Little Prince
+- 1047 — The Fox
+- 1048 — The Rose
+- 1050 — Faust
+- 1051 — Mephisto
+- 1052 — Gretchen
+- 1053 — Werther
+- 1054 — Gregor Samsa
+- 1055 — Josef K.
+- 1056 — The Doorkeeper
+- 1057 — Odradek
+- 1058 — Gollum
+- 1059 — Sam
+- 1060 — Boxer
+- 1061 — Winston Smith
+- 1062 — Piggy
+- 1063 — Holden Caulfield
+- 1064 — Gatsby
+- 1065 — Santiago
+- 1066 — Boo Radley
+- 1067 — Godot
+- 1068 — Estragon
+- 1069 — Behemoth
+- 1070 — Pontius Pilate
+- 1071 — Úrsula Buendía
+- 1072 — The Colonel
+- 1073 — Meursault
+- 1074 — Montag
+- 1075 — Scheherazade
+- 1076 — Tom Sawyer
+- 1077 — Švejk
+- 1078 — Grandmother
+- 1079 — Viktorka
+- 1080 — Maryša
+- 1081 — Doctor Galén
+- 1082 — The Newt
+- 1083 — The Robot
+- 1084 — Haňťa
+- 1085 — Mr Kopfrkingl
+- 1086 — Šemík
+- 1087 — The Hedgehog in the Cage
+- 1090 — Mikeš the Cat
+- 1091 — Rumcajs
+- 1094 — The Little Dog and the Cat
+- 1095 — Mr Ryšánek and Mr Schlegl

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uranus, the Silent Rebel | Cello Cool Club</title>
+    <meta name="description" content="Nine I — The Celestial Household: Uranus, the Silent Rebel.">
+    <link rel="icon" href="../../assets/ccc-icon.ico">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .card-nav { position: fixed; right: 16px; bottom: 14px; z-index: 20; display: flex; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid rgba(197,160,89,.55); border-radius: 8px; background: rgba(18,9,4,.78); color: var(--paper); font-size: 13px; }
+      .card-nav a { color: var(--gold-bright); text-decoration: none; }
+      .card-nav span { opacity: .64; }
+      .card-meta { margin: 0 0 4px; color: var(--gold-dark); font-size: 10px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+
+    <main class="card-stage" aria-label="Uranus, the Silent Rebel poem card">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card playing-card--long">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="0007-uranus-card.png" alt="Uranus, the Silent Rebel — emblem artwork." width="547" height="790" decoding="async">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play Uranus, the Silent Rebel" data-action="play" data-target="audio-0007-uranus">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="gramofon-icon-born.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-0007-uranus" preload="metadata" src="../../assets/audio/0007-uranus-the-silent-rebel.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">Nine I · 7/9 · The Celestial Household</p>
+          <h1 id="poem-title">Uranus, the Silent Rebel</h1>
+          <div class="poem-lines">
+            <p>After the sad dance of Saturn</p>
+            <p>I am the seventh, the strange one, the eccentric</p>
+            <p>All the other planets stand up straight</p>
+            <p>Like well-behaved soldiers or obedient spinning tops</p>
+            <p>I have lain down on my side</p>
+            <p>It was not an accident, a cosmic shoving match</p>
+            <p>It was a choice</p>
+            <p>I had had enough of looking up and down</p>
+            <p>I wanted to look at the world from the side</p>
+            <p>To see if the universe was different from that point of view</p>
+            <p>It is my small, silent revolution</p>
+            <p>My act of laziness and of disobedience</p>
+            <p>I do not spin, I roll</p>
+            <p>Like a child in the grass or a barrel of blue wine</p>
+            <p>My kingdom is of a pale and quiet color</p>
+            <p>A blue-green of a frozen lagoon</p>
+            <p>I do not have the great angers of Jupiter</p>
+            <p>Nor the ostentatious jewels of Saturn</p>
+            <p>My beauty is discreet and uneventful</p>
+            <p>I am a great calm eye floating in the dark</p>
+            <p>My few rings are so thin</p>
+            <p>They look like forgotten spider threads</p>
+            <p>And my moons have names from poetry</p>
+            <p>Miranda, Titania, Oberon</p>
+            <p>They are characters from old, sad plays</p>
+            <p>My only companions in the great cold</p>
+            <p>They understand my melancholy</p>
+            <p>From afar they look at me with curiosity</p>
+            <p>The tilted planet, the anomaly of the system</p>
+            <p>They wonder if I am sick or tired</p>
+            <p>They do not understand that rest can be a form of protest</p>
+            <p>That silence can be a strong word</p>
+            <p>So I continue my long and slow roll</p>
+            <p>In the distant suburbs of the Sun's kingdom</p>
+            <p>I ask nothing of anyone</p>
+            <p>I am at peace with my own strangeness</p>
+            <p>And I simply prove</p>
+            <p>That there is more than one way to dance</p>
+            <p>Around the great fire of life.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="index.html" data-nav-shelf>Shelf</a>
+      <a href="karta-0006-saturn.html" data-nav-prev>Previous</a>
+      <a data-nav-next data-next-key="0005-neptune">Next</a>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="0007-uranus-card.png" alt="Enlarged emblem artwork for Uranus, the Silent Rebel." decoding="async">
+    </dialog>
+
+    <script src="../../script.js"></script>
+    <script>
+      // Devítka: zamčená karta přesměruje na polici; Next se odemyká doposloucháním; ?vse = náhled
+      (function () {
+        var PORADI = ["0004-mercury","0008-venus","0009-earth","0003-mars","0002-jupiter","0006-saturn","0007-uranus","0005-neptune","0016-sun"];
+        var KEY = '0007-uranus';
+        var vse = new URLSearchParams(location.search).has('vse');
+        var q = vse ? '?vse' : '';
+        var stav = {};
+        function nactiStav() {
+          try { stav = JSON.parse(localStorage.getItem('devitka-i') || '{}'); } catch (e) { stav = {}; }
+        }
+        function odemcena(k) {
+          if (vse) return true;
+          var i = PORADI.indexOf(k);
+          for (var j = 0; j < i; j++) { if (!stav[PORADI[j]]) return false; }
+          return true;
+        }
+        nactiStav();
+        if (!odemcena(KEY)) { location.replace('index.html' + q); return; }
+
+        var shelf = document.querySelector('[data-nav-shelf]');
+        var prev = document.querySelector('[data-nav-prev]');
+        if (shelf) shelf.href = 'index.html' + q;
+        if (prev) prev.href = prev.getAttribute('href').split('?')[0] + q;
+
+        var next = document.querySelector('[data-nav-next]');
+        function obnovNext() {
+          if (!next) return;
+          nactiStav();
+          var nk = next.dataset.nextKey;
+          if (odemcena(nk)) {
+            next.href = 'karta-' + nk + '.html' + q;
+            next.style.opacity = '';
+            next.title = '';
+          } else {
+            next.removeAttribute('href');
+            next.style.opacity = '0.4';
+            next.title = 'Odemkne se doposloucháním této desky';
+          }
+        }
+        obnovNext();
+
+        var audio = document.getElementById('audio-0007-uranus');
+        audio && audio.addEventListener('ended', function () {
+          try {
+            var d = JSON.parse(localStorage.getItem('devitka-i') || '{}');
+            d[KEY] = true;
+            localStorage.setItem('devitka-i', JSON.stringify(d));
+          } catch (e) {}
+          obnovNext();
+        });
+      })();
+    </script>
+  </body>
+</html>

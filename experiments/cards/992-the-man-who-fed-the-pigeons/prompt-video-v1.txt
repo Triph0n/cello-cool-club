@@ -1,0 +1,6 @@
+poster-video-v1.png (= assets/posters/001-the-man-who-fed-the-pigeons.png) predates the
+practice of saving the generation prompt alongside each poster — the original prompt
+text was never captured and is not recoverable. The file itself is the first-generation
+narrative scene (old man on a bench covered in pigeons, forbidding sign, fountain, the
+clerk who signed the sign) and is the actual poster_path used to build the pilot video
+(see experiments/poster-video-001/manifest.json).

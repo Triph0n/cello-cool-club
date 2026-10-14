@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mars, the Old Soldier | Cello Cool Club</title>
+    <meta name="description" content="Nine I — The Celestial Household: Mars, the Old Soldier.">
+    <link rel="icon" href="../../assets/ccc-icon.ico">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .card-nav { position: fixed; right: 16px; bottom: 14px; z-index: 20; display: flex; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid rgba(197,160,89,.55); border-radius: 8px; background: rgba(18,9,4,.78); color: var(--paper); font-size: 13px; }
+      .card-nav a { color: var(--gold-bright); text-decoration: none; }
+      .card-nav span { opacity: .64; }
+      .card-meta { margin: 0 0 4px; color: var(--gold-dark); font-size: 10px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+
+    <main class="card-stage" aria-label="Mars, the Old Soldier poem card">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card playing-card--long">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="0003-mars-card.png" alt="Mars, the Old Soldier — emblem artwork." width="547" height="790" decoding="async">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play Mars, the Old Soldier" data-action="play" data-target="audio-0003-mars">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="gramofon-icon-born.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-0003-mars" preload="metadata" src="../../assets/audio/0003-mars-the-old-soldier.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">Nine I · 4/9 · The Celestial Household</p>
+          <h1 id="poem-title">Mars, the Old Soldier</h1>
+          <div class="poem-lines">
+            <p>After my sister Earth, noisy and full of life,</p>
+            <p>I am the fourth, the tired soldier</p>
+            <p>They call me the God of War</p>
+            <p>A ridiculous old name for an old man like me</p>
+            <p>My great wars have been over for millions of years</p>
+            <p>My armor is covered in rust</p>
+            <p>And that rust is my only color</p>
+            <p>I remember a time when I was blue</p>
+            <p>A time when I wore rivers on my face</p>
+            <p>Tears of clear water that flowed in my great canyons</p>
+            <p>Perhaps I remember the taste of rain</p>
+            <p>And the murmur of a wind that was not made of dust</p>
+            <p>That was before the great drought</p>
+            <p>Before the great silence</p>
+            <p>Today my kingdom is a red desert</p>
+            <p>My mountains are volcanoes asleep forever</p>
+            <p>My army is a storm of fine sand</p>
+            <p>That marches with no purpose and no enemy</p>
+            <p>My only treasures are two small pieces of ice</p>
+            <p>At my poles like two cold medals</p>
+            <p>I am the king of an immense silence</p>
+            <p>The guardian of a dead world</p>
+            <p>Sometimes I receive visitors</p>
+            <p>Little metal insects that my sister Earth sends</p>
+            <p>They roll slowly over my skin</p>
+            <p>They take pictures of my old scars</p>
+            <p>They search for signs of life with their little glass eyes</p>
+            <p>Like children searching for treasure in an empty attic</p>
+            <p>I let them be</p>
+            <p>I am too old for anger</p>
+            <p>Their curiosity is a small, touching thing</p>
+            <p>In my great solitude</p>
+            <p>I look at them and I look at my sister in the distance</p>
+            <p>That blue and white marble so full of noise and fury</p>
+            <p>She does not yet know</p>
+            <p>How lucky she is to have water to cry with</p>
+            <p>I have nothing left but red dust</p>
+            <p>So I wrap myself in my thin, cold atmosphere</p>
+            <p>Like in an old military blanket</p>
+            <p>And I wait</p>
+            <p>I don't know for what</p>
+            <p>I just wait.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="index.html" data-nav-shelf>Shelf</a>
+      <a href="karta-0009-earth.html" data-nav-prev>Previous</a>
+      <a data-nav-next data-next-key="0002-jupiter">Next</a>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="0003-mars-card.png" alt="Enlarged emblem artwork for Mars, the Old Soldier." decoding="async">
+    </dialog>
+
+    <script src="../../script.js"></script>
+    <script>
+      // Devítka: zamčená karta přesměruje na polici; Next se odemyká doposloucháním; ?vse = náhled
+      (function () {
+        var PORADI = ["0004-mercury","0008-venus","0009-earth","0003-mars","0002-jupiter","0006-saturn","0007-uranus","0005-neptune","0016-sun"];
+        var KEY = '0003-mars';
+        var vse = new URLSearchParams(location.search).has('vse');
+        var q = vse ? '?vse' : '';
+        var stav = {};
+        function nactiStav() {
+          try { stav = JSON.parse(localStorage.getItem('devitka-i') || '{}'); } catch (e) { stav = {}; }
+        }
+        function odemcena(k) {
+          if (vse) return true;
+          var i = PORADI.indexOf(k);
+          for (var j = 0; j < i; j++) { if (!stav[PORADI[j]]) return false; }
+          return true;
+        }
+        nactiStav();
+        if (!odemcena(KEY)) { location.replace('index.html' + q); return; }
+
+        var shelf = document.querySelector('[data-nav-shelf]');
+        var prev = document.querySelector('[data-nav-prev]');
+        if (shelf) shelf.href = 'index.html' + q;
+        if (prev) prev.href = prev.getAttribute('href').split('?')[0] + q;
+
+        var next = document.querySelector('[data-nav-next]');
+        function obnovNext() {
+          if (!next) return;
+          nactiStav();
+          var nk = next.dataset.nextKey;
+          if (odemcena(nk)) {
+            next.href = 'karta-' + nk + '.html' + q;
+            next.style.opacity = '';
+            next.title = '';
+          } else {
+            next.removeAttribute('href');
+            next.style.opacity = '0.4';
+            next.title = 'Odemkne se doposloucháním této desky';
+          }
+        }
+        obnovNext();
+
+        var audio = document.getElementById('audio-0003-mars');
+        audio && audio.addEventListener('ended', function () {
+          try {
+            var d = JSON.parse(localStorage.getItem('devitka-i') || '{}');
+            d[KEY] = true;
+            localStorage.setItem('devitka-i', JSON.stringify(d));
+          } catch (e) {}
+          obnovNext();
+        });
+      })();
+    </script>
+  </body>
+</html>

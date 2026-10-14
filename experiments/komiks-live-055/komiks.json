@@ -1,0 +1,92 @@
+{
+  "title": "The Thief of Sleep",
+  "eyebrow": "Cello Cool Club · card 055",
+  "subtitle": "a comic in seven panels · lithograph after Adolf Born",
+  "footer": "CelloCoolClubLive 1920",
+  "lang": "en",
+  "audio": "../cards-live-2/055-the-thief-of-sleep/audio-small.mp3",
+  "panels": [
+    {
+      "file": "panels/01-night-street.jpg",
+      "type": "wide",
+      "caps": [
+        {
+          "pos": "tl",
+          "text": "He does not steal money<br>he steals sleep"
+        }
+      ]
+    },
+    {
+      "file": "panels/03-the-sack-on-the-stairs.jpg",
+      "type": "tall",
+      "place": "grid-column:9/13;grid-row:1/3",
+      "caps": [
+        {
+          "pos": "br",
+          "text": "and takes the sleep from people<br>stuffing it into a great sack"
+        }
+      ]
+    },
+    {
+      "file": "panels/02-taking-the-sleep.jpg",
+      "type": "square",
+      "caps": [
+        {
+          "pos": "tl",
+          "text": "At night he slips into bedrooms<br>making no sound at all"
+        }
+      ],
+      "span": 5
+    },
+    {
+      "file": "panels/04-weary-morning.jpg",
+      "type": "square",
+      "caps": [
+        {
+          "pos": "tl",
+          "text": "In the morning people wake up weary<br>with dark shadows under their eyes"
+        }
+      ],
+      "span": 3
+    },
+    {
+      "file": "panels/05-the-tram.jpg",
+      "type": "square",
+      "caps": [
+        {
+          "pos": "br",
+          "text": "they do not know<br>their rest has been stolen"
+        }
+      ],
+      "span": 4
+    },
+    {
+      "file": "panels/06-giving-it-back.jpg",
+      "type": "banner",
+      "caps": [
+        {
+          "pos": "tl",
+          "text": "The thief goes home<br>and gives the stolen sleep"
+        },
+        {
+          "pos": "br",
+          "text": "to his little sick daughter<br>who cannot rest because of the pain"
+        }
+      ]
+    },
+    {
+      "file": "panels/07-criminal-and-savior.jpg",
+      "type": "full",
+      "caps": [
+        {
+          "pos": "tl",
+          "text": "She drifts off at last<br>with a smile"
+        },
+        {
+          "pos": "br",
+          "text": "And the thief watches her, his heart heavy<br>with being both a criminal and a savior"
+        }
+      ]
+    }
+  ]
+}

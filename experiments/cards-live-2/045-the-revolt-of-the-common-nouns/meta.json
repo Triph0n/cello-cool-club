@@ -1,0 +1,22 @@
+{
+  "engineCardId": "045",
+  "posterNumber": "082",
+  "title": "The Revolt of the Common Nouns",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/bbe8274f-071e-4dd5-8459-81bc69237afd",
+  "sunoId": "",
+  "audioFile": "The Revolt of the Common Nouns — 1920.mp3",
+  "accent": "#2f2a4a",
+  "posterPopis": {
+    "a": "the chair given permission to fly, the table become a mountain behind it",
+    "b": "seal — the winged chair alone",
+    "c": "winged chair and mountaineering cat — the names traded",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the chair given permission to fly, the table become a mountain behind it)",
+    "b": "Symbol B — pečeť (seal — the winged chair alone)",
+    "c": "Symbol C — dialog symbolů (winged chair and mountaineering cat — the names traded)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

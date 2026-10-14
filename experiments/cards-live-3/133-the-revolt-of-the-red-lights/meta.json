@@ -1,0 +1,22 @@
+{
+  "engineCardId": "133",
+  "posterNumber": "099",
+  "title": "The Revolt of the Red Lights",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/f6e64ae5-0b1f-4c92-b89a-0b6eb6eff391",
+  "sunoId": "",
+  "audioFile": "The Revolt of the Red Lights — 1920.mp3",
+  "accent": "#1a2338",
+  "posterPopis": {
+    "a": "the traffic light burning all three lamps at once over wet asphalt",
+    "b": "seal — one lit traffic lamp in its hood",
+    "c": "all-lit signal and looping car — joyful chaos",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the traffic light burning all three lamps at once over wet asphalt)",
+    "b": "Symbol B — pečeť (seal — one lit traffic lamp in its hood)",
+    "c": "Symbol C — dialog symbolů (all-lit signal and looping car — joyful chaos)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

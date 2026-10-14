@@ -1,0 +1,93 @@
+{
+  "title": "The Thief of Sleep — filmová studie",
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "duration": 86.840167,
+  "audio": "C:\\Users\\Vladimir\\Documents\\CelloCoolClub\\celloclublive\\055-le-voleur-de-sommeil\\The Thief of Sleep — 1920.mp3",
+  "source_panels": "C:\\Users\\Vladimir\\Documents\\CelloCoolClub\\experiments\\komiks-live-055-pages\\panels",
+  "shots": [
+    {
+      "t": 0,
+      "panel": "01-night-street",
+      "title": "Noční obchůzka",
+      "note": "Celek. Muž je zatím cizinec. Obraz zůstává nehybný."
+    },
+    {
+      "t": 4.24,
+      "panel": "04-taking-the-sleep",
+      "source": "artwork/04-taking-the-sleep-v2.png",
+      "title": "Spánek jako kořist",
+      "effect": "steal",
+      "note": "Oběť je starší muž s kulatou tváří a šedým knírem, jasně odlišný od zloděje. Světlo po stuze stoupá od čela do ruky."
+    },
+    {
+      "t": 17,
+      "panel": "05-the-dormitory",
+      "title": "Cena krádeže",
+      "effect": "gather",
+      "note": "Několik slabých světelných průchodů se sbíhá ke středu noclehárny."
+    },
+    {
+      "t": 19.94,
+      "panel": "06-the-sack-on-the-stairs",
+      "title": "Tíha pytle",
+      "effect": "sack",
+      "note": "Krátký tlumený záblesk uvnitř pytle. Tělo se nehýbe."
+    },
+    {
+      "t": 24.6,
+      "panel": "07-weary-morning",
+      "title": "Ráno bez odpočinku",
+      "note": "Tvrdý střih. Žena u stolu a dlouhá nepříjemná nehybnost."
+    },
+    {
+      "t": 31.66,
+      "panel": "10-the-yawning-street",
+      "title": "Unavené město",
+      "note": "Široký celek vydrží i hudební mezihru. Zloděj zde chybí."
+    },
+    {
+      "t": 40.94,
+      "panel": "11-going-home",
+      "title": "Cesta domů",
+      "note": "Pytel poprvé čteme také jako břemeno."
+    },
+    {
+      "t": 43.64,
+      "panel": "15-ribbons-settle",
+      "title": "Stejné světlo, jiné gesto",
+      "effect": "give",
+      "note": "Stuha vede od pytle k bdící dceři. Stejný motiv získává opačný význam."
+    },
+    {
+      "t": 51.54,
+      "panel": "14-hand-on-the-blanket",
+      "title": "Bolest",
+      "effect": "hand",
+      "note": "Zaťatá ruka. Slabé světlo se přiblíží, ale výdrž nechá bolest doznít."
+    },
+    {
+      "t": 57.42,
+      "panel": "16-the-smile",
+      "title": "Úleva",
+      "transition": 1.0,
+      "effect": "rest",
+      "note": "Jediný delší prolínací přechod. Světlo zpomalí a ustálí se."
+    },
+    {
+      "t": 65.46,
+      "panel": "17-criminal-and-savior",
+      "title": "Otec zůstává vzhůru",
+      "note": "Znovu tvrdý střih. Úleva dítěte nepřejde na otce."
+    },
+    {
+      "t": 72.48,
+      "panel": "18-dawn-window",
+      "title": "Prázdné místo mezi nimi",
+      "note": "Poslední široký obraz drží celou pointu i dozvuk. Bez dalšího efektu."
+    }
+  ]
+}

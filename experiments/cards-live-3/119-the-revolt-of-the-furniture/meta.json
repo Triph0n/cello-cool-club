@@ -1,0 +1,22 @@
+{
+  "engineCardId": "119",
+  "posterNumber": "092",
+  "title": "The Revolt of the Furniture",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/598dd016-8ee8-4bf9-93f5-1005ddb6d8f9",
+  "sunoId": "",
+  "audioFile": "The Revolt of the Furniture — 1920.mp3",
+  "accent": "#43301c",
+  "posterPopis": {
+    "a": "the wardrobe opened wide in the forest, its shelves full of nests",
+    "b": "seal — the open wardrobe door with a bird's nest",
+    "c": "wardrobe in the forest and the man on his empty floor — what leaving cost and gave",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the wardrobe opened wide in the forest, its shelves full of nests)",
+    "b": "Symbol B — pečeť (seal — the open wardrobe door with a bird's nest)",
+    "c": "Symbol C — dialog symbolů (wardrobe in the forest and the man on his empty floor — what leaving cost and gave)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

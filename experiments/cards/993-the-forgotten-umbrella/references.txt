@@ -1,0 +1,11 @@
+Reference obrázky (kompozice/technika + tváře) — SDÍLENÉ pro všechny karty, nepatří jen
+téhle. Zdroj pravdy je vždy živý obsah těchto dvou složek (mění se v čase, kurátoruje
+Vladimír — viz skill born-poster):
+
+  C:\Users\Vladimir\Documents\CelloCoolClub\assets\poster-references\
+  C:\Users\Vladimir\Documents\CelloCoolClub\assets\poster-face-references\
+
+Konkrétně použito pro plakát A v1 (2026-08-11):
+  kompozice: Born - Pohlednice z Taiwanu.jpg, Born - Vecery na Loire.jpg
+  tváře:     face-01-moustached-man.png, face-04-flowing-haired-woman.png
+  (v obraze žádný člověk není — face reference se přikládají povinně vždy, i tak.)

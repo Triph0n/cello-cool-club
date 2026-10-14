@@ -1,0 +1,22 @@
+{
+  "engineCardId": "055",
+  "posterNumber": "069",
+  "title": "The Thief of Sleep",
+  "collectionLabel": "",
+  "deskaUrl": "https://claude.ai/code/artifact/26cc7e41-e7fa-42b3-8a49-f820a751f524",
+  "sunoId": "154fdfd7-8562-4e5d-9c7f-7c3fe6997561",
+  "audioFile": "055-le-voleur-de-sommeil.mp3",
+  "accent": "#3a2a42",
+  "posterPopis": {
+    "a": "the glowing sack of stolen sleep",
+    "b": "seal — the sack alone",
+    "c": "skeleton key and glowing jar — the criminal and the savior",
+    "video": "narrative scene (the thief, the tired town, the sick girl, the smile)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (žhnoucí pytel s ukradeným spánkem)",
+    "b": "Symbol B — pečeť (pytel)",
+    "c": "Symbol C — paklíč a žhnoucí sklenice",
+    "video": "Plakát pro video — příběhový (zatím neanimováno)"
+  }
+}

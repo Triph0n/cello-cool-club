@@ -47,10 +47,10 @@ Mr. Smith bought himself an umbrella
 a solid black umbrella
 so he would never get wet
 and the very first Tuesday
-he left it on the train to Brno
+he left it on the train to Oxford
 
 The umbrella travelled on
-in Brno a student took it
+in Oxford a student took it
 and under it she kissed a boy
 she was not supposed to kiss
 and left it in a café
@@ -63,7 +63,7 @@ whose veil was catching the rain
 and the bride left it in a taxi
 and the taxi drove it all the way to the sea
 
-And so the umbrella saw Brno
+And so the umbrella saw Oxford
 a kiss that wasn't allowed to be
 notes washed out by rain
 a wedding

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neptune, the Lighthouse Keeper | Cello Cool Club</title>
+    <meta name="description" content="Nine I — The Celestial Household: Neptune, the Lighthouse Keeper.">
+    <link rel="icon" href="../../assets/ccc-icon.ico">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .card-nav { position: fixed; right: 16px; bottom: 14px; z-index: 20; display: flex; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid rgba(197,160,89,.55); border-radius: 8px; background: rgba(18,9,4,.78); color: var(--paper); font-size: 13px; }
+      .card-nav a { color: var(--gold-bright); text-decoration: none; }
+      .card-nav span { opacity: .64; }
+      .card-meta { margin: 0 0 4px; color: var(--gold-dark); font-size: 10px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+
+    <main class="card-stage" aria-label="Neptune, the Lighthouse Keeper poem card">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card playing-card--long">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="0005-neptune-card.png" alt="Neptune, the Lighthouse Keeper — emblem artwork." width="547" height="790" decoding="async">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play Neptune, the Lighthouse Keeper" data-action="play" data-target="audio-0005-neptune">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="gramofon-icon-born.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-0005-neptune" preload="metadata" src="../../assets/audio/0005-neptune-the-lighthouse-keeper.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">Nine I · 8/9 · The Celestial Household</p>
+          <h1 id="poem-title">Neptune, the Lighthouse Keeper</h1>
+          <div class="poem-lines">
+            <p>After the rebel lying on his side</p>
+            <p>I am the last, the distant, the forgotten</p>
+            <p>The final blue period at the end of the Sun's sentence</p>
+            <p>They gave me the name of the god of the sea</p>
+            <p>What a cruel irony</p>
+            <p>I who reign over a frozen ocean</p>
+            <p>My kingdom is a world of eternal twilight</p>
+            <p>Where the Sun's light is just one star among others</p>
+            <p>A cold and distant pinhead</p>
+            <p>My color is the deepest blue</p>
+            <p>Not the blue of life or of hope</p>
+            <p>But the blue of a deep bruise on the soul</p>
+            <p>The blue of the great void</p>
+            <p>I am the king of the wildest winds</p>
+            <p>Of drafts of two thousand kilometers per hour</p>
+            <p>My invisible and howling subjects</p>
+            <p>They are the only music in my icy silence</p>
+            <p>They tell stories of darkness and speed</p>
+            <p>The only ones who know the secrets of my surface</p>
+            <p>I once had a great dark eye</p>
+            <p>A storm to keep me company</p>
+            <p>But even it has abandoned me</p>
+            <p>It dissolved into my blue atmosphere</p>
+            <p>Leaving me even more alone</p>
+            <p>With my memories of whirlpools</p>
+            <p>My job is to be the lighthouse keeper</p>
+            <p>The last one before the great night between the stars</p>
+            <p>I keep my blue lantern lit</p>
+            <p>Not to guide ships, for there are none</p>
+            <p>But simply to say</p>
+            <p>&quot;Here our world ends&quot;</p>
+            <p>&quot;Here infinity begins&quot;</p>
+            <p>I look at my brothers and sisters</p>
+            <p>Little lights so distant</p>
+            <p>They could be memories</p>
+            <p>I am the king in exile, the guardian of the border</p>
+            <p>The god of an ocean that no longer remembers water</p>
+            <p>And I listen to the song of my furious winds</p>
+            <p>The only proof that I am not</p>
+            <p>Just a cold and blue dream.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="index.html" data-nav-shelf>Shelf</a>
+      <a href="karta-0007-uranus.html" data-nav-prev>Previous</a>
+      <a data-nav-next data-next-key="0016-sun">Next</a>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="0005-neptune-card.png" alt="Enlarged emblem artwork for Neptune, the Lighthouse Keeper." decoding="async">
+    </dialog>
+
+    <script src="../../script.js"></script>
+    <script>
+      // Devítka: zamčená karta přesměruje na polici; Next se odemyká doposloucháním; ?vse = náhled
+      (function () {
+        var PORADI = ["0004-mercury","0008-venus","0009-earth","0003-mars","0002-jupiter","0006-saturn","0007-uranus","0005-neptune","0016-sun"];
+        var KEY = '0005-neptune';
+        var vse = new URLSearchParams(location.search).has('vse');
+        var q = vse ? '?vse' : '';
+        var stav = {};
+        function nactiStav() {
+          try { stav = JSON.parse(localStorage.getItem('devitka-i') || '{}'); } catch (e) { stav = {}; }
+        }
+        function odemcena(k) {
+          if (vse) return true;
+          var i = PORADI.indexOf(k);
+          for (var j = 0; j < i; j++) { if (!stav[PORADI[j]]) return false; }
+          return true;
+        }
+        nactiStav();
+        if (!odemcena(KEY)) { location.replace('index.html' + q); return; }
+
+        var shelf = document.querySelector('[data-nav-shelf]');
+        var prev = document.querySelector('[data-nav-prev]');
+        if (shelf) shelf.href = 'index.html' + q;
+        if (prev) prev.href = prev.getAttribute('href').split('?')[0] + q;
+
+        var next = document.querySelector('[data-nav-next]');
+        function obnovNext() {
+          if (!next) return;
+          nactiStav();
+          var nk = next.dataset.nextKey;
+          if (odemcena(nk)) {
+            next.href = 'karta-' + nk + '.html' + q;
+            next.style.opacity = '';
+            next.title = '';
+          } else {
+            next.removeAttribute('href');
+            next.style.opacity = '0.4';
+            next.title = 'Odemkne se doposloucháním této desky';
+          }
+        }
+        obnovNext();
+
+        var audio = document.getElementById('audio-0005-neptune');
+        audio && audio.addEventListener('ended', function () {
+          try {
+            var d = JSON.parse(localStorage.getItem('devitka-i') || '{}');
+            d[KEY] = true;
+            localStorage.setItem('devitka-i', JSON.stringify(d));
+          } catch (e) {}
+          obnovNext();
+        });
+      })();
+    </script>
+  </body>
+</html>

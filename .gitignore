@@ -22,3 +22,8 @@ assets/posters-hires/
 
 # Koš vyřazených věcí — mimo git
 /_VYRAZENO*
+
+# Media and temporary files
+*.mp4
+output/
+tmp/

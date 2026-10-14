@@ -1,0 +1,22 @@
+{
+  "engineCardId": "992",
+  "posterNumber": "001",
+  "title": "The Man Who Fed the Pigeons",
+  "collectionLabel": "Time & Rooms",
+  "deskaUrl": "https://claude.ai/code/artifact/b1eb2b21-7fdc-4728-b62f-fbe1df9e4488",
+  "sunoId": "097f0208-f33e-441b-a461-d6176ffa79e8",
+  "audioFile": "992-the-man-who-fed-the-pigeons.mp3",
+  "accent": "#1c2f4a",
+  "posterPopis": {
+    "a": "narrative scene",
+    "b": "seal — ex libris (act 1)",
+    "c": "symbol dialogue — instrumental bridge (act 3)",
+    "video": "narrative scene v2 (old man on the bench, blank sign, clerk in the window, fountain) — alternative image; the pilot video was built from the previous v1 file"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (redukovaný motiv: dlaň s holubem)",
+    "b": "Symbol B — pečeť, prázdná dlaň (akt 1)",
+    "c": "Symbol C — pečeť s holubem (akt 3, most)",
+    "video": "Plakát pro video v2 — alternativní příběhová scéna (stařík, cedule, kašna, úředníček)"
+  }
+}

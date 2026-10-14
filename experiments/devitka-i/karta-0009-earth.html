@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Earth, the Noisy House | Cello Cool Club</title>
+    <meta name="description" content="Nine I — The Celestial Household: Earth, the Noisy House.">
+    <link rel="icon" href="../../assets/ccc-icon.ico">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .card-nav { position: fixed; right: 16px; bottom: 14px; z-index: 20; display: flex; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid rgba(197,160,89,.55); border-radius: 8px; background: rgba(18,9,4,.78); color: var(--paper); font-size: 13px; }
+      .card-nav a { color: var(--gold-bright); text-decoration: none; }
+      .card-nav span { opacity: .64; }
+      .card-meta { margin: 0 0 4px; color: var(--gold-dark); font-size: 10px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+
+    <main class="card-stage" aria-label="Earth, the Noisy House poem card">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card playing-card--long">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="0009-earth-card.png" alt="Earth, the Noisy House — emblem artwork." width="547" height="790" decoding="async">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play Earth, the Noisy House" data-action="play" data-target="audio-0009-earth">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="gramofon-icon-born.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-0009-earth" preload="metadata" src="../../assets/audio/0009-earth-the-noisy-house.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">Nine I · 3/9 · The Celestial Household</p>
+          <h1 id="poem-title">Earth, the Noisy House</h1>
+          <div class="poem-lines">
+            <p>After my sisters, the burned and the burning,</p>
+            <p>I am the third, the lucky one</p>
+            <p>The blue marble in the great silent game</p>
+            <p>I am not made of fire nor of poison</p>
+            <p>I am made of water, of earth, and of patience</p>
+            <p>And of a very strange thing called life</p>
+            <p>I carry on my back oceans that dream</p>
+            <p>Forests that murmur old secrets</p>
+            <p>And mountains that scratch the belly of the clouds</p>
+            <p>I have thousands of creatures</p>
+            <p>Those that crawl, those that swim, those that fly</p>
+            <p>And then I have my strangest children</p>
+            <p>Men</p>
+            <p>They have a mad talent for beauty</p>
+            <p>They know how to make a stone or a piece of wood speak</p>
+            <p>They write poems that make me weep with joy</p>
+            <p>They invent music that makes the stars dance</p>
+            <p>They know the taste of warm bread</p>
+            <p>The warmth of a friendly hand</p>
+            <p>And the sweetness of a kiss in the rain</p>
+            <p>They are my magnificent children</p>
+            <p>But they also have a mad talent for foolishness</p>
+            <p>They draw lines on my skin and call them borders</p>
+            <p>They wage war over pieces of land that belong to me</p>
+            <p>They build factories that make me cough up black smoke</p>
+            <p>They cover my meadows with cement and sadness</p>
+            <p>They speak of love and they make bombs</p>
+            <p>They are so intelligent</p>
+            <p>And so incredibly stupid</p>
+            <p>They are my despairing children</p>
+            <p>So I turn in the great silence</p>
+            <p>The only inhabited house on the street of the sun</p>
+            <p>The only planet with laughter and wars</p>
+            <p>With songs and lies</p>
+            <p>With libraries and prisons</p>
+            <p>My distant sisters are clean and tidy</p>
+            <p>They are perfect in their hell or their solitude</p>
+            <p>I am messy, I am full of scars</p>
+            <p>I am noisy and dirty and magnificent and sick</p>
+            <p>I am their mother, their home, their ship</p>
+            <p>And I wait</p>
+            <p>I wait for them to grow up a little</p>
+            <p>I wait for them to understand</p>
+            <p>That the only border that matters</p>
+            <p>Is the one between tenderness and cruelty.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="index.html" data-nav-shelf>Shelf</a>
+      <a href="karta-0008-venus.html" data-nav-prev>Previous</a>
+      <a data-nav-next data-next-key="0003-mars">Next</a>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="0009-earth-card.png" alt="Enlarged emblem artwork for Earth, the Noisy House." decoding="async">
+    </dialog>
+
+    <script src="../../script.js"></script>
+    <script>
+      // Devítka: zamčená karta přesměruje na polici; Next se odemyká doposloucháním; ?vse = náhled
+      (function () {
+        var PORADI = ["0004-mercury","0008-venus","0009-earth","0003-mars","0002-jupiter","0006-saturn","0007-uranus","0005-neptune","0016-sun"];
+        var KEY = '0009-earth';
+        var vse = new URLSearchParams(location.search).has('vse');
+        var q = vse ? '?vse' : '';
+        var stav = {};
+        function nactiStav() {
+          try { stav = JSON.parse(localStorage.getItem('devitka-i') || '{}'); } catch (e) { stav = {}; }
+        }
+        function odemcena(k) {
+          if (vse) return true;
+          var i = PORADI.indexOf(k);
+          for (var j = 0; j < i; j++) { if (!stav[PORADI[j]]) return false; }
+          return true;
+        }
+        nactiStav();
+        if (!odemcena(KEY)) { location.replace('index.html' + q); return; }
+
+        var shelf = document.querySelector('[data-nav-shelf]');
+        var prev = document.querySelector('[data-nav-prev]');
+        if (shelf) shelf.href = 'index.html' + q;
+        if (prev) prev.href = prev.getAttribute('href').split('?')[0] + q;
+
+        var next = document.querySelector('[data-nav-next]');
+        function obnovNext() {
+          if (!next) return;
+          nactiStav();
+          var nk = next.dataset.nextKey;
+          if (odemcena(nk)) {
+            next.href = 'karta-' + nk + '.html' + q;
+            next.style.opacity = '';
+            next.title = '';
+          } else {
+            next.removeAttribute('href');
+            next.style.opacity = '0.4';
+            next.title = 'Odemkne se doposloucháním této desky';
+          }
+        }
+        obnovNext();
+
+        var audio = document.getElementById('audio-0009-earth');
+        audio && audio.addEventListener('ended', function () {
+          try {
+            var d = JSON.parse(localStorage.getItem('devitka-i') || '{}');
+            d[KEY] = true;
+            localStorage.setItem('devitka-i', JSON.stringify(d));
+          } catch (e) {}
+          obnovNext();
+        });
+      })();
+    </script>
+  </body>
+</html>

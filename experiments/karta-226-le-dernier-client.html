@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Café's Last Customer | Cello Cool Club</title>
+    <meta name="description" content="Card prototype: The Café's Last Customer.">
+    <link rel="icon" href="../assets/ccc-icon.ico">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+      .card-nav {
+        position: fixed;
+        right: 16px;
+        bottom: 14px;
+        z-index: 20;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 8px 10px;
+        border: 1px solid rgba(197, 160, 89, 0.55);
+        border-radius: 8px;
+        background: rgba(18, 9, 4, 0.78);
+        color: var(--paper);
+        font-size: 13px;
+      }
+
+      .card-nav a {
+        color: var(--gold-bright);
+        text-decoration: none;
+      }
+
+      .card-meta {
+        margin: 0 0 4px;
+        color: var(--gold-dark);
+        font-size: 10px;
+        font-weight: 900;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .preview-badge {
+        position: fixed;
+        left: 16px;
+        bottom: 14px;
+        z-index: 20;
+        padding: 8px 10px;
+        border: 1px solid rgba(255, 217, 120, 0.64);
+        border-radius: 8px;
+        color: var(--gold-bright);
+        background: rgba(18, 9, 4, 0.78);
+        font-size: 13px;
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+
+    <main class="card-stage" aria-label="The Café's Last Customer poem card">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="226-le-dernier-client-cup-card.png" alt="A monumental white coffee cup under a single café lamp, chairs upside-down in the dark behind it." width="547" height="790" decoding="async">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play The Café's Last Customer" data-action="play" data-target="audio-226">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="gramofon-icon-born.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-226" preload="metadata" src="../assets/audio/226-le-dernier-client-du-cafe.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">226 / Time &amp; Rooms</p>
+          <h1 id="poem-title">The Café's Last Customer</h1>
+          <div class="poem-lines">
+            <p>The waiter puts the chairs on the tables</p>
+            <p>It makes a sound of climbing skeletons</p>
+            <p>The coffee machine sighs one last time</p>
+            <p>Outside night has eaten everything</p>
+            <p>There remains a man alone at a table</p>
+            <p>He looks at the bottom of his glass</p>
+            <p>As if he were looking for an answer there</p>
+            <p>He thinks of nothing</p>
+            <p>He is just there</p>
+            <p>In the silence that settles in</p>
+            <p>In the smell of cold coffee and cigarettes</p>
+            <p>He is the last survivor of the day</p>
+            <p>The guardian of a moment that no longer exists</p>
+            <p>The waiter waits</p>
+            <p>He says nothing</p>
+            <p>He knows you do not disturb</p>
+            <p>Someone who is becoming</p>
+            <p>A memory.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <p class="preview-badge">Prototype</p>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="../cards/">Archive</a>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="226-le-dernier-client-cup-card.png" alt="Enlarged: a monumental white coffee cup under a single café lamp." decoding="async">
+    </dialog>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+Reference images (composition/technique + faces) — SHARED across all cards, not unique
+to this one. Source of truth is always the live content of these two folders (changes
+over time, curated by Vladimir — see skill born-poster):
+
+  C:\Users\Vladimir\Documents\CelloCoolClub\assets\poster-references\
+  C:\Users\Vladimir\Documents\CelloCoolClub\assets\poster-face-references\
+
+poster-A.png (v8) and poster-B.png (2026-08-11) used: Born litografie z poster-references
++ face-01-moustached-man, face-04-flowing-haired-woman.

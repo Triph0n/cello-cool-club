@@ -6369,13 +6369,13 @@ And where all colors die.
 Every morning at seven
 on the market square
 an old man in a grey coat
-crumbled bread for the pigeons
-and the pigeons knew him
+crumbled bread for the birds
+and the birds knew him
 the way one knows church bells
 
 Then came the sign
-FEEDING PIGEONS FORBIDDEN
-fine one thousand crowns
+FEEDING BIRDS FORBIDDEN
+fine one thousand francs
 signature illegible
 
 Next morning at seven
@@ -6383,7 +6383,7 @@ the old man came
 sat down on the bench
 with empty hands
 entirely empty
-and the pigeons came all the same
+and the birds came all the same
 landed on his shoulders
 on his hat
 on his knees
@@ -6411,10 +6411,10 @@ Mr. Smith bought himself an umbrella
 a solid black umbrella
 so he would never get wet
 and the very first Tuesday
-he left it on the train to Brno
+he left it on the train to Oxford
 
 The umbrella travelled on
-in Brno a student took it
+in Oxford a student took it
 and under it she kissed a boy
 she was not supposed to kiss
 and left it in a café
@@ -6427,7 +6427,7 @@ whose veil was catching the rain
 and the bride left it in a taxi
 and the taxi drove it all the way to the sea
 
-And so the umbrella saw Brno
+And so the umbrella saw Oxford
 a kiss that wasn't allowed to be
 notes washed out by rain
 a wedding

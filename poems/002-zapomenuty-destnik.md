@@ -10,10 +10,10 @@ Pan Smith si koupil deštník
 pořádný černý deštník
 aby nikdy nezmokl
 a hned první úterý
-ho zapomněl ve vlaku do Brna
+ho zapomněl ve vlaku do Oxfordu
 
 Deštník jel dál
-v Brně ho vzala studentka
+v Oxfordu ho vzala studentka
 která pod ním políbila kluka
 kterého políbit neměla
 a zapomněla ho v kavárně
@@ -26,7 +26,7 @@ které pršelo na závoj
 a nevěsta ho nechala v taxíku
 a taxikář ho odvezl až k moři
 
-A tak deštník viděl Brno
+A tak deštník viděl Oxford
 polibek který nesměl být
 noty rozmáčené deštěm
 svatbu
@@ -52,10 +52,10 @@ Monsieur Smith s'acheta un parapluie
 un solide parapluie noir
 pour ne jamais être mouillé
 et dès le premier mardi
-il l'oublia dans le train de Brno
+il l'oublia dans le train d'Oxford
 
 Le parapluie continua le voyage
-à Brno une étudiante le prit
+à Oxford une étudiante le prit
 et dessous elle embrassa un garçon
 qu'elle n'aurait pas dû embrasser
 et l'oublia dans un café
@@ -68,7 +68,7 @@ dont le voile prenait la pluie
 et la mariée le laissa dans un taxi
 et le taxi l'emmena jusqu'à la mer
 
-Ainsi le parapluie a vu Brno
+Ainsi le parapluie a vu Oxford
 un baiser qui n'avait pas le droit d'être
 des notes délavées par la pluie
 une noce
@@ -94,10 +94,10 @@ Mr. Smith bought himself an umbrella
 a solid black umbrella
 so he would never get wet
 and the very first Tuesday
-he left it on the train to Brno
+he left it on the train to Oxford
 
 The umbrella travelled on
-in Brno a student took it
+in Oxford a student took it
 and under it she kissed a boy
 she was not supposed to kiss
 and left it in a café
@@ -110,7 +110,7 @@ whose veil was catching the rain
 and the bride left it in a taxi
 and the taxi drove it all the way to the sea
 
-And so the umbrella saw Brno
+And so the umbrella saw Oxford
 a kiss that wasn't allowed to be
 notes washed out by rain
 a wedding

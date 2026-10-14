@@ -1,12 +1,12 @@
 {
   "meta": {
     "note": "Kanonické číslo = pořadí v assets/text/AllEnglishTexts.md. Páruje se OTISKEM TEXTU, nikdy názvem. Existující záznamy se při přestavbě NEPŘEPISUJÍ — crosswalk je zmrazený. Soubory se nepřejmenovávají; tady je jen zapsáno, co k čemu patří.",
-    "generatedAt": "2026-07-25",
+    "generatedAt": "2026-10-05",
     "counts": {
       "kanonickych": 1102,
-      "sKartou": 511,
-      "sAudiem": 331,
-      "sPlakatem": 93
+      "sKartou": 1084,
+      "sAudiem": 904,
+      "sPlakatem": 128
     }
   },
   "entries": {
@@ -14,583 +14,873 @@
       "canon": "1000",
       "title": "CASSANDRA",
       "masterNum": "1000",
-      "displayTitle": "Cassandra"
+      "displayTitle": "Cassandra",
+      "cardId": "1472",
+      "audio": "1472-cassandra.mp3",
+      "cardTitleLegacy": "Cassandra"
     },
     "1001": {
       "canon": "1001",
       "title": "ANTIGONE",
       "masterNum": "1001",
-      "displayTitle": "Antigone"
+      "displayTitle": "Antigone",
+      "cardId": "1473",
+      "audio": "1473-antigone.mp3",
+      "cardTitleLegacy": "Antigone"
     },
     "1002": {
       "canon": "1002",
       "title": "ORPHEUS",
       "masterNum": "1002",
-      "displayTitle": "Orpheus"
+      "displayTitle": "Orpheus",
+      "cardId": "1474",
+      "audio": "1474-orpheus.mp3",
+      "cardTitleLegacy": "Orpheus"
     },
     "1003": {
       "canon": "1003",
       "title": "EURYDICE",
       "masterNum": "1003",
-      "displayTitle": "Eurydice"
+      "displayTitle": "Eurydice",
+      "cardId": "1475",
+      "audio": "1475-eurydice.mp3",
+      "cardTitleLegacy": "Eurydice"
     },
     "1004": {
       "canon": "1004",
       "title": "YORICK",
       "masterNum": "1004",
-      "displayTitle": "Yorick"
+      "displayTitle": "Yorick",
+      "cardId": "1476",
+      "audio": "1476-yorick.mp3",
+      "cardTitleLegacy": "Yorick"
     },
     "1005": {
       "canon": "1005",
       "title": "HAMLET",
       "masterNum": "1005",
-      "displayTitle": "Hamlet"
+      "displayTitle": "Hamlet",
+      "cardId": "1477",
+      "audio": "1477-hamlet.mp3",
+      "cardTitleLegacy": "Hamlet"
     },
     "1006": {
       "canon": "1006",
       "title": "OPHELIA",
       "masterNum": "1006",
-      "displayTitle": "Ophelia"
+      "displayTitle": "Ophelia",
+      "cardId": "1478",
+      "audio": "1478-ophelia.mp3",
+      "cardTitleLegacy": "Ophelia"
     },
     "1007": {
       "canon": "1007",
       "title": "LADY MACBETH",
       "masterNum": "1007",
-      "displayTitle": "Lady Macbeth"
+      "displayTitle": "Lady Macbeth",
+      "cardId": "1479",
+      "audio": "1479-lady-macbeth.mp3",
+      "cardTitleLegacy": "Lady Macbeth"
     },
     "1008": {
       "canon": "1008",
       "title": "JULIET",
       "masterNum": "1008",
-      "displayTitle": "Juliet"
+      "displayTitle": "Juliet",
+      "cardId": "1480",
+      "audio": "1480-juliet.mp3",
+      "cardTitleLegacy": "Juliet"
     },
     "1009": {
       "canon": "1009",
       "title": "CALIBAN",
       "masterNum": "1009",
-      "displayTitle": "Caliban"
+      "displayTitle": "Caliban",
+      "cardId": "1481",
+      "audio": "1481-caliban.mp3",
+      "cardTitleLegacy": "Caliban"
     },
     "1010": {
       "canon": "1010",
       "title": "FALSTAFF",
       "masterNum": "1010",
-      "displayTitle": "Falstaff"
+      "displayTitle": "Falstaff",
+      "cardId": "1482",
+      "audio": "1482-falstaff.mp3",
+      "cardTitleLegacy": "Falstaff"
     },
     "1011": {
       "canon": "1011",
       "title": "CORDELIA",
       "masterNum": "1011",
-      "displayTitle": "Cordelia"
+      "displayTitle": "Cordelia",
+      "cardId": "1483",
+      "audio": "1483-cordelia.mp3",
+      "cardTitleLegacy": "Cordelia"
     },
     "1012": {
       "canon": "1012",
       "title": "IAGO",
       "masterNum": "1012",
-      "displayTitle": "Iago"
+      "displayTitle": "Iago",
+      "cardId": "1484",
+      "audio": "1484-iago.mp3",
+      "cardTitleLegacy": "Iago"
     },
     "1013": {
       "canon": "1013",
       "title": "PROSPERO",
       "masterNum": "1013",
-      "displayTitle": "Prospero"
+      "displayTitle": "Prospero",
+      "cardId": "1485",
+      "audio": "1485-prospero.mp3",
+      "cardTitleLegacy": "Prospero"
     },
     "1014": {
       "canon": "1014",
       "title": "DON QUIXOTE",
       "masterNum": "1014",
-      "displayTitle": "Don Quixote"
+      "displayTitle": "Don Quixote",
+      "cardId": "1486",
+      "audio": "1486-don-quixote.mp3",
+      "cardTitleLegacy": "Don Quixote"
     },
     "1015": {
       "canon": "1015",
       "title": "SANCHO PANZA",
       "masterNum": "1015",
-      "displayTitle": "Sancho Panza"
+      "displayTitle": "Sancho Panza",
+      "cardId": "1487",
+      "audio": "1487-sancho-panza.mp3",
+      "cardTitleLegacy": "Sancho Panza"
     },
     "1016": {
       "canon": "1016",
       "title": "ROCINANTE",
       "masterNum": "1016",
-      "displayTitle": "Rocinante"
+      "displayTitle": "Rocinante",
+      "cardId": "1488",
+      "audio": "1488-rocinante.mp3",
+      "cardTitleLegacy": "Rocinante"
     },
     "1017": {
       "canon": "1017",
       "title": "EMMA BOVARY",
       "masterNum": "1017",
-      "displayTitle": "Emma Bovary"
+      "displayTitle": "Emma Bovary",
+      "cardId": "1489",
+      "audio": "1489-emma-bovary.mp3",
+      "cardTitleLegacy": "Emma Bovary"
     },
     "1018": {
       "canon": "1018",
       "title": "ANNA KARENINA",
       "masterNum": "1018",
-      "displayTitle": "Anna Karenina"
+      "displayTitle": "Anna Karenina",
+      "cardId": "1490",
+      "audio": "1490-anna-karenina.mp3",
+      "cardTitleLegacy": "Anna Karenina"
     },
     "1019": {
       "canon": "1019",
       "title": "RASKOLNIKOV",
       "masterNum": "1019",
-      "displayTitle": "Raskolnikov"
+      "displayTitle": "Raskolnikov",
+      "cardId": "1491",
+      "cardTitleLegacy": "Raskolnikov"
     },
     "1020": {
       "canon": "1020",
       "title": "SONYA",
       "masterNum": "1020",
-      "displayTitle": "Sonya"
+      "displayTitle": "Sonya",
+      "cardId": "1492",
+      "audio": "1492-sonya.mp3",
+      "cardTitleLegacy": "Sonya"
     },
     "1021": {
       "canon": "1021",
       "title": "PRINCE MYSHKIN",
       "masterNum": "1021",
-      "displayTitle": "Prince Myshkin"
+      "displayTitle": "Prince Myshkin",
+      "cardId": "1493",
+      "audio": "1493-prince-myshkin.mp3",
+      "cardTitleLegacy": "Prince Myshkin"
     },
     "1022": {
       "canon": "1022",
       "title": "THE GRAND INQUISITOR",
       "masterNum": "1022",
-      "displayTitle": "The Grand Inquisitor"
+      "displayTitle": "The Grand Inquisitor",
+      "cardId": "1494",
+      "audio": "1494-the-grand-inquisitor.mp3",
+      "cardTitleLegacy": "The Grand Inquisitor"
     },
     "1023": {
       "canon": "1023",
       "title": "JEAN VALJEAN",
       "masterNum": "1023",
-      "displayTitle": "Jean Valjean"
+      "displayTitle": "Jean Valjean",
+      "cardId": "1495",
+      "audio": "1495-jean-valjean.mp3",
+      "cardTitleLegacy": "Jean Valjean"
     },
     "1024": {
       "canon": "1024",
       "title": "JAVERT",
       "masterNum": "1024",
-      "displayTitle": "Javert"
+      "displayTitle": "Javert",
+      "cardId": "1496",
+      "audio": "1496-javert.mp3",
+      "cardTitleLegacy": "Javert"
     },
     "1025": {
       "canon": "1025",
       "title": "GAVROCHE",
       "masterNum": "1025",
-      "displayTitle": "Gavroche"
+      "displayTitle": "Gavroche",
+      "cardId": "1497",
+      "audio": "1497-gavroche.mp3",
+      "cardTitleLegacy": "Gavroche"
     },
     "1026": {
       "canon": "1026",
       "title": "QUASIMODO",
       "masterNum": "1026",
-      "displayTitle": "Quasimodo"
+      "displayTitle": "Quasimodo",
+      "cardId": "1498",
+      "audio": "1498-quasimodo.mp3",
+      "cardTitleLegacy": "Quasimodo"
     },
     "1027": {
       "canon": "1027",
       "title": "MISS HAVISHAM",
       "masterNum": "1027",
-      "displayTitle": "Miss Havisham"
+      "displayTitle": "Miss Havisham",
+      "cardId": "1499",
+      "audio": "1499-miss-havisham.mp3",
+      "cardTitleLegacy": "Miss Havisham"
     },
     "1028": {
       "canon": "1028",
       "title": "SCROOGE",
       "masterNum": "1028",
-      "displayTitle": "Scrooge"
+      "displayTitle": "Scrooge",
+      "cardId": "1500",
+      "audio": "1500-scrooge.mp3",
+      "cardTitleLegacy": "Scrooge"
     },
     "1029": {
       "canon": "1029",
       "title": "CAPTAIN AHAB",
       "masterNum": "1029",
-      "displayTitle": "Captain Ahab"
+      "displayTitle": "Captain Ahab",
+      "cardId": "1501",
+      "audio": "1501-captain-ahab.mp3",
+      "cardTitleLegacy": "Captain Ahab"
     },
     "1030": {
       "canon": "1030",
       "title": "THE WHITE WHALE",
       "masterNum": "1030",
-      "displayTitle": "The White Whale"
+      "displayTitle": "The White Whale",
+      "cardId": "1502",
+      "audio": "1502-the-white-whale.mp3",
+      "cardTitleLegacy": "The White Whale"
     },
     "1031": {
       "canon": "1031",
       "title": "BARTLEBY",
       "masterNum": "1031",
-      "displayTitle": "Bartleby"
+      "displayTitle": "Bartleby",
+      "cardId": "1503",
+      "audio": "1503-bartleby.mp3",
+      "cardTitleLegacy": "Bartleby"
     },
     "1032": {
       "canon": "1032",
       "title": "ROBINSON CRUSOE",
       "masterNum": "1032",
-      "displayTitle": "Robinson Crusoe"
+      "displayTitle": "Robinson Crusoe",
+      "cardId": "1504",
+      "audio": "1504-robinson-crusoe.mp3",
+      "cardTitleLegacy": "Robinson Crusoe"
     },
     "1033": {
       "canon": "1033",
       "title": "FRIDAY",
       "masterNum": "1033",
-      "displayTitle": "Friday"
+      "displayTitle": "Friday",
+      "cardId": "1505",
+      "audio": "1505-friday.mp3",
+      "cardTitleLegacy": "Friday"
     },
     "1034": {
       "canon": "1034",
       "title": "CAPTAIN NEMO",
       "masterNum": "1034",
-      "displayTitle": "Captain Nemo"
+      "displayTitle": "Captain Nemo",
+      "cardId": "1506",
+      "audio": "1506-captain-nemo.mp3",
+      "cardTitleLegacy": "Captain Nemo"
     },
     "1035": {
       "canon": "1035",
       "title": "THE COUNT OF MONTE CRISTO",
       "masterNum": "1035",
-      "displayTitle": "The Count of Monte Cristo"
+      "displayTitle": "The Count of Monte Cristo",
+      "cardId": "1507",
+      "audio": "1507-the-count-of-monte-cristo.mp3",
+      "cardTitleLegacy": "The Count of Monte Cristo"
     },
     "1036": {
       "canon": "1036",
       "title": "FRANKENSTEIN'S MONSTER",
       "masterNum": "1036",
-      "displayTitle": "Frankenstein's Monster"
+      "displayTitle": "Frankenstein's Monster",
+      "cardId": "1508",
+      "audio": "1508-frankenstein-s-monster.mp3",
+      "cardTitleLegacy": "Frankenstein's Monster"
     },
     "1037": {
       "canon": "1037",
       "title": "DORIAN GRAY",
       "masterNum": "1037",
-      "displayTitle": "Dorian Gray"
+      "displayTitle": "Dorian Gray",
+      "cardId": "1509",
+      "audio": "1509-dorian-gray.mp3",
+      "cardTitleLegacy": "Dorian Gray"
     },
     "1038": {
       "canon": "1038",
       "title": "DOCTOR JEKYLL",
       "masterNum": "1038",
-      "displayTitle": "Doctor Jekyll"
+      "displayTitle": "Doctor Jekyll",
+      "cardId": "1510",
+      "audio": "1510-doctor-jekyll.mp3",
+      "cardTitleLegacy": "Doctor Jekyll"
     },
     "1039": {
       "canon": "1039",
       "title": "DRACULA",
       "masterNum": "1039",
-      "displayTitle": "Dracula"
+      "displayTitle": "Dracula",
+      "cardId": "1511",
+      "audio": "1511-dracula.mp3",
+      "cardTitleLegacy": "Dracula"
     },
     "1040": {
       "canon": "1040",
       "title": "SHERLOCK HOLMES",
       "masterNum": "1040",
-      "displayTitle": "Sherlock Holmes"
+      "displayTitle": "Sherlock Holmes",
+      "cardId": "1512",
+      "audio": "1512-sherlock-holmes.mp3",
+      "cardTitleLegacy": "Sherlock Holmes"
     },
     "1041": {
       "canon": "1041",
       "title": "DOCTOR WATSON",
       "masterNum": "1041",
-      "displayTitle": "Doctor Watson"
+      "displayTitle": "Doctor Watson",
+      "cardId": "1513",
+      "audio": "1513-doctor-watson.mp3",
+      "cardTitleLegacy": "Doctor Watson"
     },
     "1042": {
       "canon": "1042",
       "title": "PROFESSOR MORIARTY",
       "masterNum": "1042",
-      "displayTitle": "Professor Moriarty"
+      "displayTitle": "Professor Moriarty",
+      "cardId": "1514",
+      "audio": "1514-professor-moriarty.mp3",
+      "cardTitleLegacy": "Professor Moriarty"
     },
     "1043": {
       "canon": "1043",
       "title": "ALICE",
       "masterNum": "1043",
-      "displayTitle": "Alice"
+      "displayTitle": "Alice",
+      "cardId": "1515",
+      "audio": "1515-alice.mp3",
+      "cardTitleLegacy": "Alice"
     },
     "1044": {
       "canon": "1044",
       "title": "THE CHESHIRE CAT",
       "masterNum": "1044",
-      "displayTitle": "The Cheshire Cat"
+      "displayTitle": "The Cheshire Cat",
+      "cardId": "1516",
+      "audio": "1516-the-cheshire-cat.mp3",
+      "cardTitleLegacy": "The Cheshire Cat"
     },
     "1045": {
       "canon": "1045",
       "title": "THE MAD HATTER",
       "masterNum": "1045",
-      "displayTitle": "The Mad Hatter"
+      "displayTitle": "The Mad Hatter",
+      "cardId": "1517",
+      "audio": "1517-the-mad-hatter.mp3",
+      "cardTitleLegacy": "The Mad Hatter"
     },
     "1046": {
       "canon": "1046",
       "title": "THE LITTLE PRINCE",
       "masterNum": "1046",
-      "displayTitle": "The Little Prince"
+      "displayTitle": "The Little Prince",
+      "cardId": "1518",
+      "audio": "1518-the-little-prince.mp3",
+      "cardTitleLegacy": "The Little Prince"
     },
     "1047": {
       "canon": "1047",
       "title": "THE FOX",
       "masterNum": "1047",
-      "displayTitle": "The Fox"
+      "displayTitle": "The Fox",
+      "cardId": "1519",
+      "audio": "1519-the-fox.mp3",
+      "cardTitleLegacy": "The Fox"
     },
     "1048": {
       "canon": "1048",
       "title": "THE ROSE",
       "masterNum": "1048",
-      "displayTitle": "The Rose"
+      "displayTitle": "The Rose",
+      "cardId": "1520",
+      "audio": "1520-the-rose.mp3",
+      "cardTitleLegacy": "The Rose"
     },
     "1049": {
       "canon": "1049",
       "title": "THE LAMPLIGHTER",
       "masterNum": "1049",
-      "displayTitle": "The Lamplighter"
+      "displayTitle": "The Lamplighter",
+      "cardId": "1521",
+      "audio": "1521-the-lamplighter-2.mp3",
+      "cardTitleLegacy": "The Lamplighter"
     },
     "1050": {
       "canon": "1050",
       "title": "FAUST",
       "masterNum": "1050",
-      "displayTitle": "Faust"
+      "displayTitle": "Faust",
+      "cardId": "1522",
+      "audio": "1522-faust.mp3",
+      "cardTitleLegacy": "Faust"
     },
     "1051": {
       "canon": "1051",
       "title": "MEPHISTO",
       "masterNum": "1051",
-      "displayTitle": "Mephisto"
+      "displayTitle": "Mephisto",
+      "cardId": "1523",
+      "audio": "1523-mephisto.mp3",
+      "cardTitleLegacy": "Mephisto"
     },
     "1052": {
       "canon": "1052",
       "title": "GRETCHEN",
       "masterNum": "1052",
-      "displayTitle": "Gretchen"
+      "displayTitle": "Gretchen",
+      "cardId": "1524",
+      "audio": "1524-gretchen.mp3",
+      "cardTitleLegacy": "Gretchen"
     },
     "1053": {
       "canon": "1053",
       "title": "WERTHER",
       "masterNum": "1053",
-      "displayTitle": "Werther"
+      "displayTitle": "Werther",
+      "cardId": "1525",
+      "audio": "1525-werther.mp3",
+      "cardTitleLegacy": "Werther"
     },
     "1054": {
       "canon": "1054",
       "title": "GREGOR SAMSA",
       "masterNum": "1054",
-      "displayTitle": "Gregor Samsa"
+      "displayTitle": "Gregor Samsa",
+      "cardId": "1526",
+      "audio": "1526-gregor-samsa.mp3",
+      "cardTitleLegacy": "Gregor Samsa"
     },
     "1055": {
       "canon": "1055",
       "title": "JOSEF K.",
       "masterNum": "1055",
-      "displayTitle": "Josef K."
+      "displayTitle": "Josef K.",
+      "cardId": "1527",
+      "audio": "1527-josef-k.mp3",
+      "cardTitleLegacy": "Josef K."
     },
     "1056": {
       "canon": "1056",
       "title": "THE DOORKEEPER",
       "masterNum": "1056",
-      "displayTitle": "The Doorkeeper"
+      "displayTitle": "The Doorkeeper",
+      "cardId": "1528",
+      "audio": "1528-the-doorkeeper.mp3",
+      "cardTitleLegacy": "The Doorkeeper"
     },
     "1057": {
       "canon": "1057",
       "title": "ODRADEK",
       "masterNum": "1057",
-      "displayTitle": "Odradek"
+      "displayTitle": "Odradek",
+      "cardId": "1529",
+      "audio": "1529-odradek.mp3",
+      "cardTitleLegacy": "Odradek"
     },
     "1058": {
       "canon": "1058",
       "title": "GOLLUM",
       "masterNum": "1058",
-      "displayTitle": "Gollum"
+      "displayTitle": "Gollum",
+      "cardId": "1530",
+      "audio": "1530-gollum.mp3",
+      "cardTitleLegacy": "Gollum"
     },
     "1059": {
       "canon": "1059",
       "title": "SAM",
       "masterNum": "1059",
-      "displayTitle": "Sam"
+      "displayTitle": "Sam",
+      "cardId": "1531",
+      "audio": "1531-sam.mp3",
+      "cardTitleLegacy": "Sam"
     },
     "1060": {
       "canon": "1060",
       "title": "BOXER",
       "masterNum": "1060",
-      "displayTitle": "Boxer"
+      "displayTitle": "Boxer",
+      "cardId": "1532",
+      "audio": "1532-boxer.mp3",
+      "cardTitleLegacy": "Boxer"
     },
     "1061": {
       "canon": "1061",
       "title": "WINSTON SMITH",
       "masterNum": "1061",
-      "displayTitle": "Winston Smith"
+      "displayTitle": "Winston Smith",
+      "cardId": "1533",
+      "audio": "1533-winston-smith.mp3",
+      "cardTitleLegacy": "Winston Smith"
     },
     "1062": {
       "canon": "1062",
       "title": "PIGGY",
       "masterNum": "1062",
-      "displayTitle": "Piggy"
+      "displayTitle": "Piggy",
+      "cardId": "1534",
+      "audio": "1534-piggy.mp3",
+      "cardTitleLegacy": "Piggy"
     },
     "1063": {
       "canon": "1063",
       "title": "HOLDEN CAULFIELD",
       "masterNum": "1063",
-      "displayTitle": "Holden Caulfield"
+      "displayTitle": "Holden Caulfield",
+      "cardId": "1535",
+      "audio": "1535-holden-caulfield.mp3",
+      "cardTitleLegacy": "Holden Caulfield"
     },
     "1064": {
       "canon": "1064",
       "title": "GATSBY",
       "masterNum": "1064",
-      "displayTitle": "Gatsby"
+      "displayTitle": "Gatsby",
+      "cardId": "1536",
+      "audio": "1536-gatsby.mp3",
+      "cardTitleLegacy": "Gatsby"
     },
     "1065": {
       "canon": "1065",
       "title": "SANTIAGO",
       "masterNum": "1065",
-      "displayTitle": "Santiago"
+      "displayTitle": "Santiago",
+      "cardId": "1537",
+      "audio": "1537-santiago.mp3",
+      "cardTitleLegacy": "Santiago"
     },
     "1066": {
       "canon": "1066",
       "title": "BOO RADLEY",
       "masterNum": "1066",
-      "displayTitle": "Boo Radley"
+      "displayTitle": "Boo Radley",
+      "cardId": "1538",
+      "audio": "1538-boo-radley.mp3",
+      "cardTitleLegacy": "Boo Radley"
     },
     "1067": {
       "canon": "1067",
       "title": "GODOT",
       "masterNum": "1067",
-      "displayTitle": "Godot"
+      "displayTitle": "Godot",
+      "cardId": "1539",
+      "audio": "1539-godot.mp3",
+      "cardTitleLegacy": "Godot"
     },
     "1068": {
       "canon": "1068",
       "title": "ESTRAGON",
       "masterNum": "1068",
-      "displayTitle": "Estragon"
+      "displayTitle": "Estragon",
+      "cardId": "1540",
+      "audio": "1540-estragon.mp3",
+      "cardTitleLegacy": "Estragon"
     },
     "1069": {
       "canon": "1069",
       "title": "BEHEMOTH",
       "masterNum": "1069",
-      "displayTitle": "Behemoth"
+      "displayTitle": "Behemoth",
+      "cardId": "1541",
+      "audio": "1541-behemoth.mp3",
+      "cardTitleLegacy": "Behemoth"
     },
     "1070": {
       "canon": "1070",
       "title": "PONTIUS PILATE",
       "masterNum": "1070",
-      "displayTitle": "Pontius Pilate"
+      "displayTitle": "Pontius Pilate",
+      "cardId": "1542",
+      "audio": "1542-pontius-pilate.mp3",
+      "cardTitleLegacy": "Pontius Pilate"
     },
     "1071": {
       "canon": "1071",
       "title": "ÚRSULA BUENDÍA",
       "masterNum": "1071",
-      "displayTitle": "úrsula Buendía"
+      "displayTitle": "úrsula Buendía",
+      "cardId": "1543",
+      "audio": "1543-ursula-buendia.mp3",
+      "cardTitleLegacy": "úrsula Buendía"
     },
     "1072": {
       "canon": "1072",
       "title": "THE COLONEL",
       "masterNum": "1072",
-      "displayTitle": "The Colonel"
+      "displayTitle": "The Colonel",
+      "cardId": "1544",
+      "audio": "1544-the-colonel.mp3",
+      "cardTitleLegacy": "The Colonel"
     },
     "1073": {
       "canon": "1073",
       "title": "MEURSAULT",
       "masterNum": "1073",
-      "displayTitle": "Meursault"
+      "displayTitle": "Meursault",
+      "cardId": "1545",
+      "audio": "1545-meursault.mp3",
+      "cardTitleLegacy": "Meursault"
     },
     "1074": {
       "canon": "1074",
       "title": "MONTAG",
       "masterNum": "1074",
-      "displayTitle": "Montag"
+      "displayTitle": "Montag",
+      "cardId": "1546",
+      "audio": "1546-montag.mp3",
+      "cardTitleLegacy": "Montag"
     },
     "1075": {
       "canon": "1075",
       "title": "SCHEHERAZADE",
       "masterNum": "1075",
-      "displayTitle": "Scheherazade"
+      "displayTitle": "Scheherazade",
+      "cardId": "1547",
+      "audio": "1547-scheherazade.mp3",
+      "cardTitleLegacy": "Scheherazade"
     },
     "1076": {
       "canon": "1076",
       "title": "TOM SAWYER",
       "masterNum": "1076",
-      "displayTitle": "Tom Sawyer"
+      "displayTitle": "Tom Sawyer",
+      "cardId": "1548",
+      "audio": "1548-tom-sawyer.mp3",
+      "cardTitleLegacy": "Tom Sawyer"
     },
     "1077": {
       "canon": "1077",
       "title": "ŠVEJK",
       "masterNum": "1077",
-      "displayTitle": "švejk"
+      "displayTitle": "švejk",
+      "cardId": "1549",
+      "audio": "1549-svejk.mp3",
+      "cardTitleLegacy": "švejk"
     },
     "1078": {
       "canon": "1078",
       "title": "GRANDMOTHER",
       "masterNum": "1078",
-      "displayTitle": "Grandmother"
+      "displayTitle": "Grandmother",
+      "cardId": "1550",
+      "audio": "1550-grandmother.mp3",
+      "cardTitleLegacy": "Grandmother"
     },
     "1079": {
       "canon": "1079",
       "title": "VIKTORKA",
       "masterNum": "1079",
-      "displayTitle": "Viktorka"
+      "displayTitle": "Viktorka",
+      "cardId": "1551",
+      "audio": "1551-viktorka.mp3",
+      "cardTitleLegacy": "Viktorka"
     },
     "1080": {
       "canon": "1080",
       "title": "MARYŠA",
       "masterNum": "1080",
-      "displayTitle": "Maryša"
+      "displayTitle": "Maryša",
+      "cardId": "1552",
+      "audio": "1552-marysa.mp3",
+      "cardTitleLegacy": "Maryša"
     },
     "1081": {
       "canon": "1081",
       "title": "DOCTOR GALÉN",
       "masterNum": "1081",
-      "displayTitle": "Doctor Galén"
+      "displayTitle": "Doctor Galén",
+      "cardId": "1553",
+      "audio": "1553-doctor-galen.mp3",
+      "cardTitleLegacy": "Doctor Galén"
     },
     "1082": {
       "canon": "1082",
       "title": "THE NEWT",
       "masterNum": "1082",
-      "displayTitle": "The Newt"
+      "displayTitle": "The Newt",
+      "cardId": "1554",
+      "audio": "1554-the-newt.mp3",
+      "cardTitleLegacy": "The Newt"
     },
     "1083": {
       "canon": "1083",
       "title": "THE ROBOT",
       "masterNum": "1083",
-      "displayTitle": "The Robot"
+      "displayTitle": "The Robot",
+      "cardId": "1555",
+      "audio": "1555-the-robot.mp3",
+      "cardTitleLegacy": "The Robot"
     },
     "1084": {
       "canon": "1084",
       "title": "HAŇŤA",
       "masterNum": "1084",
-      "displayTitle": "Haňťa"
+      "displayTitle": "Haňťa",
+      "cardId": "1556",
+      "audio": "1556-hanta.mp3",
+      "cardTitleLegacy": "Haňťa"
     },
     "1085": {
       "canon": "1085",
       "title": "MR KOPFRKINGL",
       "masterNum": "1085",
-      "displayTitle": "Mr Kopfrkingl"
+      "displayTitle": "Mr Kopfrkingl",
+      "cardId": "1557",
+      "audio": "1557-mr-kopfrkingl.mp3",
+      "cardTitleLegacy": "Mr Kopfrkingl"
     },
     "1086": {
       "canon": "1086",
       "title": "ŠEMÍK",
       "masterNum": "1086",
-      "displayTitle": "šemík"
+      "displayTitle": "šemík",
+      "cardId": "1558",
+      "audio": "1558-semik.mp3",
+      "cardTitleLegacy": "šemík"
     },
     "1087": {
       "canon": "1087",
       "title": "THE HEDGEHOG IN THE CAGE",
       "masterNum": "1087",
-      "displayTitle": "The Hedgehog in the Cage"
+      "displayTitle": "The Hedgehog in the Cage",
+      "cardId": "1559",
+      "audio": "1559-the-hedgehog-in-the-cage.mp3",
+      "cardTitleLegacy": "The Hedgehog in the Cage"
     },
     "1088": {
       "canon": "1088",
       "title": "FERDA THE ANT",
       "masterNum": "1088",
-      "displayTitle": "Ferda the Ant"
+      "displayTitle": "Ferda the Ant",
+      "cardId": "1560",
+      "audio": "1560-ferda-the-ant.mp3",
+      "cardTitleLegacy": "Ferda the Ant"
     },
     "1089": {
       "canon": "1089",
       "title": "BEETLE PYTLÍK",
       "masterNum": "1089",
-      "displayTitle": "Beetle Pytlík"
+      "displayTitle": "Beetle Pytlík",
+      "cardId": "1561",
+      "audio": "1561-beetle-pytlik.mp3",
+      "cardTitleLegacy": "Beetle Pytlík"
     },
     "1090": {
       "canon": "1090",
       "title": "MIKEŠ THE CAT",
       "masterNum": "1090",
-      "displayTitle": "Mikeš the Cat"
+      "displayTitle": "Mikeš the Cat",
+      "cardId": "1562",
+      "audio": "1562-mikes-the-cat.mp3",
+      "cardTitleLegacy": "Mikeš the Cat"
     },
     "1091": {
       "canon": "1091",
       "title": "RUMCAJS",
       "masterNum": "1091",
-      "displayTitle": "Rumcajs"
+      "displayTitle": "Rumcajs",
+      "cardId": "1563",
+      "audio": "1563-rumcajs.mp3",
+      "cardTitleLegacy": "Rumcajs"
     },
     "1092": {
       "canon": "1092",
       "title": "KŘEMÍLEK AND VOCHOMŮRKA",
       "masterNum": "1092",
-      "displayTitle": "Křemílek and Vochomůrka"
+      "displayTitle": "Křemílek and Vochomůrka",
+      "cardId": "1564",
+      "audio": "1564-kremilek-and-vochomurka.mp3",
+      "cardTitleLegacy": "Křemílek and Vochomůrka"
     },
     "1093": {
       "canon": "1093",
       "title": "THE FIREFLIES",
       "masterNum": "1093",
-      "displayTitle": "The Fireflies"
+      "displayTitle": "The Fireflies",
+      "cardId": "1565",
+      "audio": "1565-the-fireflies.mp3",
+      "cardTitleLegacy": "The Fireflies"
     },
     "1094": {
       "canon": "1094",
       "title": "THE LITTLE DOG AND THE CAT",
       "masterNum": "1094",
-      "displayTitle": "The Little Dog and the Cat"
+      "displayTitle": "The Little Dog and the Cat",
+      "cardId": "1566",
+      "audio": "1566-the-little-dog-and-the-cat.mp3",
+      "cardTitleLegacy": "The Little Dog and the Cat"
     },
     "1095": {
       "canon": "1095",
       "title": "MR RYŠÁNEK AND MR SCHLEGL",
       "masterNum": "1095",
-      "displayTitle": "Mr Ryšánek and Mr Schlegl"
+      "displayTitle": "Mr Ryšánek and Mr Schlegl",
+      "cardId": "1567",
+      "audio": "1567-mr-bennett-and-mr-carver.mp3",
+      "cardTitleLegacy": "Mr Bennett and Mr Carver"
     },
     "1096": {
       "canon": "1096",
       "title": "THE MINOR CHARACTER",
       "masterNum": "1096",
-      "displayTitle": "The Minor Character"
+      "displayTitle": "The Minor Character",
+      "cardId": "1568",
+      "audio": "1568-the-minor-character.mp3",
+      "cardTitleLegacy": "The Minor Character"
     },
     "1097": {
       "canon": "1097",
@@ -639,301 +929,401 @@
       "canon": "0001",
       "title": "Monday",
       "masterNum": "001",
-      "displayTitle": "Monday"
+      "displayTitle": "Monday",
+      "cardId": "997",
+      "audio": "997-monday.mp3"
     },
     "0002": {
       "canon": "0002",
       "title": "Jupiter, the Stormy King",
       "masterNum": "002",
-      "displayTitle": "Jupiter, the Stormy King"
+      "displayTitle": "Jupiter, the Stormy King",
+      "cardId": "998",
+      "audio": "998-jupiter-the-stormy-king.mp3"
     },
     "0003": {
       "canon": "0003",
       "title": "Mars, the Old Soldier",
       "masterNum": "003",
-      "displayTitle": "Mars, the Old Soldier"
+      "displayTitle": "Mars, the Old Soldier",
+      "cardId": "999",
+      "audio": "999-mars-the-old-soldier.mp3"
     },
     "0004": {
       "canon": "0004",
       "title": "Mercury, the Hurried Messenger",
       "masterNum": "004",
-      "displayTitle": "Mercury, the Hurried Messenger"
+      "displayTitle": "Mercury, the Hurried Messenger",
+      "cardId": "1000",
+      "audio": "1000-mercury-the-hurried-messenger.mp3"
     },
     "0005": {
       "canon": "0005",
       "title": "Neptune, the Lighthouse Keeper",
       "masterNum": "005",
-      "displayTitle": "Neptune, the Lighthouse Keeper"
+      "displayTitle": "Neptune, the Lighthouse Keeper",
+      "cardId": "1001",
+      "audio": "1001-neptune-the-lighthouse-keeper.mp3"
     },
     "0006": {
       "canon": "0006",
       "title": "Saturn, the Sad Ballerina",
       "masterNum": "006",
-      "displayTitle": "Saturn, the Sad Ballerina"
+      "displayTitle": "Saturn, the Sad Ballerina",
+      "cardId": "1002",
+      "audio": "1002-saturn-the-sad-ballerina.mp3"
     },
     "0007": {
       "canon": "0007",
       "title": "Uranus, the Silent Rebel",
       "masterNum": "007",
-      "displayTitle": "Uranus, the Silent Rebel"
+      "displayTitle": "Uranus, the Silent Rebel",
+      "cardId": "1003",
+      "audio": "1003-uranus-the-silent-rebel.mp3"
     },
     "0008": {
       "canon": "0008",
       "title": "Venus, the Veiled Beauty",
       "masterNum": "008",
-      "displayTitle": "Venus, the Veiled Beauty"
+      "displayTitle": "Venus, the Veiled Beauty",
+      "cardId": "1004",
+      "audio": "1004-venus-the-veiled-beauty.mp3"
     },
     "0009": {
       "canon": "0009",
       "title": "Earth, the Noisy House",
       "masterNum": "009",
-      "displayTitle": "Earth, the Noisy House"
+      "displayTitle": "Earth, the Noisy House",
+      "cardId": "1005",
+      "audio": "1005-earth-the-noisy-house.mp3"
     },
     "0010": {
       "canon": "0010",
       "title": "March, the Brawler",
       "masterNum": "010",
-      "displayTitle": "March, the Brawler"
+      "displayTitle": "March, the Brawler",
+      "cardId": "1006",
+      "audio": "1006-march-the-brawler.mp3"
     },
     "0011": {
       "canon": "0011",
       "title": "July, the Blacksmith of Summer",
       "masterNum": "011",
-      "displayTitle": "July, the Blacksmith of Summer"
+      "displayTitle": "July, the Blacksmith of Summer",
+      "cardId": "1007",
+      "audio": "1007-july-the-blacksmith-of-summer.mp3"
     },
     "0012": {
       "canon": "0012",
       "title": "April, the Watercolorist",
       "masterNum": "012",
-      "displayTitle": "April, the Watercolorist"
+      "displayTitle": "April, the Watercolorist",
+      "cardId": "1008",
+      "audio": "1008-april-the-watercolorist.mp3"
     },
     "0013": {
       "canon": "0013",
       "title": "May, the Generous Queen",
       "masterNum": "013",
-      "displayTitle": "May, the Generous Queen"
+      "displayTitle": "May, the Generous Queen",
+      "cardId": "1009",
+      "audio": "1009-may-the-generous-queen.mp3"
     },
     "0014": {
       "canon": "0014",
       "title": "November, the Stagehand",
       "masterNum": "014",
-      "displayTitle": "November, the Stagehand"
+      "displayTitle": "November, the Stagehand",
+      "cardId": "1010",
+      "audio": "1010-november-the-stagehand.mp3"
     },
     "0015": {
       "canon": "0015",
       "title": "December, the Old King",
       "masterNum": "015",
-      "displayTitle": "December, the Old King"
+      "displayTitle": "December, the Old King",
+      "cardId": "1011",
+      "audio": "1011-december-the-old-king.mp3"
     },
     "0016": {
       "canon": "0016",
       "title": "The Sun, the Lonely King",
       "masterNum": "016",
-      "displayTitle": "The Sun, the Lonely King"
+      "displayTitle": "The Sun, the Lonely King",
+      "cardId": "1012",
+      "audio": "1012-the-sun-the-lonely-king.mp3"
     },
     "0017": {
       "canon": "0017",
       "title": "August, the Old Storyteller",
       "masterNum": "017",
-      "displayTitle": "August, the Old Storyteller"
+      "displayTitle": "August, the Old Storyteller",
+      "cardId": "1013",
+      "audio": "1013-august-the-old-storyteller.mp3"
     },
     "0018": {
       "canon": "0018",
       "title": "September, the Melancholy Librarian",
       "masterNum": "018",
-      "displayTitle": "September, the Melancholy Librarian"
+      "displayTitle": "September, the Melancholy Librarian",
+      "cardId": "1014",
+      "audio": "1014-september-the-melancholy-librarian.mp3"
     },
     "0019": {
       "canon": "0019",
       "title": "February, the Clumsy Lover",
       "masterNum": "019",
-      "displayTitle": "February, the Clumsy Lover"
+      "displayTitle": "February, the Clumsy Lover",
+      "cardId": "1015",
+      "audio": "1015-february-the-clumsy-lover.mp3"
     },
     "0020": {
       "canon": "0020",
       "title": "Black, the Color of Secrets",
       "masterNum": "020",
-      "displayTitle": "Black, the Color of Secrets"
+      "displayTitle": "Black, the Color of Secrets",
+      "cardId": "1016",
+      "audio": "1016-black-the-color-of-secrets.mp3"
     },
     "0021": {
       "canon": "0021",
       "title": "June, the Lazy King",
       "masterNum": "021",
-      "displayTitle": "June, the Lazy King"
+      "displayTitle": "June, the Lazy King",
+      "cardId": "1017",
+      "audio": "1017-june-the-lazy-king.mp3"
     },
     "0022": {
       "canon": "0022",
       "title": "The Sidewalk",
       "masterNum": "022",
-      "displayTitle": "The Sidewalk"
+      "displayTitle": "The Sidewalk",
+      "cardId": "1018",
+      "audio": "1018-the-sidewalk.mp3"
     },
     "0023": {
       "canon": "0023",
       "title": "The Businessman",
       "masterNum": "023",
-      "displayTitle": "The Businessman"
+      "displayTitle": "The Businessman",
+      "cardId": "1019",
+      "audio": "1019-the-businessman.mp3"
     },
     "0024": {
       "canon": "0024",
       "title": "The Child's Question",
       "masterNum": "024",
-      "displayTitle": "The Child's Question"
+      "displayTitle": "The Child's Question",
+      "cardId": "1020",
+      "audio": "1020-the-child-s-question.mp3"
     },
     "0025": {
       "canon": "0025",
       "title": "The Wall",
       "masterNum": "025",
-      "displayTitle": "The Wall"
+      "displayTitle": "The Wall",
+      "cardId": "1021",
+      "audio": "1021-the-wall.mp3"
     },
     "0026": {
       "canon": "0026",
       "title": "The Minister of Fear",
       "masterNum": "026",
-      "displayTitle": "The Minister of Fear"
+      "displayTitle": "The Minister of Fear",
+      "cardId": "1022",
+      "audio": "1022-the-minister-of-fear.mp3"
     },
     "0027": {
       "canon": "0027",
       "title": "The Dance of the Rain",
       "masterNum": "027",
-      "displayTitle": "The Dance of the Rain"
+      "displayTitle": "The Dance of the Rain",
+      "cardId": "1023",
+      "audio": "1023-the-dance-of-the-rain.mp3"
     },
     "0028": {
       "canon": "0028",
       "title": "The Collector",
       "masterNum": "028",
-      "displayTitle": "The Collector"
+      "displayTitle": "The Collector",
+      "cardId": "1024",
+      "audio": "1024-the-collector.mp3"
     },
     "0029": {
       "canon": "0029",
       "title": "Your Absence",
       "masterNum": "029",
-      "displayTitle": "Your Absence"
+      "displayTitle": "Your Absence",
+      "cardId": "1025",
+      "audio": "1025-your-absence.mp3"
     },
     "0030": {
       "canon": "0030",
       "title": "The Sunday Painter",
       "masterNum": "030",
-      "displayTitle": "The Sunday Painter"
+      "displayTitle": "The Sunday Painter",
+      "cardId": "1026",
+      "audio": "1026-the-sunday-painter.mp3"
     },
     "0031": {
       "canon": "0031",
       "title": "The Old Clock",
       "masterNum": "031",
-      "displayTitle": "The Old Clock"
+      "displayTitle": "The Old Clock",
+      "cardId": "1027",
+      "audio": "1027-the-old-clock.mp3"
     },
     "0032": {
       "canon": "0032",
       "title": "The Station Platform",
       "masterNum": "032",
-      "displayTitle": "The Station Platform"
+      "displayTitle": "The Station Platform",
+      "cardId": "1028",
+      "audio": "1028-the-station-platform.mp3"
     },
     "0033": {
       "canon": "0033",
       "title": "The Soldier's Garden",
       "masterNum": "033",
-      "displayTitle": "The Soldier's Garden"
+      "displayTitle": "The Soldier's Garden",
+      "cardId": "1029",
+      "audio": "1029-the-soldier-s-garden.mp3"
     },
     "0034": {
       "canon": "0034",
       "title": "The Parish Priest's Accounts",
       "masterNum": "034",
-      "displayTitle": "The Parish Priest's Accounts"
+      "displayTitle": "The Parish Priest's Accounts",
+      "cardId": "1030",
+      "audio": "1030-the-parish-priest-s-accounts.mp3"
     },
     "0035": {
       "canon": "0035",
       "title": "Your Hair",
       "masterNum": "035",
-      "displayTitle": "Your Hair"
+      "displayTitle": "Your Hair",
+      "cardId": "1031",
+      "audio": "1031-your-hair.mp3"
     },
     "0036": {
       "canon": "0036",
       "title": "The Monday Meeting",
       "masterNum": "036",
-      "displayTitle": "The Monday Meeting"
+      "displayTitle": "The Monday Meeting",
+      "cardId": "1032",
+      "audio": "1032-the-monday-meeting.mp3"
     },
     "0037": {
       "canon": "0037",
       "title": "Things Found",
       "masterNum": "037",
-      "displayTitle": "Things Found"
+      "displayTitle": "Things Found",
+      "cardId": "1033",
+      "audio": "1033-things-found.mp3"
     },
     "0038": {
       "canon": "0038",
       "title": "Those Who Are Hungry",
       "masterNum": "038",
-      "displayTitle": "Those Who Are Hungry"
+      "displayTitle": "Those Who Are Hungry",
+      "cardId": "1034",
+      "audio": "1034-those-who-are-hungry.mp3"
     },
     "0039": {
       "canon": "0039",
       "title": "Boulevard de Clichy at Night",
       "masterNum": "039",
-      "displayTitle": "Boulevard de Clichy at Night"
+      "displayTitle": "Boulevard de Clichy at Night",
+      "cardId": "1035",
+      "audio": "1035-boulevard-de-clichy-at-night.mp3"
     },
     "0040": {
       "canon": "0040",
       "title": "Little Truths",
       "masterNum": "040",
-      "displayTitle": "Little Truths"
+      "displayTitle": "Little Truths",
+      "cardId": "1036",
+      "audio": "1036-little-truths.mp3"
     },
     "0041": {
       "canon": "0041",
       "title": "The Man at the Window",
       "masterNum": "041",
-      "displayTitle": "The Man at the Window"
+      "displayTitle": "The Man at the Window",
+      "cardId": "1037",
+      "audio": "1037-the-man-at-the-window.mp3"
     },
     "0042": {
       "canon": "0042",
       "title": "The Waiting Room of Shared Solitude",
       "masterNum": "042",
-      "displayTitle": "The Waiting Room of Shared Solitude"
+      "displayTitle": "The Waiting Room of Shared Solitude",
+      "cardId": "1038",
+      "audio": "1038-the-waiting-room-of-shared-solitude.mp3"
     },
     "0043": {
       "canon": "0043",
       "title": "The Important Man's Speech",
       "masterNum": "043",
-      "displayTitle": "The Important Man's Speech"
+      "displayTitle": "The Important Man's Speech",
+      "cardId": "1039",
+      "audio": "1039-the-important-man-s-speech.mp3"
     },
     "0044": {
       "canon": "0044",
       "title": "Rain Street",
       "masterNum": "044",
-      "displayTitle": "Rain Street"
+      "displayTitle": "Rain Street",
+      "cardId": "1040",
+      "audio": "1040-rain-street.mp3"
     },
     "0045": {
       "canon": "0045",
       "title": "The Banker's Prayer",
       "masterNum": "045",
-      "displayTitle": "The Banker's Prayer"
+      "displayTitle": "The Banker's Prayer",
+      "cardId": "1041",
+      "audio": "1041-the-banker-s-prayer.mp3"
     },
     "0046": {
       "canon": "0046",
       "title": "The Dream of the Class Dunce",
       "masterNum": "046",
-      "displayTitle": "The Dream of the Class Dunce"
+      "displayTitle": "The Dream of the Class Dunce",
+      "cardId": "1042",
+      "audio": "1042-the-dream-of-the-class-dunce.mp3"
     },
     "0047": {
       "canon": "0047",
       "title": "The Heart on the Counter",
       "masterNum": "047",
-      "displayTitle": "The Heart on the Counter"
+      "displayTitle": "The Heart on the Counter",
+      "cardId": "1043",
+      "audio": "1043-the-heart-on-the-counter.mp3"
     },
     "0048": {
       "canon": "0048",
       "title": "The Soldier's Inventory",
       "masterNum": "048",
-      "displayTitle": "The Soldier's Inventory"
+      "displayTitle": "The Soldier's Inventory",
+      "cardId": "1044",
+      "audio": "1044-the-soldier-s-inventory.mp3"
     },
     "0049": {
       "canon": "0049",
       "title": "Freedom in a Cage",
       "masterNum": "049",
-      "displayTitle": "Freedom in a Cage"
+      "displayTitle": "Freedom in a Cage",
+      "cardId": "1045",
+      "audio": "1045-freedom-in-a-cage.mp3"
     },
     "0050": {
       "canon": "0050",
       "title": "The Lovers of the Metro",
       "masterNum": "050",
-      "displayTitle": "The Lovers of the Metro"
+      "displayTitle": "The Lovers of the Metro",
+      "cardId": "1046",
+      "audio": "1046-the-lovers-of-the-metro.mp3"
     },
     "0051": {
       "canon": "0051",
@@ -1070,7 +1460,9 @@
       "title": "The Thief of Sleep",
       "masterNum": "069",
       "cardId": "055",
-      "displayTitle": "The Thief of Sleep"
+      "displayTitle": "The Thief of Sleep",
+      "poster": "069-the-thief-of-sleep.png",
+      "audio": "055-le-voleur-de-sommeil.mp3"
     },
     "0070": {
       "canon": "0070",
@@ -2466,7 +2858,10 @@
       "poemFile": "003-inventura-po-babicce.md",
       "poemNumber": "003",
       "poster": "003-inventory-after-grandmother.png",
-      "displayTitle": "Inventory After Grandmother"
+      "displayTitle": "Inventory After Grandmother",
+      "cardId": "1047",
+      "audio": "1047-inventory-after-grandmother.mp3",
+      "cardTitleLegacy": "Inventory After Grandmother"
     },
     "0263": {
       "canon": "0263",
@@ -2486,7 +2881,10 @@
       "poemFile": "005-hodinar.md",
       "poemNumber": "005",
       "poster": "005-the-watchmaker.png",
-      "displayTitle": "The Watchmaker"
+      "displayTitle": "The Watchmaker",
+      "cardId": "1048",
+      "audio": "1048-the-watchmaker.mp3",
+      "cardTitleLegacy": "The Watchmaker"
     },
     "0265": {
       "canon": "0265",
@@ -2495,7 +2893,10 @@
       "poemFile": "006-pekar-ktery-nesnida.md",
       "poemNumber": "006",
       "poster": "006-the-baker-who-skips-breakfast.png",
-      "displayTitle": "The Baker Who Skips Breakfast"
+      "displayTitle": "The Baker Who Skips Breakfast",
+      "cardId": "1049",
+      "audio": "1049-the-baker-who-skips-breakfast.mp3",
+      "cardTitleLegacy": "The Baker Who Skips Breakfast"
     },
     "0266": {
       "canon": "0266",
@@ -2504,7 +2905,10 @@
       "poemFile": "007-malir-semaforu.md",
       "poemNumber": "007",
       "poster": "007-the-traffic-light-painter.png",
-      "displayTitle": "The Traffic-Light Painter"
+      "displayTitle": "The Traffic-Light Painter",
+      "cardId": "1050",
+      "audio": "1050-the-traffic-light-painter.mp3",
+      "cardTitleLegacy": "The Traffic-Light Painter"
     },
     "0267": {
       "canon": "0267",
@@ -2513,7 +2917,10 @@
       "poemFile": "008-licha-rukavice.md",
       "poemNumber": "008",
       "poster": "008-the-odd-glove.png",
-      "displayTitle": "The Odd Glove"
+      "displayTitle": "The Odd Glove",
+      "cardId": "1051",
+      "audio": "1051-the-odd-glove.mp3",
+      "cardTitleLegacy": "The Odd Glove"
     },
     "0268": {
       "canon": "0268",
@@ -2522,7 +2929,10 @@
       "poemFile": "009-ucitelka-zemepisu.md",
       "poemNumber": "009",
       "poster": "009-the-geography-teacher.png",
-      "displayTitle": "The Geography Teacher"
+      "displayTitle": "The Geography Teacher",
+      "cardId": "1052",
+      "audio": "1052-the-geography-teacher.mp3",
+      "cardTitleLegacy": "The Geography Teacher"
     },
     "0269": {
       "canon": "0269",
@@ -2531,7 +2941,10 @@
       "poemFile": "010-muz-ktery-setril-cas.md",
       "poemNumber": "010",
       "poster": "010-the-man-who-saved-time.png",
-      "displayTitle": "The Man Who Saved Time"
+      "displayTitle": "The Man Who Saved Time",
+      "cardId": "1053",
+      "audio": "1053-the-man-who-saved-time.mp3",
+      "cardTitleLegacy": "The Man Who Saved Time"
     },
     "0270": {
       "canon": "0270",
@@ -2540,7 +2953,10 @@
       "poemFile": "011-posledni-telefonni-budka.md",
       "poemNumber": "011",
       "poster": "011-the-last-telephone-box.png",
-      "displayTitle": "The Last Telephone Box"
+      "displayTitle": "The Last Telephone Box",
+      "cardId": "1054",
+      "audio": "1054-the-last-telephone-box.mp3",
+      "cardTitleLegacy": "The Last Telephone Box"
     },
     "0271": {
       "canon": "0271",
@@ -2549,7 +2965,10 @@
       "poemFile": "012-vratny-v-muzeu.md",
       "poemNumber": "012",
       "poster": "012-the-museum-guard.png",
-      "displayTitle": "The Museum Guard"
+      "displayTitle": "The Museum Guard",
+      "cardId": "1055",
+      "audio": "1055-the-museum-guard.mp3",
+      "cardTitleLegacy": "The Museum Guard"
     },
     "0272": {
       "canon": "0272",
@@ -2558,7 +2977,10 @@
       "poemFile": "013-popelar-a-knihy.md",
       "poemNumber": "013",
       "poster": "013-the-binman-and-the-books.png",
-      "displayTitle": "The Binman and the Books"
+      "displayTitle": "The Binman and the Books",
+      "cardId": "1056",
+      "audio": "1056-the-binman-and-the-books.mp3",
+      "cardTitleLegacy": "The Binman and the Books"
     },
     "0273": {
       "canon": "0273",
@@ -2567,7 +2989,10 @@
       "poemFile": "014-dve-zidle.md",
       "poemNumber": "014",
       "poster": "014-two-chairs.png",
-      "displayTitle": "Two Chairs"
+      "displayTitle": "Two Chairs",
+      "cardId": "1057",
+      "audio": "1057-two-chairs.mp3",
+      "cardTitleLegacy": "Two Chairs"
     },
     "0274": {
       "canon": "0274",
@@ -2587,7 +3012,10 @@
       "poemFile": "016-dopis-bez-adresy.md",
       "poemNumber": "016",
       "poster": "016-the-letter-without-an-address.png",
-      "displayTitle": "The Letter without an Address"
+      "displayTitle": "The Letter without an Address",
+      "cardId": "1058",
+      "audio": "1058-the-letter-without-an-address.mp3",
+      "cardTitleLegacy": "The Letter Without an Address"
     },
     "0276": {
       "canon": "0276",
@@ -2596,7 +3024,10 @@
       "poemFile": "017-rybar-ktery-pousti-ryby.md",
       "poemNumber": "017",
       "poster": "017-the-fisherman-who-lets-them-go.png",
-      "displayTitle": "The Fisherman Who Lets Them Go"
+      "displayTitle": "The Fisherman Who Lets Them Go",
+      "cardId": "1059",
+      "audio": "1059-the-fisherman-who-lets-them-go.mp3",
+      "cardTitleLegacy": "The Fisherman Who Lets Them Go"
     },
     "0277": {
       "canon": "0277",
@@ -2605,7 +3036,10 @@
       "poemFile": "018-ladic-pian.md",
       "poemNumber": "018",
       "poster": "018-the-piano-tuner.png",
-      "displayTitle": "The Piano Tuner"
+      "displayTitle": "The Piano Tuner",
+      "cardId": "1060",
+      "audio": "1060-the-piano-tuner.mp3",
+      "cardTitleLegacy": "The Piano Tuner"
     },
     "0278": {
       "canon": "0278",
@@ -2614,7 +3048,10 @@
       "poemFile": "019-urad-ztrat-a-nalezu.md",
       "poemNumber": "019",
       "poster": "019-the-lost-and-found-office.png",
-      "displayTitle": "The Lost and Found Office"
+      "displayTitle": "The Lost and Found Office",
+      "cardId": "1061",
+      "audio": "1061-the-lost-and-found-office.mp3",
+      "cardTitleLegacy": "The Lost and Found Office"
     },
     "0279": {
       "canon": "0279",
@@ -2623,7 +3060,10 @@
       "poemFile": "020-babicka-a-letni-cas.md",
       "poemNumber": "020",
       "poster": "020-grandmother-and-daylight-saving-time.png",
-      "displayTitle": "Grandmother and Daylight Saving Time"
+      "displayTitle": "Grandmother and Daylight Saving Time",
+      "cardId": "1062",
+      "audio": "1062-grandmother-and-daylight-saving-time.mp3",
+      "cardTitleLegacy": "Grandmother and Daylight Saving Time"
     },
     "0280": {
       "canon": "0280",
@@ -2632,7 +3072,10 @@
       "poemFile": "021-stavitel-mostu.md",
       "poemNumber": "021",
       "poster": "021-the-bridge-builder.png",
-      "displayTitle": "The Bridge Builder"
+      "displayTitle": "The Bridge Builder",
+      "cardId": "1063",
+      "audio": "1063-the-bridge-builder.mp3",
+      "cardTitleLegacy": "The Bridge Builder"
     },
     "0281": {
       "canon": "0281",
@@ -2641,7 +3084,10 @@
       "poemFile": "022-prodavacka-jizdenek.md",
       "poemNumber": "022",
       "poster": "022-the-ticket-seller.png",
-      "displayTitle": "The Ticket Seller"
+      "displayTitle": "The Ticket Seller",
+      "cardId": "1064",
+      "audio": "1064-the-ticket-seller.mp3",
+      "cardTitleLegacy": "The Ticket Seller"
     },
     "0282": {
       "canon": "0282",
@@ -2650,7 +3096,10 @@
       "poemFile": "023-inventura-zimy.md",
       "poemNumber": "023",
       "poster": "023-winter-s-inventory.png",
-      "displayTitle": "Winter's Inventory"
+      "displayTitle": "Winter's Inventory",
+      "cardId": "1065",
+      "audio": "1065-winter-s-inventory.mp3",
+      "cardTitleLegacy": "Winter's Inventory"
     },
     "0283": {
       "canon": "0283",
@@ -2659,7 +3108,10 @@
       "poemFile": "024-nocni-pekarna.md",
       "poemNumber": "024",
       "poster": "024-the-night-bakery.png",
-      "displayTitle": "The Night Bakery"
+      "displayTitle": "The Night Bakery",
+      "cardId": "1066",
+      "audio": "1066-the-night-bakery.mp3",
+      "cardTitleLegacy": "The Night Bakery"
     },
     "0284": {
       "canon": "0284",
@@ -2668,7 +3120,10 @@
       "poemFile": "025-slepy-v-kine.md",
       "poemNumber": "025",
       "poster": "025-the-blind-man-at-the-cinema.png",
-      "displayTitle": "The Blind Man at the Cinema"
+      "displayTitle": "The Blind Man at the Cinema",
+      "cardId": "1067",
+      "audio": "1067-the-blind-man-at-the-cinema.mp3",
+      "cardTitleLegacy": "The Blind Man at the Cinema"
     },
     "0285": {
       "canon": "0285",
@@ -2677,7 +3132,10 @@
       "poemFile": "026-kolotocar.md",
       "poemNumber": "026",
       "poster": "026-the-carousel-man.png",
-      "displayTitle": "The Carousel Man"
+      "displayTitle": "The Carousel Man",
+      "cardId": "1068",
+      "audio": "1068-the-carousel-man.mp3",
+      "cardTitleLegacy": "The Carousel Man"
     },
     "0286": {
       "canon": "0286",
@@ -2686,7 +3144,10 @@
       "poemFile": "027-posledni-svec.md",
       "poemNumber": "027",
       "poster": "027-the-last-cobbler.png",
-      "displayTitle": "The Last Cobbler"
+      "displayTitle": "The Last Cobbler",
+      "cardId": "1069",
+      "audio": "1069-the-last-cobbler.mp3",
+      "cardTitleLegacy": "The Last Cobbler"
     },
     "0287": {
       "canon": "0287",
@@ -2695,7 +3156,10 @@
       "poemFile": "028-metronom.md",
       "poemNumber": "028",
       "poster": "028-the-metronome.png",
-      "displayTitle": "The Metronome"
+      "displayTitle": "The Metronome",
+      "cardId": "1070",
+      "audio": "1070-the-metronome.mp3",
+      "cardTitleLegacy": "The Metronome"
     },
     "0288": {
       "canon": "0288",
@@ -2704,7 +3168,10 @@
       "poemFile": "029-jmena-stromu.md",
       "poemNumber": "029",
       "poster": "029-the-names-of-trees.png",
-      "displayTitle": "The Names of Trees"
+      "displayTitle": "The Names of Trees",
+      "cardId": "1071",
+      "audio": "1071-the-names-of-trees.mp3",
+      "cardTitleLegacy": "The Names of Trees"
     },
     "0289": {
       "canon": "0289",
@@ -2713,7 +3180,10 @@
       "poemFile": "030-pruvodci-nocniho-vlaku.md",
       "poemNumber": "030",
       "poster": "030-the-night-train-conductor.png",
-      "displayTitle": "The Night Train Conductor"
+      "displayTitle": "The Night Train Conductor",
+      "cardId": "1072",
+      "audio": "1072-the-night-train-conductor.mp3",
+      "cardTitleLegacy": "The Night Train Conductor"
     },
     "0290": {
       "canon": "0290",
@@ -2722,7 +3192,10 @@
       "poemFile": "031-kvetinarka.md",
       "poemNumber": "031",
       "poster": "031-the-flower-seller.png",
-      "displayTitle": "The Flower Seller"
+      "displayTitle": "The Flower Seller",
+      "cardId": "1073",
+      "audio": "1073-the-flower-seller.mp3",
+      "cardTitleLegacy": "The Flower Seller"
     },
     "0291": {
       "canon": "0291",
@@ -2731,7 +3204,10 @@
       "poemFile": "032-chlapec-a-ozvena.md",
       "poemNumber": "032",
       "poster": "032-the-boy-and-the-echo.png",
-      "displayTitle": "The Boy and the Echo"
+      "displayTitle": "The Boy and the Echo",
+      "cardId": "1074",
+      "audio": "1074-the-boy-and-the-echo.mp3",
+      "cardTitleLegacy": "The Boy and the Echo"
     },
     "0292": {
       "canon": "0292",
@@ -2740,7 +3216,10 @@
       "poemFile": "033-malir-pokoju.md",
       "poemNumber": "033",
       "poster": "033-the-house-painter.png",
-      "displayTitle": "The House Painter"
+      "displayTitle": "The House Painter",
+      "cardId": "1075",
+      "audio": "1075-the-house-painter.mp3",
+      "cardTitleLegacy": "The House Painter"
     },
     "0293": {
       "canon": "0293",
@@ -2749,7 +3228,10 @@
       "poemFile": "034-hasic-v-penzi.md",
       "poemNumber": "034",
       "poster": "034-the-retired-fireman.png",
-      "displayTitle": "The Retired Fireman"
+      "displayTitle": "The Retired Fireman",
+      "cardId": "1076",
+      "audio": "1076-the-retired-fireman.mp3",
+      "cardTitleLegacy": "The Retired Fireman"
     },
     "0294": {
       "canon": "0294",
@@ -2758,7 +3240,10 @@
       "poemFile": "035-krejci-svatebnich-satu.md",
       "poemNumber": "035",
       "poster": "035-the-wedding-dress-tailor.png",
-      "displayTitle": "The Wedding-Dress Tailor"
+      "displayTitle": "The Wedding-Dress Tailor",
+      "cardId": "1077",
+      "audio": "1077-the-wedding-dress-tailor.mp3",
+      "cardTitleLegacy": "The Wedding-Dress Tailor"
     },
     "0295": {
       "canon": "0295",
@@ -2767,7 +3252,10 @@
       "poemFile": "036-vytahar.md",
       "poemNumber": "036",
       "poster": "036-the-lift-boy.png",
-      "displayTitle": "The Lift Boy"
+      "displayTitle": "The Lift Boy",
+      "cardId": "1078",
+      "audio": "1078-the-lift-boy.mp3",
+      "cardTitleLegacy": "The Lift Boy"
     },
     "0296": {
       "canon": "0296",
@@ -2776,7 +3264,10 @@
       "poemFile": "037-sberatel-pohlednic.md",
       "poemNumber": "037",
       "poster": "037-the-postcard-collector.png",
-      "displayTitle": "The Postcard Collector"
+      "displayTitle": "The Postcard Collector",
+      "cardId": "1079",
+      "audio": "1079-the-postcard-collector.mp3",
+      "cardTitleLegacy": "The Postcard Collector"
     },
     "0297": {
       "canon": "0297",
@@ -2785,7 +3276,10 @@
       "poemFile": "038-uklizecka-v-divadle.md",
       "poemNumber": "038",
       "poster": "038-the-theatre-cleaning-lady.png",
-      "displayTitle": "The Theatre Cleaning Lady"
+      "displayTitle": "The Theatre Cleaning Lady",
+      "cardId": "1080",
+      "audio": "1080-the-theatre-cleaning-lady.mp3",
+      "cardTitleLegacy": "The Theatre Cleaning Lady"
     },
     "0298": {
       "canon": "0298",
@@ -2794,7 +3288,10 @@
       "poemFile": "039-hlasatel-pocasi.md",
       "poemNumber": "039",
       "poster": "039-the-weather-announcer.png",
-      "displayTitle": "The Weather Announcer"
+      "displayTitle": "The Weather Announcer",
+      "cardId": "1081",
+      "audio": "1081-the-weather-announcer.mp3",
+      "cardTitleLegacy": "The Weather Announcer"
     },
     "0299": {
       "canon": "0299",
@@ -2803,7 +3300,10 @@
       "poemFile": "040-prazdny-pokoj.md",
       "poemNumber": "040",
       "poster": "040-the-empty-room.png",
-      "displayTitle": "The Empty Room"
+      "displayTitle": "The Empty Room",
+      "cardId": "1082",
+      "audio": "1082-the-empty-room.mp3",
+      "cardTitleLegacy": "The Empty Room"
     },
     "0300": {
       "canon": "0300",
@@ -2812,7 +3312,10 @@
       "poemFile": "041-zvonek.md",
       "poemNumber": "041",
       "poster": "041-the-doorbell.png",
-      "displayTitle": "The Doorbell"
+      "displayTitle": "The Doorbell",
+      "cardId": "1083",
+      "audio": "1083-the-doorbell.mp3",
+      "cardTitleLegacy": "The Doorbell"
     },
     "0301": {
       "canon": "0301",
@@ -2821,7 +3324,10 @@
       "poemFile": "042-houslista-v-podchodu.md",
       "poemNumber": "042",
       "poster": "042-the-violinist-in-the-underpass.png",
-      "displayTitle": "The Violinist in the Underpass"
+      "displayTitle": "The Violinist in the Underpass",
+      "cardId": "1084",
+      "audio": "1084-the-violinist-in-the-underpass.mp3",
+      "cardTitleLegacy": "The Violinist in the Underpass"
     },
     "0302": {
       "canon": "0302",
@@ -2830,7 +3336,10 @@
       "poemFile": "043-lampar.md",
       "poemNumber": "043",
       "poster": "043-the-lamplighter.png",
-      "displayTitle": "The Lamplighter"
+      "displayTitle": "The Lamplighter",
+      "cardId": "1085",
+      "audio": "1085-the-lamplighter.mp3",
+      "cardTitleLegacy": "The Lamplighter"
     },
     "0303": {
       "canon": "0303",
@@ -2839,7 +3348,10 @@
       "poemFile": "044-stary-plavec.md",
       "poemNumber": "044",
       "poster": "044-the-old-swimmer.png",
-      "displayTitle": "The Old Swimmer"
+      "displayTitle": "The Old Swimmer",
+      "cardId": "1086",
+      "audio": "1086-the-old-swimmer.mp3",
+      "cardTitleLegacy": "The Old Swimmer"
     },
     "0304": {
       "canon": "0304",
@@ -2848,7 +3360,10 @@
       "poemFile": "045-automat-na-kavu.md",
       "poemNumber": "045",
       "poster": "045-the-coffee-machine.png",
-      "displayTitle": "The Coffee Machine"
+      "displayTitle": "The Coffee Machine",
+      "cardId": "1087",
+      "audio": "1087-the-coffee-machine.mp3",
+      "cardTitleLegacy": "The Coffee Machine"
     },
     "0305": {
       "canon": "0305",
@@ -2857,7 +3372,10 @@
       "poemFile": "046-slovo-ktere-chybi.md",
       "poemNumber": "046",
       "poster": "046-the-missing-word.png",
-      "displayTitle": "The Missing Word"
+      "displayTitle": "The Missing Word",
+      "cardId": "1088",
+      "audio": "1088-the-missing-word.mp3",
+      "cardTitleLegacy": "The Missing Word"
     },
     "0306": {
       "canon": "0306",
@@ -3432,7 +3950,8 @@
       "cardId": "293",
       "audio": "293-the-silence-in-the-library.mp3",
       "cardTitleLegacy": "The Silence in the Library",
-      "displayTitle": "The Silence in the Library"
+      "displayTitle": "The Silence in the Library",
+      "poster": "094-the-silence-in-the-library.png"
     },
     "0354": {
       "canon": "0354",
@@ -3443,7 +3962,8 @@
       "cardId": "294",
       "audio": "294-the-piano-at-auction.mp3",
       "cardTitleLegacy": "The Piano at Auction",
-      "displayTitle": "The Piano at Auction"
+      "displayTitle": "The Piano at Auction",
+      "poster": "095-the-piano-at-auction.png"
     },
     "0355": {
       "canon": "0355",
@@ -3454,7 +3974,8 @@
       "cardId": "295",
       "audio": "295-the-phone-book.mp3",
       "cardTitleLegacy": "The Phone Book",
-      "displayTitle": "The Phone Book"
+      "displayTitle": "The Phone Book",
+      "poster": "096-the-phone-book.png"
     },
     "0356": {
       "canon": "0356",
@@ -3465,7 +3986,8 @@
       "cardId": "296",
       "audio": "296-the-bet-on-the-rain.mp3",
       "cardTitleLegacy": "The Bet on the Rain",
-      "displayTitle": "The Bet on the Rain"
+      "displayTitle": "The Bet on the Rain",
+      "poster": "097-the-bet-on-the-rain.png"
     },
     "0357": {
       "canon": "0357",
@@ -3476,7 +3998,8 @@
       "cardId": "297",
       "audio": "297-the-hole-in-the-photograph.mp3",
       "cardTitleLegacy": "The Hole in the Photograph",
-      "displayTitle": "The Hole in the Photograph"
+      "displayTitle": "The Hole in the Photograph",
+      "poster": "098-the-hole-in-the-photograph.png"
     },
     "0358": {
       "canon": "0358",
@@ -3487,7 +4010,8 @@
       "cardId": "298",
       "audio": "298-the-anchor.mp3",
       "cardTitleLegacy": "The Anchor",
-      "displayTitle": "The Anchor"
+      "displayTitle": "The Anchor",
+      "poster": "099-the-anchor.png"
     },
     "0359": {
       "canon": "0359",
@@ -3498,7 +4022,8 @@
       "cardId": "299",
       "audio": "299-the-broken-radio.mp3",
       "cardTitleLegacy": "The Broken Radio",
-      "displayTitle": "The Broken Radio"
+      "displayTitle": "The Broken Radio",
+      "poster": "100-the-broken-radio.png"
     },
     "0360": {
       "canon": "0360",
@@ -3509,7 +4034,8 @@
       "cardId": "300",
       "audio": "300-the-keyhole.mp3",
       "cardTitleLegacy": "The Keyhole",
-      "displayTitle": "The Keyhole"
+      "displayTitle": "The Keyhole",
+      "poster": "101-the-keyhole.png"
     },
     "0361": {
       "canon": "0361",
@@ -3520,7 +4046,8 @@
       "cardId": "301",
       "audio": "301-the-seed-in-the-pocket.mp3",
       "cardTitleLegacy": "The Seed in the Pocket",
-      "displayTitle": "The Seed in the Pocket"
+      "displayTitle": "The Seed in the Pocket",
+      "poster": "102-the-seed-in-the-pocket.png"
     },
     "0362": {
       "canon": "0362",
@@ -3531,7 +4058,8 @@
       "cardId": "302",
       "audio": "302-the-swallows-on-the-wires.mp3",
       "cardTitleLegacy": "The Swallows on the Wires",
-      "displayTitle": "The Swallows on the Wires"
+      "displayTitle": "The Swallows on the Wires",
+      "poster": "103-the-swallows-on-the-wires.png"
     },
     "0363": {
       "canon": "0363",
@@ -3542,7 +4070,8 @@
       "cardId": "303",
       "audio": "303-the-man-who-said-hello.mp3",
       "cardTitleLegacy": "The Man Who Said Hello",
-      "displayTitle": "The Man Who Said Hello"
+      "displayTitle": "The Man Who Said Hello",
+      "poster": "104-the-man-who-said-hello.png"
     },
     "0364": {
       "canon": "0364",
@@ -3553,7 +4082,8 @@
       "cardId": "304",
       "audio": "304-the-last-poem.mp3",
       "cardTitleLegacy": "The Last Poem",
-      "displayTitle": "The Last Poem"
+      "displayTitle": "The Last Poem",
+      "poster": "105-the-last-poem.png"
     },
     "0365": {
       "canon": "0365",
@@ -3564,7 +4094,8 @@
       "cardId": "305",
       "audio": "305-the-last-pencil.mp3",
       "cardTitleLegacy": "The Last Pencil",
-      "displayTitle": "The Last Pencil"
+      "displayTitle": "The Last Pencil",
+      "poster": "106-the-last-pencil.png"
     },
     "0366": {
       "canon": "0366",
@@ -3575,7 +4106,8 @@
       "cardId": "306",
       "audio": "306-the-key-without-a-lock.mp3",
       "cardTitleLegacy": "The Key without a Lock",
-      "displayTitle": "The Key without a Lock"
+      "displayTitle": "The Key without a Lock",
+      "poster": "107-the-key-without-a-lock.png"
     },
     "0367": {
       "canon": "0367",
@@ -3586,7 +4118,8 @@
       "cardId": "307",
       "audio": "307-the-leaky-pot.mp3",
       "cardTitleLegacy": "The Leaky Pot",
-      "displayTitle": "The Leaky Pot"
+      "displayTitle": "The Leaky Pot",
+      "poster": "108-the-leaky-pot.png"
     },
     "0368": {
       "canon": "0368",
@@ -3597,7 +4130,8 @@
       "cardId": "308",
       "audio": "308-the-unfinished-letter.mp3",
       "cardTitleLegacy": "The Unfinished Letter",
-      "displayTitle": "The Unfinished Letter"
+      "displayTitle": "The Unfinished Letter",
+      "poster": "109-the-unfinished-letter.png"
     },
     "0369": {
       "canon": "0369",
@@ -3608,7 +4142,8 @@
       "cardId": "309",
       "audio": "309-the-old-chair-by-the-road.mp3",
       "cardTitleLegacy": "The Old Chair by the Road",
-      "displayTitle": "The Old Chair by the Road"
+      "displayTitle": "The Old Chair by the Road",
+      "poster": "110-the-old-chair-by-the-road.png"
     },
     "0370": {
       "canon": "0370",
@@ -3619,7 +4154,8 @@
       "cardId": "310",
       "audio": "310-the-stopped-watch.mp3",
       "cardTitleLegacy": "The Stopped Watch",
-      "displayTitle": "The Stopped Watch"
+      "displayTitle": "The Stopped Watch",
+      "poster": "111-the-stopped-watch.png"
     },
     "0371": {
       "canon": "0371",
@@ -3630,7 +4166,8 @@
       "cardId": "311",
       "audio": "311-the-last-coin.mp3",
       "cardTitleLegacy": "The Last Coin",
-      "displayTitle": "The Last Coin"
+      "displayTitle": "The Last Coin",
+      "poster": "112-the-last-coin.png"
     },
     "0372": {
       "canon": "0372",
@@ -3641,7 +4178,8 @@
       "cardId": "312",
       "audio": "312-the-mirror-in-the-junk-shop.mp3",
       "cardTitleLegacy": "The Mirror in the Junk Shop",
-      "displayTitle": "The Mirror in the Junk Shop"
+      "displayTitle": "The Mirror in the Junk Shop",
+      "poster": "113-the-mirror-in-the-junk-shop.png"
     },
     "0373": {
       "canon": "0373",
@@ -3652,7 +4190,8 @@
       "cardId": "313",
       "audio": "313-the-umbrella-turned-inside-out.mp3",
       "cardTitleLegacy": "The Umbrella Turned Inside Out",
-      "displayTitle": "The Umbrella Turned Inside Out"
+      "displayTitle": "The Umbrella Turned Inside Out",
+      "poster": "114-the-umbrella-turned-inside-out.png"
     },
     "0374": {
       "canon": "0374",
@@ -3663,7 +4202,8 @@
       "cardId": "314",
       "audio": "314-the-ceremonial-scissors.mp3",
       "cardTitleLegacy": "The Ceremonial Scissors",
-      "displayTitle": "The Ceremonial Scissors"
+      "displayTitle": "The Ceremonial Scissors",
+      "poster": "115-the-ceremonial-scissors.png"
     },
     "0375": {
       "canon": "0375",
@@ -3674,7 +4214,8 @@
       "cardId": "315",
       "audio": "315-the-station-dog.mp3",
       "cardTitleLegacy": "The Station Dog",
-      "displayTitle": "The Station Dog"
+      "displayTitle": "The Station Dog",
+      "poster": "116-the-station-dog.png"
     },
     "0376": {
       "canon": "0376",
@@ -3685,7 +4226,8 @@
       "cardId": "316",
       "audio": "316-the-cat-who-chose.mp3",
       "cardTitleLegacy": "The Cat Who Chose",
-      "displayTitle": "The Cat Who Chose"
+      "displayTitle": "The Cat Who Chose",
+      "poster": "117-the-cat-who-chose.png"
     },
     "0377": {
       "canon": "0377",
@@ -3696,7 +4238,8 @@
       "cardId": "317",
       "audio": "317-the-sparrow-and-the-statue.mp3",
       "cardTitleLegacy": "The Sparrow and the Statue",
-      "displayTitle": "The Sparrow and the Statue"
+      "displayTitle": "The Sparrow and the Statue",
+      "poster": "118-the-sparrow-and-the-statue.png"
     },
     "0378": {
       "canon": "0378",
@@ -3707,7 +4250,8 @@
       "cardId": "318",
       "audio": "318-the-fish-who-saw-the-sky.mp3",
       "cardTitleLegacy": "The Fish Who Saw the Sky",
-      "displayTitle": "The Fish Who Saw the Sky"
+      "displayTitle": "The Fish Who Saw the Sky",
+      "poster": "119-the-fish-who-saw-the-sky.png"
     },
     "0379": {
       "canon": "0379",
@@ -3718,7 +4262,8 @@
       "cardId": "319",
       "audio": "319-the-carousel-horse.mp3",
       "cardTitleLegacy": "The Carousel Horse",
-      "displayTitle": "The Carousel Horse"
+      "displayTitle": "The Carousel Horse",
+      "poster": "120-the-carousel-horse.png"
     },
     "0380": {
       "canon": "0380",
@@ -3729,7 +4274,8 @@
       "cardId": "320",
       "audio": "320-the-butterfly-of-a-single-day.mp3",
       "cardTitleLegacy": "The Butterfly of a Single Day",
-      "displayTitle": "The Butterfly of a Single Day"
+      "displayTitle": "The Butterfly of a Single Day",
+      "poster": "121-the-butterfly-of-a-single-day.png"
     },
     "0381": {
       "canon": "0381",
@@ -3740,7 +4286,8 @@
       "cardId": "321",
       "audio": "321-the-rooster-who-crowed-too-late.mp3",
       "cardTitleLegacy": "The Rooster Who Crowed Too Late",
-      "displayTitle": "The Rooster Who Crowed Too Late"
+      "displayTitle": "The Rooster Who Crowed Too Late",
+      "poster": "122-the-rooster-who-crowed-too-late.png"
     },
     "0382": {
       "canon": "0382",
@@ -3751,7 +4298,8 @@
       "cardId": "322",
       "audio": "322-the-spider-in-the-library.mp3",
       "cardTitleLegacy": "The Spider in the Library",
-      "displayTitle": "The Spider in the Library"
+      "displayTitle": "The Spider in the Library",
+      "poster": "123-the-spider-in-the-library.png"
     },
     "0383": {
       "canon": "0383",
@@ -3762,7 +4310,8 @@
       "cardId": "323",
       "audio": "323-the-pigeon-with-no-message.mp3",
       "cardTitleLegacy": "The Pigeon with No Message",
-      "displayTitle": "The Pigeon with No Message"
+      "displayTitle": "The Pigeon with No Message",
+      "poster": "124-the-pigeon-with-no-message.png"
     },
     "0384": {
       "canon": "0384",
@@ -3773,7 +4322,8 @@
       "cardId": "324",
       "audio": "324-the-bee-in-winter.mp3",
       "cardTitleLegacy": "The Bee in Winter",
-      "displayTitle": "The Bee in Winter"
+      "displayTitle": "The Bee in Winter",
+      "poster": "125-the-bee-in-winter.png"
     },
     "0385": {
       "canon": "0385",
@@ -3784,7 +4334,8 @@
       "cardId": "325",
       "audio": "325-the-tree-that-grew-crooked.mp3",
       "cardTitleLegacy": "The Tree that Grew Crooked",
-      "displayTitle": "The Tree that Grew Crooked"
+      "displayTitle": "The Tree that Grew Crooked",
+      "poster": "126-the-tree-that-grew-crooked.png"
     },
     "0386": {
       "canon": "0386",
@@ -3795,7 +4346,8 @@
       "cardId": "326",
       "audio": "326-the-last-leaf.mp3",
       "cardTitleLegacy": "The Last Leaf",
-      "displayTitle": "The Last Leaf"
+      "displayTitle": "The Last Leaf",
+      "poster": "127-the-last-leaf.png"
     },
     "0387": {
       "canon": "0387",
@@ -6111,139 +6663,208 @@
       "canon": "0597",
       "title": "STOCKTAKING",
       "masterNum": "597",
-      "displayTitle": "Stocktaking"
+      "displayTitle": "Stocktaking",
+      "cardId": "1089",
+      "audio": "1089-stocktaking.mp3",
+      "cardTitleLegacy": "Stocktaking"
     },
     "0598": {
       "canon": "0598",
       "title": "BREAKFAST INSIDE OUT",
       "masterNum": "598",
-      "displayTitle": "Breakfast Inside Out"
+      "displayTitle": "Breakfast Inside Out",
+      "cardId": "1090",
+      "audio": "1090-breakfast-inside-out.mp3",
+      "cardTitleLegacy": "Breakfast Inside Out"
     },
     "0599": {
       "canon": "0599",
       "title": "THE CLERK AND THE SEA",
       "masterNum": "599",
-      "displayTitle": "The Clerk and the Sea"
+      "displayTitle": "The Clerk and the Sea",
+      "cardId": "1091",
+      "audio": "1091-the-clerk-and-the-sea.mp3",
+      "cardTitleLegacy": "The Clerk and the Sea"
     },
     "0600": {
       "canon": "0600",
       "title": "THE UMBRELLA",
       "masterNum": "600",
-      "displayTitle": "The Umbrella"
+      "displayTitle": "The Umbrella",
+      "cardId": "1092",
+      "audio": "1092-the-umbrella.mp3",
+      "cardTitleLegacy": "The Umbrella"
     },
     "0601": {
       "canon": "0601",
       "title": "THE MILITARY PARADE",
       "masterNum": "601",
-      "displayTitle": "The Military Parade"
+      "displayTitle": "The Military Parade",
+      "cardId": "1093",
+      "audio": "1093-the-military-parade.mp3",
+      "cardTitleLegacy": "The Military Parade"
     },
     "0602": {
       "canon": "0602",
       "title": "THE WATCHMAKER",
       "masterNum": "602",
-      "displayTitle": "The Watchmaker"
+      "displayTitle": "The Watchmaker",
+      "cardId": "1094",
+      "audio": "1094-the-watchmaker-2.mp3",
+      "cardTitleLegacy": "The Watchmaker"
     },
     "0603": {
       "canon": "0603",
       "title": "THE HOUSE PAINTER",
       "masterNum": "603",
-      "displayTitle": "The House Painter"
+      "displayTitle": "The House Painter",
+      "cardId": "1095",
+      "audio": "1095-the-house-painter-2.mp3",
+      "cardTitleLegacy": "The House Painter"
     },
     "0604": {
       "canon": "0604",
       "title": "THE PARROT",
       "masterNum": "604",
-      "displayTitle": "The Parrot"
+      "displayTitle": "The Parrot",
+      "cardId": "1096",
+      "audio": "1096-the-parrot.mp3",
+      "cardTitleLegacy": "The Parrot"
     },
     "0605": {
       "canon": "0605",
       "title": "THE LOVERS FROM THE STATION",
       "masterNum": "605",
-      "displayTitle": "The Lovers from the Station"
+      "displayTitle": "The Lovers from the Station",
+      "cardId": "1097",
+      "audio": "1097-the-lovers-from-the-station.mp3",
+      "cardTitleLegacy": "The Lovers from the Station"
     },
     "0606": {
       "canon": "0606",
       "title": "THE GARDENER AND THE FENCE",
       "masterNum": "606",
-      "displayTitle": "The Gardener and the Fence"
+      "displayTitle": "The Gardener and the Fence",
+      "cardId": "1098",
+      "audio": "1098-the-gardener-and-the-fence.mp3",
+      "cardTitleLegacy": "The Gardener and the Fence"
     },
     "0607": {
       "canon": "0607",
       "title": "THE LOST GLOVE",
       "masterNum": "607",
-      "displayTitle": "The Lost Glove"
+      "displayTitle": "The Lost Glove",
+      "cardId": "1099",
+      "audio": "1099-the-lost-glove.mp3",
+      "cardTitleLegacy": "The Lost Glove"
     },
     "0608": {
       "canon": "0608",
       "title": "THE SERMON",
       "masterNum": "608",
-      "displayTitle": "The Sermon"
+      "displayTitle": "The Sermon",
+      "cardId": "1100",
+      "audio": "1100-the-sermon.mp3",
+      "cardTitleLegacy": "The Sermon"
     },
     "0609": {
       "canon": "0609",
       "title": "THE BALANCE SHEET",
       "masterNum": "609",
-      "displayTitle": "The Balance Sheet"
+      "displayTitle": "The Balance Sheet",
+      "cardId": "1101",
+      "audio": "1101-the-balance-sheet.mp3",
+      "cardTitleLegacy": "The Balance Sheet"
     },
     "0610": {
       "canon": "0610",
       "title": "THE DOG AND THE PHILOSOPHER",
       "masterNum": "610",
-      "displayTitle": "The Dog and the Philosopher"
+      "displayTitle": "The Dog and the Philosopher",
+      "cardId": "1102",
+      "audio": "1102-the-dog-and-the-philosopher.mp3",
+      "cardTitleLegacy": "The Dog and the Philosopher"
     },
     "0611": {
       "canon": "0611",
       "title": "THE TAILOR",
       "masterNum": "611",
-      "displayTitle": "The Tailor"
+      "displayTitle": "The Tailor",
+      "cardId": "1103",
+      "audio": "1103-the-tailor.mp3",
+      "cardTitleLegacy": "The Tailor"
     },
     "0612": {
       "canon": "0612",
       "title": "THE LAST TRAM",
       "masterNum": "612",
-      "displayTitle": "The Last Tram"
+      "displayTitle": "The Last Tram",
+      "cardId": "1104",
+      "audio": "1104-the-last-tram.mp3",
+      "cardTitleLegacy": "The Last Tram"
     },
     "0613": {
       "canon": "0613",
       "title": "THE FISHERMAN WITHOUT FISH",
       "masterNum": "613",
-      "displayTitle": "The Fisherman without Fish"
+      "displayTitle": "The Fisherman without Fish",
+      "cardId": "1105",
+      "audio": "1105-the-fisherman-without-fish.mp3",
+      "cardTitleLegacy": "The Fisherman Without Fish"
     },
     "0614": {
       "canon": "0614",
       "title": "TWO QUEUES",
       "masterNum": "614",
-      "displayTitle": "Two Queues"
+      "displayTitle": "Two Queues",
+      "cardId": "1106",
+      "audio": "1106-two-queues.mp3",
+      "cardTitleLegacy": "Two Queues"
     },
     "0615": {
       "canon": "0615",
       "title": "THE TELEPHONE BOOTH",
       "masterNum": "615",
-      "displayTitle": "The Telephone Booth"
+      "displayTitle": "The Telephone Booth",
+      "cardId": "1107",
+      "audio": "1107-the-telephone-booth.mp3",
+      "cardTitleLegacy": "The Telephone Booth"
     },
     "0616": {
       "canon": "0616",
       "title": "THE PRESCRIPTION",
       "masterNum": "616",
-      "displayTitle": "The Prescription"
+      "displayTitle": "The Prescription",
+      "cardId": "1108",
+      "audio": "1108-the-prescription.mp3",
+      "cardTitleLegacy": "The Prescription"
     },
     "0617": {
       "canon": "0617",
       "title": "MOVING OUT",
       "masterNum": "617",
-      "displayTitle": "Moving Out"
+      "displayTitle": "Moving Out",
+      "cardId": "1109",
+      "audio": "1109-moving-out.mp3",
+      "cardTitleLegacy": "Moving Out"
     },
     "0618": {
       "canon": "0618",
       "title": "THE CANARY",
       "masterNum": "618",
-      "displayTitle": "The Canary"
+      "displayTitle": "The Canary",
+      "cardId": "1110",
+      "audio": "1110-the-canary.mp3",
+      "cardTitleLegacy": "The Canary"
     },
     "0619": {
       "canon": "0619",
       "title": "MATHEMATICS",
       "masterNum": "619",
-      "displayTitle": "Mathematics"
+      "displayTitle": "Mathematics",
+      "cardId": "1111",
+      "audio": "1111-mathematics.mp3",
+      "cardTitleLegacy": "Mathematics"
     },
     "0620": {
       "canon": "0620",
@@ -6257,49 +6878,73 @@
       "canon": "0621",
       "title": "THE CAFÉ TABLE",
       "masterNum": "621",
-      "displayTitle": "The Café Table"
+      "displayTitle": "The Café Table",
+      "cardId": "1112",
+      "audio": "1112-the-cafe-table.mp3",
+      "cardTitleLegacy": "The Café Table"
     },
     "0622": {
       "canon": "0622",
       "title": "THE DRIVER'S LICENSE",
       "masterNum": "622",
-      "displayTitle": "The Driver's License"
+      "displayTitle": "The Driver's License",
+      "cardId": "1113",
+      "audio": "1113-the-driver-s-license.mp3",
+      "cardTitleLegacy": "The Driver's License"
     },
     "0623": {
       "canon": "0623",
       "title": "A LETTER TO BE DELIVERED IN PERSON",
       "masterNum": "623",
-      "displayTitle": "A Letter to Be Delivered in Person"
+      "displayTitle": "A Letter to Be Delivered in Person",
+      "cardId": "1114",
+      "audio": "1114-a-letter-to-be-delivered-in-person.mp3",
+      "cardTitleLegacy": "A Letter to Be Delivered in Person"
     },
     "0624": {
       "canon": "0624",
       "title": "THE SCULPTOR",
       "masterNum": "624",
-      "displayTitle": "The Sculptor"
+      "displayTitle": "The Sculptor",
+      "cardId": "1115",
+      "audio": "1115-the-sculptor.mp3",
+      "cardTitleLegacy": "The Sculptor"
     },
     "0625": {
       "canon": "0625",
       "title": "THE TRAIN TO PARIS",
       "masterNum": "625",
-      "displayTitle": "The Train to Paris"
+      "displayTitle": "The Train to Paris",
+      "cardId": "1116",
+      "audio": "1116-the-train-to-paris.mp3",
+      "cardTitleLegacy": "The Train to Paris"
     },
     "0626": {
       "canon": "0626",
       "title": "THE MUSEUM GUARD",
       "masterNum": "626",
-      "displayTitle": "The Museum Guard"
+      "displayTitle": "The Museum Guard",
+      "cardId": "1117",
+      "audio": "1117-the-museum-guard-2.mp3",
+      "cardTitleLegacy": "The Museum Guard"
     },
     "0627": {
       "canon": "0627",
       "title": "SHOES",
       "masterNum": "627",
-      "displayTitle": "Shoes"
+      "displayTitle": "Shoes",
+      "cardId": "1118",
+      "audio": "1118-shoes.mp3",
+      "cardTitleLegacy": "Shoes"
     },
     "0628": {
       "canon": "0628",
       "title": "RADIO OVER THE WIRE",
       "masterNum": "628",
-      "displayTitle": "Radio over the Wire"
+      "displayTitle": "Radio over the Wire",
+      "cardId": "1119",
+      "audio": "1119-radio-over-the-wire.mp3",
+      "cardTitleLegacy": "Radio Over the Wire"
     },
     "0629": {
       "canon": "0629",
@@ -6311,61 +6956,91 @@
       "canon": "0630",
       "title": "THE COFFEE MACHINE",
       "masterNum": "630",
-      "displayTitle": "The Coffee Machine"
+      "displayTitle": "The Coffee Machine",
+      "cardId": "1120",
+      "audio": "1120-the-coffee-machine-2.mp3",
+      "cardTitleLegacy": "The Coffee Machine"
     },
     "0631": {
       "canon": "0631",
       "title": "THE CONDUCTOR",
       "masterNum": "631",
-      "displayTitle": "The Conductor"
+      "displayTitle": "The Conductor",
+      "cardId": "1121",
+      "audio": "1121-the-conductor.mp3",
+      "cardTitleLegacy": "The Conductor"
     },
     "0632": {
       "canon": "0632",
       "title": "THE ACTOR",
       "masterNum": "632",
-      "displayTitle": "The Actor"
+      "displayTitle": "The Actor",
+      "cardId": "1122",
+      "audio": "1122-the-actor.mp3",
+      "cardTitleLegacy": "The Actor"
     },
     "0633": {
       "canon": "0633",
       "title": "THE MAP",
       "masterNum": "633",
-      "displayTitle": "The Map"
+      "displayTitle": "The Map",
+      "cardId": "1123",
+      "audio": "1123-the-map.mp3",
+      "cardTitleLegacy": "The Map"
     },
     "0634": {
       "canon": "0634",
       "title": "THE CIRCUS",
       "masterNum": "634",
-      "displayTitle": "The Circus"
+      "displayTitle": "The Circus",
+      "cardId": "1124",
+      "audio": "1124-the-circus.mp3",
+      "cardTitleLegacy": "The Circus"
     },
     "0635": {
       "canon": "0635",
       "title": "THE NIGHT WATCHMAN",
       "masterNum": "635",
-      "displayTitle": "The Night Watchman"
+      "displayTitle": "The Night Watchman",
+      "cardId": "1125",
+      "audio": "1125-the-night-watchman.mp3",
+      "cardTitleLegacy": "The Night Watchman"
     },
     "0636": {
       "canon": "0636",
       "title": "THE BLIND MAN AND THE SPRING",
       "masterNum": "636",
-      "displayTitle": "The Blind Man and the Spring"
+      "displayTitle": "The Blind Man and the Spring",
+      "cardId": "1126",
+      "audio": "1126-the-blind-man-and-the-spring.mp3",
+      "cardTitleLegacy": "The Blind Man and the Spring"
     },
     "0637": {
       "canon": "0637",
       "title": "THE ELEVATOR",
       "masterNum": "637",
-      "displayTitle": "The Elevator"
+      "displayTitle": "The Elevator",
+      "cardId": "1127",
+      "audio": "1127-the-elevator.mp3",
+      "cardTitleLegacy": "The Elevator"
     },
     "0638": {
       "canon": "0638",
       "title": "THE REPORT CARD",
       "masterNum": "638",
-      "displayTitle": "The Report Card"
+      "displayTitle": "The Report Card",
+      "cardId": "1128",
+      "audio": "1128-the-report-card.mp3",
+      "cardTitleLegacy": "The Report Card"
     },
     "0639": {
       "canon": "0639",
       "title": "THE CARRIER PIGEON",
       "masterNum": "639",
-      "displayTitle": "The Carrier Pigeon"
+      "displayTitle": "The Carrier Pigeon",
+      "cardId": "1129",
+      "audio": "1129-the-carrier-pigeon.mp3",
+      "cardTitleLegacy": "The Carrier Pigeon"
     },
     "0640": {
       "canon": "0640",
@@ -6377,49 +7052,73 @@
       "canon": "0641",
       "title": "THE MIRROR",
       "masterNum": "641",
-      "displayTitle": "The Mirror"
+      "displayTitle": "The Mirror",
+      "cardId": "1130",
+      "audio": "1130-the-mirror.mp3",
+      "cardTitleLegacy": "The Mirror"
     },
     "0642": {
       "canon": "0642",
       "title": "THE SURVEY",
       "masterNum": "642",
-      "displayTitle": "The Survey"
+      "displayTitle": "The Survey",
+      "cardId": "1131",
+      "audio": "1131-the-survey.mp3",
+      "cardTitleLegacy": "The Survey"
     },
     "0643": {
       "canon": "0643",
       "title": "THE CONCRETE WORKERS",
       "masterNum": "643",
-      "displayTitle": "The Concrete Workers"
+      "displayTitle": "The Concrete Workers",
+      "cardId": "1132",
+      "audio": "1132-the-concrete-workers.mp3",
+      "cardTitleLegacy": "The Concrete Workers"
     },
     "0644": {
       "canon": "0644",
       "title": "THE SILENT HOUSEHOLD",
       "masterNum": "644",
-      "displayTitle": "The Silent Household"
+      "displayTitle": "The Silent Household",
+      "cardId": "1133",
+      "audio": "1133-the-silent-household.mp3",
+      "cardTitleLegacy": "The Silent Household"
     },
     "0645": {
       "canon": "0645",
       "title": "THE PUPPETEER",
       "masterNum": "645",
-      "displayTitle": "The Puppeteer"
+      "displayTitle": "The Puppeteer",
+      "cardId": "1134",
+      "audio": "1134-the-puppeteer.mp3",
+      "cardTitleLegacy": "The Puppeteer"
     },
     "0646": {
       "canon": "0646",
       "title": "HALF A HUNDRED",
       "masterNum": "646",
-      "displayTitle": "Half a Hundred"
+      "displayTitle": "Half a Hundred",
+      "cardId": "1135",
+      "audio": "1135-half-a-hundred.mp3",
+      "cardTitleLegacy": "Half a Hundred"
     },
     "0647": {
       "canon": "0647",
       "title": "MATCHES",
       "masterNum": "647",
-      "displayTitle": "Matches"
+      "displayTitle": "Matches",
+      "cardId": "1136",
+      "audio": "1136-matches.mp3",
+      "cardTitleLegacy": "Matches"
     },
     "0648": {
       "canon": "0648",
       "title": "THE DIVORCE",
       "masterNum": "648",
-      "displayTitle": "The Divorce"
+      "displayTitle": "The Divorce",
+      "cardId": "1137",
+      "audio": "1137-the-divorce.mp3",
+      "cardTitleLegacy": "The Divorce"
     },
     "0649": {
       "canon": "0649",
@@ -6431,55 +7130,82 @@
       "canon": "0650",
       "title": "THE ADVERTISEMENT",
       "masterNum": "650",
-      "displayTitle": "The Advertisement"
+      "displayTitle": "The Advertisement",
+      "cardId": "1138",
+      "audio": "1138-the-advertisement.mp3",
+      "cardTitleLegacy": "The Advertisement"
     },
     "0651": {
       "canon": "0651",
       "title": "THE FORTUNE TELLER",
       "masterNum": "651",
-      "displayTitle": "The Fortune Teller"
+      "displayTitle": "The Fortune Teller",
+      "cardId": "1139",
+      "audio": "1139-the-fortune-teller.mp3",
+      "cardTitleLegacy": "The Fortune Teller"
     },
     "0652": {
       "canon": "0652",
       "title": "THE SWIMMING SCHOOL",
       "masterNum": "652",
-      "displayTitle": "The Swimming School"
+      "displayTitle": "The Swimming School",
+      "cardId": "1140",
+      "audio": "1140-the-swimming-school.mp3",
+      "cardTitleLegacy": "The Swimming School"
     },
     "0653": {
       "canon": "0653",
       "title": "THE NIGHT SHIFT",
       "masterNum": "653",
-      "displayTitle": "The Night Shift"
+      "displayTitle": "The Night Shift",
+      "cardId": "1141",
+      "audio": "1141-the-night-shift.mp3",
+      "cardTitleLegacy": "The Night Shift"
     },
     "0654": {
       "canon": "0654",
       "title": "THE PICKPOCKET",
       "masterNum": "654",
-      "displayTitle": "The Pickpocket"
+      "displayTitle": "The Pickpocket",
+      "cardId": "1142",
+      "audio": "1142-the-pickpocket.mp3",
+      "cardTitleLegacy": "The Pickpocket"
     },
     "0655": {
       "canon": "0655",
       "title": "THE WEATHERMAN",
       "masterNum": "655",
-      "displayTitle": "The Weatherman"
+      "displayTitle": "The Weatherman",
+      "cardId": "1143",
+      "audio": "1143-the-weatherman.mp3",
+      "cardTitleLegacy": "The Weatherman"
     },
     "0656": {
       "canon": "0656",
       "title": "THE KEYS",
       "masterNum": "656",
-      "displayTitle": "The Keys"
+      "displayTitle": "The Keys",
+      "cardId": "1144",
+      "audio": "1144-the-keys.mp3",
+      "cardTitleLegacy": "The Keys"
     },
     "0657": {
       "canon": "0657",
       "title": "THE PHOTOGRAPHER",
       "masterNum": "657",
-      "displayTitle": "The Photographer"
+      "displayTitle": "The Photographer",
+      "cardId": "1145",
+      "audio": "1145-the-photographer.mp3",
+      "cardTitleLegacy": "The Photographer"
     },
     "0658": {
       "canon": "0658",
       "title": "THE GARBAGE BIN",
       "masterNum": "658",
-      "displayTitle": "The Garbage Bin"
+      "displayTitle": "The Garbage Bin",
+      "cardId": "1146",
+      "audio": "1146-the-garbage-bin.mp3",
+      "cardTitleLegacy": "The Garbage Bin"
     },
     "0659": {
       "canon": "0659",
@@ -6491,97 +7217,145 @@
       "canon": "0660",
       "title": "THE LAST PUPIL",
       "masterNum": "660",
-      "displayTitle": "The Last Pupil"
+      "displayTitle": "The Last Pupil",
+      "cardId": "1147",
+      "audio": "1147-the-last-pupil.mp3",
+      "cardTitleLegacy": "The Last Pupil"
     },
     "0661": {
       "canon": "0661",
       "title": "THE TOBACCONIST",
       "masterNum": "661",
-      "displayTitle": "The Tobacconist"
+      "displayTitle": "The Tobacconist",
+      "cardId": "1148",
+      "audio": "1148-the-tobacconist.mp3",
+      "cardTitleLegacy": "The Tobacconist"
     },
     "0662": {
       "canon": "0662",
       "title": "TWO WINDOWS",
       "masterNum": "662",
-      "displayTitle": "Two Windows"
+      "displayTitle": "Two Windows",
+      "cardId": "1149",
+      "audio": "1149-two-windows.mp3",
+      "cardTitleLegacy": "Two Windows"
     },
     "0663": {
       "canon": "0663",
       "title": "SERIOUS MUSIC",
       "masterNum": "663",
-      "displayTitle": "Serious Music"
+      "displayTitle": "Serious Music",
+      "cardId": "1150",
+      "audio": "1150-serious-music.mp3",
+      "cardTitleLegacy": "Serious Music"
     },
     "0664": {
       "canon": "0664",
       "title": "THE FORM",
       "masterNum": "664",
-      "displayTitle": "The Form"
+      "displayTitle": "The Form",
+      "cardId": "1151",
+      "audio": "1151-the-form.mp3",
+      "cardTitleLegacy": "The Form"
     },
     "0665": {
       "canon": "0665",
       "title": "THE VET",
       "masterNum": "665",
-      "displayTitle": "The Vet"
+      "displayTitle": "The Vet",
+      "cardId": "1152",
+      "audio": "1152-the-vet.mp3",
+      "cardTitleLegacy": "The Vet"
     },
     "0666": {
       "canon": "0666",
       "title": "RADIO EXERCISES",
       "masterNum": "666",
-      "displayTitle": "Radio Exercises"
+      "displayTitle": "Radio Exercises",
+      "cardId": "1153",
+      "audio": "1153-radio-exercises.mp3",
+      "cardTitleLegacy": "Radio Exercises"
     },
     "0667": {
       "canon": "0667",
       "title": "THE KEEPER OF THE ASTRONOMICAL CLOCK",
       "masterNum": "667",
-      "displayTitle": "The Keeper of the Astronomical Clock"
+      "displayTitle": "The Keeper of the Astronomical Clock",
+      "cardId": "1154",
+      "audio": "1154-the-keeper-of-the-astronomical-clock.mp3",
+      "cardTitleLegacy": "The Keeper of the Astronomical Clock"
     },
     "0668": {
       "canon": "0668",
       "title": "LOST AND FOUND",
       "masterNum": "668",
-      "displayTitle": "Lost and Found"
+      "displayTitle": "Lost and Found",
+      "cardId": "1155",
+      "audio": "1155-lost-and-found.mp3",
+      "cardTitleLegacy": "Lost and Found"
     },
     "0669": {
       "canon": "0669",
       "title": "THE BIRD FEEDER",
       "masterNum": "669",
-      "displayTitle": "The Bird Feeder"
+      "displayTitle": "The Bird Feeder",
+      "cardId": "1156",
+      "audio": "1156-the-bird-feeder.mp3",
+      "cardTitleLegacy": "The Bird Feeder"
     },
     "0670": {
       "canon": "0670",
       "title": "THE JOB INTERVIEW",
       "masterNum": "670",
-      "displayTitle": "The Job Interview"
+      "displayTitle": "The Job Interview",
+      "cardId": "1157",
+      "audio": "1157-the-job-interview.mp3",
+      "cardTitleLegacy": "The Job Interview"
     },
     "0671": {
       "canon": "0671",
       "title": "SUNDAY LUNCH",
       "masterNum": "671",
-      "displayTitle": "Sunday Lunch"
+      "displayTitle": "Sunday Lunch",
+      "cardId": "1158",
+      "audio": "1158-sunday-lunch.mp3",
+      "cardTitleLegacy": "Sunday Lunch"
     },
     "0672": {
       "canon": "0672",
       "title": "THE TATTOO",
       "masterNum": "672",
-      "displayTitle": "The Tattoo"
+      "displayTitle": "The Tattoo",
+      "cardId": "1159",
+      "audio": "1159-the-tattoo.mp3",
+      "cardTitleLegacy": "The Tattoo"
     },
     "0673": {
       "canon": "0673",
       "title": "THE GREENHOUSE",
       "masterNum": "673",
-      "displayTitle": "The Greenhouse"
+      "displayTitle": "The Greenhouse",
+      "cardId": "1160",
+      "audio": "1160-the-greenhouse.mp3",
+      "cardTitleLegacy": "The Greenhouse"
     },
     "0674": {
       "canon": "0674",
       "title": "THE TRACKS",
       "masterNum": "674",
-      "displayTitle": "The Tracks"
+      "displayTitle": "The Tracks",
+      "cardId": "1161",
+      "audio": "1161-the-tracks.mp3",
+      "cardTitleLegacy": "The Tracks"
     },
     "0675": {
       "canon": "0675",
       "title": "A CONCERT FOR ONE",
       "masterNum": "675",
-      "displayTitle": "A Concert for One"
+      "displayTitle": "A Concert for One",
+      "cardId": "1162",
+      "audio": "1162-a-concert-for-one.mp3",
+      "cardTitleLegacy": "A Concert for One"
     },
     "0676": {
       "canon": "0676",
@@ -6593,25 +7367,37 @@
       "canon": "0677",
       "title": "THE PROP MASTER",
       "masterNum": "677",
-      "displayTitle": "The Prop Master"
+      "displayTitle": "The Prop Master",
+      "cardId": "1163",
+      "audio": "1163-the-prop-master.mp3",
+      "cardTitleLegacy": "The Prop Master"
     },
     "0678": {
       "canon": "0678",
       "title": "THE MORNING SHIFT",
       "masterNum": "678",
-      "displayTitle": "The Morning Shift"
+      "displayTitle": "The Morning Shift",
+      "cardId": "1164",
+      "audio": "1164-the-morning-shift.mp3",
+      "cardTitleLegacy": "The Morning Shift"
     },
     "0679": {
       "canon": "0679",
       "title": "UMBRELLA REPAIRS",
       "masterNum": "679",
-      "displayTitle": "Umbrella Repairs"
+      "displayTitle": "Umbrella Repairs",
+      "cardId": "1165",
+      "audio": "1165-umbrella-repairs.mp3",
+      "cardTitleLegacy": "Umbrella Repairs"
     },
     "0680": {
       "canon": "0680",
       "title": "THE DICTATION",
       "masterNum": "680",
-      "displayTitle": "The Dictation"
+      "displayTitle": "The Dictation",
+      "cardId": "1166",
+      "audio": "1166-the-dictation.mp3",
+      "cardTitleLegacy": "The Dictation"
     },
     "0681": {
       "canon": "0681",
@@ -6623,7 +7409,10 @@
       "canon": "0682",
       "title": "THE BUS STOP",
       "masterNum": "682",
-      "displayTitle": "The Bus Stop"
+      "displayTitle": "The Bus Stop",
+      "cardId": "1167",
+      "audio": "1167-the-bus-stop.mp3",
+      "cardTitleLegacy": "The Bus Stop"
     },
     "0683": {
       "canon": "0683",
@@ -6635,97 +7424,145 @@
       "canon": "0684",
       "title": "THE MODEL SHIP",
       "masterNum": "684",
-      "displayTitle": "The Model Ship"
+      "displayTitle": "The Model Ship",
+      "cardId": "1168",
+      "audio": "1168-the-model-ship.mp3",
+      "cardTitleLegacy": "The Model Ship"
     },
     "0685": {
       "canon": "0685",
       "title": "THE STRIKE",
       "masterNum": "685",
-      "displayTitle": "The Strike"
+      "displayTitle": "The Strike",
+      "cardId": "1169",
+      "audio": "1169-the-strike.mp3",
+      "cardTitleLegacy": "The Strike"
     },
     "0686": {
       "canon": "0686",
       "title": "THE DICTIONARY",
       "masterNum": "686",
-      "displayTitle": "The Dictionary"
+      "displayTitle": "The Dictionary",
+      "cardId": "1170",
+      "audio": "1170-the-dictionary.mp3",
+      "cardTitleLegacy": "The Dictionary"
     },
     "0687": {
       "canon": "0687",
       "title": "THE CAROUSEL",
       "masterNum": "687",
-      "displayTitle": "The Carousel"
+      "displayTitle": "The Carousel",
+      "cardId": "1171",
+      "audio": "1171-the-carousel.mp3",
+      "cardTitleLegacy": "The Carousel"
     },
     "0688": {
       "canon": "0688",
       "title": "THE TELEGRAM",
       "masterNum": "688",
-      "displayTitle": "The Telegram"
+      "displayTitle": "The Telegram",
+      "cardId": "1172",
+      "audio": "1172-the-telegram.mp3",
+      "cardTitleLegacy": "The Telegram"
     },
     "0689": {
       "canon": "0689",
       "title": "THE COURTYARD",
       "masterNum": "689",
-      "displayTitle": "The Courtyard"
+      "displayTitle": "The Courtyard",
+      "cardId": "1173",
+      "audio": "1173-the-courtyard.mp3",
+      "cardTitleLegacy": "The Courtyard"
     },
     "0690": {
       "canon": "0690",
       "title": "THE NIGHT PORTER",
       "masterNum": "690",
-      "displayTitle": "The Night Porter"
+      "displayTitle": "The Night Porter",
+      "cardId": "1174",
+      "audio": "1174-the-night-porter.mp3",
+      "cardTitleLegacy": "The Night Porter"
     },
     "0691": {
       "canon": "0691",
       "title": "THE HERBARIUM",
       "masterNum": "691",
-      "displayTitle": "The Herbarium"
+      "displayTitle": "The Herbarium",
+      "cardId": "1175",
+      "audio": "1175-the-herbarium.mp3",
+      "cardTitleLegacy": "The Herbarium"
     },
     "0692": {
       "canon": "0692",
       "title": "THE BARMAN",
       "masterNum": "692",
-      "displayTitle": "The Barman"
+      "displayTitle": "The Barman",
+      "cardId": "1176",
+      "audio": "1176-the-barman.mp3",
+      "cardTitleLegacy": "The Barman"
     },
     "0693": {
       "canon": "0693",
       "title": "THE NATIVITY SCENE",
       "masterNum": "693",
-      "displayTitle": "The Nativity Scene"
+      "displayTitle": "The Nativity Scene",
+      "cardId": "1177",
+      "audio": "1177-the-nativity-scene.mp3",
+      "cardTitleLegacy": "The Nativity Scene"
     },
     "0694": {
       "canon": "0694",
       "title": "THE LAST RIDE",
       "masterNum": "694",
-      "displayTitle": "The Last Ride"
+      "displayTitle": "The Last Ride",
+      "cardId": "1178",
+      "audio": "1178-the-last-ride.mp3",
+      "cardTitleLegacy": "The Last Ride"
     },
     "0695": {
       "canon": "0695",
       "title": "A LETTER TO MY GRANDSON",
       "masterNum": "695",
-      "displayTitle": "A Letter to My Grandson"
+      "displayTitle": "A Letter to My Grandson",
+      "cardId": "1179",
+      "audio": "1179-a-letter-to-my-grandson.mp3",
+      "cardTitleLegacy": "A Letter to My Grandson"
     },
     "0696": {
       "canon": "0696",
       "title": "THE POINT",
       "masterNum": "696",
-      "displayTitle": "The Point"
+      "displayTitle": "The Point",
+      "cardId": "1180",
+      "audio": "1180-the-point.mp3",
+      "cardTitleLegacy": "The Point"
     },
     "0697": {
       "canon": "0697",
       "title": "THE SEMICOLON",
       "masterNum": "697",
-      "displayTitle": "The Semicolon"
+      "displayTitle": "The Semicolon",
+      "cardId": "1181",
+      "audio": "1181-the-semicolon.mp3",
+      "cardTitleLegacy": "The Semicolon"
     },
     "0698": {
       "canon": "0698",
       "title": "MONDAY",
       "masterNum": "698",
-      "displayTitle": "Monday"
+      "displayTitle": "Monday",
+      "cardId": "1182",
+      "audio": "1182-monday-2.mp3",
+      "cardTitleLegacy": "Monday"
     },
     "0699": {
       "canon": "0699",
       "title": "SISYPHUS'S STONE",
       "masterNum": "699",
-      "displayTitle": "Sisyphus's Stone"
+      "displayTitle": "Sisyphus's Stone",
+      "cardId": "1183",
+      "audio": "1183-sisyphus-s-stone.mp3",
+      "cardTitleLegacy": "Sisyphus's Stone"
     },
     "0700": {
       "canon": "0700",
@@ -6737,49 +7574,73 @@
       "canon": "0701",
       "title": "THE LAST DINOSAUR",
       "masterNum": "701",
-      "displayTitle": "The Last Dinosaur"
+      "displayTitle": "The Last Dinosaur",
+      "cardId": "1184",
+      "audio": "1184-the-last-dinosaur.mp3",
+      "cardTitleLegacy": "The Last Dinosaur"
     },
     "0702": {
       "canon": "0702",
       "title": "THE ECHO",
       "masterNum": "702",
-      "displayTitle": "The Echo"
+      "displayTitle": "The Echo",
+      "cardId": "1185",
+      "audio": "1185-the-echo.mp3",
+      "cardTitleLegacy": "The Echo"
     },
     "0703": {
       "canon": "0703",
       "title": "THE TRAFFIC LIGHT",
       "masterNum": "703",
-      "displayTitle": "The Traffic Light"
+      "displayTitle": "The Traffic Light",
+      "cardId": "1186",
+      "audio": "1186-the-traffic-light.mp3",
+      "cardTitleLegacy": "The Traffic Light"
     },
     "0704": {
       "canon": "0704",
       "title": "DEATH ON HOLIDAY",
       "masterNum": "704",
-      "displayTitle": "Death on Holiday"
+      "displayTitle": "Death on Holiday",
+      "cardId": "1187",
+      "audio": "1187-death-on-holiday.mp3",
+      "cardTitleLegacy": "Death on Holiday"
     },
     "0705": {
       "canon": "0705",
       "title": "AN ANGEL RETRAINING",
       "masterNum": "705",
-      "displayTitle": "An Angel Retraining"
+      "displayTitle": "An Angel Retraining",
+      "cardId": "1188",
+      "audio": "1188-an-angel-retraining.mp3",
+      "cardTitleLegacy": "An Angel Retraining"
     },
     "0706": {
       "canon": "0706",
       "title": "THE BLACK HOLE",
       "masterNum": "706",
-      "displayTitle": "The Black Hole"
+      "displayTitle": "The Black Hole",
+      "cardId": "1189",
+      "audio": "1189-the-black-hole.mp3",
+      "cardTitleLegacy": "The Black Hole"
     },
     "0707": {
       "canon": "0707",
       "title": "THE VOICE FROM THE GPS",
       "masterNum": "707",
-      "displayTitle": "The Voice from the Gps"
+      "displayTitle": "The Voice from the Gps",
+      "cardId": "1190",
+      "audio": "1190-the-voice-from-the-gps.mp3",
+      "cardTitleLegacy": "The Voice from the Gps"
     },
     "0708": {
       "canon": "0708",
       "title": "THE SNOWMAN",
       "masterNum": "708",
-      "displayTitle": "The Snowman"
+      "displayTitle": "The Snowman",
+      "cardId": "1191",
+      "audio": "1191-the-snowman.mp3",
+      "cardTitleLegacy": "The Snowman"
     },
     "0709": {
       "canon": "0709",
@@ -6791,103 +7652,154 @@
       "canon": "0710",
       "title": "ZERO",
       "masterNum": "710",
-      "displayTitle": "Zero"
+      "displayTitle": "Zero",
+      "cardId": "1192",
+      "audio": "1192-zero.mp3",
+      "cardTitleLegacy": "Zero"
     },
     "0711": {
       "canon": "0711",
       "title": "THE ESCALATOR",
       "masterNum": "711",
-      "displayTitle": "The Escalator"
+      "displayTitle": "The Escalator",
+      "cardId": "1193",
+      "audio": "1193-the-escalator.mp3",
+      "cardTitleLegacy": "The Escalator"
     },
     "0712": {
       "canon": "0712",
       "title": "THE COMET",
       "masterNum": "712",
-      "displayTitle": "The Comet"
+      "displayTitle": "The Comet",
+      "cardId": "1194",
+      "audio": "1194-the-comet.mp3",
+      "cardTitleLegacy": "The Comet"
     },
     "0713": {
       "canon": "0713",
       "title": "THE LETTER Ř",
       "masterNum": "713",
-      "displayTitle": "The Letter ř"
+      "displayTitle": "The Letter ř",
+      "cardId": "1195",
+      "audio": "1195-the-letter-r.mp3",
+      "cardTitleLegacy": "The Letter ř"
     },
     "0714": {
       "canon": "0714",
       "title": "SILENCE",
       "masterNum": "714",
-      "displayTitle": "Silence"
+      "displayTitle": "Silence",
+      "cardId": "1196",
+      "audio": "1196-silence.mp3",
+      "cardTitleLegacy": "Silence"
     },
     "0715": {
       "canon": "0715",
       "title": "THE SCARECROW",
       "masterNum": "715",
-      "displayTitle": "The Scarecrow"
+      "displayTitle": "The Scarecrow",
+      "cardId": "1197",
+      "audio": "1197-the-scarecrow.mp3",
+      "cardTitleLegacy": "The Scarecrow"
     },
     "0716": {
       "canon": "0716",
       "title": "THE FOURTH LITTLE PIG",
       "masterNum": "716",
-      "displayTitle": "The Fourth Little Pig"
+      "displayTitle": "The Fourth Little Pig",
+      "cardId": "1198",
+      "audio": "1198-the-fourth-little-pig.mp3",
+      "cardTitleLegacy": "The Fourth Little Pig"
     },
     "0717": {
       "canon": "0717",
       "title": "CINDERELLA'S SECOND SLIPPER",
       "masterNum": "717",
-      "displayTitle": "Cinderella's Second Slipper"
+      "displayTitle": "Cinderella's Second Slipper",
+      "cardId": "1199",
+      "audio": "1199-cinderella-s-second-slipper.mp3",
+      "cardTitleLegacy": "Cinderella's Second Slipper"
     },
     "0718": {
       "canon": "0718",
       "title": "THE RETIRED WOLF",
       "masterNum": "718",
-      "displayTitle": "The Retired Wolf"
+      "displayTitle": "The Retired Wolf",
+      "cardId": "1200",
+      "audio": "1200-the-retired-wolf.mp3",
+      "cardTitleLegacy": "The Retired Wolf"
     },
     "0719": {
       "canon": "0719",
       "title": "THE TROJAN HORSE",
       "masterNum": "719",
-      "displayTitle": "The Trojan Horse"
+      "displayTitle": "The Trojan Horse",
+      "cardId": "1201",
+      "audio": "1201-the-trojan-horse.mp3",
+      "cardTitleLegacy": "The Trojan Horse"
     },
     "0720": {
       "canon": "0720",
       "title": "THE MUSE AT THE JOB CENTER",
       "masterNum": "720",
-      "displayTitle": "The Muse at the Job Center"
+      "displayTitle": "The Muse at the Job Center",
+      "cardId": "1202",
+      "audio": "1202-the-muse-at-the-job-center.mp3",
+      "cardTitleLegacy": "The Muse at the Job Center"
     },
     "0721": {
       "canon": "0721",
       "title": "CUPID'S ARROW",
       "masterNum": "721",
-      "displayTitle": "Cupid's Arrow"
+      "displayTitle": "Cupid's Arrow",
+      "cardId": "1203",
+      "audio": "1203-cupid-s-arrow.mp3",
+      "cardTitleLegacy": "Cupid's Arrow"
     },
     "0722": {
       "canon": "0722",
       "title": "THE LAST MAMMOTH",
       "masterNum": "722",
-      "displayTitle": "The Last Mammoth"
+      "displayTitle": "The Last Mammoth",
+      "cardId": "1204",
+      "audio": "1204-the-last-mammoth.mp3",
+      "cardTitleLegacy": "The Last Mammoth"
     },
     "0723": {
       "canon": "0723",
       "title": "THE MOON",
       "masterNum": "723",
-      "displayTitle": "The Moon"
+      "displayTitle": "The Moon",
+      "cardId": "1569",
+      "audio": "1569-the-moon.mp3",
+      "cardTitleLegacy": "The Moon"
     },
     "0724": {
       "canon": "0724",
       "title": "PLUTO",
       "masterNum": "724",
-      "displayTitle": "Pluto"
+      "displayTitle": "Pluto",
+      "cardId": "1205",
+      "audio": "1205-pluto.mp3",
+      "cardTitleLegacy": "Pluto"
     },
     "0725": {
       "canon": "0725",
       "title": "THE LEAP DAY",
       "masterNum": "725",
-      "displayTitle": "The Leap Day"
+      "displayTitle": "The Leap Day",
+      "cardId": "1206",
+      "audio": "1206-the-leap-day.mp3",
+      "cardTitleLegacy": "The Leap Day"
     },
     "0726": {
       "canon": "0726",
       "title": "MIDNIGHT",
       "masterNum": "726",
-      "displayTitle": "Midnight"
+      "displayTitle": "Midnight",
+      "cardId": "1207",
+      "audio": "1207-midnight.mp3",
+      "cardTitleLegacy": "Midnight"
     },
     "0727": {
       "canon": "0727",
@@ -6899,211 +7811,316 @@
       "canon": "0728",
       "title": "THE TYPO",
       "masterNum": "728",
-      "displayTitle": "The Typo"
+      "displayTitle": "The Typo",
+      "cardId": "1208",
+      "audio": "1208-the-typo.mp3",
+      "cardTitleLegacy": "The Typo"
     },
     "0729": {
       "canon": "0729",
       "title": "THE FOOTNOTE",
       "masterNum": "729",
-      "displayTitle": "The Footnote"
+      "displayTitle": "The Footnote",
+      "cardId": "1209",
+      "audio": "1209-the-footnote.mp3",
+      "cardTitleLegacy": "The Footnote"
     },
     "0730": {
       "canon": "0730",
       "title": "THE BOOKMARK",
       "masterNum": "730",
-      "displayTitle": "The Bookmark"
+      "displayTitle": "The Bookmark",
+      "cardId": "1210",
+      "audio": "1210-the-bookmark.mp3",
+      "cardTitleLegacy": "The Bookmark"
     },
     "0731": {
       "canon": "0731",
       "title": "THE THIRTEENTH CHAPTER",
       "masterNum": "731",
-      "displayTitle": "The Thirteenth Chapter"
+      "displayTitle": "The Thirteenth Chapter",
+      "cardId": "1211",
+      "audio": "1211-the-thirteenth-chapter.mp3",
+      "cardTitleLegacy": "The Thirteenth Chapter"
     },
     "0732": {
       "canon": "0732",
       "title": "THE LEFT SOCK",
       "masterNum": "732",
-      "displayTitle": "The Left Sock"
+      "displayTitle": "The Left Sock",
+      "cardId": "1212",
+      "audio": "1212-the-left-sock.mp3",
+      "cardTitleLegacy": "The Left Sock"
     },
     "0733": {
       "canon": "0733",
       "title": "THE TOOTH FAIRY IN CRISIS",
       "masterNum": "733",
-      "displayTitle": "The Tooth Fairy in Crisis"
+      "displayTitle": "The Tooth Fairy in Crisis",
+      "cardId": "1213",
+      "audio": "1213-the-tooth-fairy-in-crisis.mp3",
+      "cardTitleLegacy": "The Tooth Fairy in Crisis"
     },
     "0734": {
       "canon": "0734",
       "title": "BABY JESUS IN SUMMER",
       "masterNum": "734",
-      "displayTitle": "Baby Jesus in Summer"
+      "displayTitle": "Baby Jesus in Summer",
+      "cardId": "1214",
+      "audio": "1214-baby-jesus-in-summer.mp3",
+      "cardTitleLegacy": "Baby Jesus in Summer"
     },
     "0735": {
       "canon": "0735",
       "title": "A DEVIL WITHOUT A SINNER",
       "masterNum": "735",
-      "displayTitle": "A Devil without a Sinner"
+      "displayTitle": "A Devil without a Sinner",
+      "cardId": "1215",
+      "audio": "1215-a-devil-without-a-sinner.mp3",
+      "cardTitleLegacy": "A Devil Without a Sinner"
     },
     "0736": {
       "canon": "0736",
       "title": "THE GAME DIE",
       "masterNum": "736",
-      "displayTitle": "The Game Die"
+      "displayTitle": "The Game Die",
+      "cardId": "1216",
+      "audio": "1216-the-game-die.mp3",
+      "cardTitleLegacy": "The Game Die"
     },
     "0737": {
       "canon": "0737",
       "title": "THE PAWN",
       "masterNum": "737",
-      "displayTitle": "The Pawn"
+      "displayTitle": "The Pawn",
+      "cardId": "1217",
+      "audio": "1217-the-pawn.mp3",
+      "cardTitleLegacy": "The Pawn"
     },
     "0738": {
       "canon": "0738",
       "title": "THE JOKER",
       "masterNum": "738",
-      "displayTitle": "The Joker"
+      "displayTitle": "The Joker",
+      "cardId": "1218",
+      "audio": "1218-the-joker.mp3",
+      "cardTitleLegacy": "The Joker"
     },
     "0739": {
       "canon": "0739",
       "title": "YOU ARE HERE",
       "masterNum": "739",
-      "displayTitle": "You Are Here"
+      "displayTitle": "You Are Here",
+      "cardId": "1219",
+      "audio": "1219-you-are-here.mp3",
+      "cardTitleLegacy": "You Are Here"
     },
     "0740": {
       "canon": "0740",
       "title": "THE LEAP SECOND",
       "masterNum": "740",
-      "displayTitle": "The Leap Second"
+      "displayTitle": "The Leap Second",
+      "cardId": "1220",
+      "audio": "1220-the-leap-second.mp3",
+      "cardTitleLegacy": "The Leap Second"
     },
     "0741": {
       "canon": "0741",
       "title": "THE DEADLINE",
       "masterNum": "741",
-      "displayTitle": "The Deadline"
+      "displayTitle": "The Deadline",
+      "cardId": "1221",
+      "audio": "1221-the-deadline.mp3",
+      "cardTitleLegacy": "The Deadline"
     },
     "0742": {
       "canon": "0742",
       "title": "THE ALGORITHM",
       "masterNum": "742",
-      "displayTitle": "The Algorithm"
+      "displayTitle": "The Algorithm",
+      "cardId": "1222",
+      "audio": "1222-the-algorithm.mp3",
+      "cardTitleLegacy": "The Algorithm"
     },
     "0743": {
       "canon": "0743",
       "title": "THE CAPTCHA",
       "masterNum": "743",
-      "displayTitle": "The Captcha"
+      "displayTitle": "The Captcha",
+      "cardId": "1223",
+      "audio": "1223-the-captcha.mp3",
+      "cardTitleLegacy": "The Captcha"
     },
     "0744": {
       "canon": "0744",
       "title": "THE SPAM FILTER",
       "masterNum": "744",
-      "displayTitle": "The Spam Filter"
+      "displayTitle": "The Spam Filter",
+      "cardId": "1224",
+      "audio": "1224-the-spam-filter.mp3",
+      "cardTitleLegacy": "The Spam Filter"
     },
     "0745": {
       "canon": "0745",
       "title": "THE VOICEMAIL",
       "masterNum": "745",
-      "displayTitle": "The Voicemail"
+      "displayTitle": "The Voicemail",
+      "cardId": "1225",
+      "audio": "1225-the-voicemail.mp3",
+      "cardTitleLegacy": "The Voicemail"
     },
     "0746": {
       "canon": "0746",
       "title": "ONE PERCENT",
       "masterNum": "746",
-      "displayTitle": "One Percent"
+      "displayTitle": "One Percent",
+      "cardId": "1226",
+      "audio": "1226-one-percent.mp3",
+      "cardTitleLegacy": "One Percent"
     },
     "0747": {
       "canon": "0747",
       "title": "THE SNOOZE BUTTON",
       "masterNum": "747",
-      "displayTitle": "The Snooze Button"
+      "displayTitle": "The Snooze Button",
+      "cardId": "1227",
+      "audio": "1227-the-snooze-button.mp3",
+      "cardTitleLegacy": "The Snooze Button"
     },
     "0748": {
       "canon": "0748",
       "title": "THE SMILEY",
       "masterNum": "748",
-      "displayTitle": "The Smiley"
+      "displayTitle": "The Smiley",
+      "cardId": "1228",
+      "audio": "1228-the-smiley.mp3",
+      "cardTitleLegacy": "The Smiley"
     },
     "0749": {
       "canon": "0749",
       "title": "THE QR CODE",
       "masterNum": "749",
-      "displayTitle": "The Qr Code"
+      "displayTitle": "The Qr Code",
+      "cardId": "1229",
+      "audio": "1229-the-qr-code.mp3",
+      "cardTitleLegacy": "The Qr Code"
     },
     "0750": {
       "canon": "0750",
       "title": "THE UPDATE",
       "masterNum": "750",
-      "displayTitle": "The Update"
+      "displayTitle": "The Update",
+      "cardId": "1230",
+      "audio": "1230-the-update.mp3",
+      "cardTitleLegacy": "The Update"
     },
     "0751": {
       "canon": "0751",
       "title": "THE DODO",
       "masterNum": "751",
-      "displayTitle": "The Dodo"
+      "displayTitle": "The Dodo",
+      "cardId": "1231",
+      "audio": "1231-the-dodo.mp3",
+      "cardTitleLegacy": "The Dodo"
     },
     "0752": {
       "canon": "0752",
       "title": "THE BONSAI",
       "masterNum": "752",
-      "displayTitle": "The Bonsai"
+      "displayTitle": "The Bonsai",
+      "cardId": "1232",
+      "audio": "1232-the-bonsai.mp3",
+      "cardTitleLegacy": "The Bonsai"
     },
     "0753": {
       "canon": "0753",
       "title": "THE CACTUS",
       "masterNum": "753",
-      "displayTitle": "The Cactus"
+      "displayTitle": "The Cactus",
+      "cardId": "1233",
+      "audio": "1233-the-cactus.mp3",
+      "cardTitleLegacy": "The Cactus"
     },
     "0754": {
       "canon": "0754",
       "title": "THE MISTLETOE",
       "masterNum": "754",
-      "displayTitle": "The Mistletoe"
+      "displayTitle": "The Mistletoe",
+      "cardId": "1234",
+      "audio": "1234-the-mistletoe.mp3",
+      "cardTitleLegacy": "The Mistletoe"
     },
     "0755": {
       "canon": "0755",
       "title": "THE GRASS IN THE CRACK",
       "masterNum": "755",
-      "displayTitle": "The Grass in the Crack"
+      "displayTitle": "The Grass in the Crack",
+      "cardId": "1235",
+      "audio": "1235-the-grass-in-the-crack.mp3",
+      "cardTitleLegacy": "The Grass in the Crack"
     },
     "0756": {
       "canon": "0756",
       "title": "THE FOG",
       "masterNum": "756",
-      "displayTitle": "The Fog"
+      "displayTitle": "The Fog",
+      "cardId": "1236",
+      "audio": "1236-the-fog.mp3",
+      "cardTitleLegacy": "The Fog"
     },
     "0757": {
       "canon": "0757",
       "title": "THE LIGHTNING THAT MISSED",
       "masterNum": "757",
-      "displayTitle": "The Lightning that Missed"
+      "displayTitle": "The Lightning that Missed",
+      "cardId": "1237",
+      "audio": "1237-the-lightning-that-missed.mp3",
+      "cardTitleLegacy": "The Lightning That Missed"
     },
     "0758": {
       "canon": "0758",
       "title": "THE WIND",
       "masterNum": "758",
-      "displayTitle": "The Wind"
+      "displayTitle": "The Wind",
+      "cardId": "1238",
+      "audio": "1238-the-wind.mp3",
+      "cardTitleLegacy": "The Wind"
     },
     "0759": {
       "canon": "0759",
       "title": "THE NORTH STAR",
       "masterNum": "759",
-      "displayTitle": "The North Star"
+      "displayTitle": "The North Star",
+      "cardId": "1239",
+      "audio": "1239-the-north-star.mp3",
+      "cardTitleLegacy": "The North Star"
     },
     "0760": {
       "canon": "0760",
       "title": "THE LIGHTHOUSE",
       "masterNum": "760",
-      "displayTitle": "The Lighthouse"
+      "displayTitle": "The Lighthouse",
+      "cardId": "1240",
+      "audio": "1240-the-lighthouse.mp3",
+      "cardTitleLegacy": "The Lighthouse"
     },
     "0761": {
       "canon": "0761",
       "title": "THE LAST STEAM LOCOMOTIVE",
       "masterNum": "761",
-      "displayTitle": "The Last Steam Locomotive"
+      "displayTitle": "The Last Steam Locomotive",
+      "cardId": "1241",
+      "audio": "1241-the-last-steam-locomotive.mp3",
+      "cardTitleLegacy": "The Last Steam Locomotive"
     },
     "0762": {
       "canon": "0762",
       "title": "THE WAX FIGURE",
       "masterNum": "762",
-      "displayTitle": "The Wax Figure"
+      "displayTitle": "The Wax Figure",
+      "cardId": "1242",
+      "audio": "1242-the-wax-figure.mp3",
+      "cardTitleLegacy": "The Wax Figure"
     },
     "0763": {
       "canon": "0763",
@@ -7115,163 +8132,244 @@
       "canon": "0764",
       "title": "THE GHOST WITHOUT TOURISTS",
       "masterNum": "764",
-      "displayTitle": "The Ghost without Tourists"
+      "displayTitle": "The Ghost without Tourists",
+      "cardId": "1243",
+      "audio": "1243-the-ghost-without-tourists.mp3",
+      "cardTitleLegacy": "The Ghost Without Tourists"
     },
     "0765": {
       "canon": "0765",
       "title": "THE WILL-O'-THE-WISP",
       "masterNum": "765",
-      "displayTitle": "The Will-O'-the-Wisp"
+      "displayTitle": "The Will-O'-the-Wisp",
+      "cardId": "1244",
+      "audio": "1244-the-will-o-the-wisp.mp3",
+      "cardTitleLegacy": "The Will-O'-The-Wisp"
     },
     "0766": {
       "canon": "0766",
       "title": "THE PERPETUAL MOTION MACHINE",
       "masterNum": "766",
-      "displayTitle": "The Perpetual Motion Machine"
+      "displayTitle": "The Perpetual Motion Machine",
+      "cardId": "1245",
+      "audio": "1245-the-perpetual-motion-machine.mp3",
+      "cardTitleLegacy": "The Perpetual Motion Machine"
     },
     "0767": {
       "canon": "0767",
       "title": "SCHRÖDINGER'S CAT",
       "masterNum": "767",
-      "displayTitle": "Schrödinger's Cat"
+      "displayTitle": "Schrödinger's Cat",
+      "cardId": "1246",
+      "audio": "1246-schrodinger-s-cat.mp3",
+      "cardTitleLegacy": "Schrödinger's Cat"
     },
     "0768": {
       "canon": "0768",
       "title": "THE ROBOT ON THE LINE",
       "masterNum": "768",
-      "displayTitle": "The Robot on the Line"
+      "displayTitle": "The Robot on the Line",
+      "cardId": "1247",
+      "audio": "1247-the-robot-on-the-line.mp3",
+      "cardTitleLegacy": "The Robot on the Line"
     },
     "0769": {
       "canon": "0769",
       "title": "AN ARTIFICIAL INTELLIGENCE WRITES A POEM",
       "masterNum": "769",
-      "displayTitle": "An Artificial Intelligence Writes a Poem"
+      "displayTitle": "An Artificial Intelligence Writes a Poem",
+      "cardId": "1248",
+      "audio": "1248-an-artificial-intelligence-writes-a-poem.mp3",
+      "cardTitleLegacy": "An Artificial Intelligence Writes a Poem"
     },
     "0770": {
       "canon": "0770",
       "title": "THE FORGOTTEN WORD",
       "masterNum": "770",
-      "displayTitle": "The Forgotten Word"
+      "displayTitle": "The Forgotten Word",
+      "cardId": "1249",
+      "audio": "1249-the-forgotten-word.mp3",
+      "cardTitleLegacy": "The Forgotten Word"
     },
     "0771": {
       "canon": "0771",
       "title": "THE DASH",
       "masterNum": "771",
-      "displayTitle": "The Dash"
+      "displayTitle": "The Dash",
+      "cardId": "1250",
+      "audio": "1250-the-dash.mp3",
+      "cardTitleLegacy": "The Dash"
     },
     "0772": {
       "canon": "0772",
       "title": "THE CUCKOO FROM THE CLOCK",
       "masterNum": "772",
-      "displayTitle": "The Cuckoo from the Clock"
+      "displayTitle": "The Cuckoo from the Clock",
+      "cardId": "1251",
+      "audio": "1251-the-cuckoo-from-the-clock.mp3",
+      "cardTitleLegacy": "The Cuckoo from the Clock"
     },
     "0773": {
       "canon": "0773",
       "title": "THE LIGHTNING ROD",
       "masterNum": "773",
-      "displayTitle": "The Lightning Rod"
+      "displayTitle": "The Lightning Rod",
+      "cardId": "1252",
+      "audio": "1252-the-lightning-rod.mp3",
+      "cardTitleLegacy": "The Lightning Rod"
     },
     "0774": {
       "canon": "0774",
       "title": "THE HIGHEST KEY",
       "masterNum": "774",
-      "displayTitle": "The Highest Key"
+      "displayTitle": "The Highest Key",
+      "cardId": "1253",
+      "audio": "1253-the-highest-key.mp3",
+      "cardTitleLegacy": "The Highest Key"
     },
     "0775": {
       "canon": "0775",
       "title": "THE METRONOME",
       "masterNum": "775",
-      "displayTitle": "The Metronome"
+      "displayTitle": "The Metronome",
+      "cardId": "1254",
+      "audio": "1254-the-metronome-2.mp3",
+      "cardTitleLegacy": "The Metronome"
     },
     "0776": {
       "canon": "0776",
       "title": "THE FERMATA",
       "masterNum": "776",
-      "displayTitle": "The Fermata"
+      "displayTitle": "The Fermata",
+      "cardId": "1255",
+      "audio": "1255-the-fermata.mp3",
+      "cardTitleLegacy": "The Fermata"
     },
     "0777": {
       "canon": "0777",
       "title": "THE C STRING",
       "masterNum": "777",
-      "displayTitle": "The C String"
+      "displayTitle": "The C String",
+      "cardId": "1256",
+      "audio": "1256-the-c-string.mp3",
+      "cardTitleLegacy": "The C String"
     },
     "0778": {
       "canon": "0778",
       "title": "THE CASE",
       "masterNum": "778",
-      "displayTitle": "The Case"
+      "displayTitle": "The Case",
+      "cardId": "1257",
+      "audio": "1257-the-case.mp3",
+      "cardTitleLegacy": "The Case"
     },
     "0779": {
       "canon": "0779",
       "title": "THE REPEAT",
       "masterNum": "779",
-      "displayTitle": "The Repeat"
+      "displayTitle": "The Repeat",
+      "cardId": "1258",
+      "audio": "1258-the-repeat.mp3",
+      "cardTitleLegacy": "The Repeat"
     },
     "0780": {
       "canon": "0780",
       "title": "THE GENERAL PAUSE",
       "masterNum": "780",
-      "displayTitle": "The General Pause"
+      "displayTitle": "The General Pause",
+      "cardId": "1259",
+      "audio": "1259-the-general-pause.mp3",
+      "cardTitleLegacy": "The General Pause"
     },
     "0781": {
       "canon": "0781",
       "title": "THE LAST PAGE OF THE CALENDAR",
       "masterNum": "781",
-      "displayTitle": "The Last Page of the Calendar"
+      "displayTitle": "The Last Page of the Calendar",
+      "cardId": "1260",
+      "audio": "1260-the-last-page-of-the-calendar.mp3",
+      "cardTitleLegacy": "The Last Page of the Calendar"
     },
     "0782": {
       "canon": "0782",
       "title": "THE FIRST OF JANUARY",
       "masterNum": "782",
-      "displayTitle": "The First of January"
+      "displayTitle": "The First of January",
+      "cardId": "1261",
+      "audio": "1261-the-first-of-january.mp3",
+      "cardTitleLegacy": "The First of January"
     },
     "0783": {
       "canon": "0783",
       "title": "THE GOLEM",
       "masterNum": "783",
-      "displayTitle": "The Golem"
+      "displayTitle": "The Golem",
+      "cardId": "1262",
+      "audio": "1262-the-golem.mp3",
+      "cardTitleLegacy": "The Golem"
     },
     "0784": {
       "canon": "0784",
       "title": "THE WATER SPRITE AT THE TREATMENT PLANT",
       "masterNum": "784",
-      "displayTitle": "The Water Sprite at the Treatment Plant"
+      "displayTitle": "The Water Sprite at the Treatment Plant",
+      "cardId": "1263",
+      "audio": "1263-the-water-sprite-at-the-treatment-plant.mp3",
+      "cardTitleLegacy": "The Water Sprite at the Treatment Plant"
     },
     "0785": {
       "canon": "0785",
       "title": "THE YETI",
       "masterNum": "785",
-      "displayTitle": "The Yeti"
+      "displayTitle": "The Yeti",
+      "cardId": "1264",
+      "audio": "1264-the-yeti.mp3",
+      "cardTitleLegacy": "The Yeti"
     },
     "0786": {
       "canon": "0786",
       "title": "THE MINOTAUR",
       "masterNum": "786",
-      "displayTitle": "The Minotaur"
+      "displayTitle": "The Minotaur",
+      "cardId": "1265",
+      "audio": "1265-the-minotaur.mp3",
+      "cardTitleLegacy": "The Minotaur"
     },
     "0787": {
       "canon": "0787",
       "title": "THE UNICORN",
       "masterNum": "787",
-      "displayTitle": "The Unicorn"
+      "displayTitle": "The Unicorn",
+      "cardId": "1266",
+      "audio": "1266-the-unicorn.mp3",
+      "cardTitleLegacy": "The Unicorn"
     },
     "0788": {
       "canon": "0788",
       "title": "FRIDAY THE THIRTEENTH",
       "masterNum": "788",
-      "displayTitle": "Friday the Thirteenth"
+      "displayTitle": "Friday the Thirteenth",
+      "cardId": "1267",
+      "audio": "1267-friday-the-thirteenth.mp3",
+      "cardTitleLegacy": "Friday the Thirteenth"
     },
     "0789": {
       "canon": "0789",
       "title": "THE EXTINCT VOLCANO",
       "masterNum": "789",
-      "displayTitle": "The Extinct Volcano"
+      "displayTitle": "The Extinct Volcano",
+      "cardId": "1268",
+      "audio": "1268-the-extinct-volcano.mp3",
+      "cardTitleLegacy": "The Extinct Volcano"
     },
     "0790": {
       "canon": "0790",
       "title": "THE ERRATIC BOULDER",
       "masterNum": "790",
-      "displayTitle": "The Erratic Boulder"
+      "displayTitle": "The Erratic Boulder",
+      "cardId": "1269",
+      "audio": "1269-the-erratic-boulder.mp3",
+      "cardTitleLegacy": "The Erratic Boulder"
     },
     "0791": {
       "canon": "0791",
@@ -7283,109 +8381,163 @@
       "canon": "0792",
       "title": "THE HORIZON",
       "masterNum": "792",
-      "displayTitle": "The Horizon"
+      "displayTitle": "The Horizon",
+      "cardId": "1270",
+      "audio": "1270-the-horizon.mp3",
+      "cardTitleLegacy": "The Horizon"
     },
     "0793": {
       "canon": "0793",
       "title": "THE SIGNATURE",
       "masterNum": "793",
-      "displayTitle": "The Signature"
+      "displayTitle": "The Signature",
+      "cardId": "1271",
+      "audio": "1271-the-signature.mp3",
+      "cardTitleLegacy": "The Signature"
     },
     "0794": {
       "canon": "0794",
       "title": "THE EPITAPH",
       "masterNum": "794",
-      "displayTitle": "The Epitaph"
+      "displayTitle": "The Epitaph",
+      "cardId": "1272",
+      "audio": "1272-the-epitaph.mp3",
+      "cardTitleLegacy": "The Epitaph"
     },
     "0795": {
       "canon": "0795",
       "title": "THE RAINBOW",
       "masterNum": "795",
-      "displayTitle": "The Rainbow"
+      "displayTitle": "The Rainbow",
+      "cardId": "1273",
+      "audio": "1273-the-rainbow.mp3",
+      "cardTitleLegacy": "The Rainbow"
     },
     "0796": {
       "canon": "0796",
       "title": "THE POEM",
       "masterNum": "796",
-      "displayTitle": "The Poem"
+      "displayTitle": "The Poem",
+      "cardId": "1274",
+      "audio": "1274-the-poem.mp3",
+      "cardTitleLegacy": "The Poem"
     },
     "0797": {
       "canon": "0797",
       "title": "THE COLON",
       "masterNum": "797",
-      "displayTitle": "The Colon"
+      "displayTitle": "The Colon",
+      "cardId": "1275",
+      "audio": "1275-the-colon.mp3",
+      "cardTitleLegacy": "The Colon"
     },
     "0798": {
       "canon": "0798",
       "title": "QUOTATION MARKS",
       "masterNum": "798",
-      "displayTitle": "Quotation Marks"
+      "displayTitle": "Quotation Marks",
+      "cardId": "1276",
+      "audio": "1276-quotation-marks.mp3",
+      "cardTitleLegacy": "Quotation Marks"
     },
     "0799": {
       "canon": "0799",
       "title": "THE ELLIPSIS",
       "masterNum": "799",
-      "displayTitle": "The Ellipsis"
+      "displayTitle": "The Ellipsis",
+      "cardId": "1277",
+      "audio": "1277-the-ellipsis.mp3",
+      "cardTitleLegacy": "The Ellipsis"
     },
     "0800": {
       "canon": "0800",
       "title": "THE CURSOR",
       "masterNum": "800",
-      "displayTitle": "The Cursor"
+      "displayTitle": "The Cursor",
+      "cardId": "1278",
+      "audio": "1278-the-cursor.mp3",
+      "cardTitleLegacy": "The Cursor"
     },
     "0801": {
       "canon": "0801",
       "title": "ERROR 404",
       "masterNum": "801",
-      "displayTitle": "Error 404"
+      "displayTitle": "Error 404",
+      "cardId": "1279",
+      "audio": "1279-error-404.mp3",
+      "cardTitleLegacy": "Error 404"
     },
     "0802": {
       "canon": "0802",
       "title": "THE GOLDEN FISH",
       "masterNum": "802",
-      "displayTitle": "The Golden Fish"
+      "displayTitle": "The Golden Fish",
+      "cardId": "1280",
+      "audio": "1280-the-golden-fish.mp3",
+      "cardTitleLegacy": "The Golden Fish"
     },
     "0803": {
       "canon": "0803",
       "title": "PANDORA'S BOX",
       "masterNum": "803",
-      "displayTitle": "Pandora's Box"
+      "displayTitle": "Pandora's Box",
+      "cardId": "1281",
+      "audio": "1281-pandora-s-box.mp3",
+      "cardTitleLegacy": "Pandora's Box"
     },
     "0804": {
       "canon": "0804",
       "title": "ICARUS'S WINGS",
       "masterNum": "804",
-      "displayTitle": "Icarus's Wings"
+      "displayTitle": "Icarus's Wings",
+      "cardId": "1282",
+      "audio": "1282-icarus-s-wings.mp3",
+      "cardTitleLegacy": "Icarus's Wings"
     },
     "0805": {
       "canon": "0805",
       "title": "THE VOYAGER GOLDEN RECORD",
       "masterNum": "805",
-      "displayTitle": "The Voyager Golden Record"
+      "displayTitle": "The Voyager Golden Record",
+      "cardId": "1283",
+      "audio": "1283-the-voyager-golden-record.mp3",
+      "cardTitleLegacy": "The Voyager Golden Record"
     },
     "0806": {
       "canon": "0806",
       "title": "THE ROVER ON MARS",
       "masterNum": "806",
-      "displayTitle": "The Rover on Mars"
+      "displayTitle": "The Rover on Mars",
+      "cardId": "1284",
+      "audio": "1284-the-rover-on-mars.mp3",
+      "cardTitleLegacy": "The Rover on Mars"
     },
     "0807": {
       "canon": "0807",
       "title": "THE TREBLE CLEF",
       "masterNum": "807",
-      "displayTitle": "The Treble Clef"
+      "displayTitle": "The Treble Clef",
+      "cardId": "1285",
+      "audio": "1285-the-treble-clef.mp3",
+      "cardTitleLegacy": "The Treble Clef"
     },
     "0808": {
       "canon": "0808",
       "title": "THE REST",
       "masterNum": "808",
-      "displayTitle": "The Rest"
+      "displayTitle": "The Rest",
+      "cardId": "1286",
+      "audio": "1286-the-rest.mp3",
+      "cardTitleLegacy": "The Rest"
     },
     "0809": {
       "canon": "0809",
       "title": "THE TUNING FORK",
       "masterNum": "809",
-      "displayTitle": "The Tuning Fork"
+      "displayTitle": "The Tuning Fork",
+      "cardId": "1287",
+      "audio": "1287-the-tuning-fork.mp3",
+      "cardTitleLegacy": "The Tuning Fork"
     },
     "0810": {
       "canon": "0810",
@@ -7397,523 +8549,784 @@
       "canon": "0811",
       "title": "THE CANDLE",
       "masterNum": "811",
-      "displayTitle": "The Candle"
+      "displayTitle": "The Candle",
+      "cardId": "1288",
+      "audio": "1288-the-candle.mp3",
+      "cardTitleLegacy": "The Candle"
     },
     "0812": {
       "canon": "0812",
       "title": "THE THRESHOLD",
       "masterNum": "812",
-      "displayTitle": "The Threshold"
+      "displayTitle": "The Threshold",
+      "cardId": "1289",
+      "audio": "1289-the-threshold.mp3",
+      "cardTitleLegacy": "The Threshold"
     },
     "0813": {
       "canon": "0813",
       "title": "THE SCHOOL SPONGE",
       "masterNum": "813",
-      "displayTitle": "The School Sponge"
+      "displayTitle": "The School Sponge",
+      "cardId": "1290",
+      "audio": "1290-the-school-sponge.mp3",
+      "cardTitleLegacy": "The School Sponge"
     },
     "0814": {
       "canon": "0814",
       "title": "THE COMPASS",
       "masterNum": "814",
-      "displayTitle": "The Compass"
+      "displayTitle": "The Compass",
+      "cardId": "1291",
+      "audio": "1291-the-compass.mp3",
+      "cardTitleLegacy": "The Compass"
     },
     "0815": {
       "canon": "0815",
       "title": "THE ECLIPSE",
       "masterNum": "815",
-      "displayTitle": "The Eclipse"
+      "displayTitle": "The Eclipse",
+      "cardId": "1292",
+      "audio": "1292-the-eclipse.mp3",
+      "cardTitleLegacy": "The Eclipse"
     },
     "0816": {
       "canon": "0816",
       "title": "THE GINGERBREAD HOUSE",
       "masterNum": "816",
-      "displayTitle": "The Gingerbread House"
+      "displayTitle": "The Gingerbread House",
+      "cardId": "1293",
+      "audio": "1293-the-gingerbread-house.mp3",
+      "cardTitleLegacy": "The Gingerbread House"
     },
     "0817": {
       "canon": "0817",
       "title": "THE PARENTHESIS",
       "masterNum": "817",
-      "displayTitle": "The Parenthesis"
+      "displayTitle": "The Parenthesis",
+      "cardId": "1294",
+      "audio": "1294-the-parenthesis.mp3",
+      "cardTitleLegacy": "The Parenthesis"
     },
     "0818": {
       "canon": "0818",
       "title": "THE HÁČEK",
       "masterNum": "818",
-      "displayTitle": "The Háček"
+      "displayTitle": "The Háček",
+      "cardId": "1295",
+      "audio": "1295-the-hacek.mp3",
+      "cardTitleLegacy": "The Háček"
     },
     "0819": {
       "canon": "0819",
       "title": "THE SPACE",
       "masterNum": "819",
-      "displayTitle": "The Space"
+      "displayTitle": "The Space",
+      "cardId": "1296",
+      "audio": "1296-the-space.mp3",
+      "cardTitleLegacy": "The Space"
     },
     "0820": {
       "canon": "0820",
       "title": "THE LOADING SPINNER",
       "masterNum": "820",
-      "displayTitle": "The Loading Spinner"
+      "displayTitle": "The Loading Spinner",
+      "cardId": "1297",
+      "audio": "1297-the-loading-spinner.mp3",
+      "cardTitleLegacy": "The Loading Spinner"
     },
     "0821": {
       "canon": "0821",
       "title": "TYPING…",
       "masterNum": "821",
-      "displayTitle": "Typing…"
+      "displayTitle": "Typing…",
+      "cardId": "1298",
+      "audio": "1298-typing.mp3",
+      "cardTitleLegacy": "Typing…"
     },
     "0822": {
       "canon": "0822",
       "title": "LAST SEEN ONLINE",
       "masterNum": "822",
-      "displayTitle": "Last Seen Online"
+      "displayTitle": "Last Seen Online",
+      "cardId": "1299",
+      "audio": "1299-last-seen-online.mp3",
+      "cardTitleLegacy": "Last Seen Online"
     },
     "0823": {
       "canon": "0823",
       "title": "THE DRAGON ON THE HOARD",
       "masterNum": "823",
-      "displayTitle": "The Dragon on the Hoard"
+      "displayTitle": "The Dragon on the Hoard",
+      "cardId": "1300",
+      "audio": "1300-the-dragon-on-the-hoard.mp3",
+      "cardTitleLegacy": "The Dragon on the Hoard"
     },
     "0824": {
       "canon": "0824",
       "title": "THE SEVEN-LEAGUE BOOTS",
       "masterNum": "824",
-      "displayTitle": "The Seven-League Boots"
+      "displayTitle": "The Seven-League Boots",
+      "cardId": "1301",
+      "audio": "1301-the-seven-league-boots.mp3",
+      "cardTitleLegacy": "The Seven-League Boots"
     },
     "0825": {
       "canon": "0825",
       "title": "THE MAGIC MIRROR",
       "masterNum": "825",
-      "displayTitle": "The Magic Mirror"
+      "displayTitle": "The Magic Mirror",
+      "cardId": "1302",
+      "audio": "1302-the-magic-mirror.mp3",
+      "cardTitleLegacy": "The Magic Mirror"
     },
     "0826": {
       "canon": "0826",
       "title": "THE PEA UNDER THE MATTRESSES",
       "masterNum": "826",
-      "displayTitle": "The Pea Under the Mattresses"
+      "displayTitle": "The Pea Under the Mattresses",
+      "cardId": "1303",
+      "audio": "1303-the-pea-under-the-mattresses.mp3",
+      "cardTitleLegacy": "The Pea Under the Mattresses"
     },
     "0827": {
       "canon": "0827",
       "title": "SATURN'S RINGS",
       "masterNum": "827",
-      "displayTitle": "Saturn's Rings"
+      "displayTitle": "Saturn's Rings",
+      "cardId": "1304",
+      "audio": "1304-saturn-s-rings.mp3",
+      "cardTitleLegacy": "Saturn's Rings"
     },
     "0828": {
       "canon": "0828",
       "title": "THE SATELLITE",
       "masterNum": "828",
-      "displayTitle": "The Satellite"
+      "displayTitle": "The Satellite",
+      "cardId": "1305",
+      "audio": "1305-the-satellite.mp3",
+      "cardTitleLegacy": "The Satellite"
     },
     "0829": {
       "canon": "0829",
       "title": "THE BASS CLEF",
       "masterNum": "829",
-      "displayTitle": "The Bass Clef"
+      "displayTitle": "The Bass Clef",
+      "cardId": "1306",
+      "audio": "1306-the-bass-clef.mp3",
+      "cardTitleLegacy": "The Bass Clef"
     },
     "0830": {
       "canon": "0830",
       "title": "THE BOW",
       "masterNum": "830",
-      "displayTitle": "The Bow"
+      "displayTitle": "The Bow",
+      "cardId": "1307",
+      "audio": "1307-the-bow.mp3",
+      "cardTitleLegacy": "The Bow"
     },
     "0831": {
       "canon": "0831",
       "title": "THE ROSIN",
       "masterNum": "831",
-      "displayTitle": "The Rosin"
+      "displayTitle": "The Rosin",
+      "cardId": "1308",
+      "audio": "1308-the-rosin.mp3",
+      "cardTitleLegacy": "The Rosin"
     },
     "0832": {
       "canon": "0832",
       "title": "THE DOOR HANDLE",
       "masterNum": "832",
-      "displayTitle": "The Door Handle"
+      "displayTitle": "The Door Handle",
+      "cardId": "1309",
+      "audio": "1309-the-door-handle.mp3",
+      "cardTitleLegacy": "The Door Handle"
     },
     "0833": {
       "canon": "0833",
       "title": "THE COAT RACK",
       "masterNum": "833",
-      "displayTitle": "The Coat Rack"
+      "displayTitle": "The Coat Rack",
+      "cardId": "1310",
+      "audio": "1310-the-coat-rack.mp3",
+      "cardTitleLegacy": "The Coat Rack"
     },
     "0834": {
       "canon": "0834",
       "title": "THE ZIPPER",
       "masterNum": "834",
-      "displayTitle": "The Zipper"
+      "displayTitle": "The Zipper",
+      "cardId": "1311",
+      "audio": "1311-the-zipper.mp3",
+      "cardTitleLegacy": "The Zipper"
     },
     "0835": {
       "canon": "0835",
       "title": "THE CLOTHESPIN",
       "masterNum": "835",
-      "displayTitle": "The Clothespin"
+      "displayTitle": "The Clothespin",
+      "cardId": "1312",
+      "audio": "1312-the-clothespin.mp3",
+      "cardTitleLegacy": "The Clothespin"
     },
     "0836": {
       "canon": "0836",
       "title": "THE SEESAW",
       "masterNum": "836",
-      "displayTitle": "The Seesaw"
+      "displayTitle": "The Seesaw",
+      "cardId": "1313",
+      "audio": "1313-the-seesaw.mp3",
+      "cardTitleLegacy": "The Seesaw"
     },
     "0837": {
       "canon": "0837",
       "title": "THE EXCLAMATION MARK",
       "masterNum": "837",
-      "displayTitle": "The Exclamation Mark"
+      "displayTitle": "The Exclamation Mark",
+      "cardId": "1314",
+      "audio": "1314-the-exclamation-mark.mp3",
+      "cardTitleLegacy": "The Exclamation Mark"
     },
     "0838": {
       "canon": "0838",
       "title": "THE PERIOD",
       "masterNum": "838",
-      "displayTitle": "The Period"
+      "displayTitle": "The Period",
+      "cardId": "1315",
+      "audio": "1315-the-period.mp3",
+      "cardTitleLegacy": "The Period"
     },
     "0839": {
       "canon": "0839",
       "title": "THE AT SIGN",
       "masterNum": "839",
-      "displayTitle": "The at Sign"
+      "displayTitle": "The at Sign",
+      "cardId": "1316",
+      "audio": "1316-the-at-sign.mp3",
+      "cardTitleLegacy": "The At Sign"
     },
     "0840": {
       "canon": "0840",
       "title": "THE HASHTAG",
       "masterNum": "840",
-      "displayTitle": "The Hashtag"
+      "displayTitle": "The Hashtag",
+      "cardId": "1317",
+      "audio": "1317-the-hashtag.mp3",
+      "cardTitleLegacy": "The Hashtag"
     },
     "0841": {
       "canon": "0841",
       "title": "THE COOKIE BANNER",
       "masterNum": "841",
-      "displayTitle": "The Cookie Banner"
+      "displayTitle": "The Cookie Banner",
+      "cardId": "1318",
+      "audio": "1318-the-cookie-banner.mp3",
+      "cardTitleLegacy": "The Cookie Banner"
     },
     "0842": {
       "canon": "0842",
       "title": "THE RECYCLE BIN",
       "masterNum": "842",
-      "displayTitle": "The Recycle Bin"
+      "displayTitle": "The Recycle Bin",
+      "cardId": "1319",
+      "audio": "1319-the-recycle-bin.mp3",
+      "cardTitleLegacy": "The Recycle Bin"
     },
     "0843": {
       "canon": "0843",
       "title": "THE SCREENSHOT",
       "masterNum": "843",
-      "displayTitle": "The Screenshot"
+      "displayTitle": "The Screenshot",
+      "cardId": "1320",
+      "audio": "1320-the-screenshot.mp3",
+      "cardTitleLegacy": "The Screenshot"
     },
     "0844": {
       "canon": "0844",
       "title": "THE FINGERPRINT",
       "masterNum": "844",
-      "displayTitle": "The Fingerprint"
+      "displayTitle": "The Fingerprint",
+      "cardId": "1321",
+      "audio": "1321-the-fingerprint.mp3",
+      "cardTitleLegacy": "The Fingerprint"
     },
     "0845": {
       "canon": "0845",
       "title": "THE INVISIBILITY CLOAK",
       "masterNum": "845",
-      "displayTitle": "The Invisibility Cloak"
+      "displayTitle": "The Invisibility Cloak",
+      "cardId": "1322",
+      "audio": "1322-the-invisibility-cloak.mp3",
+      "cardTitleLegacy": "The Invisibility Cloak"
     },
     "0846": {
       "canon": "0846",
       "title": "THE WEATHERVANE",
       "masterNum": "846",
-      "displayTitle": "The Weathervane"
+      "displayTitle": "The Weathervane",
+      "cardId": "1323",
+      "audio": "1323-the-weathervane.mp3",
+      "cardTitleLegacy": "The Weathervane"
     },
     "0847": {
       "canon": "0847",
       "title": "THE GOLDEN EGG",
       "masterNum": "847",
-      "displayTitle": "The Golden Egg"
+      "displayTitle": "The Golden Egg",
+      "cardId": "1324",
+      "audio": "1324-the-golden-egg.mp3",
+      "cardTitleLegacy": "The Golden Egg"
     },
     "0848": {
       "canon": "0848",
       "title": "THE NOONDAY WITCH",
       "masterNum": "848",
-      "displayTitle": "The Noonday Witch"
+      "displayTitle": "The Noonday Witch",
+      "cardId": "1325",
+      "audio": "1325-the-noonday-witch.mp3",
+      "cardTitleLegacy": "The Noonday Witch"
     },
     "0849": {
       "canon": "0849",
       "title": "THE AURORA",
       "masterNum": "849",
-      "displayTitle": "The Aurora"
+      "displayTitle": "The Aurora",
+      "cardId": "1326",
+      "audio": "1326-the-aurora.mp3",
+      "cardTitleLegacy": "The Aurora"
     },
     "0850": {
       "canon": "0850",
       "title": "THE METEORITE",
       "masterNum": "850",
-      "displayTitle": "The Meteorite"
+      "displayTitle": "The Meteorite",
+      "cardId": "1327",
+      "audio": "1327-the-meteorite.mp3",
+      "cardTitleLegacy": "The Meteorite"
     },
     "0851": {
       "canon": "0851",
       "title": "THE CONDUCTOR'S BATON",
       "masterNum": "851",
-      "displayTitle": "The Conductor's Baton"
+      "displayTitle": "The Conductor's Baton",
+      "cardId": "1328",
+      "audio": "1328-the-conductor-s-baton.mp3",
+      "cardTitleLegacy": "The Conductor's Baton"
     },
     "0852": {
       "canon": "0852",
       "title": "THE MUSIC STAND",
       "masterNum": "852",
-      "displayTitle": "The Music Stand"
+      "displayTitle": "The Music Stand",
+      "cardId": "1329",
+      "audio": "1329-the-music-stand.mp3",
+      "cardTitleLegacy": "The Music Stand"
     },
     "0853": {
       "canon": "0853",
       "title": "THE MUTE",
       "masterNum": "853",
-      "displayTitle": "The Mute"
+      "displayTitle": "The Mute",
+      "cardId": "1330",
+      "audio": "1330-the-mute.mp3",
+      "cardTitleLegacy": "The Mute"
     },
     "0854": {
       "canon": "0854",
       "title": "THE EMPTY STAND IN THE ORCHESTRA",
       "masterNum": "854",
-      "displayTitle": "The Empty Stand in the Orchestra"
+      "displayTitle": "The Empty Stand in the Orchestra",
+      "cardId": "1331",
+      "audio": "1331-the-empty-stand-in-the-orchestra.mp3",
+      "cardTitleLegacy": "The Empty Stand in the Orchestra"
     },
     "0855": {
       "canon": "0855",
       "title": "THE THERMOMETER",
       "masterNum": "855",
-      "displayTitle": "The Thermometer"
+      "displayTitle": "The Thermometer",
+      "cardId": "1332",
+      "audio": "1332-the-thermometer.mp3",
+      "cardTitleLegacy": "The Thermometer"
     },
     "0856": {
       "canon": "0856",
       "title": "THE BAROMETER",
       "masterNum": "856",
-      "displayTitle": "The Barometer"
+      "displayTitle": "The Barometer",
+      "cardId": "1333",
+      "audio": "1333-the-barometer.mp3",
+      "cardTitleLegacy": "The Barometer"
     },
     "0857": {
       "canon": "0857",
       "title": "THE UNDO BUTTON",
       "masterNum": "857",
-      "displayTitle": "The Undo Button"
+      "displayTitle": "The Undo Button",
+      "cardId": "1334",
+      "audio": "1334-the-undo-button.mp3",
+      "cardTitleLegacy": "The Undo Button"
     },
     "0858": {
       "canon": "0858",
       "title": "THE CAPITAL LETTER",
       "masterNum": "858",
-      "displayTitle": "The Capital Letter"
+      "displayTitle": "The Capital Letter",
+      "cardId": "1335",
+      "audio": "1335-the-capital-letter.mp3",
+      "cardTitleLegacy": "The Capital Letter"
     },
     "0859": {
       "canon": "0859",
       "title": "THE PAGE NUMBER",
       "masterNum": "859",
-      "displayTitle": "The Page Number"
+      "displayTitle": "The Page Number",
+      "cardId": "1336",
+      "audio": "1336-the-page-number.mp3",
+      "cardTitleLegacy": "The Page Number"
     },
     "0860": {
       "canon": "0860",
       "title": "THE TABLE OF CONTENTS",
       "masterNum": "860",
-      "displayTitle": "The Table of Contents"
+      "displayTitle": "The Table of Contents",
+      "cardId": "1337",
+      "audio": "1337-the-table-of-contents.mp3",
+      "cardTitleLegacy": "The Table of Contents"
     },
     "0861": {
       "canon": "0861",
       "title": "THE ERRATA",
       "masterNum": "861",
-      "displayTitle": "The Errata"
+      "displayTitle": "The Errata",
+      "cardId": "1338",
+      "audio": "1338-the-errata.mp3",
+      "cardTitleLegacy": "The Errata"
     },
     "0862": {
       "canon": "0862",
       "title": "AIRPLANE MODE",
       "masterNum": "862",
-      "displayTitle": "Airplane Mode"
+      "displayTitle": "Airplane Mode",
+      "cardId": "1339",
+      "audio": "1339-airplane-mode.mp3",
+      "cardTitleLegacy": "Airplane Mode"
     },
     "0863": {
       "canon": "0863",
       "title": "THE PARTICIPANT HAS LEFT THE CALL",
       "masterNum": "863",
-      "displayTitle": "The Participant Has Left the Call"
+      "displayTitle": "The Participant Has Left the Call",
+      "cardId": "1340",
+      "audio": "1340-the-participant-has-left-the-call.mp3",
+      "cardTitleLegacy": "The Participant Has Left the Call"
     },
     "0864": {
       "canon": "0864",
       "title": "THE SEVEN RAVENS",
       "masterNum": "864",
-      "displayTitle": "The Seven Ravens"
+      "displayTitle": "The Seven Ravens",
+      "cardId": "1341",
+      "audio": "1341-the-seven-ravens.mp3",
+      "cardTitleLegacy": "The Seven Ravens"
     },
     "0865": {
       "canon": "0865",
       "title": "OTESÁNEK, THE WOODEN CHILD",
       "masterNum": "865",
-      "displayTitle": "Otesánek, the Wooden Child"
+      "displayTitle": "Otesánek, the Wooden Child",
+      "cardId": "1342",
+      "audio": "1342-otesanek-the-wooden-child.mp3",
+      "cardTitleLegacy": "Otesánek, the Wooden Child"
     },
     "0866": {
       "canon": "0866",
       "title": "SMOLÍČEK",
       "masterNum": "866",
-      "displayTitle": "Smolíček"
+      "displayTitle": "Smolíček",
+      "cardId": "1343",
+      "audio": "1343-smolicek.mp3",
+      "cardTitleLegacy": "Smolíček"
     },
     "0867": {
       "canon": "0867",
       "title": "THE HEJKAL",
       "masterNum": "867",
-      "displayTitle": "The Hejkal"
+      "displayTitle": "The Hejkal",
+      "cardId": "1344",
+      "audio": "1344-the-hejkal.mp3",
+      "cardTitleLegacy": "The Hejkal"
     },
     "0868": {
       "canon": "0868",
       "title": "THE GRAVITATIONAL SLINGSHOT",
       "masterNum": "868",
-      "displayTitle": "The Gravitational Slingshot"
+      "displayTitle": "The Gravitational Slingshot",
+      "cardId": "1345",
+      "audio": "1345-the-gravitational-slingshot.mp3",
+      "cardTitleLegacy": "The Gravitational Slingshot"
     },
     "0869": {
       "canon": "0869",
       "title": "THE EARTH'S AXIS",
       "masterNum": "869",
-      "displayTitle": "The Earth's Axis"
+      "displayTitle": "The Earth's Axis",
+      "cardId": "1346",
+      "audio": "1346-the-earth-s-axis.mp3",
+      "cardTitleLegacy": "The Earth's Axis"
     },
     "0870": {
       "canon": "0870",
       "title": "THE SLUR",
       "masterNum": "870",
-      "displayTitle": "The Slur"
+      "displayTitle": "The Slur",
+      "cardId": "1347",
+      "audio": "1347-the-slur.mp3",
+      "cardTitleLegacy": "The Slur"
     },
     "0871": {
       "canon": "0871",
       "title": "THE SHARP AND THE FLAT",
       "masterNum": "871",
-      "displayTitle": "The Sharp and the Flat"
+      "displayTitle": "The Sharp and the Flat",
+      "cardId": "1348",
+      "audio": "1348-the-sharp-and-the-flat.mp3",
+      "cardTitleLegacy": "The Sharp and the Flat"
     },
     "0872": {
       "canon": "0872",
       "title": "SIGHT-READING",
       "masterNum": "872",
-      "displayTitle": "Sight-Reading"
+      "displayTitle": "Sight-Reading",
+      "cardId": "1349",
+      "audio": "1349-sight-reading.mp3",
+      "cardTitleLegacy": "Sight-Reading"
     },
     "0873": {
       "canon": "0873",
       "title": "THE CANON",
       "masterNum": "873",
-      "displayTitle": "The Canon"
+      "displayTitle": "The Canon",
+      "cardId": "1350",
+      "audio": "1350-the-canon.mp3",
+      "cardTitleLegacy": "The Canon"
     },
     "0874": {
       "canon": "0874",
       "title": "THE SCALES",
       "masterNum": "874",
-      "displayTitle": "The Scales"
+      "displayTitle": "The Scales",
+      "cardId": "1351",
+      "audio": "1351-the-scales.mp3",
+      "cardTitleLegacy": "The Scales"
     },
     "0875": {
       "canon": "0875",
       "title": "THE PHONOGRAPH NEEDLE",
       "masterNum": "875",
-      "displayTitle": "The Phonograph Needle"
+      "displayTitle": "The Phonograph Needle",
+      "cardId": "1352",
+      "audio": "1352-the-phonograph-needle.mp3",
+      "cardTitleLegacy": "The Phonograph Needle"
     },
     "0876": {
       "canon": "0876",
       "title": "THE SEED UNDER THE ASPHALT",
       "masterNum": "876",
-      "displayTitle": "The Seed Under the Asphalt"
+      "displayTitle": "The Seed Under the Asphalt",
+      "cardId": "1353",
+      "audio": "1353-the-seed-under-the-asphalt.mp3",
+      "cardTitleLegacy": "The Seed Under the Asphalt"
     },
     "0877": {
       "canon": "0877",
       "title": "THE UNDERSCORE",
       "masterNum": "877",
-      "displayTitle": "The Underscore"
+      "displayTitle": "The Underscore",
+      "cardId": "1354",
+      "audio": "1354-the-underscore.mp3",
+      "cardTitleLegacy": "The Underscore"
     },
     "0878": {
       "canon": "0878",
       "title": "THE SLASH",
       "masterNum": "878",
-      "displayTitle": "The Slash"
+      "displayTitle": "The Slash",
+      "cardId": "1355",
+      "audio": "1355-the-slash.mp3",
+      "cardTitleLegacy": "The Slash"
     },
     "0879": {
       "canon": "0879",
       "title": "THE ASTERISK",
       "masterNum": "879",
-      "displayTitle": "The Asterisk"
+      "displayTitle": "The Asterisk",
+      "cardId": "1356",
+      "audio": "1356-the-asterisk.mp3",
+      "cardTitleLegacy": "The Asterisk"
     },
     "0880": {
       "canon": "0880",
       "title": "THE PROGRESS BAR",
       "masterNum": "880",
-      "displayTitle": "The Progress Bar"
+      "displayTitle": "The Progress Bar",
+      "cardId": "1357",
+      "audio": "1357-the-progress-bar.mp3",
+      "cardTitleLegacy": "The Progress Bar"
     },
     "0881": {
       "canon": "0881",
       "title": "AUTOCORRECT",
       "masterNum": "881",
-      "displayTitle": "Autocorrect"
+      "displayTitle": "Autocorrect",
+      "cardId": "1358",
+      "audio": "1358-autocorrect.mp3",
+      "cardTitleLegacy": "Autocorrect"
     },
     "0882": {
       "canon": "0882",
       "title": "STORAGE IS FULL",
       "masterNum": "882",
-      "displayTitle": "Storage Is Full"
+      "displayTitle": "Storage Is Full",
+      "cardId": "1359",
+      "audio": "1359-storage-is-full.mp3",
+      "cardTitleLegacy": "Storage Is Full"
     },
     "0883": {
       "canon": "0883",
       "title": "THE CHARGER",
       "masterNum": "883",
-      "displayTitle": "The Charger"
+      "displayTitle": "The Charger",
+      "cardId": "1360",
+      "audio": "1360-the-charger.mp3",
+      "cardTitleLegacy": "The Charger"
     },
     "0884": {
       "canon": "0884",
       "title": "ONE BAR OF SIGNAL",
       "masterNum": "884",
-      "displayTitle": "One Bar of Signal"
+      "displayTitle": "One Bar of Signal",
+      "cardId": "1361",
+      "audio": "1361-one-bar-of-signal.mp3",
+      "cardTitleLegacy": "One Bar of Signal"
     },
     "0885": {
       "canon": "0885",
       "title": "THE FROG PRINCE",
       "masterNum": "885",
-      "displayTitle": "The Frog Prince"
+      "displayTitle": "The Frog Prince",
+      "cardId": "1362",
+      "audio": "1362-the-frog-prince.mp3",
+      "cardTitleLegacy": "The Frog Prince"
     },
     "0886": {
       "canon": "0886",
       "title": "THE FIREBIRD",
       "masterNum": "886",
-      "displayTitle": "The Firebird"
+      "displayTitle": "The Firebird",
+      "cardId": "1363",
+      "audio": "1363-the-firebird.mp3",
+      "cardTitleLegacy": "The Firebird"
     },
     "0887": {
       "canon": "0887",
       "title": "THE LAGRANGE POINT",
       "masterNum": "887",
-      "displayTitle": "The Lagrange Point"
+      "displayTitle": "The Lagrange Point",
+      "cardId": "1364",
+      "audio": "1364-the-lagrange-point.mp3",
+      "cardTitleLegacy": "The Lagrange Point"
     },
     "0888": {
       "canon": "0888",
       "title": "DARK MATTER",
       "masterNum": "888",
-      "displayTitle": "Dark Matter"
+      "displayTitle": "Dark Matter",
+      "cardId": "1365",
+      "audio": "1365-dark-matter.mp3",
+      "cardTitleLegacy": "Dark Matter"
     },
     "0889": {
       "canon": "0889",
       "title": "THE EMPTY STAFF",
       "masterNum": "889",
-      "displayTitle": "The Empty Staff"
+      "displayTitle": "The Empty Staff",
+      "cardId": "1366",
+      "audio": "1366-the-empty-staff.mp3",
+      "cardTitleLegacy": "The Empty Staff"
     },
     "0890": {
       "canon": "0890",
       "title": "THE DOTTED NOTE",
       "masterNum": "890",
-      "displayTitle": "The Dotted Note"
+      "displayTitle": "The Dotted Note",
+      "cardId": "1367",
+      "audio": "1367-the-dotted-note.mp3",
+      "cardTitleLegacy": "The Dotted Note"
     },
     "0891": {
       "canon": "0891",
       "title": "UNISON",
       "masterNum": "891",
-      "displayTitle": "Unison"
+      "displayTitle": "Unison",
+      "cardId": "1368",
+      "audio": "1368-unison.mp3",
+      "cardTitleLegacy": "Unison"
     },
     "0892": {
       "canon": "0892",
       "title": "THE RESONANCE",
       "masterNum": "892",
-      "displayTitle": "The Resonance"
+      "displayTitle": "The Resonance",
+      "cardId": "1369",
+      "audio": "1369-the-resonance.mp3",
+      "cardTitleLegacy": "The Resonance"
     },
     "0893": {
       "canon": "0893",
       "title": "THE HYPHEN",
       "masterNum": "893",
-      "displayTitle": "The Hyphen"
+      "displayTitle": "The Hyphen",
+      "cardId": "1370",
+      "audio": "1370-the-hyphen.mp3",
+      "cardTitleLegacy": "The Hyphen"
     },
     "0894": {
       "canon": "0894",
       "title": "THE WATERMARK",
       "masterNum": "894",
-      "displayTitle": "The Watermark"
+      "displayTitle": "The Watermark",
+      "cardId": "1371",
+      "audio": "1371-the-watermark.mp3",
+      "cardTitleLegacy": "The Watermark"
     },
     "0895": {
       "canon": "0895",
       "title": "THE SIGNPOST",
       "masterNum": "895",
-      "displayTitle": "The Signpost"
+      "displayTitle": "The Signpost",
+      "cardId": "1372",
+      "audio": "1372-the-signpost.mp3",
+      "cardTitleLegacy": "The Signpost"
     },
     "0896": {
       "canon": "0896",
       "title": "THE BLANK SPACE ON THE MAP",
       "masterNum": "896",
-      "displayTitle": "The Blank Space on the Map"
+      "displayTitle": "The Blank Space on the Map",
+      "cardId": "1373",
+      "audio": "1373-the-blank-space-on-the-map.mp3",
+      "cardTitleLegacy": "The Blank Space on the Map"
     },
     "0897": {
       "canon": "0897",
       "title": "THE APPENDIX",
       "masterNum": "897",
-      "displayTitle": "The Appendix"
+      "displayTitle": "The Appendix",
+      "cardId": "1374",
+      "audio": "1374-the-appendix.mp3",
+      "cardTitleLegacy": "The Appendix"
     },
     "0898": {
       "canon": "0898",
@@ -7925,97 +9338,145 @@
       "canon": "0899",
       "title": "THE LEFT HAND",
       "masterNum": "899",
-      "displayTitle": "The Left Hand"
+      "displayTitle": "The Left Hand",
+      "cardId": "1375",
+      "audio": "1375-the-left-hand.mp3",
+      "cardTitleLegacy": "The Left Hand"
     },
     "0900": {
       "canon": "0900",
       "title": "THE VOCAL CORDS",
       "masterNum": "900",
-      "displayTitle": "The Vocal Cords"
+      "displayTitle": "The Vocal Cords",
+      "cardId": "1376",
+      "audio": "1376-the-vocal-cords.mp3",
+      "cardTitleLegacy": "The Vocal Cords"
     },
     "0901": {
       "canon": "0901",
       "title": "GOOSEBUMPS",
       "masterNum": "901",
-      "displayTitle": "Goosebumps"
+      "displayTitle": "Goosebumps",
+      "cardId": "1377",
+      "audio": "1377-goosebumps.mp3",
+      "cardTitleLegacy": "Goosebumps"
     },
     "0902": {
       "canon": "0902",
       "title": "TEARS",
       "masterNum": "902",
-      "displayTitle": "Tears"
+      "displayTitle": "Tears",
+      "cardId": "1378",
+      "audio": "1378-tears.mp3",
+      "cardTitleLegacy": "Tears"
     },
     "0903": {
       "canon": "0903",
       "title": "PHANTOM PAIN",
       "masterNum": "903",
-      "displayTitle": "Phantom Pain"
+      "displayTitle": "Phantom Pain",
+      "cardId": "1379",
+      "audio": "1379-phantom-pain.mp3",
+      "cardTitleLegacy": "Phantom Pain"
     },
     "0904": {
       "canon": "0904",
       "title": "THE WHITE BLOOD CELL",
       "masterNum": "904",
-      "displayTitle": "The White Blood Cell"
+      "displayTitle": "The White Blood Cell",
+      "cardId": "1380",
+      "audio": "1380-the-white-blood-cell.mp3",
+      "cardTitleLegacy": "The White Blood Cell"
     },
     "0905": {
       "canon": "0905",
       "title": "WRINKLES",
       "masterNum": "905",
-      "displayTitle": "Wrinkles"
+      "displayTitle": "Wrinkles",
+      "cardId": "1381",
+      "audio": "1381-wrinkles.mp3",
+      "cardTitleLegacy": "Wrinkles"
     },
     "0906": {
       "canon": "0906",
       "title": "THE HICCUPS",
       "masterNum": "906",
-      "displayTitle": "The Hiccups"
+      "displayTitle": "The Hiccups",
+      "cardId": "1382",
+      "audio": "1382-the-hiccups.mp3",
+      "cardTitleLegacy": "The Hiccups"
     },
     "0907": {
       "canon": "0907",
       "title": "THE DIAPHRAGM",
       "masterNum": "907",
-      "displayTitle": "The Diaphragm"
+      "displayTitle": "The Diaphragm",
+      "cardId": "1383",
+      "audio": "1383-the-diaphragm.mp3",
+      "cardTitleLegacy": "The Diaphragm"
     },
     "0908": {
       "canon": "0908",
       "title": "THE MILK TOOTH",
       "masterNum": "908",
-      "displayTitle": "The Milk Tooth"
+      "displayTitle": "The Milk Tooth",
+      "cardId": "1384",
+      "audio": "1384-the-milk-tooth.mp3",
+      "cardTitleLegacy": "The Milk Tooth"
     },
     "0909": {
       "canon": "0909",
       "title": "THE ANESTHESIA",
       "masterNum": "909",
-      "displayTitle": "The Anesthesia"
+      "displayTitle": "The Anesthesia",
+      "cardId": "1385",
+      "audio": "1385-the-anesthesia.mp3",
+      "cardTitleLegacy": "The Anesthesia"
     },
     "0910": {
       "canon": "0910",
       "title": "THE PLASTER CAST",
       "masterNum": "910",
-      "displayTitle": "The Plaster Cast"
+      "displayTitle": "The Plaster Cast",
+      "cardId": "1386",
+      "audio": "1386-the-plaster-cast.mp3",
+      "cardTitleLegacy": "The Plaster Cast"
     },
     "0911": {
       "canon": "0911",
       "title": "THE CRUTCHES",
       "masterNum": "911",
-      "displayTitle": "The Crutches"
+      "displayTitle": "The Crutches",
+      "cardId": "1387",
+      "audio": "1387-the-crutches.mp3",
+      "cardTitleLegacy": "The Crutches"
     },
     "0912": {
       "canon": "0912",
       "title": "THE BLOOD DONOR",
       "masterNum": "912",
-      "displayTitle": "The Blood Donor"
+      "displayTitle": "The Blood Donor",
+      "cardId": "1388",
+      "audio": "1388-the-blood-donor.mp3",
+      "cardTitleLegacy": "The Blood Donor"
     },
     "0913": {
       "canon": "0913",
       "title": "A STRANGER'S HEART",
       "masterNum": "913",
-      "displayTitle": "A Stranger's Heart"
+      "displayTitle": "A Stranger's Heart",
+      "cardId": "1389",
+      "audio": "1389-a-stranger-s-heart.mp3",
+      "cardTitleLegacy": "A Stranger's Heart"
     },
     "0914": {
       "canon": "0914",
       "title": "THE PLACEBO",
       "masterNum": "914",
-      "displayTitle": "The Placebo"
+      "displayTitle": "The Placebo",
+      "cardId": "1390",
+      "audio": "1390-the-placebo.mp3",
+      "cardTitleLegacy": "The Placebo"
     },
     "0915": {
       "canon": "0915",
@@ -8027,259 +9488,388 @@
       "canon": "0916",
       "title": "THE PACEMAKER",
       "masterNum": "916",
-      "displayTitle": "The Pacemaker"
+      "displayTitle": "The Pacemaker",
+      "cardId": "1391",
+      "audio": "1391-the-pacemaker.mp3",
+      "cardTitleLegacy": "The Pacemaker"
     },
     "0917": {
       "canon": "0917",
       "title": "THE SOURDOUGH STARTER",
       "masterNum": "917",
-      "displayTitle": "The Sourdough Starter"
+      "displayTitle": "The Sourdough Starter",
+      "cardId": "1392",
+      "audio": "1392-the-sourdough-starter.mp3",
+      "cardTitleLegacy": "The Sourdough Starter"
     },
     "0918": {
       "canon": "0918",
       "title": "SALT",
       "masterNum": "918",
-      "displayTitle": "Salt"
+      "displayTitle": "Salt",
+      "cardId": "1393",
+      "audio": "1393-salt.mp3",
+      "cardTitleLegacy": "Salt"
     },
     "0919": {
       "canon": "0919",
       "title": "THE HEEL OF THE LOAF",
       "masterNum": "919",
-      "displayTitle": "The Heel of the Loaf"
+      "displayTitle": "The Heel of the Loaf",
+      "cardId": "1394",
+      "audio": "1394-the-heel-of-the-loaf.mp3",
+      "cardTitleLegacy": "The Heel of the Loaf"
     },
     "0920": {
       "canon": "0920",
       "title": "THE LEFTOVERS",
       "masterNum": "920",
-      "displayTitle": "The Leftovers"
+      "displayTitle": "The Leftovers",
+      "cardId": "1395",
+      "audio": "1395-the-leftovers.mp3",
+      "cardTitleLegacy": "The Leftovers"
     },
     "0921": {
       "canon": "0921",
       "title": "LAST YEAR'S PRESERVES",
       "masterNum": "921",
-      "displayTitle": "Last Year's Preserves"
+      "displayTitle": "Last Year's Preserves",
+      "cardId": "1396",
+      "audio": "1396-last-year-s-preserves.mp3",
+      "cardTitleLegacy": "Last Year's Preserves"
     },
     "0922": {
       "canon": "0922",
       "title": "THE BURNT OIL",
       "masterNum": "922",
-      "displayTitle": "The Burnt Oil"
+      "displayTitle": "The Burnt Oil",
+      "cardId": "1397",
+      "audio": "1397-the-burnt-oil.mp3",
+      "cardTitleLegacy": "The Burnt Oil"
     },
     "0923": {
       "canon": "0923",
       "title": "GRANDMA'S RECIPE",
       "masterNum": "923",
-      "displayTitle": "Grandma's Recipe"
+      "displayTitle": "Grandma's Recipe",
+      "cardId": "1398",
+      "audio": "1398-grandma-s-recipe.mp3",
+      "cardTitleLegacy": "Grandma's Recipe"
     },
     "0924": {
       "canon": "0924",
       "title": "THE BROTH",
       "masterNum": "924",
-      "displayTitle": "The Broth"
+      "displayTitle": "The Broth",
+      "cardId": "1399",
+      "audio": "1399-the-broth.mp3",
+      "cardTitleLegacy": "The Broth"
     },
     "0925": {
       "canon": "0925",
       "title": "THE VINEGAR",
       "masterNum": "925",
-      "displayTitle": "The Vinegar"
+      "displayTitle": "The Vinegar",
+      "cardId": "1400",
+      "audio": "1400-the-vinegar.mp3",
+      "cardTitleLegacy": "The Vinegar"
     },
     "0926": {
       "canon": "0926",
       "title": "THE EXPIRED CAN",
       "masterNum": "926",
-      "displayTitle": "The Expired Can"
+      "displayTitle": "The Expired Can",
+      "cardId": "1401",
+      "audio": "1401-the-expired-can.mp3",
+      "cardTitleLegacy": "The Expired Can"
     },
     "0927": {
       "canon": "0927",
       "title": "THE FREEZER",
       "masterNum": "927",
-      "displayTitle": "The Freezer"
+      "displayTitle": "The Freezer",
+      "cardId": "1402",
+      "audio": "1402-the-freezer.mp3",
+      "cardTitleLegacy": "The Freezer"
     },
     "0928": {
       "canon": "0928",
       "title": "SUGAR AND SALT",
       "masterNum": "928",
-      "displayTitle": "Sugar and Salt"
+      "displayTitle": "Sugar and Salt",
+      "cardId": "1403",
+      "audio": "1403-sugar-and-salt.mp3",
+      "cardTitleLegacy": "Sugar and Salt"
     },
     "0929": {
       "canon": "0929",
       "title": "THE LAST BITE",
       "masterNum": "929",
-      "displayTitle": "The Last Bite"
+      "displayTitle": "The Last Bite",
+      "cardId": "1404",
+      "audio": "1404-the-last-bite.mp3",
+      "cardTitleLegacy": "The Last Bite"
     },
     "0930": {
       "canon": "0930",
       "title": "THE KITCHEN TABLE",
       "masterNum": "930",
-      "displayTitle": "The Kitchen Table"
+      "displayTitle": "The Kitchen Table",
+      "cardId": "1405",
+      "audio": "1405-the-kitchen-table.mp3",
+      "cardTitleLegacy": "The Kitchen Table"
     },
     "0931": {
       "canon": "0931",
       "title": "THE FLY",
       "masterNum": "931",
-      "displayTitle": "The Fly"
+      "displayTitle": "The Fly",
+      "cardId": "1406",
+      "audio": "1406-the-fly.mp3",
+      "cardTitleLegacy": "The Fly"
     },
     "0932": {
       "canon": "0932",
       "title": "THE EARTHWORM",
       "masterNum": "932",
-      "displayTitle": "The Earthworm"
+      "displayTitle": "The Earthworm",
+      "cardId": "1407",
+      "audio": "1407-the-earthworm.mp3",
+      "cardTitleLegacy": "The Earthworm"
     },
     "0933": {
       "canon": "0933",
       "title": "THE MOLE",
       "masterNum": "933",
-      "displayTitle": "The Mole"
+      "displayTitle": "The Mole",
+      "cardId": "1408",
+      "audio": "1408-the-mole.mp3",
+      "cardTitleLegacy": "The Mole"
     },
     "0934": {
       "canon": "0934",
       "title": "THE BAT",
       "masterNum": "934",
-      "displayTitle": "The Bat"
+      "displayTitle": "The Bat",
+      "cardId": "1409",
+      "audio": "1409-the-bat.mp3",
+      "cardTitleLegacy": "The Bat"
     },
     "0935": {
       "canon": "0935",
       "title": "THE SPIDER IN THE CORNER",
       "masterNum": "935",
-      "displayTitle": "The Spider in the Corner"
+      "displayTitle": "The Spider in the Corner",
+      "cardId": "1410",
+      "audio": "1410-the-spider-in-the-corner.mp3",
+      "cardTitleLegacy": "The Spider in the Corner"
     },
     "0936": {
       "canon": "0936",
       "title": "THE MOTH AT THE LAMP",
       "masterNum": "936",
-      "displayTitle": "The Moth at the Lamp"
+      "displayTitle": "The Moth at the Lamp",
+      "cardId": "1411",
+      "audio": "1411-the-moth-at-the-lamp.mp3",
+      "cardTitleLegacy": "The Moth at the Lamp"
     },
     "0937": {
       "canon": "0937",
       "title": "THE PIGEON",
       "masterNum": "937",
-      "displayTitle": "The Pigeon"
+      "displayTitle": "The Pigeon",
+      "cardId": "1412",
+      "audio": "1412-the-pigeon.mp3",
+      "cardTitleLegacy": "The Pigeon"
     },
     "0938": {
       "canon": "0938",
       "title": "THE MOSQUITO",
       "masterNum": "938",
-      "displayTitle": "The Mosquito"
+      "displayTitle": "The Mosquito",
+      "cardId": "1413",
+      "audio": "1413-the-mosquito.mp3",
+      "cardTitleLegacy": "The Mosquito"
     },
     "0939": {
       "canon": "0939",
       "title": "THE SLUG",
       "masterNum": "939",
-      "displayTitle": "The Slug"
+      "displayTitle": "The Slug",
+      "cardId": "1414",
+      "audio": "1414-the-slug.mp3",
+      "cardTitleLegacy": "The Slug"
     },
     "0940": {
       "canon": "0940",
       "title": "THE ANT",
       "masterNum": "940",
-      "displayTitle": "The Ant"
+      "displayTitle": "The Ant",
+      "cardId": "1415",
+      "audio": "1415-the-ant.mp3",
+      "cardTitleLegacy": "The Ant"
     },
     "0941": {
       "canon": "0941",
       "title": "THE DRONE",
       "masterNum": "941",
-      "displayTitle": "The Drone"
+      "displayTitle": "The Drone",
+      "cardId": "1416",
+      "audio": "1416-the-drone.mp3",
+      "cardTitleLegacy": "The Drone"
     },
     "0942": {
       "canon": "0942",
       "title": "THE RAT IN THE SUBWAY",
       "masterNum": "942",
-      "displayTitle": "The Rat in the Subway"
+      "displayTitle": "The Rat in the Subway",
+      "cardId": "1417",
+      "audio": "1417-the-rat-in-the-subway.mp3",
+      "cardTitleLegacy": "The Rat in the Subway"
     },
     "0943": {
       "canon": "0943",
       "title": "THE STRAY CAT",
       "masterNum": "943",
-      "displayTitle": "The Stray Cat"
+      "displayTitle": "The Stray Cat",
+      "cardId": "1418",
+      "audio": "1418-the-stray-cat.mp3",
+      "cardTitleLegacy": "The Stray Cat"
     },
     "0944": {
       "canon": "0944",
       "title": "THE MAYFLY",
       "masterNum": "944",
-      "displayTitle": "The Mayfly"
+      "displayTitle": "The Mayfly",
+      "cardId": "1419",
+      "audio": "1419-the-mayfly.mp3",
+      "cardTitleLegacy": "The Mayfly"
     },
     "0945": {
       "canon": "0945",
       "title": "THE NETTLE",
       "masterNum": "945",
-      "displayTitle": "The Nettle"
+      "displayTitle": "The Nettle",
+      "cardId": "1420",
+      "audio": "1420-the-nettle.mp3",
+      "cardTitleLegacy": "The Nettle"
     },
     "0946": {
       "canon": "0946",
       "title": "THE WEED",
       "masterNum": "946",
-      "displayTitle": "The Weed"
+      "displayTitle": "The Weed",
+      "cardId": "1421",
+      "audio": "1421-the-weed.mp3",
+      "cardTitleLegacy": "The Weed"
     },
     "0947": {
       "canon": "0947",
       "title": "THE STUMP",
       "masterNum": "947",
-      "displayTitle": "The Stump"
+      "displayTitle": "The Stump",
+      "cardId": "1422",
+      "audio": "1422-the-stump.mp3",
+      "cardTitleLegacy": "The Stump"
     },
     "0948": {
       "canon": "0948",
       "title": "THE LICHEN",
       "masterNum": "948",
-      "displayTitle": "The Lichen"
+      "displayTitle": "The Lichen",
+      "cardId": "1423",
+      "audio": "1423-the-lichen.mp3",
+      "cardTitleLegacy": "The Lichen"
     },
     "0949": {
       "canon": "0949",
       "title": "THE MYCELIUM",
       "masterNum": "949",
-      "displayTitle": "The Mycelium"
+      "displayTitle": "The Mycelium",
+      "cardId": "1424",
+      "audio": "1424-the-mycelium.mp3",
+      "cardTitleLegacy": "The Mycelium"
     },
     "0950": {
       "canon": "0950",
       "title": "THE MOSS ON THE NORTH SIDE",
       "masterNum": "950",
-      "displayTitle": "The Moss on the North Side"
+      "displayTitle": "The Moss on the North Side",
+      "cardId": "1425",
+      "audio": "1425-the-moss-on-the-north-side.mp3",
+      "cardTitleLegacy": "The Moss on the North Side"
     },
     "0951": {
       "canon": "0951",
       "title": "THE FALLEN LEAVES",
       "masterNum": "951",
-      "displayTitle": "The Fallen Leaves"
+      "displayTitle": "The Fallen Leaves",
+      "cardId": "1426",
+      "audio": "1426-the-fallen-leaves.mp3",
+      "cardTitleLegacy": "The Fallen Leaves"
     },
     "0952": {
       "canon": "0952",
       "title": "THE RUST",
       "masterNum": "952",
-      "displayTitle": "The Rust"
+      "displayTitle": "The Rust",
+      "cardId": "1427",
+      "audio": "1427-the-rust.mp3",
+      "cardTitleLegacy": "The Rust"
     },
     "0953": {
       "canon": "0953",
       "title": "THE MOLD",
       "masterNum": "953",
-      "displayTitle": "The Mold"
+      "displayTitle": "The Mold",
+      "cardId": "1428",
+      "audio": "1428-the-mold.mp3",
+      "cardTitleLegacy": "The Mold"
     },
     "0954": {
       "canon": "0954",
       "title": "THE ASHES",
       "masterNum": "954",
-      "displayTitle": "The Ashes"
+      "displayTitle": "The Ashes",
+      "cardId": "1429",
+      "audio": "1429-the-ashes.mp3",
+      "cardTitleLegacy": "The Ashes"
     },
     "0955": {
       "canon": "0955",
       "title": "THE DEW",
       "masterNum": "955",
-      "displayTitle": "The Dew"
+      "displayTitle": "The Dew",
+      "cardId": "1430",
+      "audio": "1430-the-dew.mp3",
+      "cardTitleLegacy": "The Dew"
     },
     "0956": {
       "canon": "0956",
       "title": "THE ICICLE",
       "masterNum": "956",
-      "displayTitle": "The Icicle"
+      "displayTitle": "The Icicle",
+      "cardId": "1431",
+      "audio": "1431-the-icicle.mp3",
+      "cardTitleLegacy": "The Icicle"
     },
     "0957": {
       "canon": "0957",
       "title": "THE ICE ON THE POND",
       "masterNum": "957",
-      "displayTitle": "The Ice on the Pond"
+      "displayTitle": "The Ice on the Pond",
+      "cardId": "1432",
+      "audio": "1432-the-ice-on-the-pond.mp3",
+      "cardTitleLegacy": "The Ice on the Pond"
     },
     "0958": {
       "canon": "0958",
       "title": "THE SNOWFLAKE",
       "masterNum": "958",
-      "displayTitle": "The Snowflake"
+      "displayTitle": "The Snowflake",
+      "cardId": "1433",
+      "audio": "1433-the-snowflake.mp3",
+      "cardTitleLegacy": "The Snowflake"
     },
     "0959": {
       "canon": "0959",
@@ -8291,79 +9881,118 @@
       "canon": "0960",
       "title": "THE AVALANCHE",
       "masterNum": "960",
-      "displayTitle": "The Avalanche"
+      "displayTitle": "The Avalanche",
+      "cardId": "1434",
+      "audio": "1434-the-avalanche.mp3",
+      "cardTitleLegacy": "The Avalanche"
     },
     "0961": {
       "canon": "0961",
       "title": "THE DROUGHT",
       "masterNum": "961",
-      "displayTitle": "The Drought"
+      "displayTitle": "The Drought",
+      "cardId": "1435",
+      "audio": "1435-the-drought.mp3",
+      "cardTitleLegacy": "The Drought"
     },
     "0962": {
       "canon": "0962",
       "title": "THE RIPPLES ON THE WATER",
       "masterNum": "962",
-      "displayTitle": "The Ripples on the Water"
+      "displayTitle": "The Ripples on the Water",
+      "cardId": "1436",
+      "audio": "1436-the-ripples-on-the-water.mp3",
+      "cardTitleLegacy": "The Ripples on the Water"
     },
     "0963": {
       "canon": "0963",
       "title": "THE GOALKEEPER",
       "masterNum": "963",
-      "displayTitle": "The Goalkeeper"
+      "displayTitle": "The Goalkeeper",
+      "cardId": "1437",
+      "audio": "1437-the-goalkeeper.mp3",
+      "cardTitleLegacy": "The Goalkeeper"
     },
     "0964": {
       "canon": "0964",
       "title": "THE SUBSTITUTE",
       "masterNum": "964",
-      "displayTitle": "The Substitute"
+      "displayTitle": "The Substitute",
+      "cardId": "1438",
+      "audio": "1438-the-substitute.mp3",
+      "cardTitleLegacy": "The Substitute"
     },
     "0965": {
       "canon": "0965",
       "title": "THE REFEREE",
       "masterNum": "965",
-      "displayTitle": "The Referee"
+      "displayTitle": "The Referee",
+      "cardId": "1439",
+      "audio": "1439-the-referee.mp3",
+      "cardTitleLegacy": "The Referee"
     },
     "0966": {
       "canon": "0966",
       "title": "THE RELAY BATON",
       "masterNum": "966",
-      "displayTitle": "The Relay Baton"
+      "displayTitle": "The Relay Baton",
+      "cardId": "1440",
+      "audio": "1440-the-relay-baton.mp3",
+      "cardTitleLegacy": "The Relay Baton"
     },
     "0967": {
       "canon": "0967",
       "title": "THE FINISH-LINE TAPE",
       "masterNum": "967",
-      "displayTitle": "The Finish-Line Tape"
+      "displayTitle": "The Finish-Line Tape",
+      "cardId": "1441",
+      "audio": "1441-the-finish-line-tape.mp3",
+      "cardTitleLegacy": "The Finish-Line Tape"
     },
     "0968": {
       "canon": "0968",
       "title": "THE SILVER MEDAL",
       "masterNum": "968",
-      "displayTitle": "The Silver Medal"
+      "displayTitle": "The Silver Medal",
+      "cardId": "1442",
+      "audio": "1442-the-silver-medal.mp3",
+      "cardTitleLegacy": "The Silver Medal"
     },
     "0969": {
       "canon": "0969",
       "title": "LAST IN THE MARATHON",
       "masterNum": "969",
-      "displayTitle": "Last in the Marathon"
+      "displayTitle": "Last in the Marathon",
+      "cardId": "1443",
+      "audio": "1443-last-in-the-marathon.mp3",
+      "cardTitleLegacy": "Last in the Marathon"
     },
     "0970": {
       "canon": "0970",
       "title": "THE OWN GOAL",
       "masterNum": "970",
-      "displayTitle": "The Own Goal"
+      "displayTitle": "The Own Goal",
+      "cardId": "1444",
+      "audio": "1444-the-own-goal.mp3",
+      "cardTitleLegacy": "The Own Goal"
     },
     "0971": {
       "canon": "0971",
       "title": "THE DRAW",
       "masterNum": "971",
-      "displayTitle": "The Draw"
+      "displayTitle": "The Draw",
+      "cardId": "1445",
+      "audio": "1445-the-draw.mp3",
+      "cardTitleLegacy": "The Draw"
     },
     "0972": {
       "canon": "0972",
       "title": "THE COACH",
       "masterNum": "972",
-      "displayTitle": "The Coach"
+      "displayTitle": "The Coach",
+      "cardId": "1446",
+      "audio": "1446-the-coach.mp3",
+      "cardTitleLegacy": "The Coach"
     },
     "0973": {
       "canon": "0973",
@@ -8375,25 +10004,37 @@
       "canon": "0974",
       "title": "THE DEAD-END STREET",
       "masterNum": "974",
-      "displayTitle": "The Dead-End Street"
+      "displayTitle": "The Dead-End Street",
+      "cardId": "1447",
+      "audio": "1447-the-dead-end-street.mp3",
+      "cardTitleLegacy": "The Dead-End Street"
     },
     "0975": {
       "canon": "0975",
       "title": "THE BRIDGE",
       "masterNum": "975",
-      "displayTitle": "The Bridge"
+      "displayTitle": "The Bridge",
+      "cardId": "1448",
+      "audio": "1448-the-bridge.mp3",
+      "cardTitleLegacy": "The Bridge"
     },
     "0976": {
       "canon": "0976",
       "title": "THE TUNNEL",
       "masterNum": "976",
-      "displayTitle": "The Tunnel"
+      "displayTitle": "The Tunnel",
+      "cardId": "1449",
+      "audio": "1449-the-tunnel.mp3",
+      "cardTitleLegacy": "The Tunnel"
     },
     "0977": {
       "canon": "0977",
       "title": "THE SUITCASE",
       "masterNum": "977",
-      "displayTitle": "The Suitcase"
+      "displayTitle": "The Suitcase",
+      "cardId": "1450",
+      "audio": "1450-the-suitcase.mp3",
+      "cardTitleLegacy": "The Suitcase"
     },
     "0978": {
       "canon": "0978",
@@ -8405,127 +10046,190 @@
       "canon": "0979",
       "title": "THE RAILWAY CROSSING",
       "masterNum": "979",
-      "displayTitle": "The Railway Crossing"
+      "displayTitle": "The Railway Crossing",
+      "cardId": "1451",
+      "audio": "1451-the-railway-crossing.mp3",
+      "cardTitleLegacy": "The Railway Crossing"
     },
     "0980": {
       "canon": "0980",
       "title": "THE TRAFFIC JAM",
       "masterNum": "980",
-      "displayTitle": "The Traffic Jam"
+      "displayTitle": "The Traffic Jam",
+      "cardId": "1452",
+      "audio": "1452-the-traffic-jam.mp3",
+      "cardTitleLegacy": "The Traffic Jam"
     },
     "0981": {
       "canon": "0981",
       "title": "THE REST STOP",
       "masterNum": "981",
-      "displayTitle": "The Rest Stop"
+      "displayTitle": "The Rest Stop",
+      "cardId": "1453",
+      "audio": "1453-the-rest-stop.mp3",
+      "cardTitleLegacy": "The Rest Stop"
     },
     "0982": {
       "canon": "0982",
       "title": "THE RETURN TICKET",
       "masterNum": "982",
-      "displayTitle": "The Return Ticket"
+      "displayTitle": "The Return Ticket",
+      "cardId": "1454",
+      "audio": "1454-the-return-ticket.mp3",
+      "cardTitleLegacy": "The Return Ticket"
     },
     "0983": {
       "canon": "0983",
       "title": "THE COIN IN THE FOUNTAIN",
       "masterNum": "983",
-      "displayTitle": "The Coin in the Fountain"
+      "displayTitle": "The Coin in the Fountain",
+      "cardId": "1455",
+      "audio": "1455-the-coin-in-the-fountain.mp3",
+      "cardTitleLegacy": "The Coin in the Fountain"
     },
     "0984": {
       "canon": "0984",
       "title": "THE DEBT",
       "masterNum": "984",
-      "displayTitle": "The Debt"
+      "displayTitle": "The Debt",
+      "cardId": "1456",
+      "audio": "1456-the-debt.mp3",
+      "cardTitleLegacy": "The Debt"
     },
     "0985": {
       "canon": "0985",
       "title": "THE WILL",
       "masterNum": "985",
-      "displayTitle": "The Will"
+      "displayTitle": "The Will",
+      "cardId": "1457",
+      "audio": "1457-the-will.mp3",
+      "cardTitleLegacy": "The Will"
     },
     "0986": {
       "canon": "0986",
       "title": "THE ALIBI",
       "masterNum": "986",
-      "displayTitle": "The Alibi"
+      "displayTitle": "The Alibi",
+      "cardId": "1458",
+      "audio": "1458-the-alibi.mp3",
+      "cardTitleLegacy": "The Alibi"
     },
     "0987": {
       "canon": "0987",
       "title": "THE TIP",
       "masterNum": "987",
-      "displayTitle": "The Tip"
+      "displayTitle": "The Tip",
+      "cardId": "1459",
+      "audio": "1459-the-tip.mp3",
+      "cardTitleLegacy": "The Tip"
     },
     "0988": {
       "canon": "0988",
       "title": "THE INSURANCE POLICY",
       "masterNum": "988",
-      "displayTitle": "The Insurance Policy"
+      "displayTitle": "The Insurance Policy",
+      "cardId": "1460",
+      "audio": "1460-the-insurance-policy.mp3",
+      "cardTitleLegacy": "The Insurance Policy"
     },
     "0989": {
       "canon": "0989",
       "title": "THE STATUTE OF LIMITATIONS",
       "masterNum": "989",
-      "displayTitle": "The Statute of Limitations"
+      "displayTitle": "The Statute of Limitations",
+      "cardId": "1461",
+      "audio": "1461-the-statute-of-limitations.mp3",
+      "cardTitleLegacy": "The Statute of Limitations"
     },
     "0990": {
       "canon": "0990",
       "title": "THE SCHOOL BELL",
       "masterNum": "990",
-      "displayTitle": "The School Bell"
+      "displayTitle": "The School Bell",
+      "cardId": "1462",
+      "audio": "1462-the-school-bell.mp3",
+      "cardTitleLegacy": "The School Bell"
     },
     "0991": {
       "canon": "0991",
       "title": "THE HEART CARVED INTO THE DESK",
       "masterNum": "991",
-      "displayTitle": "The Heart Carved into the Desk"
+      "displayTitle": "The Heart Carved into the Desk",
+      "cardId": "1463",
+      "audio": "1463-the-heart-carved-into-the-desk.mp3",
+      "cardTitleLegacy": "The Heart Carved Into the Desk"
     },
     "0992": {
       "canon": "0992",
       "title": "THE BACK DESK",
       "masterNum": "992",
-      "displayTitle": "The Back Desk"
+      "displayTitle": "The Back Desk",
+      "cardId": "1464",
+      "audio": "1464-the-back-desk.mp3",
+      "cardTitleLegacy": "The Back Desk"
     },
     "0993": {
       "canon": "0993",
       "title": "THE PAGE TORN FROM THE NOTEBOOK",
       "masterNum": "993",
-      "displayTitle": "The Page Torn from the Notebook"
+      "displayTitle": "The Page Torn from the Notebook",
+      "cardId": "1465",
+      "audio": "1465-the-page-torn-from-the-notebook.mp3",
+      "cardTitleLegacy": "The Page Torn from the Notebook"
     },
     "0994": {
       "canon": "0994",
       "title": "THE EMBARRASSMENT",
       "masterNum": "994",
-      "displayTitle": "The Embarrassment"
+      "displayTitle": "The Embarrassment",
+      "cardId": "1466",
+      "audio": "1466-the-embarrassment.mp3",
+      "cardTitleLegacy": "The Embarrassment"
     },
     "0995": {
       "canon": "0995",
       "title": "THE HABIT",
       "masterNum": "995",
-      "displayTitle": "The Habit"
+      "displayTitle": "The Habit",
+      "cardId": "1467",
+      "audio": "1467-the-habit.mp3",
+      "cardTitleLegacy": "The Habit"
     },
     "0996": {
       "canon": "0996",
       "title": "THANK YOU",
       "masterNum": "996",
-      "displayTitle": "Thank You"
+      "displayTitle": "Thank You",
+      "cardId": "1468",
+      "audio": "1468-thank-you.mp3",
+      "cardTitleLegacy": "Thank You"
     },
     "0997": {
       "canon": "0997",
       "title": "PENELOPE",
       "masterNum": "997",
-      "displayTitle": "Penelope"
+      "displayTitle": "Penelope",
+      "cardId": "1469",
+      "audio": "1469-penelope.mp3",
+      "cardTitleLegacy": "Penelope"
     },
     "0998": {
       "canon": "0998",
       "title": "ARGOS",
       "masterNum": "998",
-      "displayTitle": "Argos"
+      "displayTitle": "Argos",
+      "cardId": "1470",
+      "audio": "1470-argos.mp3",
+      "cardTitleLegacy": "Argos"
     },
     "0999": {
       "canon": "0999",
       "title": "THE SIRENS",
       "masterNum": "999",
-      "displayTitle": "The Sirens"
+      "displayTitle": "The Sirens",
+      "cardId": "1471",
+      "audio": "1471-the-sirens.mp3",
+      "cardTitleLegacy": "The Sirens"
     }
   }
 }

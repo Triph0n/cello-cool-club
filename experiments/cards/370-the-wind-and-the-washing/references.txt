@@ -1,0 +1,10 @@
+Reference obrázky (kompozice/technika + tváře) — SDÍLENÉ pro všechny karty, nepatří jen
+téhle. Zdroj pravdy je vždy živý obsah těchto dvou složek (mění se v čase, kurátoruje
+Vladimír — viz skill born-poster):
+
+  C:UsersVladimirDocumentsCelloCoolClubassetsposter-references\n  C:UsersVladimirDocumentsCelloCoolClubassetsposter-face-references\n
+Konkrétně použito (2026-09-05):
+  poster A/video kompozice: Born - Pohlednice z Taiwanu.jpg, Born - Vecery na Loire.jpg, Born - Vlivy osmanske benatske a recke na Peloponesu (2012).jpg
+  poster A tváře: face-02-hatted-woman.png, face-04-flowing-haired-woman.png
+  poster video tváře: face-02-hatted-woman.png, face-04-flowing-haired-woman.png
+  poster B/C: 2 kompoziční reference (bez tváří v obraze, face přiložené povinně i tak)

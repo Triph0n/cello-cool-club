@@ -1,0 +1,22 @@
+{
+  "engineCardId": "131",
+  "posterNumber": "097",
+  "title": "The Saints' Strike",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/b5036540-b7c1-46f3-a413-d6b037f36cc0",
+  "sunoId": "",
+  "audioFile": "The Saints' Strike — 1920.mp3",
+  "accent": "#1d2a48",
+  "posterPopis": {
+    "a": "the empty niches and the halo left hanging on a hook",
+    "b": "seal — the halo alone on its hook",
+    "c": "empty niche and café glass — where the saints went",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the empty niches and the halo left hanging on a hook)",
+    "b": "Symbol B — pečeť (seal — the halo alone on its hook)",
+    "c": "Symbol C — dialog symbolů (empty niche and café glass — where the saints went)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

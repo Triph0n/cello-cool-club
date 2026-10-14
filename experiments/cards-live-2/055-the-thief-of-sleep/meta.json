@@ -1,0 +1,22 @@
+{
+  "engineCardId": "055",
+  "posterNumber": "083",
+  "title": "The Thief of Sleep",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/31b22bf0-a342-409c-b365-ebc3c71437f7",
+  "sunoId": "",
+  "audioFile": "The Thief of Sleep — 1920.mp3",
+  "accent": "#17233f",
+  "posterPopis": {
+    "a": "the thief in the doorway with the enormous sack of stolen sleep",
+    "b": "seal — the tied sack with something warm inside",
+    "c": "sack and sleeping child — the theft and the reason for it",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the thief in the doorway with the enormous sack of stolen sleep)",
+    "b": "Symbol B — pečeť (seal — the tied sack with something warm inside)",
+    "c": "Symbol C — dialog symbolů (sack and sleeping child — the theft and the reason for it)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

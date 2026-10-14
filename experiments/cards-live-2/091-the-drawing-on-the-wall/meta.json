@@ -1,0 +1,22 @@
+{
+  "engineCardId": "091",
+  "posterNumber": "084",
+  "title": "The Drawing on the Wall",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/5c0fe2ea-a890-4b6d-bd61-27792f634a73",
+  "sunoId": "",
+  "audioFile": "The Drawing on the Wall — 1920.mp3",
+  "accent": "#2c3a38",
+  "posterPopis": {
+    "a": "the chalk door, key and climbing path drawn on the immense grey wall",
+    "b": "seal — the chalk key alone",
+    "c": "chalk door and departing child — what was left behind on the wall",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the chalk door, key and climbing path drawn on the immense grey wall)",
+    "b": "Symbol B — pečeť (seal — the chalk key alone)",
+    "c": "Symbol C — dialog symbolů (chalk door and departing child — what was left behind on the wall)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

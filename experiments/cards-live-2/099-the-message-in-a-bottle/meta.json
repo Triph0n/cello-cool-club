@@ -1,0 +1,22 @@
+{
+  "engineCardId": "099",
+  "posterNumber": "087",
+  "title": "The Message in a Bottle",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/26763f9a-047e-4120-8230-235ed05f415e",
+  "sunoId": "",
+  "audioFile": "The Message in a Bottle — 1920.mp3",
+  "accent": "#123a3e",
+  "posterPopis": {
+    "a": "the bottle on the empty beach, its message bleached blank",
+    "b": "seal — the corked bottle with a blank scrap inside",
+    "c": "drifting bottle and passing whale — the years at sea",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the bottle on the empty beach, its message bleached blank)",
+    "b": "Symbol B — pečeť (seal — the corked bottle with a blank scrap inside)",
+    "c": "Symbol C — dialog symbolů (drifting bottle and passing whale — the years at sea)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

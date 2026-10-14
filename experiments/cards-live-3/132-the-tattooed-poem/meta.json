@@ -1,0 +1,22 @@
+{
+  "engineCardId": "132",
+  "posterNumber": "098",
+  "title": "The Tattooed Poem",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/a98bed18-bf73-441f-bad5-c9515df6aa9e",
+  "sunoId": "",
+  "audioFile": "The Tattooed Poem — 1920.mp3",
+  "accent": "#401824",
+  "posterPopis": {
+    "a": "the tangled illegible tattoo over the heart",
+    "b": "seal — the knot of ink that can no longer be read",
+    "c": "tangled tattoo and withdrawn hand — the only reader gone",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the tangled illegible tattoo over the heart)",
+    "b": "Symbol B — pečeť (seal — the knot of ink that can no longer be read)",
+    "c": "Symbol C — dialog symbolů (tangled tattoo and withdrawn hand — the only reader gone)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

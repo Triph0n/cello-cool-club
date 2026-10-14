@@ -1,0 +1,22 @@
+{
+  "engineCardId": "041",
+  "posterNumber": "081",
+  "title": "The Revolt of the Billboards",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/a20f9258-f8ca-41b9-ae36-33cf741ebdb9",
+  "sunoId": "",
+  "audioFile": "The Revolt of the Billboards — 1920.mp3",
+  "accent": "#3a3f47",
+  "posterPopis": {
+    "a": "the stripped billboard, its paper torn away, the bare wall and the open sky behind",
+    "b": "seal — one broken neon tube coiled into a meaningless loop",
+    "c": "empty frame and upturned face — the lie removed, the sky noticed",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the stripped billboard, its paper torn away, the bare wall and the open sky behind)",
+    "b": "Symbol B — pečeť (seal — one broken neon tube coiled into a meaningless loop)",
+    "c": "Symbol C — dialog symbolů (empty frame and upturned face — the lie removed, the sky noticed)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

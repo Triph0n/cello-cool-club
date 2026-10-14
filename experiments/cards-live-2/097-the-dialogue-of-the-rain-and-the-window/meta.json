@@ -1,0 +1,22 @@
+{
+  "engineCardId": "097",
+  "posterNumber": "086",
+  "title": "The Dialogue of the Rain and the Window",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/d26f8f53-bc56-4454-a8e4-2e169e9dd52d",
+  "sunoId": "",
+  "audioFile": "The Dialogue of the Rain and the Window — 1920.mp3",
+  "accent": "#1f3a45",
+  "posterPopis": {
+    "a": "the window bursting outward while the rain pours in",
+    "b": "seal — one raindrop-shaped shard of glass",
+    "c": "cold pane and dancers in the rain — the pact kept",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the window bursting outward while the rain pours in)",
+    "b": "Symbol B — pečeť (seal — one raindrop-shaped shard of glass)",
+    "c": "Symbol C — dialog symbolů (cold pane and dancers in the rain — the pact kept)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

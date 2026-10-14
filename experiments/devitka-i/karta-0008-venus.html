@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Venus, the Veiled Beauty | Cello Cool Club</title>
+    <meta name="description" content="Nine I — The Celestial Household: Venus, the Veiled Beauty.">
+    <link rel="icon" href="../../assets/ccc-icon.ico">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .card-nav { position: fixed; right: 16px; bottom: 14px; z-index: 20; display: flex; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid rgba(197,160,89,.55); border-radius: 8px; background: rgba(18,9,4,.78); color: var(--paper); font-size: 13px; }
+      .card-nav a { color: var(--gold-bright); text-decoration: none; }
+      .card-nav span { opacity: .64; }
+      .card-meta { margin: 0 0 4px; color: var(--gold-dark); font-size: 10px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+
+    <main class="card-stage" aria-label="Venus, the Veiled Beauty poem card">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card playing-card--long">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="0008-venus-card.png" alt="Venus, the Veiled Beauty — emblem artwork." width="547" height="790" decoding="async">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play Venus, the Veiled Beauty" data-action="play" data-target="audio-0008-venus">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="gramofon-icon-born.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-0008-venus" preload="metadata" src="../../assets/audio/0008-venus-the-veiled-beauty.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">Nine I · 2/9 · The Celestial Household</p>
+          <h1 id="poem-title">Venus, the Veiled Beauty</h1>
+          <div class="poem-lines">
+            <p>After the little mad messenger</p>
+            <p>I am the second</p>
+            <p>The most beautiful, they say</p>
+            <p>The shepherd's star, the evening star</p>
+            <p>The lovers on Earth look at me and sigh</p>
+            <p>They give me the name of their most beautiful goddess</p>
+            <p>Venus</p>
+            <p>They do not know</p>
+            <p>They see only my great cloak of clouds</p>
+            <p>My gown of white and golden silk</p>
+            <p>They do not see what lies beneath</p>
+            <p>My true face</p>
+            <p>If a poet came here seeking love</p>
+            <p>He would find an oven, a hell</p>
+            <p>My air is not air, it is a poison that crushes</p>
+            <p>My rain is not water, it is acid that burns</p>
+            <p>My kisses are bites of fire</p>
+            <p>I am the great queen of solitude</p>
+            <p>My kingdom is a desert of red rocks</p>
+            <p>Where volcanoes shout their stony anger</p>
+            <p>There is not a single bird, not a single flower</p>
+            <p>The silence here is not the silence of peace</p>
+            <p>It is the heavy silence of death</p>
+            <p>Nothing can live beneath my beautiful poisoned gown</p>
+            <p>They call me Earth's twin sister</p>
+            <p>A sister who went wrong</p>
+            <p>A warning, a terrible mirror</p>
+            <p>Of what love can become</p>
+            <p>When it locks itself in its own heat</p>
+            <p>And forgets to breathe</p>
+            <p>So I turn slowly on my axis</p>
+            <p>In my magnificent prison of gas</p>
+            <p>I am the brightest in the night sky</p>
+            <p>All eyes turn to me</p>
+            <p>And no one sees my sorrow</p>
+            <p>I am the promise of an impossible beauty</p>
+            <p>The love that one can only admire from very, very far away.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="index.html" data-nav-shelf>Shelf</a>
+      <a href="karta-0004-mercury.html" data-nav-prev>Previous</a>
+      <a data-nav-next data-next-key="0009-earth">Next</a>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="0008-venus-card.png" alt="Enlarged emblem artwork for Venus, the Veiled Beauty." decoding="async">
+    </dialog>
+
+    <script src="../../script.js"></script>
+    <script>
+      // Devítka: zamčená karta přesměruje na polici; Next se odemyká doposloucháním; ?vse = náhled
+      (function () {
+        var PORADI = ["0004-mercury","0008-venus","0009-earth","0003-mars","0002-jupiter","0006-saturn","0007-uranus","0005-neptune","0016-sun"];
+        var KEY = '0008-venus';
+        var vse = new URLSearchParams(location.search).has('vse');
+        var q = vse ? '?vse' : '';
+        var stav = {};
+        function nactiStav() {
+          try { stav = JSON.parse(localStorage.getItem('devitka-i') || '{}'); } catch (e) { stav = {}; }
+        }
+        function odemcena(k) {
+          if (vse) return true;
+          var i = PORADI.indexOf(k);
+          for (var j = 0; j < i; j++) { if (!stav[PORADI[j]]) return false; }
+          return true;
+        }
+        nactiStav();
+        if (!odemcena(KEY)) { location.replace('index.html' + q); return; }
+
+        var shelf = document.querySelector('[data-nav-shelf]');
+        var prev = document.querySelector('[data-nav-prev]');
+        if (shelf) shelf.href = 'index.html' + q;
+        if (prev) prev.href = prev.getAttribute('href').split('?')[0] + q;
+
+        var next = document.querySelector('[data-nav-next]');
+        function obnovNext() {
+          if (!next) return;
+          nactiStav();
+          var nk = next.dataset.nextKey;
+          if (odemcena(nk)) {
+            next.href = 'karta-' + nk + '.html' + q;
+            next.style.opacity = '';
+            next.title = '';
+          } else {
+            next.removeAttribute('href');
+            next.style.opacity = '0.4';
+            next.title = 'Odemkne se doposloucháním této desky';
+          }
+        }
+        obnovNext();
+
+        var audio = document.getElementById('audio-0008-venus');
+        audio && audio.addEventListener('ended', function () {
+          try {
+            var d = JSON.parse(localStorage.getItem('devitka-i') || '{}');
+            d[KEY] = true;
+            localStorage.setItem('devitka-i', JSON.stringify(d));
+          } catch (e) {}
+          obnovNext();
+        });
+      })();
+    </script>
+  </body>
+</html>

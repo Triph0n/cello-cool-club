@@ -1,0 +1,269 @@
+{
+  "title": "The Thief of Sleep",
+  "eyebrow": "Cello Cool Club · card 055",
+  "subtitle": "a comic in four pages · eighteen panels · lithograph after Adolf Born",
+  "footer": "CelloCoolClubLive 1920",
+  "lang": "en",
+  "audio": "../../celloclublive/055-le-voleur-de-sommeil/The Thief of Sleep — 1920.mp3",
+  "pages": [
+    {
+      "act": "part one",
+      "title": "The Night Round",
+      "panels": [
+        {
+          "file": "panels/01-night-street.jpg",
+          "type": "wide",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "He does not steal money"
+            }
+          ],
+          "span": 8
+        },
+        {
+          "file": "panels/02-untouched-coins.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "he steals sleep"
+            }
+          ],
+          "ratio": "auto",
+          "span": 4
+        },
+        {
+          "file": "panels/03-bedroom-door.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "At night he slips into bedrooms"
+            }
+          ],
+          "span": 4,
+          "ratio": "auto"
+        },
+        {
+          "file": "panels/04-taking-the-sleep.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "making no sound at all"
+            }
+          ],
+          "span": 3,
+          "ratio": "auto"
+        },
+        {
+          "file": "panels/05-the-dormitory.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "and takes the sleep from people"
+            }
+          ],
+          "span": 5,
+          "ratio": "3/2"
+        },
+        {
+          "file": "panels/06-the-sack-on-the-stairs.jpg",
+          "type": "tall",
+          "place": "grid-column:5/9;grid-row:3/4",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "stuffing it into a great sack"
+            }
+          ],
+          "span": 4
+        }
+      ]
+    },
+    {
+      "act": "part two",
+      "title": "The Weary City",
+      "panels": [
+        {
+          "file": "panels/07-weary-morning.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "In the morning people wake up weary"
+            }
+          ],
+          "span": 5,
+          "ratio": "3/2"
+        },
+        {
+          "file": "panels/08-the-mirror.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "with dark shadows under their eyes"
+            }
+          ],
+          "span": 4,
+          "ratio": "auto"
+        },
+        {
+          "file": "panels/09-the-tram.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "they do not know"
+            }
+          ],
+          "span": 3,
+          "ratio": "auto"
+        },
+        {
+          "file": "panels/10-the-yawning-street.jpg",
+          "type": "full",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "their rest has been stolen"
+            }
+          ],
+          "span": 12
+        }
+      ]
+    },
+    {
+      "act": "part three",
+      "title": "The Road Home",
+      "panels": [
+        {
+          "file": "panels/11-going-home.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "The thief goes home"
+            }
+          ],
+          "ratio": "auto",
+          "span": 4
+        },
+        {
+          "file": "panels/12-giving-it-back.jpg",
+          "type": "banner",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "and gives the stolen sleep"
+            }
+          ],
+          "span": 8
+        },
+        {
+          "file": "panels/13-daughter-awake.jpg",
+          "type": "wide",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "to his little sick daughter"
+            }
+          ],
+          "span": 7,
+          "ratio": "3/2"
+        },
+        {
+          "file": "panels/14-hand-on-the-blanket.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "who cannot rest because of the pain"
+            }
+          ],
+          "ratio": "auto",
+          "span": 5
+        }
+      ]
+    },
+    {
+      "act": "part four",
+      "title": "Criminal and Savior",
+      "panels": [
+        {
+          "file": "panels/15-ribbons-settle.jpg",
+          "type": "wide",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "She drifts off at last"
+            }
+          ],
+          "span": 8
+        },
+        {
+          "file": "panels/16-the-smile.jpg",
+          "type": "square",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "with a smile"
+            }
+          ],
+          "ratio": "auto",
+          "span": 4
+        },
+        {
+          "file": "panels/17-criminal-and-savior.jpg",
+          "type": "full",
+          "caps": [
+            {
+              "pos": "tl",
+              "text": "And the thief watches her<br>his heart heavy"
+            }
+          ],
+          "span": 12
+        },
+        {
+          "file": "panels/18-dawn-window.jpg",
+          "type": "full",
+          "caps": [
+            {
+              "pos": "br",
+              "text": "with being both<br>a criminal and a savior"
+            }
+          ],
+          "span": 12
+        }
+      ]
+    }
+  ],
+  "poemLabel": "the poem in full",
+  "poem": [
+    "He does not steal money",
+    "he steals sleep",
+    "At night he slips into bedrooms",
+    "making no sound at all",
+    "and takes the sleep from people",
+    "stuffing it into a great sack",
+    "",
+    "In the morning people wake up weary",
+    "with dark shadows under their eyes",
+    "they do not know their rest has been stolen",
+    "",
+    "The thief goes home",
+    "and gives the stolen sleep",
+    "to his little sick daughter",
+    "who cannot rest because of the pain",
+    "",
+    "She drifts off at last",
+    "with a smile",
+    "And the thief watches her",
+    "his heart heavy",
+    "with being both",
+    "a criminal and a savior"
+  ]
+}

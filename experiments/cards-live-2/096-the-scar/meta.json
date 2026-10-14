@@ -1,0 +1,22 @@
+{
+  "engineCardId": "096",
+  "posterNumber": "085",
+  "title": "The Scar",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/57ebac97-c434-4b2b-acd6-d5b62a98e806",
+  "sunoId": "",
+  "audioFile": "The Scar — 1920.mp3",
+  "accent": "#3f1a2e",
+  "posterPopis": {
+    "a": "the open palm whose scar is drawn like a river on a map",
+    "b": "seal — the thin white scar alone, mapped",
+    "c": "scarred palm and broken vase — the wound and what caused it",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the open palm whose scar is drawn like a river on a map)",
+    "b": "Symbol B — pečeť (seal — the thin white scar alone, mapped)",
+    "c": "Symbol C — dialog symbolů (scarred palm and broken vase — the wound and what caused it)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

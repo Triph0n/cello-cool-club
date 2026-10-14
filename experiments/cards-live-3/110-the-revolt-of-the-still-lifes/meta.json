@@ -1,0 +1,22 @@
+{
+  "engineCardId": "110",
+  "posterNumber": "091",
+  "title": "The Revolt of the Still Lifes",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/f2eb6af7-16a9-4362-bc14-cc248c0ee2da",
+  "sunoId": "",
+  "audioFile": "The Revolt of the Still Lifes — 1920.mp3",
+  "accent": "#24403a",
+  "posterPopis": {
+    "a": "the plinth at dawn — the bitten apple and the pipe still smoking",
+    "b": "seal — the apple with one bite taken",
+    "c": "bitten apple and smoking pipe — the two pieces of evidence",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the plinth at dawn — the bitten apple and the pipe still smoking)",
+    "b": "Symbol B — pečeť (seal — the apple with one bite taken)",
+    "c": "Symbol C — dialog symbolů (bitten apple and smoking pipe — the two pieces of evidence)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

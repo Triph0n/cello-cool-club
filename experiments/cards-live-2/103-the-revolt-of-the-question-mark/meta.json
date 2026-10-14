@@ -1,0 +1,22 @@
+{
+  "engineCardId": "103",
+  "posterNumber": "089",
+  "title": "The Revolt of the Question Mark",
+  "collectionLabel": "CelloCoolClubLive 1920",
+  "deskaUrl": "https://claude.ai/code/artifact/ea12ab91-51bf-4d0c-89a5-2b935f947a6e",
+  "sunoId": "",
+  "audioFile": "The Revolt of the Question Mark — 1920.mp3",
+  "accent": "#24284d",
+  "posterPopis": {
+    "a": "the iron question mark bent over the river like a hook, a dream-fish rising to it",
+    "b": "seal — the fishhook that curls into a question mark",
+    "c": "stiff exclamation and bent question — certainty traded back for mystery",
+    "video": "narrative scene — not generated (the live set has no video poster)"
+  },
+  "dashboardLabels": {
+    "a": "Plakát A — obal (the iron question mark bent over the river like a hook, a dream-fish rising to it)",
+    "b": "Symbol B — pečeť (seal — the fishhook that curls into a question mark)",
+    "c": "Symbol C — dialog symbolů (stiff exclamation and bent question — certainty traded back for mystery)",
+    "video": "Plakát pro video — příběhový"
+  }
+}

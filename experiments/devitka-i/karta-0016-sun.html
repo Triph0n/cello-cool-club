@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Sun, the Lonely King | Cello Cool Club</title>
+    <meta name="description" content="Nine I — The Celestial Household: The Sun, the Lonely King.">
+    <link rel="icon" href="../../assets/ccc-icon.ico">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+      .card-nav { position: fixed; right: 16px; bottom: 14px; z-index: 20; display: flex; gap: 10px; align-items: center; padding: 8px 10px; border: 1px solid rgba(197,160,89,.55); border-radius: 8px; background: rgba(18,9,4,.78); color: var(--paper); font-size: 13px; }
+      .card-nav a { color: var(--gold-bright); text-decoration: none; }
+      .card-nav span { opacity: .64; }
+      .card-meta { margin: 0 0 4px; color: var(--gold-dark); font-size: 10px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+
+    <main class="card-stage" aria-label="The Sun, the Lonely King poem card">
+      <header class="club-sign" aria-label="Cello Cool Club">
+        <span class="sign-dot" aria-hidden="true"></span>
+        <span>Cello Cool Club</span>
+        <span class="sign-dot" aria-hidden="true"></span>
+      </header>
+
+      <article class="playing-card playing-card--long">
+        <button class="art-button" type="button" data-open-image aria-label="Enlarge artwork">
+          <img src="0016-sun-card.png" alt="The Sun, the Lonely King — emblem artwork." width="547" height="790" decoding="async">
+        </button>
+
+        <div class="play-medallion" data-player="en">
+          <button class="gramophone-button" type="button" aria-label="Play The Sun, the Lonely King" data-action="play" data-target="audio-0016-sun">
+            <span class="gramophone-icon" aria-hidden="true">
+              <img src="gramofon-icon-born.png" alt="">
+            </span>
+          </button>
+          <audio id="audio-0016-sun" preload="metadata" src="../../assets/audio/0016-the-sun-the-lonely-king.mp3"></audio>
+        </div>
+
+        <section class="poem-card-body" aria-labelledby="poem-title">
+          <p class="card-meta">Nine I · 9/9 · The Celestial Household</p>
+          <h1 id="poem-title">The Sun, the Lonely King</h1>
+          <div class="poem-lines">
+            <p>At the center of everything there is me</p>
+            <p>The old solitary king dressed in fire</p>
+            <p>I have no throne no crown</p>
+            <p>Just my own burning heart</p>
+            <p>Which serves as my palace and my prison</p>
+            <p>Every morning I rise with great effort</p>
+            <p>I push away the heavy blanket of the night</p>
+            <p>And I begin my eternal work</p>
+            <p>I am the great alarm clock of the world</p>
+            <p>I shout in the ear of the roosters</p>
+            <p>And I paint a fine line of gold under the door of the sleepers</p>
+            <p>I am the great painter without a brush</p>
+            <p>Without me the flower is a gray shape</p>
+            <p>The ocean a large black spot</p>
+            <p>The face of the beloved a simple absence</p>
+            <p>I give the red to the cherry</p>
+            <p>The green to the meadow</p>
+            <p>And the changing blue of the eyes that look at the sky</p>
+            <p>I am the patient baker</p>
+            <p>Who makes the wheat dough rise in the fields</p>
+            <p>I am the great clothes dryer of the world</p>
+            <p>Who dries the shirts of workers and the dresses of lovers</p>
+            <p>I am the companion of the old on public benches</p>
+            <p>And the warm rug for the cat at the window</p>
+            <p>I am the excuse for a lunch on the terrace</p>
+            <p>But I am terribly alone</p>
+            <p>I see the children playing in the parks</p>
+            <p>The couples holding hands</p>
+            <p>The friends sharing a bottle of wine</p>
+            <p>I warm everyone</p>
+            <p>But no one can approach me</p>
+            <p>I give all my warmth</p>
+            <p>And I remain in my great silence of fire</p>
+            <p>Sometimes my work exhausts me</p>
+            <p>My heat becomes an anger</p>
+            <p>I beat down on the city like a hammer</p>
+            <p>I melt the asphalt and crack the earth</p>
+            <p>People complain and hide from me</p>
+            <p>They forget that without me they would be nothing</p>
+            <p>In the evening I am tired</p>
+            <p>I descend slowly behind the horizon</p>
+            <p>Like a worker going home after a long day</p>
+            <p>I leave the place to my sister the moon</p>
+            <p>Pale and discreet</p>
+            <p>Who comes to console the world from my great light</p>
+            <p>And to watch over the sleep of my small distant kingdom.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <nav class="card-nav" aria-label="Card navigation">
+      <a href="index.html" data-nav-shelf>Shelf</a>
+      <a href="karta-0005-neptune.html" data-nav-prev>Previous</a>
+      <span>Next</span>
+    </nav>
+
+    <dialog class="image-dialog" data-image-dialog aria-label="Enlarged artwork">
+      <button class="close-dialog" type="button" data-close-image aria-label="Close artwork">x</button>
+      <img src="0016-sun-card.png" alt="Enlarged emblem artwork for The Sun, the Lonely King." decoding="async">
+    </dialog>
+
+    <script src="../../script.js"></script>
+    <script>
+      // Devítka: zamčená karta přesměruje na polici; Next se odemyká doposloucháním; ?vse = náhled
+      (function () {
+        var PORADI = ["0004-mercury","0008-venus","0009-earth","0003-mars","0002-jupiter","0006-saturn","0007-uranus","0005-neptune","0016-sun"];
+        var KEY = '0016-sun';
+        var vse = new URLSearchParams(location.search).has('vse');
+        var q = vse ? '?vse' : '';
+        var stav = {};
+        function nactiStav() {
+          try { stav = JSON.parse(localStorage.getItem('devitka-i') || '{}'); } catch (e) { stav = {}; }
+        }
+        function odemcena(k) {
+          if (vse) return true;
+          var i = PORADI.indexOf(k);
+          for (var j = 0; j < i; j++) { if (!stav[PORADI[j]]) return false; }
+          return true;
+        }
+        nactiStav();
+        if (!odemcena(KEY)) { location.replace('index.html' + q); return; }
+
+        var shelf = document.querySelector('[data-nav-shelf]');
+        var prev = document.querySelector('[data-nav-prev]');
+        if (shelf) shelf.href = 'index.html' + q;
+        if (prev) prev.href = prev.getAttribute('href').split('?')[0] + q;
+
+        var next = document.querySelector('[data-nav-next]');
+        function obnovNext() {
+          if (!next) return;
+          nactiStav();
+          var nk = next.dataset.nextKey;
+          if (odemcena(nk)) {
+            next.href = 'karta-' + nk + '.html' + q;
+            next.style.opacity = '';
+            next.title = '';
+          } else {
+            next.removeAttribute('href');
+            next.style.opacity = '0.4';
+            next.title = 'Odemkne se doposloucháním této desky';
+          }
+        }
+        obnovNext();
+
+        var audio = document.getElementById('audio-0016-sun');
+        audio && audio.addEventListener('ended', function () {
+          try {
+            var d = JSON.parse(localStorage.getItem('devitka-i') || '{}');
+            d[KEY] = true;
+            localStorage.setItem('devitka-i', JSON.stringify(d));
+          } catch (e) {}
+          obnovNext();
+        });
+      })();
+    </script>
+  </body>
+</html>

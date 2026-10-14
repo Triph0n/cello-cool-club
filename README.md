@@ -3,6 +3,12 @@
 Všechno žije tady: `C:\Users\Vladimir\Documents\CelloCoolClub`.
 Žádné složky na Desktopu, žádný druhý repozitář. Codex i Claude sahají jen sem.
 
+## Koncepce a kontext pro další modely
+
+[Hodnocení Cello Cool Club a Cello Cool Club Live — 8. září 2026](docs/KONCEPCE-A-HODNOCENI-2026-09-08.md)
+
+Dokument obsahuje hodnocení obou větví, inventuru lokálního projektu, návrh sjednocené koncepce a doporučené priority. Inventura popisuje lokální stav včetně tehdy neodeslané práce; tento repozitář proto nemusí obsahovat všechny odkazované podklady. Návrhy odlišujte od schválených rozhodnutí.
+
 ## Kde co je
 
 | Složka | Co v ní je |
@@ -21,10 +27,10 @@ Všechno žije tady: `C:\Users\Vladimir\Documents\CelloCoolClub`.
 
 ## Dashboard
 
-```bash
+`ash
 cd dashboard
 node serve.mjs        # -> http://localhost:8790
-```
+`
 
 Neotvírej `index.html` přes `file://` — prohlížeč by nenačetl `index.json`.
 
@@ -52,11 +58,11 @@ Sjednocuje je **`data/crosswalk.json`**:
   a 25 dvojic básní sdílí název při různém textu.
 - Crosswalk je **zmrazený** — přestavba existující záznamy nepřepíše, jen doplní nové.
 
-```bash
+`ash
 node tools/build-crosswalk.mjs --write        # postavit/doplnit převodník
 node tools/apply-english-titles.mjs --write   # anglické názvy karet z masteru
 node tools/build-dashboard-index.mjs --write  # index dashboardu
-```
+`
 
 Nová báseň dostane další volné kanonické číslo; nové soubory se pojmenují `<kanonické>-<slug>`.
 
